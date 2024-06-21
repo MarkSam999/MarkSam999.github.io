@@ -14,7 +14,21 @@ body {
 
 .page_menu {
     background-color: rgba(0, 0, 0, 0.5);
+    margin: 5px;
     padding: 5px;
+}
+
+.game_logo_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    min-height: 270px;
+    max-height: 720px;
+    min-width: 480px;
+    max-width: 1280px;
 }
 
 .main_text {
@@ -72,7 +86,7 @@ body {
     color: white;
 }
 
-.button_in_center {
+.buttons_in_center {
     text-align: center;
 }
 
