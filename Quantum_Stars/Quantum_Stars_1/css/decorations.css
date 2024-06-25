@@ -24,6 +24,11 @@ body {
     padding: 10px;
 }
 
+.navigation_logo {
+    width: 60px;
+    height: 40px;
+}
+
 .game_logo_container {
     display: flex;
     justify-content: center;
