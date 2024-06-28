@@ -1,70 +1,41 @@
 body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0,0,0,0)), url('../images/f-22.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    color:rgb(255, 255, 255);
-    display: flex;
-    height: auto;
-    width: auto;
-    flex-direction: column;
-    position: relative;
-    margin: 0;
-    padding: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0,0,0,0)), url('../images/f-22.jpg'); background-attachment: fixed; background-size: cover;
+    color:rgb(255, 255, 255); display: flex; height: auto;
+    width: auto; flex-direction: column; position: relative;
+    margin: 0; padding: 0;
 }
 
 .page_menu {
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.3);
-    padding: 10px;
-}
-
-.navigation_logo {
-    width: 60px;
-    height: 40px;
+    width: 100%; top: 0; left: 0; position: fixed; 
+    display: flex; justify-content: center; align-items: center;
+    background-color: rgba(0, 0, 0, 0.3); padding: 10px;
 }
 
 .game_logo_container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex; justify-content: center; align-items: center;
 }
 
 .logo {
-    min-height: 270px;
-    max-height: 720px;
-    min-width: 480px;
-    max-width: 1280px;
+    min-height: 270px; max-height: 720px;
+    min-width: 480px; max-width: 1280px;
 }
 
 .reduced_logo {
-    min-height: 135px;
-    max-height: 360px;
-    min-width: 240px;
-    max-width: 640px;
+    min-height: 135px; max-height: 360px;
+    min-width: 240px; max-width: 640px;
 }
 
-
-
 .blanks_container {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
-    width: auto;
+    text-align: center; display: flex; justify-content: center;
+    align-items: center; height: 10vh; width: auto;
 }
 
 .registration_blanks {
-    width: 350px;
-    background-color: rgba(0, 0, 0, 0);
-    border: 3px solid white;
-    color: white;
-    padding: 5px;
-    font-size: 20px;
+    width: 350px; background-color: rgba(0, 0, 0, 0); border: 3px solid white;
+    color: white; padding: 5px; font-size: 20px;
+}
+
+footer {
+    display: flex; align-items: center;
+    justify-content: center; background-color: rgba(0, 0, 0, 0.8);
 }
