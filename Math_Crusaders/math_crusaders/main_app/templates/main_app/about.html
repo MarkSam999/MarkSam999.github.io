@@ -1,0 +1,9 @@
+{% extends "main_app/user_base.html" %}
+{% block content %}
+    <title>About Math Crusaders</title>
+    <h1>About Math Crusaders</h1>
+    {% for post in qa_main %}
+        <h1>{{ post.question }}</h1>
+        <p>{{ post.answer }}</p>
+    {% endfor %}
+{% endblock content %}

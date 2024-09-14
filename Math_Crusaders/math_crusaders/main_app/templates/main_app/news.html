@@ -1,0 +1,14 @@
+{% extends "main_app/user_base.html" %}
+{% block content %}
+    <title>Fresh News</title>
+    {% for post in news_posts %}
+        <h1>{{ post.topic }}</h1>
+        <h5>{{ post.post_date_posted }}</h5>
+        <p>{{ post.article }}</p>
+    {% endfor %}
+    {% for post in comments %}
+        <h1>{{ post.author }}</h1>
+        <h5>{{ post.comment_date_posted }}</h5>
+        <p>{{ post.comment }}</p>
+    {% endfor %}
+{% endblock content %}
