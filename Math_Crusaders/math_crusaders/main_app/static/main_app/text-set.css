@@ -1,0 +1,14 @@
+.glow {
+    text-shadow: 0px 0px 20px white,
+    0px 0px 10px rgb(255, 255, 255);
+}
+
+.blue-text {
+    color: rgb(49, 75, 221);
+    text-shadow: 0px 0px 20px rgb(49, 75, 221),
+    0px 0px 10px rgb(49, 75, 221);
+}
+
+.header-links {
+    margin-right: 60px;
+}

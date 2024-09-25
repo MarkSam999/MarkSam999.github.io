@@ -1,9 +1,9 @@
 {% extends "main_app/user_base.html" %}
 {% block content %}
     <title>History of Math Crusaders</title>
-    <h1>The history of Math Crusaders</h1>
+    <h1 class="glow">The history of Math Crusaders</h1>
     {% for post in hist_events %}
-        <h1>{{ post.hist_topic }}</h1>
-        <p>{{ post.hist_article }}</p>
+        <h1 class="glow">{{ post.hist_topic }}</h1>
+        <p class="glow">{{ post.hist_article }}</p>
     {% endfor %}
 {% endblock content %}

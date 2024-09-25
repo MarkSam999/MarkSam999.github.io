@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image:
+        url(../images/background.png);
+        background-color: rgb(0, 0, 0);
+    background-size: 43%;
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: fixed;
+    transform: scale(1,1) translate(0, 0px);
+    overflow-x: hidden;
+    height: 500vh;
+    width: 100%;
+    color: white;
+    font-family: Calibri Light;
+}
+
+main {
+    margin-left: 2.5%;
+}
+
+header {
+    background-color: rgba(10,10,10,0.8);
+    font-size: 250%;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+

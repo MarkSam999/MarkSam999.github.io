@@ -1,18 +1,22 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="{% static 'main_app/main.css' %}">
-</head>
-<body>
-    <header>
-        <h1>Home</h1>
-        <h1>About</h1>
-        <h1>History</h1>
-        <h1>News</h1>
-    </header>
-    {% block content %}
-    {% endblock content %}
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="{% static 'main_app/style.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'main_app/text-set.css' %}">
+    </head>
+    <body>
+        <header>
+            <span class="header-links">Home</span>
+            <span class="header-links">About</span>
+            <span class="header-links">History</span>
+            <span class="header-links">News</span>
+        </header>
+        <main>
+            {% block content %}
+            {% endblock content %}
+        </main>
+    </body>
 </html>
