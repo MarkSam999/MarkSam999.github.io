@@ -8,15 +8,18 @@
         <link rel="stylesheet" type="text/css" href="{% static 'main_app/text-set.css' %}">
     </head>
     <body>
+        <div class="wrapper">
         <header>
-            <span class="header-links">Home</span>
-            <span class="header-links">About</span>
-            <span class="header-links">History</span>
-            <span class="header-links">News</span>
+            <span class="header-links" href="">Home</span>
+            <span class="header-links" href="">About</span>
+            <span class="header-links" href="">History</span>
+            <span class="header-links" href="">News</span>
         </header>
         <main>
             {% block content %}
             {% endblock content %}
         </main>
+        <img src="../../static/images/void.png" id="background_1">
+    </div>
     </body>
 </html>

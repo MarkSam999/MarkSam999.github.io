@@ -1,23 +1,41 @@
 body {
     margin: 0;
     padding: 0;
-    background-image:
-        url(../images/background.png);
-        background-color: rgb(0, 0, 0);
-    background-size: 43%;
-    background-repeat: repeat;
-    background-position: center;
-    background-attachment: fixed;
-    transform: scale(1,1) translate(0, 0px);
-    overflow-x: hidden;
-    height: 500vh;
-    width: 100%;
+    background-color: #000000;
     color: white;
     font-family: Calibri Light;
+    transform-style: preserve-3d;
+    perspective: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+}
+
+header, main {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
+
+#background_1 {
+    background-image: url(../images/background.png);
+    background-size: 20%;
+    background-repeat: repeat;
+    position: absolute;
+    z-index: -1;
+    height: 500vh;
+    transform: translateZ(-10px) translateY(-1000px) scale(1.5);
 }
 
 main {
-    margin-left: 2.5%;
+    margin-left: 6%;
+    margin-right: 6%;
 }
 
 header {
