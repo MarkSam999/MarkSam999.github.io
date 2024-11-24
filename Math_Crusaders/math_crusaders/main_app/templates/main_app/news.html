@@ -1,14 +1,18 @@
-{% extends "main_app/user_base.html" %}
+{% extends "main_app/base.html" %}
 {% block content %}
     <title>Fresh News</title>
-    {% for post in news_posts %}
-        <h1>{{ post.topic }}</h1>
-        <h5>{{ post.post_date_posted }}</h5>
-        <p>{{ post.article }}</p>
-    {% endfor %}
-    {% for post in comments %}
-        <h1>{{ post.author }}</h1>
-        <h5>{{ post.comment_date_posted }}</h5>
-        <p>{{ post.comment }}</p>
-    {% endfor %}
+    <div class="news_grid">
+        {% for post in news_posts %}
+        <div class="glow news_container">
+            <div class="news_article">
+                <h1>{{ post.title }}</h1>
+                <p>{{ post.content }}</p>
+            </div>
+            <div class="news_line_divider"></div>
+            <h5 class="date_container">
+                {{ post.publish_date|date:"D, M j, Y" }}
+            </h5>
+        </div>
+    {% endfor %} 
+    </div>
 {% endblock content %}

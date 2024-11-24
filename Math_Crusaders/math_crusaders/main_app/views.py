@@ -1,5 +1,6 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from .models import News_Post
+from .models import Hist_Event
 
 hist_events = [
     {
@@ -19,25 +20,27 @@ qa_main = [
     }
 ]
 
-news_posts = [
-    {   
-        'topic': 'The game has reached 1000 users',
-        'article': 'Today Math Crusaders has over 1000 registered users',
-        'post_date_posted': 'September 2, 2024',
-    }
-]
-
-comments = [
+levels = [
     {
-        'author': 'User82792',
-        'comment': 'Oh, this is good!',
-        'comment_date_posted': 'September 7, 2024',
+        'level': '1',
+        'lev_def': 'Intro to Math',
     },
     {
-        'author': 'User52723',
-        'comment': 'Hmm it is so fast',
-        'comment_date_posted': 'September 11, 2024',
-    }
+        'level': '2',
+        'lev_def': 'Intro to Addition',
+    },
+    {
+        'level': '3',
+        'lev_def': 'Addition Practice',
+    },
+    {
+        'level': '4',
+        'lev_def': 'Addition Test 1',
+    },
+]
+
+map_def = [
+    {'map_def_content': 'The map with a lot of different levels',}
 ]
 
 def welcome(request):
@@ -54,13 +57,27 @@ def about(request):
 
 def history(request):
     context = {
-        'hist_events': hist_events
+        'hist_events': Hist_Event.objects.all()
     }
     return render(request, 'main_app/history.html', context)
 
 def news(request):
     context = {
-        'news_posts': news_posts,
-        'comments': comments
+        'news_posts': News_Post.objects.all()
     }
     return render(request, 'main_app/news.html', context)
+
+def game_map(request):
+    context = {
+        'levels': levels,
+        'map_def': map_def,
+    }
+    return render(request, 'main_app/game_map.html', context)
+
+def statistics(request):
+    context = {}
+    return render(request, 'main_app/statistics.html', context)
+
+def chat(request):
+    context = {}
+    return render(request, 'main_app/chat.html', context)

@@ -1,0 +1,21 @@
+.glow {
+    text-shadow: 0px 0px 20px rgb(255, 255, 255),
+    0px 0px 10px rgb(255, 255, 255);
+}
+
+.blue_text {
+    color: rgb(49, 75, 221); text-shadow: 0px 0px 20px
+     rgb(49, 75, 221), 0px 0px 10px rgb(49, 75, 221);
+}
+
+.green_text {
+    color: rgb(43, 148, 22);
+    text-shadow: 0px 0px 20px rgb(43, 148, 22),
+    0px 0px 10px rgb(43, 148, 22);
+}
+
+.orange_text {
+    color: rgb(189, 145, 25);
+    text-shadow: 0px 0px 20px rgb(189, 145, 25),
+    0px 0px 10px rgb(189, 145, 25);
+}

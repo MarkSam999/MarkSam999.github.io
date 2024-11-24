@@ -1,0 +1,58 @@
+body {
+    height: 100vh; color: rgb(255, 255, 255);
+    margin: 0; padding: 0; font-weight: 400;
+    background-color: rgb(0, 0, 0);
+    font-family: "Montserrat";
+    transform-style: preserve-3d;
+    perspective: 10px;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    height: 100vh; perspective: 10px;
+    overflow-x: hidden; overflow-y: scroll;
+}
+
+main {
+    margin-left: 5%; margin-right: 5%; 
+    margin-top: 70px; position: relative;
+    text-align: center;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex; position: fixed;
+    width: 100%; z-index: 10;
+    justify-content: center; padding-top: 10px; 
+    height: 60px; width: 100%;
+}
+
+.hist_heading {
+  font-size: 40px;
+}
+
+.hist_event_heading {
+  font-size: 25px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 15px; 
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-color: rgb(0,0,0); 
+    margin-top: 60px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(36, 28, 150);
+    border-radius: 15px; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }

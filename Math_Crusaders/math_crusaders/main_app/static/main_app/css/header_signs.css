@@ -1,0 +1,125 @@
+.header_signs {
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    transition: 0.45s;
+}
+
+.header_signs:hover {
+    cursor: pointer;
+    transform: translateY(-3px);
+    transition: 0.45s;
+}
+
+.home_sign{
+    background-image: 
+    url(../../media/img/header_signs/home_sign.png);
+}
+
+.home_sign:hover{
+    background-image: 
+    url(../../media/img/hovered_signs/home_sign_hover.png);
+}
+
+.about_sign{
+    background-image: 
+    url(../../media/img/header_signs/about_sign.png);
+}
+
+.about_sign:hover{
+    background-image: 
+    url(../../media/img/hovered_signs/about_sign_hover.png);
+}
+
+.hist_sign{
+    background-image: 
+    url(../../media/img/header_signs/hist_sign.png);
+}
+
+.hist_sign:hover{
+    background-image: 
+    url(../../media/img/hovered_signs/hist_sign_hover.png);
+}
+
+.news_sign{
+    background-image: 
+    url(../../media/img/header_signs/news_sign.png);
+}
+
+.news_sign:hover{
+    background-image: 
+    url(../../media/img/hovered_signs/news_sign_hover.png);
+}
+
+.game_map_sign{
+    background-image: 
+    url(../../media/img/header_signs/game_map_sign.PNG);
+}
+
+.game_map_sign:hover{
+    background-image: 
+    url(../../media/img/hovered_signs/game_map_sign_hover.png);
+}
+
+.statistics_sign{
+    background-image: 
+    url(../../media/img/header_signs/statistics_sign.PNG);
+}
+
+.statistics_sign:hover{
+    background-image: 
+    url(../../media/img/hovered_signs/statistics_sign_hover.PNG);
+}
+
+.chat_sign{
+    background-image: 
+    url(../../media/img/header_signs/chat_sign.png);
+}
+
+.chat_sign:hover{
+    background-image: 
+    url(../../media/img/hovered_signs/chat_sign_hover.png);
+}
+
+.page_names {
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center; opacity: 0;
+    padding-left: 10px; padding-right: 10px;
+    padding-top: 3px; padding-bottom: 3px;
+    visibility: hidden; font-size: 16px;
+    transform: translateY(-5px);
+    transition: 0.45s;
+}
+
+.page_lists {
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    padding-left: 10px; padding-right: 10px; 
+    padding-bottom: 15px;
+    opacity: 0; display: block;
+    visibility: hidden; font-size: 20px;
+    transform: translateY(-10px);
+    transition: 0.6s;
+}
+
+.lists_strings {
+    visibility: hidden;
+    transition: 0.6s;
+}
+
+.header_links:hover ~ .page_names {
+    visibility: visible; opacity: 1;
+    transform: translateY(+9px);
+    transition: 0.45s;
+}
+
+.header_links:hover ~
+.page_lists, .lists_strings {
+    visibility: visible; opacity: 1;
+    transform: translateY(5px);
+    transition: 0.6s;
+}
+
+.header_buttons {
+    text-align: center; height: 40px;
+    margin-right: auto; margin-left: auto;
+}

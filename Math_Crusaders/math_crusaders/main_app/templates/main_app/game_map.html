@@ -1,0 +1,8 @@
+{% extends "main_app/base.html" %}
+{% block content %}
+    <title>Math map</title>
+    {% for post in levels %}
+        <h1>{{ post.level }}</h1>
+        <p>{{ post.lev_def }}</p>
+    {% endfor %}
+{% endblock content %}  

@@ -9,4 +9,7 @@ urlpatterns = [
     path('about/', views.about, name='about'),
     path('history/', views.history, name='history'),
     path('news/', views.news, name='news'),
+    path('game_map/', views.game_map, name='game_map'),
+    path('statistics/', views.statistics, name='statistics'),
+    path('chat/', views.chat, name='chat'),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

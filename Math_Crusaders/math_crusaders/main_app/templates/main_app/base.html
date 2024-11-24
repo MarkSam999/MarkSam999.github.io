@@ -1,0 +1,92 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!--Icon-->
+            <link rel="icon" href="../../static/media/img/icon.PNG">
+        <!--Bootstrap CSS-->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <!--Bootstrap JS-->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+            <!--Google Fonts-->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Oxanium:wght@200..800&family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <!--CSS files-->
+            <link rel="stylesheet" type="text/css" href="{% static 'main_app/css/style.css' %}">
+            <link rel="stylesheet" type="text/css" href="{% static 'main_app/css/text_set.css' %}">
+            <link rel="stylesheet" type="text/css" href="{% static 'main_app/css/header_signs.css' %}">
+            <link rel="stylesheet" type="text/css" href="{% static 'main_app/css/background_set.css' %}">
+            <link rel="stylesheet" type="text/css" href="{% static 'main_app/css/news_set.css' %}">
+            <link rel="stylesheet" type="text/css" href="{% static 'main_app/css/forms.css' %}">
+            <link rel="stylesheet" type="text/css" href="{% static 'main_app/css/messages.css' %}">
+        <!--JavaScript files-->
+            <script src="../../static/main_app/js/main_script.js"></script>
+    </head>
+    <body>
+            <header>
+            <div class="header_buttons"> <!--Home-->
+                <a class="header_links" href="{% url 'home' %}">
+                    <img class="header_signs home_sign" src="../../static/media/img/void.png" onclick="Press()" height="40px" width="40px">
+                </a>
+                <p class="page_names">Home</p>
+            </div>
+            <div class="header_buttons"> <!--About-->
+                <a class="header_links" href="{% url 'about' %}">
+                    <img class="header_signs about_sign" src="../../static/media/img/void.png" onclick="Press()" height="40px" width="40px">
+                </a>
+                <p class="page_names">About</p>
+            </div>
+            <div class="header_buttons"> <!--History-->
+                <a class="header_links" href="{% url 'history' %}">
+                    <img class="header_signs hist_sign" src="../../static/media/img/void.png" onclick="Press()" height="40px" width="40px">
+                </a>
+                <p class="page_names">History</p>
+            </div>
+            <div class="header_buttons"> <!--News-->
+                <a class="header_links" href="{% url 'news' %}">
+                    <img class="header_signs news_sign" src="../../static/media/img/void.png" onclick="Press()" height="40px" width="40px">
+                </a>
+                <p class="page_names">News</p>
+            </div>
+            <div class="header_buttons"> <!--Game map-->
+                <a class="header_links" href="{% url 'game_map' %}">
+                    <img class="header_signs game_map_sign" src="../../static/media/img/void.png" onclick="Press()" height="40px" width="40px">
+                </a>
+                <p class="page_names">Map</p>
+            </div>
+            <div class="header_buttons"> <!--Statistics-->
+                <a class="header_links" href="{% url 'statistics' %}">
+                    <img class="header_signs statistics_sign" src="../../static/media/img/void.png" onclick="Press()" height="40px" width="40px">
+                </a>
+                <div class="page_lists">
+                    <div class="lists_strings">Course</div>
+                    <div class="lists_strings">Calendar</div>
+                </div>
+            </div>
+            <div class="header_buttons"> <!--Chat-->
+                <a class="header_links" href="{% url 'chat' %}">
+                    <img class="header_signs chat_sign" src="../../static/media/img/void.png" onclick="Press()" height="40px" width="40px">
+                </a>
+                <p class="page_names">Chat</p>
+            </div>
+        </header>
+        <div class="wrapper">
+        <main>
+            {% if messages %}
+                {% for message in messages %}
+                    <div class="messages {{ message.tags }} top-{{ message.tags }}">
+                        {{ message }}
+                    </div>
+                {% endfor %}
+            {% endif %}
+            {% block content %}
+            {% endblock content %}
+        </main>
+        <img class="background_group" src="../../static/media/img/void.png" id="background_1">
+        <img class="background_group" src="../../static/media/img/void.png" id="background_2">
+    </div>
+    </body>
+</html>
