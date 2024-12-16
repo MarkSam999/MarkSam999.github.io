@@ -1,19 +1,27 @@
-.news_grid {
-    display: flex; width: 100%; margin-top: 20px;
-    row-gap: 2%; column-gap: 50px;
-}
 
 .news_container {
     border: solid 3px white; border-radius: 10px;
-    background-color: rgba(0,0,0,0.5); 
-    width: 32%;
+    background-color: rgba(0,0,0,0.5); height: auto;
+    width: 100%; margin-top: 30px; margin-bottom: 30px;
 }
 
 .date_container {
-    font-size: 15px;
+    font-size: 15px; margin-top: 5px;
 }
 
 .news_line_divider {
     background-color: white;
     height: 3px; width: 100%;
+}
+
+.news_title{
+    margin: 10px;
+}
+
+.news_text{
+    margin-left: 5%;
+    margin-right: 5%;
+    word-wrap: break-word;
+    word-break: break-word;
+    overflow-wrap: break-word;
 }

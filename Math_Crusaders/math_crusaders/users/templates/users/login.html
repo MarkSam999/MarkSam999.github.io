@@ -1,0 +1,67 @@
+{% extends "main_app/base.html" %}
+
+{% load crispy_forms_tags %}
+{% block content %}
+    <style>
+        header {
+            display: none;
+        }
+
+        .wrapper {
+            overflow-y: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+    <title>Log in</title>
+    <div class="register_form">
+        <form method="POST" action="{% url 'login' %}">
+            {% csrf_token %}
+            <fieldset class="form-group">
+                <legend>Log in</legend>
+
+                {% if form.non_field_errors %}
+                    <div>
+                        {% for error in form.non_field_errors %}
+                            <p class="messages error">{{ error }}</p>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+
+                <div>
+                    <label for="id_email">Email</label>
+                    {{ form.email }}
+                    {% if form.errors.email %}
+                        <div>
+                            {% for error in form.errors.email %}
+                                <p class="messages error">{{ error }}</p>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                </div>
+                <div>
+                    <label for="id_password1">Password</label>
+                    {{ form.password }}
+                    {% if form.errors.password %}
+                        <div>
+                            {% for error in form.errors.password %}
+                                <p class="messages error">{{ error }}</p>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                </div>
+            </fieldset>
+            <div class="form-group">
+                <button class="sign_up-button" type="submit">Login</button>
+            </div>
+        </form>
+        <div>
+            <p class="bottom_text">
+                No account yet? <a class="log_in-link" href="{% url 'register' %}">Register!</a>
+            </p>
+        </div>
+    </div>
+{% endblock content %}

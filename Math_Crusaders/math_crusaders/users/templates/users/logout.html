@@ -1,0 +1,25 @@
+{% extends "main_app/base.html" %}
+
+{% load crispy_forms_tags %}
+{% block content %}
+    <style>
+        header {
+            display: none;
+        }
+
+        .wrapper {
+            overflow-y: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+    <title>Log out</title>
+    <div>
+        <p>
+            Logged out. <a class="log_in-link" href="{% url 'login' %}">Sign In Again</a>
+        </p>
+    </div>
+{% endblock content %}

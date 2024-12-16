@@ -4,9 +4,16 @@
 }
 
 .blue_text {
-    color: rgb(49, 75, 221); text-shadow: 0px 0px 20px
-     rgb(49, 75, 221), 0px 0px 10px rgb(49, 75, 221);
+    color: white; text-shadow:0px 0px 24px
+    rgb(26, 54, 212), 0px 0px 16px
+     rgb(26, 54, 212), 0px 0px 8px rgb(26, 54, 212);
 }
+
+#loader_text {
+    font-size: 24px;
+    text-shadow: 0 0 20px rgb(49, 75, 221),  0 0 20px rgb(49, 75, 221),
+    0 0 10px rgb(49, 75, 221), 0 0 10px rgb(49, 75, 221);
+  }
 
 .green_text {
     color: rgb(43, 148, 22);

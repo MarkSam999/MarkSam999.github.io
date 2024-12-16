@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!--Icon-->
-            <link rel="icon" href="../../static/media/img/icon.PNG">
+            <link rel="icon" href="{% static 'media/img/icon.PNG' %}">
         <!--Bootstrap CSS-->
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <!--Bootstrap JS-->
@@ -22,56 +22,94 @@
             <link rel="stylesheet" type="text/css" href="{% static 'main_app/css/news_set.css' %}">
             <link rel="stylesheet" type="text/css" href="{% static 'main_app/css/forms.css' %}">
             <link rel="stylesheet" type="text/css" href="{% static 'main_app/css/messages.css' %}">
+            <link rel="stylesheet" type="text/css" href="{% static 'main_app/css/profile_page.css' %}">
         <!--JavaScript files-->
-            <script src="../../static/main_app/js/main_script.js"></script>
+            <script src="{% static 'main_app/js/main_script.js' %}"></script>
     </head>
     <body>
-            <header>
+        <div id="loader">
+            <div id="loader_text">Loading...</div>
+        </div>
+        <header>
             <div class="header_buttons"> <!--Home-->
                 <a class="header_links" href="{% url 'home' %}">
-                    <img class="header_signs home_sign" src="../../static/media/img/void.png" onclick="Press()" height="40px" width="40px">
+                    <img class="header_signs home_sign" src="{% static 'media/img/void.PNG' %}" onclick="Press()" height="60px" width="60px">
                 </a>
-                <p class="page_names">Home</p>
+            </div>
+            <div class="header_buttons"> <!--Arena-->
+                <a class="header_links" href="{% url 'arena' %}">
+                    <img class="header_signs arena_sign" src="{% static 'media/img/void.PNG' %}" onclick="Press()" height="60px" width="60px">
+                </a>
+                <p class="page_names">Arena</p>
             </div>
             <div class="header_buttons"> <!--About-->
-                <a class="header_links" href="{% url 'about' %}">
-                    <img class="header_signs about_sign" src="../../static/media/img/void.png" onclick="Press()" height="40px" width="40px">
+                <a class="header_links">
+                    <img class="header_signs about_sign" src="{% static 'media/img/void.PNG' %}" onclick="Press(); toggleTable('aboutTable')" height="60px" width="60px">
                 </a>
-                <p class="page_names">About</p>
-            </div>
-            <div class="header_buttons"> <!--History-->
-                <a class="header_links" href="{% url 'history' %}">
-                    <img class="header_signs hist_sign" src="../../static/media/img/void.png" onclick="Press()" height="40px" width="40px">
-                </a>
-                <p class="page_names">History</p>
+                <div class="page_lists" id="aboutTable">
+                    <a class="lists_strings" href="{% url 'history' %}"><div>History</div></a>
+                    <a class="lists_strings" href="#"><div>Help</div></a>
+                </div>
             </div>
             <div class="header_buttons"> <!--News-->
                 <a class="header_links" href="{% url 'news' %}">
-                    <img class="header_signs news_sign" src="../../static/media/img/void.png" onclick="Press()" height="40px" width="40px">
+                    <img class="header_signs news_sign" src="{% static 'media/img/void.PNG' %}" onclick="Press()" height="60px" width="60px">
                 </a>
                 <p class="page_names">News</p>
             </div>
             <div class="header_buttons"> <!--Game map-->
                 <a class="header_links" href="{% url 'game_map' %}">
-                    <img class="header_signs game_map_sign" src="../../static/media/img/void.png" onclick="Press()" height="40px" width="40px">
+                    <img class="header_signs game_map_sign" src="{% static 'media/img/void.PNG' %}" onclick="Press()" height="60px" width="60px">
                 </a>
                 <p class="page_names">Map</p>
             </div>
-            <div class="header_buttons"> <!--Statistics-->
-                <a class="header_links" href="{% url 'statistics' %}">
-                    <img class="header_signs statistics_sign" src="../../static/media/img/void.png" onclick="Press()" height="40px" width="40px">
-                </a>
-                <div class="page_lists">
-                    <div class="lists_strings">Course</div>
-                    <div class="lists_strings">Calendar</div>
-                </div>
-            </div>
             <div class="header_buttons"> <!--Chat-->
                 <a class="header_links" href="{% url 'chat' %}">
-                    <img class="header_signs chat_sign" src="../../static/media/img/void.png" onclick="Press()" height="40px" width="40px">
+                    <img class="header_signs chat_sign" src="{% static 'media/img/void.PNG' %}" onclick="Press()" height="60px" width="60px">
                 </a>
                 <p class="page_names">Chat</p>
             </div>
+            {% if user.is_authenticated %}
+                <div class="header_buttons"> <!--Logout-->
+                    <form action="{% url 'logout' %}" method="post"> 
+                        {% csrf_token %}
+                        <button type="submit" class="header_links logout_button">
+                            <img class="header_signs logout_sign" src="{% static 'media/img/void.PNG' %}" onclick="Press()" height="60px" width="60px">
+                        </button>
+                        <p class="page_names">Logout</p>
+                    </form>
+                </div>
+                {% if user.profile.image %}
+                    <div class="header_buttons"> <!--Profile-->
+                        <a class="header_links">
+                            <img class="header_signs profile_sign" src="{{ user.profile.image.url }}" onclick="toggleTable('profileTable')" height="35px" width="35px">
+                        </a>
+                        <div class="page_lists" id="profileTable">
+                            <a class="lists_strings" href="{% url 'profile' %}"><div>Profile</div></a>
+                            <a class="lists_strings" href="{% url 'statistics' %}"><div>Statistics</div></a>
+                        </div>
+                    </div>
+                {% else %}
+                    <div class="header_buttons"> <!--No-image Profile-->
+                        <a class="header_links" href="{% url 'profile' %}">
+                            <img class="header_signs noimage_profile_sign" src="{% static 'media/img/void.PNG' %}" height="60px" width="60px">
+                        </a>
+                    </div>
+                {% endif %}
+            {% else %}
+                <div class="header_buttons"> <!--Register-->
+                    <a class="header_links" href="{% url 'register' %}">
+                        <img class="header_signs register_sign" src="{% static 'media/img/void.PNG' %}" onclick="Press()" height="60px" width="60px">
+                    </a>
+                    <p class="page_names">Register</p>
+                </div>
+                <div class="header_buttons"> <!--Login-->
+                    <a class="header_links" href="{% url 'login' %}">
+                        <img class="header_signs login_sign" src="{% static 'media/img/void.PNG' %}" onclick="Press()" height="60px" width="60px">
+                    </a>
+                    <p class="page_names">Login</p>
+                </div>
+            {% endif %}
         </header>
         <div class="wrapper">
         <main>
@@ -85,8 +123,8 @@
             {% block content %}
             {% endblock content %}
         </main>
-        <img class="background_group" src="../../static/media/img/void.png" id="background_1">
-        <img class="background_group" src="../../static/media/img/void.png" id="background_2">
-    </div>
+        <img class="background_group" src="{% static 'media/img/void.PNG' %}" id="background_1">
+        <img class="background_group" src="{% static 'media/img/void.PNG' %}" id="background_2">
+        </div>
     </body>
 </html>

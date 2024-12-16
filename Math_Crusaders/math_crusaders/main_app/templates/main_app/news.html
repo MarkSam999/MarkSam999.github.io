@@ -1,18 +1,16 @@
 {% extends "main_app/base.html" %}
 {% block content %}
     <title>Fresh News</title>
-    <div class="news_grid">
         {% for post in news_posts %}
-        <div class="glow news_container">
+        <div class="news_container">
             <div class="news_article">
-                <h1>{{ post.title }}</h1>
-                <p>{{ post.content }}</p>
+                <h1 class="blue_text news_title">{{ post.title }}</h1>
+                <p class="news_text">{{ post.content }}</p>
             </div>
             <div class="news_line_divider"></div>
-            <h5 class="date_container">
+            <h4 class="date_container">
                 {{ post.publish_date|date:"D, M j, Y" }}
-            </h5>
+            </h4>
         </div>
-    {% endfor %} 
-    </div>
+    {% endfor %}
 {% endblock content %}

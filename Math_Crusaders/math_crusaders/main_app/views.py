@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.views.generic import ListView, DetailView
 from .models import News_Post
 from .models import Hist_Event
 
@@ -49,6 +50,9 @@ def welcome(request):
 def home(request):
     return render(request, 'main_app/home.html')
 
+def arena(request):
+    return render(request, 'main_app/arena.html')
+
 def about(request):
     context = {
         'qa_main': qa_main
@@ -67,6 +71,16 @@ def news(request):
     }
     return render(request, 'main_app/news.html', context)
 
+class NewsPostListView(ListView):
+    model = News_Post
+    template_name = 'main_app/news.html'
+    context_object_name = 'news_posts'
+    ordering = ['-publish_date']
+
+class NewsPostDetailView(DetailView):
+    model = News_Post
+    template_name = 'main_app/news_post.html'
+    
 def game_map(request):
     context = {
         'levels': levels,

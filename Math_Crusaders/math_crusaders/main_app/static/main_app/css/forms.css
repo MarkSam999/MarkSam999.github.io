@@ -2,8 +2,7 @@
     background-color: rgba(0,0,0,0.5);
     place-self: center; width: auto; 
     border-radius: 10px; border: solid 1px white; 
-    box-shadow: 0 0 15px #002fff;
-    vertical-align: middle;
+    box-shadow: 0 0 15px #002fff; transform: translateY(-7.5%);
 }
 
 .form-group {
@@ -21,7 +20,7 @@ input[type="email"],
 input[type="password"], 
 textarea {
     background-color: transparent; 
-    border: 1px solid rgb(255, 255, 255); 
+    border: 2px solid rgb(255, 255, 255); 
     color: white; text-align: center;
     padding: 10px; margin-top: 5px; margin-bottom: 5px;
     border-radius: 5px; 
@@ -41,13 +40,14 @@ textarea:focus {
 
 .log_in-link {
     text-decoration: none;
-    color: rgb(49, 75, 221);
+    color: rgb(20, 50, 218);
     transition: 0.5s;
 }
 
 .log_in-link:hover {
-    color: rgb(49, 129, 221);
-    text-shadow: 0 0 10px rgb(49, 129, 221);
+    color: rgb(200, 208, 255);
+    text-shadow: 0 0 10px rgb(49, 52, 221), 
+    0 0 10px rgb(49, 52, 221), 0 0 10px rgb(49, 52, 221);
     transition: 0.5s;
 }
 

@@ -1,0 +1,14 @@
+{% extends "main_app/base.html" %}
+{% block content %}
+    <title>{{ object.title }}</title>
+        <div class="news_container">
+            <div class="news_article">
+                <h1 class="blue_text news_title">{{ object.title }}</h1>
+                <div class="news_text"><p>{{ object.content }}</p></div>
+            </div>
+            <div class="news_line_divider"></div>
+            <h4 class="date_container">
+                {{ object.publish_date|date:"D, M j, Y" }}
+            </h4>
+        </div>
+{% endblock content %}

@@ -1,5 +1,5 @@
 .header_signs {
-    background-size: 40px 40px;
+    background-size: 60px 60px;
     background-repeat: no-repeat;
     transition: 0.45s;
 }
@@ -16,8 +16,15 @@
 }
 
 .home_sign:hover{
-    background-image: 
-    url(../../media/img/hovered_signs/home_sign_hover.png);
+    transform: none;
+}
+
+.arena_sign{
+    background-image: url('../../media/img/header_signs/arena_sign.PNG')
+}
+
+.arena_sign:hover{
+    background-image: url('../../media/img/hovered_signs/arena_sign_hover.PNG')
 }
 
 .about_sign{
@@ -80,46 +87,125 @@
     url(../../media/img/hovered_signs/chat_sign_hover.png);
 }
 
+.register_sign{
+    background-image: 
+    url(../../media/img/header_signs/register_sign.PNG);
+}
+
+.register_sign:hover{
+    background-image: 
+    url(../../media/img/hovered_signs/register_sign_hover.PNG);
+}
+
+.login_sign{
+    background-image: 
+    url(../../media/img/header_signs/login_sign.PNG);
+}
+
+.login_sign:hover{
+    background-image: 
+    url(../../media/img/hovered_signs/login_sign_hover.png);
+}
+
+.logout_button {
+    border: none;
+    background: transparent;
+    padding: 0;
+    display: inline-block;
+}
+
+.logout_sign {
+    background-image: 
+    url(../../media/img/header_signs/logout_sign.PNG);
+}
+
+.logout_sign:hover {
+    background-image: 
+    url(../../media/img/hovered_signs/logout_sign_hover.PNG);
+}
+
+
+.profile_sign {
+    border-radius: 50%;
+    border: solid 1.5px white;
+    box-shadow: 0 0 5px blue, 0 0 10px blue;
+    transform: translateY(12.5px);
+}
+
+.profile_sign:hover {
+    border-radius: 50%;
+    transform: translateY(9.5px);
+}
+
+.noimage_profile_sign {
+    background-image: url(../../../../media/profile_pics/anonymous.PNG);
+}
+
 .page_names {
     background-color: rgba(0, 0, 0, 0.8);
     justify-content: center; opacity: 0;
     padding-left: 10px; padding-right: 10px;
     padding-top: 3px; padding-bottom: 3px;
     visibility: hidden; font-size: 16px;
-    transform: translateY(-5px);
+    transform: translateY(-9px);
     transition: 0.45s;
+}
+
+#profileTable {
+    transform: translateY(16px);
+}
+
+#profileTable.active {
+    transform: translateY(25px);
 }
 
 .page_lists {
     background-color: rgba(0, 0, 0, 0.8);
-    justify-content: center;
-    padding-left: 10px; padding-right: 10px; 
-    padding-bottom: 15px;
-    opacity: 0; display: block;
-    visibility: hidden; font-size: 20px;
+    justify-content: center; visibility: hidden;
+    padding-left: 10px; padding-right: 10px; display: block;
+    opacity: 0; font-size: 20px;
     transform: translateY(-10px);
-    transition: 0.6s;
+    transition: opacity 0.6s ease, visibility 0s 0.6s, transform 0.6s ease;
+}
+
+.page_lists.active {
+    opacity: 1; visibility: visible;
+    transform: translateY(0);
+    transition: opacity 0.6s ease, visibility 0s 0s, transform 0.6s ease;
 }
 
 .lists_strings {
-    visibility: hidden;
-    transition: 0.6s;
+    opacity: 0; text-decoration: none;
+    color: white; font-size: 16px;
+    transform: translateY(-10px);
+    transition: opacity 0.6s ease, transform 0.6s ease, text-shadow 0.6s ease;
+}
+
+.lists_strings:hover {
+    text-shadow: 0 0 15px blue, 0 0 15px blue, 
+    0 0 15px blue, 0 0 15px blue, 0 0 15px blue;
+    transition: 0.6s ease;
+}
+
+.page_lists.active .lists_strings {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .header_links:hover ~ .page_names {
     visibility: visible; opacity: 1;
-    transform: translateY(+9px);
+    transform: translateY(0px);
     transition: 0.45s;
 }
 
-.header_links:hover ~
-.page_lists, .lists_strings {
+.header_links:hover ~ #profile_name {
     visibility: visible; opacity: 1;
-    transform: translateY(5px);
-    transition: 0.6s;
+    transform: translateY(25px);
+    transition: 0.45s;
 }
 
+
 .header_buttons {
-    text-align: center; height: 40px;
+    text-align: center; height: 60px;
     margin-right: auto; margin-left: auto;
 }
