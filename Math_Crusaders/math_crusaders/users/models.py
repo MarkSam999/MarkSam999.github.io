@@ -4,15 +4,15 @@ from PIL import Image
 
 class Profile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
-    image = models.ImageField(default='anonymous.png', upload_to='profile_pics')
+    image = models.ImageField(default='profile_pics/anonymous.png', upload_to='profile_pics')
     coins = models.IntegerField(default=0)
     rating = models.IntegerField(default=100)
 
     def __str__(self):
         return f'{self.user.username}'
     
-    def save(self):
-        super().save()
+    def save(self, *args, **kwargs):
+        super(Profile, self).save(*args, **kwargs)
 
         img = Image.open(self.image.path)
 

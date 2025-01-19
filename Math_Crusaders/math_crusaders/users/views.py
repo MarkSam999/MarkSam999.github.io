@@ -2,6 +2,8 @@ from django.shortcuts import render, redirect
 from django.contrib import messages
 from django.contrib.auth import login
 from .forms import UserRegisterForm
+from .models import Profile
+from django.shortcuts import get_object_or_404
 from .forms import EmailAuthenticationForm, UserUpdateForm, ProfileUpdateForm
 
 def register(request):
@@ -50,11 +52,14 @@ def profile(request):
         p_form = ProfileUpdateForm(request.POST, 
                                    request.FILES,
                                    instance=request.user.profile)
-        if u_form.is_valid and p_form.is_valid:
+        if u_form.is_valid() and p_form.is_valid():
             u_form.save()
             p_form.save()
             messages.success(request, "Updated!")
             return redirect('profile')
+        else:
+            print("User form errors:", u_form.errors)
+            print("Profile form errors:", p_form.errors)
     else:
         u_form = UserUpdateForm(instance=request.user)
         p_form = ProfileUpdateForm()

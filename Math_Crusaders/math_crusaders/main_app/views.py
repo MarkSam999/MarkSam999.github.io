@@ -1,5 +1,15 @@
 from django.shortcuts import render
-from django.views.generic import ListView, DetailView
+from django import forms
+from django.contrib.auth.mixins import UserPassesTestMixin
+from django.urls import reverse_lazy
+from users.forms import NewsPostForm
+from users.models import Profile
+from django.views.generic import (ListView, 
+                                  DetailView,
+                                  CreateView,
+                                  UpdateView,
+                                  DeleteView
+)
 from .models import News_Post
 from .models import Hist_Event
 
@@ -53,6 +63,19 @@ def home(request):
 def arena(request):
     return render(request, 'main_app/arena.html')
 
+def rating(request):
+    context = {
+        'profiles': Profile.objects.all()
+    }
+    return render(request, 'main_app/rating.html', context)
+
+class RatingListView(ListView):
+    model = Profile
+    template_name = 'main_app/rating.html'
+    context_object_name = 'profiles'
+    ordering = ['-rating']
+    paginate_by = 1
+
 def about(request):
     context = {
         'qa_main': qa_main
@@ -76,11 +99,58 @@ class NewsPostListView(ListView):
     template_name = 'main_app/news.html'
     context_object_name = 'news_posts'
     ordering = ['-publish_date']
+    paginate_by = 2
 
 class NewsPostDetailView(DetailView):
     model = News_Post
     template_name = 'main_app/news_post.html'
+
+class NewsPostCreateView(CreateView):
+    model = News_Post
+    form_class = NewsPostForm
+    widgets = {
+            'content': forms.Textarea(attrs={
+                'style': 'resize: none; width: 100%; place-self: center;'
+            }),
+        }
+    template_name = 'main_app/news_post_add.html'
+    success_url = reverse_lazy('news')
+
+    def form_valid(self, form):
+        form.instance.posted_by = self.request.user
+        return super().form_valid(form)
+class NewsPostUpdateView(UserPassesTestMixin, UpdateView):
+    model = News_Post
+    form_class = NewsPostForm
+    widgets = {
+            'content': forms.Textarea(attrs={
+                'style': 'resize: none; width: 100%; place-self: center;'
+            }),
+        }
+    template_name = 'main_app/news_post_add.html'
+    success_url = reverse_lazy('news') 
+
+    def form_valid(self, form):
+        form.instance.posted_by = self.request.user
+        return super().form_valid(form)    
     
+    def test_func(self):
+        post = self.get_object()
+        if self.request.user == post.posted_by:
+            return True
+        return False
+
+class NewsPostDeleteView(UserPassesTestMixin, DeleteView):
+    model = News_Post
+    template_name = 'main_app/news_post_delete.html'
+    success_url = reverse_lazy('news') 
+
+    def test_func(self):
+        post = self.get_object()
+        if self.request.user == post.posted_by:
+            return True
+        return False
+
 def game_map(request):
     context = {
         'levels': levels,

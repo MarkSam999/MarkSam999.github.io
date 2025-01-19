@@ -33,6 +33,6 @@ document.addEventListener('click', (event) => {
 
 setTimeout(() => {
     document.getElementById('loader').style.display = 'none';
-    document.body.style.visibility = 'visible'; // Показать содержимое страницы
-    document.body.style.overflow = 'auto'; // Включить прокрутку
+    document.body.style.visibility = 'visible';
+    document.body.style.overflow = 'auto';
 }, 1500);

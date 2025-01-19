@@ -1,5 +1,4 @@
 {% extends "main_app/base.html" %}
-
 {% load crispy_forms_tags %}
 {% block content %}
     <title>{{ user.username }} Profile</title>
@@ -9,7 +8,7 @@
             {% if user.profile.image %}
                 <img class="profile_image" src="{{ user.profile.image.url }}" height="200px" width="200px">
             {% else %}
-                <img class="profile_image" src="../../../media/profile_pics/anonymous.PNG" height="200px" width="200px">
+                <img src="../../../media/profile_pics/anonymous.PNG" height="500px" width="500px">
             {% endif %}
         </div>
         <div>Coins: <b>{{ user.profile.coins }}</b></div>

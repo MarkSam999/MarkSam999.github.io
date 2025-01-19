@@ -7,8 +7,17 @@
                 <div class="news_text"><p>{{ object.content }}</p></div>
             </div>
             <div class="news_line_divider"></div>
+            
             <h4 class="date_container">
                 {{ object.publish_date|date:"D, M j, Y" }}
             </h4>
         </div>
+        {% if object.posted_by == user %}
+            <div class="form-group"> <!--Delete-->
+                <a href="{% url 'news_post_delete' object.id %}"><button class="sign_up-button" type="button" href="" class="sign_up-button">Delete</button></a>
+            </div>
+            <div class="form-group"> <!--Edit-->
+                <a href="{% url 'news_post_edit' object.id %}"><button class="sign_up-button" type="button" href="" class="sign_up-button">Edit</button></a>
+            </div>
+        {% endif %}
 {% endblock content %}

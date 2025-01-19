@@ -3,6 +3,7 @@ from django.contrib.auth.models import User
 from django.contrib.auth.forms import UserCreationForm
 from django.core.exceptions import ValidationError
 from .models import Profile
+from main_app.models import News_Post
 
 class UserRegisterForm(UserCreationForm):
     email = forms.EmailField()
@@ -62,3 +63,14 @@ class ProfileUpdateForm(forms.ModelForm):
         fields = [
             'image'
             ]
+
+
+class NewsPostForm(forms.ModelForm):
+    class Meta:
+        model = News_Post
+        fields = ['title', 'content']
+        widgets = {
+            'content': forms.Textarea(attrs={
+                'style': 'resize: none; width: 100%; place-self: center;',
+            }),
+        }    

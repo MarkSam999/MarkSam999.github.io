@@ -1,0 +1,45 @@
+{% extends "main_app/base.html" %}
+{% block content %}
+    {% if user.is_authenticated and user.is_superuser %}
+    <title>Add/edit article</title>
+        <div style="margin-top: 100px;" class="register_form">
+            <form method="POST">
+                {% csrf_token %}
+                <fieldset class="form-group">
+                    <legend>New article</legend>
+                    {% csrf_token %}
+                    <div> <!--Title-->
+                        <label for="id_title">Title</label>
+                        <div></div>
+                        {{ form.title }}
+                        {% if form.title.errors %}
+                            <div>
+                                {% for error in form.title.errors %}
+                                    <p class="messages error">{{ error }}</p>
+                                {% endfor %}
+                            </div>
+                        {% endif %}
+                    </div>
+                    <div> <!--Content-->
+                        <label for="id_content">Content</label>
+                        {{ form.content }}
+                        {% if form.content.errors %}
+                            <div >
+                                {% for error in form.content.errors %}
+                                    <p class="messages error">{{ error }}</p>
+                                {% endfor %}
+                            </div>
+                        {% endif %}
+                    </div>
+                    <div>
+                </fieldset>
+                <div class="form-group">
+                    <button class="sign_up-button" type="submit">Publish</button>
+                </div>
+            </form>
+        </div>
+    {% else %}
+    <title>We're sorry</title>
+        <div class="messages error top-error">Sorry, but only journalists can write news articles.</div>
+    {% endif %}
+{% endblock content %}

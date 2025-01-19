@@ -1,0 +1,21 @@
+{% extends "main_app/base.html" %}
+{% block content %}
+    {% if user.is_authenticated and user.is_superuser %}
+    <title>Delete?</title>
+        <div class="register_form">
+            <h1 class="glow"><span class="blue_text">Delete?</span></h1>
+            <form method="POST">
+                {% csrf_token %}
+                <div class="form-group">
+                    <button class="sign_up-button" type="submit">Yes</button>
+                </div>
+                <div class="form-group">
+                    <a href="{% url 'news' %}"><button class="sign_up-button">No</button></a>
+                </div>
+            </form>
+        </div>
+    {% else %}
+    <title>We're sorry</title>
+        <div class="messages error top-error">Sorry, but only journalists can write news articles.</div>
+    {% endif %}
+{% endblock content %}

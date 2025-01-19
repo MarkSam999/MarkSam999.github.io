@@ -27,6 +27,15 @@
     background-image: url('../../media/img/hovered_signs/arena_sign_hover.PNG')
 }
 
+.rating_sign{
+    background-image: url('../../media/img/header_signs/rating_sign.PNG')
+}
+
+.rating_sign:hover{
+    background-image: url('../../media/img/hovered_signs/rating_sign_hover.PNG')
+}
+
+
 .about_sign{
     background-image: 
     url(../../media/img/header_signs/about_sign.png);
@@ -123,7 +132,6 @@
     background-image: 
     url(../../media/img/hovered_signs/logout_sign_hover.PNG);
 }
-
 
 .profile_sign {
     border-radius: 50%;

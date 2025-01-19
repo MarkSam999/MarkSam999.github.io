@@ -23,6 +23,8 @@
             <link rel="stylesheet" type="text/css" href="{% static 'main_app/css/forms.css' %}">
             <link rel="stylesheet" type="text/css" href="{% static 'main_app/css/messages.css' %}">
             <link rel="stylesheet" type="text/css" href="{% static 'main_app/css/profile_page.css' %}">
+            <link rel="stylesheet" type="text/css" href="{% static 'main_app/css/rating_set.css' %}">
+            <link rel="stylesheet" type="text/css" href="{% static 'main_app/css/nav_signs.css' %}">
         <!--JavaScript files-->
             <script src="{% static 'main_app/js/main_script.js' %}"></script>
     </head>
@@ -41,6 +43,12 @@
                     <img class="header_signs arena_sign" src="{% static 'media/img/void.PNG' %}" onclick="Press()" height="60px" width="60px">
                 </a>
                 <p class="page_names">Arena</p>
+            </div>
+            <div class="header_buttons"> <!--Rating-->
+                <a class="header_links" href="{% url 'rating' %}">
+                    <img class="header_signs rating_sign" src="{% static 'media/img/void.PNG' %}" onclick="Press()" height="60px" width="60px">
+                </a>
+                <p class="page_names">Rating</p>
             </div>
             <div class="header_buttons"> <!--About-->
                 <a class="header_links">

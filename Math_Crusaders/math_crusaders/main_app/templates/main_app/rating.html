@@ -1,0 +1,18 @@
+{% extends "main_app/base.html" %}
+{% load static %}
+{% block content %}
+    <title>Rating</title>
+    <h1 class="glow"><span class="blue_text">Players'</span> rating</h1>
+    {% for post in profiles %}
+        <a class="no_link_container" href="">
+            <div class="rating_string">
+                <div class="rating_string_inner">
+                    <h1 class="blue_text nickname">{{ post.user }}</h1>
+                </div>
+                
+                <div class="rating_score">{{ post.rating }}</div>
+            </div>
+        </a>
+        {% endfor %}
+        {% include "main_app/nav_panel.html" %}
+{% endblock content %} 

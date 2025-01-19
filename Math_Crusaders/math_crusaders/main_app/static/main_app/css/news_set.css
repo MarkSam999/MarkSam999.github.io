@@ -1,8 +1,24 @@
+.no_link_container {
+    text-decoration: none;
+    color: white;
+}
 
 .news_container {
     border: solid 3px white; border-radius: 10px;
     background-color: rgba(0,0,0,0.5); height: auto;
     width: 100%; margin-top: 30px; margin-bottom: 30px;
+    transition: 0.5s;
+}
+
+.news_container:hover {
+    box-shadow: 0 0 15px white;
+    transition: 0.5s;
+}
+
+.news_article {
+    height: 190px;
+    margin-bottom: 10px;
+    overflow: hidden;
 }
 
 .date_container {

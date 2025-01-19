@@ -1,16 +1,27 @@
 {% extends "main_app/base.html" %}
+{% load static %}
 {% block content %}
     <title>Fresh News</title>
-        {% for post in news_posts %}
-        <div class="news_container">
-            <div class="news_article">
-                <h1 class="blue_text news_title">{{ post.title }}</h1>
-                <p class="news_text">{{ post.content }}</p>
+        {% if user.is_authenticated and user.is_superuser %}
+            <div class="form-group">
+                <a href="{% url 'news_post_add' %}"><button class="sign_up-button">Write new article</button></a>
             </div>
-            <div class="news_line_divider"></div>
-            <h4 class="date_container">
-                {{ post.publish_date|date:"D, M j, Y" }}
-            </h4>
-        </div>
-    {% endfor %}
+        {% else %}
+            <!--Nothing.-->
+        {% endif %}
+        {% for post in news_posts %}
+        <a class="no_link_container" href="{% url 'news_post' post.id %}">
+            <div class="news_container">
+                <div class="news_article">
+                    <h1 class="blue_text news_title">{{ post.title }}</h1>
+                    <p class="news_text">{{ post.content }}</p>
+                </div>
+                <div class="news_line_divider"></div>
+                <h4 class="date_container">
+                    {{ post.publish_date|date:"D, M j, Y" }}
+                </h4>
+            </div>
+        </a>
+        {% endfor %}
+        {% include "main_app/nav_panel.html" %}
 {% endblock content %}
