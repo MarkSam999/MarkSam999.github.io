@@ -30,6 +30,7 @@ urlpatterns = [
     path('mathcrusaders/logout/', auth_views.LogoutView.as_view(template_name='users/logout.html'), name='logout'),
     path('mathcrusaders/', include('main_app.urls')),
     path('mathcrusaders/', include('practice_games.urls')),
+    path('mathcrusaders/', include('chats.urls')),
 ]
 
 if settings.DEBUG:

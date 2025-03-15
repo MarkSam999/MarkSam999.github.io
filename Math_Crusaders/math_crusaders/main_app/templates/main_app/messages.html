@@ -1,0 +1,16 @@
+{% load static %}
+{% for chat_message in chat_messages %}
+    {% if request.user == chat_message.posted_by %}
+        <div style="text-align: right;" class="message_box">
+            <h1>{{ chat_message.posted_by }}</h1>
+            <p>{{ chat_message.content }}</p>
+            <h6 class="date_container">{{ chat_message.publish_date }}</h6>
+        </div>
+    {% else %}
+        <div style="text-align: left;" class="message_box">
+            <h1>{{ chat_message.posted_by }}</h1>
+            <p>{{ chat_message.content }}</p>
+            <h6 class="date_container">{{ chat_message.publish_date }}</h6>
+        </div>
+    {% endif %}
+{% endfor %}

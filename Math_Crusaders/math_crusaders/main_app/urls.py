@@ -25,5 +25,4 @@ urlpatterns = [
     path('news/', NewsPostListView.as_view(), name='news'),
     path('game_map/', views.game_map, name='game_map'),
     path('statistics/', views.statistics, name='statistics'),
-    path('chat/', views.chat, name='chat'),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

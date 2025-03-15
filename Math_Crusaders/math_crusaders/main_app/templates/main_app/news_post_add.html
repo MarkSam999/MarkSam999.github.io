@@ -24,7 +24,7 @@
                         <label for="id_content">Content</label>
                         {{ form.content }}
                         {% if form.content.errors %}
-                            <div >
+                            <div>
                                 {% for error in form.content.errors %}
                                     <p class="messages error">{{ error }}</p>
                                 {% endfor %}

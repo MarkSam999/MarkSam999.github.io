@@ -11,7 +11,6 @@ from django.views.generic import (ListView,
                                   DeleteView
 )
 from .models import News_Post
-from .models import Hist_Event
 
 hist_events = [
     {
@@ -83,10 +82,7 @@ def about(request):
     return render(request, 'main_app/about.html', context)
 
 def history(request):
-    context = {
-        'hist_events': Hist_Event.objects.all()
-    }
-    return render(request, 'main_app/history.html', context)
+    return render(request, 'main_app/history.html')
 
 def news(request):
     context = {
@@ -161,7 +157,3 @@ def game_map(request):
 def statistics(request):
     context = {}
     return render(request, 'main_app/statistics.html', context)
-
-def chat(request):
-    context = {}
-    return render(request, 'main_app/chat.html', context)

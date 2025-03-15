@@ -169,24 +169,17 @@
 
 .page_lists {
     background-color: rgba(0, 0, 0, 0.8);
-    justify-content: center; visibility: hidden;
-    padding-left: 10px; padding-right: 10px; display: block;
-    opacity: 0; font-size: 20px;
-    transform: translateY(-10px);
-    transition: opacity 0.6s ease, visibility 0s 0.6s, transform 0.6s ease;
-}
-
-.page_lists.active {
-    opacity: 1; visibility: visible;
-    transform: translateY(0);
-    transition: opacity 0.6s ease, visibility 0s 0s, transform 0.6s ease;
+    justify-content: center;
+    padding-left: 10px; padding-right: 10px;
+    font-size: 20px;
+    top: 50px;
 }
 
 .lists_strings {
-    opacity: 0; text-decoration: none;
+    text-decoration: none;
     color: white; font-size: 16px;
     transform: translateY(-10px);
-    transition: opacity 0.6s ease, transform 0.6s ease, text-shadow 0.6s ease;
+    transition: 0.6s ease;
 }
 
 .lists_strings:hover {

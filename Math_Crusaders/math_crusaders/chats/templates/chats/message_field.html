@@ -1,0 +1,22 @@
+{% load static %}
+<div class="message_field">
+    <form method="POST">
+        <fieldset class="form-group">
+            <div> <!--Content-->
+                {% csrf_token %}
+                <label for="id_content">Content</label>
+                {{ form.content }}
+                {% if form.content.errors %}
+                    <div>
+                        {% for error in form.content.errors %}
+                            <p class="messages error">{{ error }}</p>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            </div>
+        </fieldset>
+        <div class="form-group">
+            <button class="sign_up-button" type="submit" name="create_message">Send</button>
+        </div>
+    </form>
+</div>

@@ -4,6 +4,7 @@ from django.contrib.auth.forms import UserCreationForm
 from django.core.exceptions import ValidationError
 from .models import Profile
 from main_app.models import News_Post
+from chats.models import Message
 
 class UserRegisterForm(UserCreationForm):
     email = forms.EmailField()
@@ -64,7 +65,6 @@ class ProfileUpdateForm(forms.ModelForm):
             'image'
             ]
 
-
 class NewsPostForm(forms.ModelForm):
     class Meta:
         model = News_Post
@@ -74,3 +74,20 @@ class NewsPostForm(forms.ModelForm):
                 'style': 'resize: none; width: 100%; place-self: center;',
             }),
         }    
+
+class MessageForm(forms.ModelForm):
+    class Meta:
+        model = Message
+        fields = ['content']
+        widgets = {
+            'content': forms.Textarea(attrs={
+                'style': 'resize: none; width: 100%; font-size: 20px; text-align: left; place-self: center; height: 100%;',
+            }),
+        }
+    def save(self, user=None, commit=True):
+        chat_message = super().save(commit=False)
+        if user:
+            chat_message.posted_by = user
+        if commit:
+            chat_message.save()
+        return chat_message  

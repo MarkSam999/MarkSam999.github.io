@@ -25,12 +25,24 @@
             <link rel="stylesheet" type="text/css" href="{% static 'main_app/css/profile_page.css' %}">
             <link rel="stylesheet" type="text/css" href="{% static 'main_app/css/rating_set.css' %}">
             <link rel="stylesheet" type="text/css" href="{% static 'main_app/css/nav_signs.css' %}">
+            <link rel="stylesheet" type="text/css" href="{% static 'main_app/css/nav_signs.css' %}">
+            <link rel="stylesheet" type="text/css" href="{% static 'main_app/css/chat_messages.css' %}">
+        <!--HTMX-->
+            <script src="https://unpkg.com/htmx.org@1.9.2" defer></script>
+        <!--jQuery-->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <!--JavaScript files-->
-            <script src="{% static 'main_app/js/main_script.js' %}"></script>
+            <script src="{% static 'main_app/js/main_script.js' %}" defer></script>
+            <script src="{% static 'main_app/js/testing.js' %}" defer></script>
     </head>
     <body>
         <div id="loader">
-            <div id="loader_text">Loading...</div>
+            <div id="loader_text">
+                Loading...
+            </div>
+            <div id="progress_bar">
+                <div id="progress"></div>
+            </div>
         </div>
         <header>
             <div class="header_buttons"> <!--Home-->
@@ -52,7 +64,7 @@
             </div>
             <div class="header_buttons"> <!--About-->
                 <a class="header_links">
-                    <img class="header_signs about_sign" src="{% static 'media/img/void.PNG' %}" onclick="Press(); toggleTable('aboutTable')" height="60px" width="60px">
+                    <img class="header_signs about_sign" src="{% static 'media/img/void.PNG' %}" height="60px" width="60px" id="aboutBtn">
                 </a>
                 <div class="page_lists" id="aboutTable">
                     <a class="lists_strings" href="{% url 'history' %}"><div>History</div></a>
@@ -71,8 +83,8 @@
                 </a>
                 <p class="page_names">Map</p>
             </div>
-            <div class="header_buttons"> <!--Chat-->
-                <a class="header_links" href="{% url 'chat' %}">
+            <div class="header_buttons"> <!--Chats-->
+                <a class="header_links" href="{% url 'chats' %}">
                     <img class="header_signs chat_sign" src="{% static 'media/img/void.PNG' %}" onclick="Press()" height="60px" width="60px">
                 </a>
                 <p class="page_names">Chat</p>
@@ -90,7 +102,7 @@
                 {% if user.profile.image %}
                     <div class="header_buttons"> <!--Profile-->
                         <a class="header_links">
-                            <img class="header_signs profile_sign" src="{{ user.profile.image.url }}" onclick="toggleTable('profileTable')" height="35px" width="35px">
+                            <img class="header_signs profile_sign" src="{{ user.profile.image.url }}" height="35px" width="35px" id="profileBtn">
                         </a>
                         <div class="page_lists" id="profileTable">
                             <a class="lists_strings" href="{% url 'profile' %}"><div>Profile</div></a>

@@ -24,15 +24,4 @@ class News_Post(models.Model):
     def get_absolute_url(self):
         return reverse('news_post', kwargs={'pk': self.pk})
     
-class Hist_Event(models.Model):
-    title = models.CharField(
-        max_length=100
-    )
-    content = models.TextField(
-        max_length=100000
-    )
-
-    def __str__(self):
-        return self.title
-    
     
