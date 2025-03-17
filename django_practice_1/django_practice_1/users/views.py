@@ -1,3 +1,3 @@
 from django.shortcuts import render
 
-def first_view
+def first_view(request)
