@@ -1,4 +1,4 @@
 from django.shortcuts import render
 
 def first_view(request):
-    return render('template')
+    return render('template.html')
