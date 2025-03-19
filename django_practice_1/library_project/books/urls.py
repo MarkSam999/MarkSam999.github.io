@@ -1,1 +1,1 @@
-from django.contrib. import urlpatterns
+from django. import urlpatterns
