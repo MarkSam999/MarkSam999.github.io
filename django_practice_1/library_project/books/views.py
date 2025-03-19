@@ -3,6 +3,6 @@ from .models import Book
 
 def book_list(request):
     context = {
-        "book_list": Book.objects.all()
+        "books": Book.objects.all()
     }
     return render(request, 'book_list.html', context)
