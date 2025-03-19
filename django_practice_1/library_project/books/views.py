@@ -3,5 +3,5 @@ from . import models
 
 def book_list(request):
     context = {
-        "book_list": 
+        "book_list": Book.objects.all()
     }
