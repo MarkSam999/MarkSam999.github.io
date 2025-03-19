@@ -1,5 +1,5 @@
 from django.db import models
-import timezone
+from import timezone
 
 class Book(models.Model):
     title = models.CharField(max_length=200)
