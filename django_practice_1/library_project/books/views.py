@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from . import models
+from .models import Book
 
 def book_list(request):
     context = {
