@@ -16,7 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from django import books
+from . import books
 
 urlpatterns = [
     path('', books.urls),
