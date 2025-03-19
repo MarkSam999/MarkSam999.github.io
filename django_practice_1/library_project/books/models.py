@@ -1,4 +1,4 @@
 from django.db import models
 
 class Book(models.Model):
-    title = models.Text
+    title = models.CharField(max_length=200)
