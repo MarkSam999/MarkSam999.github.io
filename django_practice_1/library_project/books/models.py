@@ -2,7 +2,7 @@ import random
 
 def generate_isbn():
     prefix = "978"  # ISBN-13 всегда начинается с 978 или 979
-    body = "".join(str(random.randint(0, 9)) for _ in range(9))  # 9 случайных цифр
+    body = "".join(str(random.randint(0, 9)) for _ in range(9))
     partial_isbn = prefix + body
     check_digit = calculate_isbn13_check_digit(partial_isbn)
     return partial_isbn + check_digit
