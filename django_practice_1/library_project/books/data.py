@@ -1,5 +1,5 @@
-from .models import Book
-from .models import random_number
+from books.models import Book
+from books.models import random_number
 from datetime import date
 
 book = Book(title='Frankenstein', author='Mary Shelley')
