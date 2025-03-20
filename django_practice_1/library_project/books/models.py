@@ -1,8 +1,8 @@
 import random
 
 def random_number():
-    body = "".join(str(random.randint(0, 9)) for _ in range(13))
-    return body
+    int = "".join(str(random.randint(0, 9)) for _ in range(13))
+    return int
 
 from django.db import models
 from django.utils import timezone
