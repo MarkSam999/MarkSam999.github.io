@@ -7,6 +7,12 @@ def generate_isbn():
     check_digit = calculate_isbn13_check_digit(partial_isbn)
     return partial_isbn + check_digit
 
+def calculate_isbn13_check_digit(isbn_without_check_digit):
+    """Рассчитывает контрольную цифру для ISBN-13"""
+    total = sum((1 if i % 2 == 0 else 3) * int(num) for i, num in enumerate(isbn_without_check_digit))
+    remainder = total % 10
+    return str((10 - remainder) % 10)  # Контрольная цифра
+
 from django.db import models
 from django.utils import timezone
 
