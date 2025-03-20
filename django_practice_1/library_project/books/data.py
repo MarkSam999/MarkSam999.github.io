@@ -1,1 +1,1 @@
-book_1 = Book()
+book_1 = Book
