@@ -1,6 +1,6 @@
 import random
 
-def generate_isbn()
+def generate_isbn():
 
 from django.db import models
 from django.utils import timezone
