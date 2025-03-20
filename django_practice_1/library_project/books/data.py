@@ -1,6 +1,6 @@
 from .models import Book
 from .models import random_number
-from datetime import 
+from datetime import date
 
 book = Book(title='Frankenstein', author='Mary Shelley')
 book = Book(title='Prometheus Unbound', author='Percy Bysshe Shelley')
