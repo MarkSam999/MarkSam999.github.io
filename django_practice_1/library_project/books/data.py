@@ -1,5 +1,5 @@
-book = 
-book = 
-book = 
-book = 
-book = 
+book = Book(title='')
+book = Book(title='')
+book = Book(title='')
+book = Book(title='')
+book = Book(title='')
