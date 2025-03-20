@@ -3,7 +3,7 @@ from books.models import random_number
 from datetime import date
 
 book_1 = Book(title='Frankenstein', author='Mary Shelley')
-book.save()
+book_1.save()
 book_2 = Book(title='Prometheus Unbound', author='Percy Bysshe Shelley')
 book.save()
 book_3 = Book(title='Minekampf', author='Adolf Hitler')
