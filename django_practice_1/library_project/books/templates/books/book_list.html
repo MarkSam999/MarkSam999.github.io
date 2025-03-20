@@ -10,7 +10,7 @@
     <ul>
         {% for book in book_list %}
             <li>{{ book.title }} by {{ book.author }}</li>
-            <b>{{ book.published_date }}</b>
+            <b>Published in {{ book.published_date }}</b>
         {% endfor %}
     </ul>
     
