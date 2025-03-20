@@ -1,5 +1,5 @@
 from .models import Book
-from .models import 
+from .models import random_number
 
 book = Book(title='Frankenstein', author='Mary Shelley')
 book = Book(title='Prometheus Unbound', author='Percy Bysshe Shelley')
