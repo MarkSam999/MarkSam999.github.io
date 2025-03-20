@@ -2,6 +2,7 @@ import random
 
 def random_number():
     body = "".join(str(random.randint(0, 9)) for _ in range(9))
+    return body
 
 def generate_isbn():
     prefix = "978"  # ISBN-13 всегда начинается с 978 или 979
