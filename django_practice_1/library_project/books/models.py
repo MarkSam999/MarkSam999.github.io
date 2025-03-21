@@ -16,4 +16,4 @@ class Book(models.Model):
 class Product(models.Model):
     name = models.CharField(max_length=20)
     price = models.DecimalField()
-    
+    description = models.TextField(max_length=5000)
