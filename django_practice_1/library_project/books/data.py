@@ -13,7 +13,7 @@ book_4.save()
 book_5 = Book(title='Molotov-Ribbentrop Pact', author='Joseph Stalin and Adolf Hitler')
 book_5.save()
 
-product_ = Product(name="", price=, description="", available=True)
-product_ = Product(name="", price=, description="", available=True)
-product_ = Product(name="", price=, description="", available=True)
-product_ = Product(name="", price=, description="", available=True)
+product_ = Product(name="", price=, description="", available=True)\
+product_ = Product(name="", price=, description="", available=True)\
+product_ = Product(name="", price=, description="", available=True)\
+product_ = Product(name="", price=, description="", available=True)\
