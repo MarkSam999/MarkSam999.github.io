@@ -15,6 +15,8 @@ book_4.save()
 book_5 = Book(title='Molotov-Ribbentrop Pact', author='Joseph Stalin and Adolf Hitler')
 book_5.save()
 
+
+
 product_1 = Product(name="milk", price=Decimal("2.5"), description="Cow milk. Fat - 2%. Contains a lot of protein", available=True)
 product_1.save()
 product_2 = Product(name="cheese", price=Decimal("3.5"), description="Made of cow milk. Solid. Contains salt also.", available=True)
