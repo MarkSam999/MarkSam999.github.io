@@ -15,7 +15,7 @@ book_5.save()
 
 product_1 = Product(name="milk", price=2.5, description="Cow milk. Fat - 2%. Contains a lot of protein", available=True)
 product_1.save()
-product_2 = Product(name="cheese", price=3.5, description="", available=True)
+product_2 = Product(name="cheese", price=3.5, description="Made of cow milk. ", available=True)
 product_2.save()
 product_3 = Product(name="bread", price=1.25, description="", available=True)
 product_3.save()
