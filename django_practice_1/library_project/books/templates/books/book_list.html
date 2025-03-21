@@ -7,8 +7,8 @@
 </head>
 <body>
     <h1>List of products</h1>
-    {% for product in products %}<ul>
-        
+    {% for product in products %}
+        <ul>
             <li>{{ product.name }}</li>
             <b>Published in {{ book.published_date }}</b>
             <p><b style="color:gold;">Id: {{ book.isbn }}</b></p>
