@@ -1,8 +1,7 @@
 from books.models import Book, Product
 from books.models import random_number
+
 from datetime import date
-
-
 
 book_1 = Book(title='Frankenstein', author='Mary Shelley')
 book_1.save()
