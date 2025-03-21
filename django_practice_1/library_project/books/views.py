@@ -10,4 +10,5 @@ def products(request, name):
     }
     return render(request, 'books/products.html', context)
 
-def details(request, name)
+def details(request, name):
+    
