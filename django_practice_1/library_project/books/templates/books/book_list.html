@@ -9,7 +9,7 @@
     <h1>List of products</h1>
     <ul>
         {% for product in products %}
-            <li>{{ product.name }} by {{ book.author }}</li>
+            <li>{{ product.name }}</li>
             <b>Published in {{ book.published_date }}</b>
             <p><b style="color:gold;">Id: {{ book.isbn }}</b></p>
         {% endfor %}
