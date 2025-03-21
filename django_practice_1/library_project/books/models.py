@@ -14,4 +14,4 @@ class Book(models.Model):
     isbn = models.CharField(unique=True, default=random_number, max_length=13)
 
 class Product(models.Model):
-    name = 
+    name = CharFirld
