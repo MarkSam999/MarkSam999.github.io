@@ -1,5 +1,4 @@
 from books.models import Book, Product
-from books.models import random_number
 
 from datetime import date
 
