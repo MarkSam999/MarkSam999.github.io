@@ -19,4 +19,5 @@ class Product(models.Model):
     description = models.TextField(max_length=5000)
     available = models.BooleanField(default=False)
 
-    def __str__(self)
+    def __str__(self):
+        return self.name
