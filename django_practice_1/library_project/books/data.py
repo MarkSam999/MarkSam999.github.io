@@ -17,7 +17,7 @@ product_1 = Product(name="milk", price=2.5, description="Cow milk. Fat - 2%. Con
 product_1.save()
 product_2 = Product(name="cheese", price=3.5, description="Made of cow milk. Solid. Contains salt also.", available=True)
 product_2.save()
-product_3 = Product(name="bread", price=1.25, description="Made of wheat. Smooth. ", available=True)
+product_3 = Product(name="bread", price=1.25, description="Made of wheat. Smooth. Used in making sandwiches.", available=True)
 product_3.save()
 product_4 = Product(name="candy", price=0.95, description="", available=True)
 product_4.save()
