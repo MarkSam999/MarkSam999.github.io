@@ -15,7 +15,7 @@ book_5.save()
 
 product_1 = Product(name="milk", price=, description="", available=True)
 product_1.save()
-product_2 = Product(name="", price=, description="", available=True)
+product_2 = Product(name="cheese", price=, description="", available=True)
 product_2.save()
 product_3 = Product(name="", price=, description="", available=True)
 product_3.save()
