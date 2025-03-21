@@ -14,9 +14,10 @@ book_5 = Book(title='Molotov-Ribbentrop Pact', author='Joseph Stalin and Adolf H
 book_5.save()
 
 product_ = Product(name="", price=, description="", available=True)
-
+product_.save()
 product_ = Product(name="", price=, description="", available=True)
-
+product_.save()
 product_ = Product(name="", price=, description="", available=True)
-
+product_.save()
 product_ = Product(name="", price=, description="", available=True)
+product_.save()
