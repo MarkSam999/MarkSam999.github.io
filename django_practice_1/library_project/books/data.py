@@ -2,8 +2,6 @@ from books.models import Book, Product
 from books.models import random_number
 from datetime import date
 from decimal import Decimal
-product_1 = Product(name="milk", price=Decimal("2.5"), description="Cow milk. Fat - 2%. Contains a lot of protein", available=True)
-product_1.save()
 
 
 book_1 = Book(title='Frankenstein', author='Mary Shelley')
