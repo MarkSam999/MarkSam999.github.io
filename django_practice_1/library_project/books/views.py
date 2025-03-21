@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from .models import Book, Product
 
-def products(request, name):
+def products(request):
     context = {
         "book_list": Book.objects.all(),
         "products": Product.objects.all()
