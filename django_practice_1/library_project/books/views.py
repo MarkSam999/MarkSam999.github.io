@@ -9,6 +9,3 @@ def products(request, name):
         "products": Product.objects.all()
     }
     return render(request, 'books/products.html', context)
-
-def details(request, name):
-    
