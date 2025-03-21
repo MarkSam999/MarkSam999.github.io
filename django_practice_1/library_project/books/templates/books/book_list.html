@@ -12,9 +12,9 @@
             <li>{{ product.name }}</li>
             <li>Cost: {{ product.price }}</li>
             {% if product.available == True %}
-                <li>Available now</li>
+                <li style="color:">Available now</li>
             {% else %}
-                <li>Not available</li>
+                <li style="color:">Not available</li>
             {% endif %}
         </ul>
     {% endfor %}
