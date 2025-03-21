@@ -13,4 +13,4 @@ class Book(models.Model):
     published_date = models.DateField(default=timezone.now)
     isbn = models.CharField(unique=True, default=random_number, max_length=13)
 
-class Product
+class Product(models.Model)""
