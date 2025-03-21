@@ -20,4 +20,4 @@ product_2.save()
 product_3 = Product(name="bread", price=, description="", available=True)
 product_3.save()
 product_4 = Product(name="candy", price=, description="", available=True)
-product_4.s
+product_4.save()
