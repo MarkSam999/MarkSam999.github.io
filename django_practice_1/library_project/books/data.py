@@ -16,4 +16,4 @@ book_5.save()
 product_ = Product(name="", )
 product_ = Product(name="", )
 product_ = Product(name="", )
-product_ = Product(na
+product_ = Product(name="", )
