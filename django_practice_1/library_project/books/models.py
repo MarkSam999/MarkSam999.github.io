@@ -15,6 +15,6 @@ class Book(models.Model):
 
 class Product(models.Model):
     name = models.CharField(max_length=20)
-    price = models.DecimalField(max)
+    price = models.DecimalField(max_digits=)
     description = models.TextField(max_length=5000)
     available = models.BooleanField()
