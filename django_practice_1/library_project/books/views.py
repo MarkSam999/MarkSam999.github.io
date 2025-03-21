@@ -6,4 +6,4 @@ def book_list(request):
         "book_list": Book.objects.all(),
         "products": Product.objects.all()
     }
-    return render(request, 'books/pe.html', context)
+    return render(request, 'books/products.html', context)
