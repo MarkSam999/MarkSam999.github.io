@@ -1,4 +1,4 @@
 from django.shortcuts import render
 
 def books(request):
-    return render(request, )
+    return render(request, 'books/')
