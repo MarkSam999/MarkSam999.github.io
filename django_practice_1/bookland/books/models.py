@@ -1,7 +1,7 @@
 from django.db import models
 
 class Book(models.Model):
-    title = 
-    author = 
-    year = 
-    description = 
+    title = models
+    author = models
+    year = models
+    description = models
