@@ -7,7 +7,7 @@ def books(request):
     }
     return render(request, 'books/index.html', context)
 
-def details(request, title):
+def details(request, book):
     book = Book.objects.get(title=title)
     context = {
         'book': book
