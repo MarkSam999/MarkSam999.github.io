@@ -12,4 +12,4 @@ def details(request, title):
     context = {
         'title': title
     }
-    return render(request, '')
+    return render(request, 'books/')
