@@ -8,4 +8,4 @@ def books(request):
     return render(request, 'books/index.html', context)
 
 def details(request, title):
-    title = 
+    title = Book.objects.get
