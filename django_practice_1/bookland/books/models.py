@@ -1,3 +1,3 @@
 from django.db import models
 
-class Book():
+class Book(models.Model):
