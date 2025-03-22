@@ -7,4 +7,5 @@ def books(request):
     }
     return render(request, 'books/index.html', context)
 
-def details(request, title)
+def details(request, title):
+    title = 
