@@ -11,6 +11,6 @@ def books(request):
 def products(request, name):
     product = Product.objects.get(name=name)
     context = {
-        'product'
+        'product': product,
     }
     return render(request, 'books/products.html', context)
