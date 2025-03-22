@@ -4,3 +4,4 @@ class Book(models.Model):
     title = 
     author = 
     year = 
+    description = 
