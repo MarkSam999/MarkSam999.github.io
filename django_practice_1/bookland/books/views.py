@@ -2,6 +2,6 @@ from django.shortcuts import render
 
 def books(request):
     context = {
-        'books': 
+        'books': Book.objects.all()
     }
     return render(request, 'books/index.html', context)
