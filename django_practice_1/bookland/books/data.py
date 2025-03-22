@@ -1,6 +1,6 @@
 from books.models import Book
 
-book_1 = Book(title="A Tale of Two Cities", author="Charles Dickens", year=1859, description="")
+book_1 = Book(title="A Tale of Two Cities", author="Charles Dickens", year=1859, description="Historical fiction")
 book_1.save()
 book_2 = Book(title="The Little Prince", author="Antoine de Saint-Exupéry", year=1943, description="")
 book_2.save()
