@@ -7,7 +7,7 @@
 </head>
 <body>
     {% for book in books %}
-        <h1><a href="books/{{ book.title }}">{{ book.title }}</a></h1>
+        <h1><a href="{{ book.title }}">{{ book.title }}</a></h1>
     {% endfor %}
 </body>
 </html>
