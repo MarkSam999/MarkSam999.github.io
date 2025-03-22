@@ -8,7 +8,7 @@ def books(request):
     }
     return render(request, 'books/books.html', context)
 
-def products(request):
+def products(request, name):
     context = {
         "book_list": Book.objects.all(),
         "products": Product.objects.all()
