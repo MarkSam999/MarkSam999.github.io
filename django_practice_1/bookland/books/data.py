@@ -8,7 +8,7 @@ book_3 = Book(title="The Alchemist", author="Paulo Coelho", year=, description="
 book_3.save()
 book_4 = Book(title="Harry Potter and the Philosopher's Stone", author="J. K. Rowling", year=, description="")
 book_4.save()
-book_5 = Book(title="And Then There Were None", author="", year=, description="")
+book_5 = Book(title="And Then There Were None", author="Agatha Christie", year=, description="")
 book_5.save()
 
 
