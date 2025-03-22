@@ -8,8 +8,8 @@ def books(request):
     return render(request, 'books/index.html', context)
 
 def details(request, title):
-    title = Book.objects.get(title=title)
+    book = Book.objects.get(title=title)
     context = {
-        'title': title
+        'book': book
     }
     return render(request, 'books/book_detail.html', context)
