@@ -7,3 +7,4 @@ def books(request):
         "products": Product.objects.all()
     }
     return render(request, 'books/products.html', context)
+
