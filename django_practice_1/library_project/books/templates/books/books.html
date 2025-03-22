@@ -9,7 +9,7 @@
     <h1>List of products</h1>
     {% for product in products %}
         <ul>
-            <li><a href="products/{{ product.name }}"></a>{{ product.name }}</li>
+            <li><a href="products/{{ product.name }}">{{ product.name }}</a></li>
             <li>Cost: {{ product.price }}</li>
             {% if product.available == True %}
                 <li style="color:green;">Available now</li>
