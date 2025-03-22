@@ -6,3 +6,5 @@ def books(request):
         'books': Book.objects.all()
     }
     return render(request, 'books/index.html', context)
+
+def details(request, title)
