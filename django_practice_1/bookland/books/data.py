@@ -6,7 +6,7 @@ book_2 = Book(title="The Little Prince", author="Antoine de Saint-Exupéry", yea
 book_2.save()
 book_3 = Book(title="The Alchemist", author="Paulo Coelho", year=1988, description="Fantasy")
 book_3.save()
-book_4 = Book(title="Harry Potter and the Philosopher's Stone", author="J. K. Rowling", year=1997, description="")
+book_4 = Book(title="Harry Potter and the Philosopher's Stone", author="J. K. Rowling", year=1997, description="Fantasy, children's fiction")
 book_4.save()
 book_5 = Book(title="And Then There Were None", author="Agatha Christie", year=1939, description="")
 book_5.save()
