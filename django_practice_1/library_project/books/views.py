@@ -8,3 +8,4 @@ def books(request):
     }
     return render(request, 'books/products.html', context)
 
+def products(request)
