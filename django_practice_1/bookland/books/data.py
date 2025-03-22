@@ -10,5 +10,3 @@ book_4 = Book(title="Harry Potter and the Philosopher's Stone", author="J. K. Ro
 book_4.save()
 book_5 = Book(title="And Then There Were None", author="Agatha Christie", year=1939, description="Mystery")
 book_5.save()
-
-
