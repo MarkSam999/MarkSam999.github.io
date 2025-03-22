@@ -9,4 +9,6 @@ def books(request):
 
 def details(request, title):
     title = Book.objects.get(title=title)
-    context
+    context = {
+        ''
+    }
