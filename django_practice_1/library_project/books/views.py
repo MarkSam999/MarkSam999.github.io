@@ -6,7 +6,7 @@ def books(request):
         "book_list": Book.objects.all(),
         "products": Product.objects.all()
     }
-    return render(request, 'books/products.html', context)
+    return render(request, 'books/books.html', context)
 
 def products(request):
     context = {
