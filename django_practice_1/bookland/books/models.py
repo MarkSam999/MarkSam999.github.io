@@ -11,3 +11,4 @@ class Book(models.Model):
     author = models.ManyToManyField(to=Author)
     year = models.IntegerField()
     description = models.TextField(max_length=5000)
+
