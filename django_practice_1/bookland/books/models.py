@@ -7,4 +7,4 @@ class Book(models.Model):
     description = models.TextField(max_length=5000)
 
 class Author(models.Model):
-    name = models.CharField(max_length=)
+    name = models.CharField(max_length=50)
