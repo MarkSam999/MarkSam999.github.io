@@ -1,5 +1,5 @@
 {% extends "books/base.html" %}
-{% load satic %}
+{% load static %}
 
 {% block title %} All books {% endblock %}
 
@@ -7,4 +7,4 @@
     {% for book in books %}
         <h1><a href="{{ book.id }}">{{ book.title }}</a></h1>
     {% endfor %}
-{% e
+{% endblock %
