@@ -2,7 +2,7 @@ from books.models import Book
 from books.models import Author
 from django.utils import timezone
 
-a1 = Author(name="Pushkin", biography="a", birth_date = timezone())
+a1 = Author(name="Pushkin", biography="a", birth_date = timezone(1))
 
 book_1 = Book(title="A Tale of Two Cities", author="Charles Dickens", year=1859, description="Historical fiction")
 book_1.save()
