@@ -8,4 +8,4 @@ class AuthorList(admin.ModelAdmin):
     authors = 
 
 admin.site.register(Book, BookList)
-admin.site.register(Author, AuthorL
+admin.site.register(Author, AuthorList)
