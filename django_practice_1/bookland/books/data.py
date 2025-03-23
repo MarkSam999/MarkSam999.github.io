@@ -1,6 +1,6 @@
 from books.models import Book
 from books.models import Author
-from 
+from datetime import date
 
 a1 = Author(name="Pushkin", biography="a", birth_date = date(1799, 4, 15))
 a1.save()
