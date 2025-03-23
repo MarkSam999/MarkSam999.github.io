@@ -3,6 +3,7 @@ from django.db import models
 class Author(models.Model):
     name = models.CharField(max_length=50)
     biography = models.TextField(max_length=1000)
+    
 
 class Book(models.Model):
     title = models.CharField(max_length=40)
