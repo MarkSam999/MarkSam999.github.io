@@ -6,4 +6,5 @@ class Book(models.Model):
     year = models.IntegerField()
     description = models.TextField(max_length=5000)
 
-cl
+class Author(models.Model):
+    
