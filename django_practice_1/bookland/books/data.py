@@ -1,7 +1,7 @@
 from books.models import Book
 from books.models import Author
 
-a1 = Author(name="Pushkin", biography="a", birth_date = "1799-6-4")
+a1 = Author(name="Pushkin", biography="a", birth_date = timezone())
 
 book_1 = Book(title="A Tale of Two Cities", author="Charles Dickens", year=1859, description="Historical fiction")
 book_1.save()
