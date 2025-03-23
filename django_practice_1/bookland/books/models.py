@@ -4,7 +4,7 @@ from django.utils import timezone
 class Author(models.Model):
     name = models.CharField(max_length=50)
     biography = models.TextField(max_length=1000)
-
+    birth_date
 
 class Book(models.Model):
     title = models.CharField(max_length=40)
