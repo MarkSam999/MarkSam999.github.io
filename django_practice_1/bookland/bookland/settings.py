@@ -27,8 +27,6 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['bookland.com']
 
-ALLOWED_HOSTS = []
-
 
 # Application definition
 
