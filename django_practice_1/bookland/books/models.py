@@ -14,3 +14,6 @@ class Book(models.Model):
     year = models.IntegerField()
     description = models.TextField(max_length=5000)
 
+    def __str__(self):
+        return self.title
+
