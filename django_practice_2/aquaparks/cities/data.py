@@ -63,7 +63,8 @@ aquapark_19.save()
 aquapark_20 = AquaPark(name="пляж_2", address="address", description="a")
 aquapark_20.save()
 
-city_1 = City.objects.all()[1]
+city_1 = City.objects.all()[0]
+city_ = City.objects.all()[1]
 city_ = City.objects.all()[]
 city_ = City.objects.all()[]
 city_ = City.objects.all()[]
@@ -71,5 +72,4 @@ city_ = City.objects.all()[]
 city_ = City.objects.all()[]
 city_ = City.objects.all()[]
 city_ = City.objects.all()[]
-city_ = City.objects.all()[]
-city_ = City.objects.all()[]
+city_ = City.objects.all()[
