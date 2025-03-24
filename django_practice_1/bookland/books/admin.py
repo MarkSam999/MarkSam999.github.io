@@ -2,7 +2,7 @@ from django.contrib import admin
 from .models import Book, Author
 
 class BookList(admin.ModelAdmin):
-    list_display = ("title", "books.author", "year")
+    list_display = ("title", "author.name", "year")
 
 class AuthorList(admin.ModelAdmin):
     authors = ("name", "birth_date")
