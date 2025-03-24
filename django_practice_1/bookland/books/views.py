@@ -14,4 +14,4 @@ def details(request, id):
         'book': book
         'author': author
     }
-    return render(request, 'books/book_detail.html', co
+    return render(request, 'books/book_detail.html', context)
