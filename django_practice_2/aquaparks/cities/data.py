@@ -95,16 +95,16 @@ aquapark_18 = AquaPark.objects.all()[17]
 aquapark_19 = AquaPark.objects.all()[18]
 aquapark_20 = AquaPark.objects.all()[19]
 
-aquapark_1 = AquaPark.objects.all()[0]
-aquapark_2 = AquaPark.objects.all()[1]
-aquapark_3 = AquaPark.objects.all()[2]
-aquapark_4 = AquaPark.objects.all()[3]
-aquapark_5 = AquaPark.objects.all()[4]
-aquapark_6 = AquaPark.objects.all()[5]
-aquapark_7 = AquaPark.objects.all()[6]
-aquapark_8 = AquaPark.objects.all()[7]
-aquapark_9 = AquaPark.objects.all()[8]
-aquapark_10 = AquaPark.objects.all()[9]
+aquapark_1.city
+aquapark_2.city
+aquapark_3.city
+aquapark_4.city
+aquapark_5.city
+aquapark_6.city
+aquapark_7.city
+aquapark_8.city
+aquapark_9.city
+aquapark_10.city
 aquapark_11.city.add()
 aquapark_12.city.add()
 aquapark_13.city.add()
