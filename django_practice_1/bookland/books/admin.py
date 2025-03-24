@@ -6,7 +6,8 @@ class AuthorList(admin.ModelAdmin):
 class BookList(admin.ModelAdmin):
     list_display = ("title", "author", "year")
 
-    def author(self, obj)
+    def author(self, obj):
+        
 
 admin.site.register(Book, BookList)
 admin.site.register(Author, AuthorList)
