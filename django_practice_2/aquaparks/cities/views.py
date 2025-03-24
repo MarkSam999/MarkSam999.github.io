@@ -4,7 +4,7 @@ from .models import AquaPark, City
 def aquaparks(request, id):
     city = City.objects.get(id=id)
     context = {
-        'cities': ,
+        'cities': city,
         'aquaparks': AquaPark.objects.all()
     }
     return render(request, "cities/index.html", context)
