@@ -12,5 +12,6 @@ def details(request, id):
     book = Book.objects.get(id=id)
     context = {
         'book': book
+        'author': author
     }
-    return render(request, 'books/book_detail.html', context)
+    return render(request, 'books/book_detail.html', co
