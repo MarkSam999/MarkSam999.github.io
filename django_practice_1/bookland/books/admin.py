@@ -8,7 +8,7 @@ class BookList(admin.ModelAdmin):
     list_display = ("title", "get_authors", "year")
 
     def get_authors(self, obj):
-        return ", ".join([author.name for author in obj.author.all()])  # Получаем всех авторов книги
+        return ", ".join([author.name for author in obj.author.all()])
 
     get_authors.short_description = "Author"
 
