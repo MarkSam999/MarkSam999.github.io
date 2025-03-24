@@ -11,7 +11,7 @@
             {% for aquapark in aquaparks %}
                 <li>
                     <h1>{{ aquapark.name }}</h1>
-                    <h2>{{ aquapark.address }}, {{ aquapark.city.name.values }}</h2>
+                    <h2>{{ aquapark.address }}, {{ aquapark.city.name.values() }}</h2>
                     <p>{{ aquapark.description }}</p>
                 </li>
             {% endfor %}
