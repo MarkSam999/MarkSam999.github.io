@@ -6,7 +6,7 @@ class AquaParkList(admin.ModelAdmin):
     def cities(self, obj):
         return ", ".join([city.name for city in obj.city.all()])
     
-    cities.short_description = ""
+    cities.short_description = "City"
 
 admin.site.register(AquaPark, AquaParkList)
 admin.site.register(City, CityList)
