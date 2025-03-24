@@ -2,7 +2,7 @@ from django.shortcuts import render
 from .models import AquaPark, City
 
 def aquaparks(request):
-    
+    city = City.objects.get(id=id)
     context = {
         'cities': City.objects.all(),
         'aquaparks': AquaPark.objects.all()
@@ -10,7 +10,7 @@ def aquaparks(request):
     return render(request, "cities/index.html", context)
 
 def cities(request, id):
-    city = City.objects.get(id=id)
+    
     aquapark = AquaPark.objects.get(id=id)    
     context = {
         'city': city,
