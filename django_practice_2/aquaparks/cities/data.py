@@ -76,7 +76,7 @@ city_10 = City.objects.all()[9]
 
 aquapark_1 = AquaPark.objects.all()[0]
 aquapark_2 = AquaPark.objects.all()[1]
-aquapark_ = AquaPark.objects.all()[2]
+aquapark_3 = AquaPark.objects.all()[2]
 aquapark_ = AquaPark.objects.all()[3]
 aquapark_ = AquaPark.objects.all()[4]
 aquapark_ = AquaPark.objects.all()[5]
