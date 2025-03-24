@@ -6,6 +6,7 @@ def aquaparks(request, name):
     context = {
         'cities': City.objects.all(),
         'aquaparks': AquaPark.objects.all()
+        'city': city
     }
     return render(request, "cities/index.html", context)
 
