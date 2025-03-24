@@ -22,7 +22,7 @@ city_9.save()
 city_10 = City(name="Нижний Новгород", description="a")
 city_10.save()
 
-aquapark_1 = AquaPark(name="Ква-ква парк", address="", description="a")
+aquapark_1 = AquaPark(name="Ква-ква парк", address="address", description="a")
 aquapark_1.save()
 aquapark_2 = AquaPark(name="карибия", address="", description="a")
 aquapark_2.save()
