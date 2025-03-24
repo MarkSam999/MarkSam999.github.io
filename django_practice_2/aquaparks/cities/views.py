@@ -2,6 +2,7 @@ from django.shortcuts import render
 from .models import AquaPark, City
 
 def aquaparks(request):
+    
     context = {
         'city': city,
         'aquapark': aquapark,
