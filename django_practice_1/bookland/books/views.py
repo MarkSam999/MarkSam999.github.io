@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import Book
+from .models import Book, Author
 
 def books(request):
     context = {
