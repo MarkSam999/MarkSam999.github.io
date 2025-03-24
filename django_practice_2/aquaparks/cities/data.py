@@ -1,7 +1,7 @@
 from cities.models import AquaPark
 from cities.models import City
 
-city_1 = City(name="Мос", description="a")
+city_1 = City(name="Москва", description="a")
 city_1.save()
 city_2 = City(name="", description="a")
 city_2.save()
