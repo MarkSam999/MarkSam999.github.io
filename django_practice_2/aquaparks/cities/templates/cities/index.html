@@ -11,9 +11,7 @@
             {% for aquapark in aquaparks %}
                 <li>
                     <h1>{{ aquapark.name }}</h1>
-                    <h2>{{ aquapark.address }},
-                        {% for city in aquapark.cities.all %}{{ city.name }}{% if not forloop.last %}, {% endif %}{% endfor %}
-                    </h2>
+                    <h2>{{ aquapark.address }},</h2>
                     <p>{{ aquapark.description }}</p>
                 </li>
             {% endfor %}
