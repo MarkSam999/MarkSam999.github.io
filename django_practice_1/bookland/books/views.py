@@ -10,6 +10,7 @@ def books(request):
 
 def details(request, id):
     book = Book.objects.get(id=id)
+    book = Book.objects.get(id=id)
     context = {
         'book': book,
         'author': author
