@@ -8,3 +8,5 @@ def aquaparks(request, name):
         'aquaparks': AquaPark.objects.all()
     }
     return render(request, "cities/index.html", context)
+
+def cities(request, id)
