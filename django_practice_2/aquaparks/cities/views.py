@@ -8,7 +8,7 @@ def aquaparks(request):
     }
     return render(request, "cities/index.html")
 
-def aquaparks(request):
+def cities(request):
     context = {
         'cities': City.objects.all(),
         'aquaparks': AquaPark.objects.all()
