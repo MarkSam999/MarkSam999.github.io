@@ -63,3 +63,12 @@ aquapark_19.save()
 aquapark_20 = AquaPark(name="пляж_2", address="address", description="a")
 aquapark_20.save()
 
+
+
+
+
+
+
+
+
+
