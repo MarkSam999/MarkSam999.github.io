@@ -11,10 +11,3 @@ def aquaparks(request):
         'aquaparks': AquaPark.objects.all()
     }
     return render(request, "cities/index.html")
-
-def cities(request):
-      
-    context = {
-        
-    }
-    return render(request, "cities/cities.html", context)
