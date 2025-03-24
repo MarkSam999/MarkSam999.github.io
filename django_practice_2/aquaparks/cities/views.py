@@ -9,6 +9,8 @@ def aquaparks(request):
     return render(request, "cities/index.html")
 
 def cities(request):
+
+    
     context = {
         'city': city,
         'aquapark': aquapark
