@@ -1,16 +1,16 @@
 from cities.models import AquaPark
 from cities.models import Cities
 
-city_ = City(name="")
-city_ = City(name="")
-city_ = City(name="")
-city_ = City(name="")
-city_ = City(name="")
-city_ = City(name="")
-city_ = City(name="")
-city_ = City(name="")
-city_ = City(name="")
-city_ = City(name="")
+city_ = City(name="", description="")
+city_ = City(name="", description="")
+city_ = City(name="", description="")
+city_ = City(name="", description="")
+city_ = City(name="", description="")
+city_ = City(name="", description="")
+city_ = City(name="", description="")
+city_ = City(name="", description="")
+city_ = City(name="", description="")
+city_ = City(name="", description="")
 
 aquapark_ = AquaPark(name="", address="", description="a")
 aquapark_.save()
