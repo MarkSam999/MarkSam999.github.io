@@ -1,6 +1,7 @@
 from django.contrib import admin
 
-class CityList(admin.ModelAdmin)
+class CityList(admin.ModelAdmin):
+    
 
 class AquaParkList(admin.ModelAdmin):
     list_display = ("name", "address", "description", "cities")
