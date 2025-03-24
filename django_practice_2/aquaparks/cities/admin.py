@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import AquaPark, 
+from .models import AquaPark, City
 
 class CityList(admin.ModelAdmin):
     list_display = ("name", "description")
