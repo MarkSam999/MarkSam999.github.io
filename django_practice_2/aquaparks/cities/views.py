@@ -5,3 +5,4 @@ def view(request):
         'cities': City.objects.all(),
         'aquaparks': AquaPark.objects.all()
     }
+    r
