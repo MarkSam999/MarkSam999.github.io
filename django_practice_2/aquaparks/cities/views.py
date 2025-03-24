@@ -11,7 +11,7 @@ def aquaparks(request):
     }
     return render(request, "cities/index.html")
 
-def cities(request):
+def cities(request,):
     city = City.objects.get(id=id)
     aquapark = AquaPark.objects.get(id=id)    
     context = {
