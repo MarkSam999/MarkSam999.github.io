@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from .models import AquaPark, City
 
-def aquaparks(request, city):
+def aquaparks(request):
     context = {
         'city': AquaPark.objects.get(city=city),
         'cities': City.objects.all(),
