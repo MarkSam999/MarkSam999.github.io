@@ -2,25 +2,25 @@ from cities.models import AquaPark
 from cities.models import City
 
 city_ = City(name="", description="")
-city_
+city_save()
 city_ = City(name="", description="")
-city_
+city_save()
 city_ = City(name="", description="")
-city_
+city_save()
 city_ = City(name="", description="")
-city_
+city_save()
 city_ = City(name="", description="")
-city_
+city_save()
 city_ = City(name="", description="")
-city_
+city_save()
 city_ = City(name="", description="")
-city_
+city_save()
 city_ = City(name="", description="")
-city_
+city_save()
 city_ = City(name="", description="")
-city_
+city_save()
 city_ = City(name="", description="")
-city_
+city_save()
 
 aquapark_ = AquaPark(name="", address="", description="a")
 aquapark_.save()
