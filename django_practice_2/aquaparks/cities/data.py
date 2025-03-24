@@ -72,4 +72,4 @@ city_ = City.objects.all()[]
 city_ = City.objects.all()[]
 city_ = City.objects.all()[]
 city_ = City.objects.all()[]
-city_ = City.objects.all()[
+city_ = City.objects.all()[]
