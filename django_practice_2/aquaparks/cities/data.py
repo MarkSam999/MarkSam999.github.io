@@ -1,5 +1,5 @@
 from cities.models import AquaPark
-from cities.models import Cities
+from cities.models import City
 
 city_ = City(name="", description="")
 city_ = City(name="", description="")
