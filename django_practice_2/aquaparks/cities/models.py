@@ -7,3 +7,7 @@ class City(models.Model):
         return self.name
 
 class AquaPark(models.Model):
+
+
+    def __str__(self):
+        return self.name
