@@ -12,3 +12,4 @@ class BookList(admin.ModelAdmin):
 
 admin.site.register(Book, BookList)
 admin.site.register(Author, AuthorList)
+
