@@ -94,3 +94,4 @@ aquapark_17 = AquaPark.objects.all()[16]
 aquapark_18 = AquaPark.objects.all()[17]
 aquapark_19 = AquaPark.objects.all()[18]
 aquapark_20 = AquaPark.objects.all()[19]
+
