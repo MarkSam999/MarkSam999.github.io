@@ -1,6 +1,6 @@
-from .views import aquaparks
+from . import views
 from django.urls import path, include
 
 urlpatterns = [
-    path('aquaparks/', aquaparks, name="aquaparks"),
+    path('aquaparks/', views.aquaparks, name="aquaparks"),
 ]
