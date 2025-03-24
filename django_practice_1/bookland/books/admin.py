@@ -8,6 +8,7 @@ class BookList(admin.ModelAdmin):
 
     def author(self, obj):
         return ", ".join(author.name for author in obj.authors.all())
+    
 
 admin.site.register(Book, BookList)
 admin.site.register(Author, AuthorList)
