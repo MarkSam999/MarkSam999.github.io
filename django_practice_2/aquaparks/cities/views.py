@@ -1,12 +1,19 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render
 from .models import AquaPark, City
 
 def aquaparks(request, id):
-    city = get_object_or_404(City, id=id)
-    aquaparks = AquaPark.objects.filter(city=city)
+    city = City.objects.get(id=id)
     context = {
-        'city': city,
+        
         'cities': City.objects.all(),
-        'aquaparks': aquaparks
+        'aquaparks': AquaPark.objects.all()
     }
     return render(request, "cities/index.html", context)
+
+def cities(request, id):
+    aquapark = AquaPark.objects.get(id=id)    
+    context = {
+        'city': city,
+        'aquapark': aquapark
+    }
+    return render(request, "cities/cities.html", context)
