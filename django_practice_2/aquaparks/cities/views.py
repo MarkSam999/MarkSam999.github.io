@@ -15,4 +15,4 @@ def cities(request, id):
         'city': city,
         'aquapark': aquapark
     }
-    return render(request, "cities/cities.html", context)
+    return render(request, "cities/index.html", context)
