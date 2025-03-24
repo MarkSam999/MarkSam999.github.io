@@ -1,1 +1,3 @@
-from 
+from . import views
+
+urlpatterns
