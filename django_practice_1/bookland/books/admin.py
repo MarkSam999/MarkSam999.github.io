@@ -6,7 +6,7 @@ class AuthorList(admin.ModelAdmin):
     
 class BookList(admin.ModelAdmin):
 
-    list_display = ("title", str(author), "year")
+    list_display = ("title", "author", "year")
 
     
 
