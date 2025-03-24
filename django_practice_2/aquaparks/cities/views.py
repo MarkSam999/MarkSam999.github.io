@@ -5,6 +5,7 @@ def aquaparks(request, id):
     city = City.objects.get(id=id)
     aquapark = AquaPark.objects.get(id=id) 
     context = {
+        
         'cities': City.objects.all(),
         'aquaparks': AquaPark.objects.all()
     }
