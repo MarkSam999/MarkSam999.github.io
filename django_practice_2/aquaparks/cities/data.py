@@ -38,7 +38,7 @@ aquapark_7 = AquaPark(name="амфибиус", address="", description="a")
 aquapark_7.save()
 aquapark_8 = AquaPark(name="поляна", address="", description="a")
 aquapark_8.save()
-aquapark_9 = AquaPark(name="", address="", description="a")
+aquapark_9 = AquaPark(name="лето", address="", description="a")
 aquapark_9.save()
 aquapark_10 = AquaPark(name="", address="", description="a")
 aquapark_10.save()c
