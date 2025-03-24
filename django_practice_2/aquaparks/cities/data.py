@@ -97,8 +97,8 @@ aquapark_20 = AquaPark.objects.all()[19]
 
 aquapark_1.city.add(city_1)
 aquapark_2.city.add(city_1)
-aquapark_3.city.add(city_)
-aquapark_4.city.add(city_)
+aquapark_3.city.add(city_2)
+aquapark_4.city.add(city_2)
 aquapark_5.city.add(city_)
 aquapark_6.city.add(city_)
 aquapark_7.city.add(city_)
