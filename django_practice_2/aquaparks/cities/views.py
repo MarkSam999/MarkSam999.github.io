@@ -11,6 +11,6 @@ def aquaparks(request):
 def cities(request):
     context = {
         'city': city,
-        '': 
+        'aquapark': aquapark
     }
     return render(request, "cities/index.html")
