@@ -14,6 +14,6 @@ def cities(request, id):
        
     context = {
         'city': city,
-        'aquapark': aquapark
+        'aquapark': aquapark,
     }
     return render(request, "cities/cities.html", context)
