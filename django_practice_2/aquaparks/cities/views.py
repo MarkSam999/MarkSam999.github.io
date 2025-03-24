@@ -2,9 +2,9 @@ from django.shortcuts import render
 from .models import AquaPark, City
 
 def aquaparks(request, id):
-    city = 
+    city = City.objects.get(id=id)
     context = {
-        'city': City.objects.get(id=id),
+        'city': city,
         'cities': City.objects.all(),
         'aquaparks': AquaPark.objects.all()
     }
