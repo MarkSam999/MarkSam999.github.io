@@ -5,6 +5,9 @@ class Author(models.Model):
     biography = models.TextField(max_length=1000)
     birth_date = models.DateField()
 
+    def __str__(self):
+        return self.name
+
 class Book(models.Model):
     title = models.CharField(max_length=40)
     author = models.ManyToManyField(Author, related_name="books")
