@@ -62,3 +62,5 @@ aquapark_19 = AquaPark(name="лето_2", address="address", description="a")
 aquapark_19.save()
 aquapark_20 = AquaPark(name="пляж_2", address="address", description="a")
 aquapark_20.save()
+
+city1 = 
