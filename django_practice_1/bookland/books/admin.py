@@ -10,4 +10,4 @@ class BookList(admin.ModelAdmin):
         return ", "
 
 admin.site.register(Book, BookList)
-admin.site.register(Author, AuthorLis
+admin.site.register(Author, AuthorList)
