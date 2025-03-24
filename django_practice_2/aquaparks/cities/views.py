@@ -10,7 +10,7 @@ def aquaparks(request):
 
 def cities(request):
     city = objects.get(id=id)
-    = objects.get(id=id)    
+    aquapark = objects.get(id=id)    
     context = {
         'city': city,
         'aquapark': aquapark
