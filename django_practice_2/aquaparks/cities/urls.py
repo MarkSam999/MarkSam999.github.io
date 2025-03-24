@@ -1,4 +1,4 @@
-from .views import фйгфзфклы
+from .views import aquaparks
 from django.urls import path, include
 
 urlpatterns = [
