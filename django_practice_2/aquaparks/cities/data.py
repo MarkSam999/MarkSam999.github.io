@@ -3,7 +3,7 @@ from cities.models import City
 
 city_1 = City(name="Москва", description="a")
 city_1.save()
-city_2 = City(name="", description="a")
+city_2 = City(name="Санкт-Петербург", description="a")
 city_2.save()
 city_3 = City(name="", description="a")
 city_3.save()
