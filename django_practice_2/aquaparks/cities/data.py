@@ -74,3 +74,22 @@ city_8 = City.objects.all()[7]
 city_9 = City.objects.all()[8]
 city_10 = City.objects.all()[9]
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
