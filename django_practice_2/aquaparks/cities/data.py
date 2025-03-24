@@ -19,7 +19,7 @@ city_8 = City(name="Краснодар", description="a")
 city_8.save()
 city_9 = City(name="Ростов-на-Дону", description="a")
 city_9.save()
-city_10 = City(name="", description="a")
+city_10 = City(name="Нижний Новгород", description="a")
 city_10.save()
 
 aquapark_1 = AquaPark(name="", address="", description="a")
