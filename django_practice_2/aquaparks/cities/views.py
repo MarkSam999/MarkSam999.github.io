@@ -1,10 +1,10 @@
 from django.shortcuts import render
 from .models import AquaPark, City
 
-def aquaparks(request):
-    aquaparks = AquaPark.objects.select_related('city').all()  # Загружаем все аквапарки вместе с их городами
-
+def aquaparks(request, name):
     context = {
-        'aquaparks': aquaparks
+        'city': City.objects.get(name=name),
+        'cities': City.objects.all(),
+        'aquaparks': AquaPark.objects.all()
     }
     return render(request, "cities/index.html", context)
