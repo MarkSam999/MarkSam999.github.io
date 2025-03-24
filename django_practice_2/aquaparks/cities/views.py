@@ -11,11 +11,3 @@ def aquaparks(request, id):
         'aquaparks': AquaPark.objects.all()
     }
     return render(request, "cities/index.html", context)
-
-def cities(request, id):
-       
-    context = {
-        'city': city,
-        'aquapark': aquapark,
-    }
-    return render(request, "cities/cities.html", context)
