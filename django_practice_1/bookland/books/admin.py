@@ -7,7 +7,7 @@ class BookList(admin.ModelAdmin):
     list_display = ("title", "author", "year")
 
     def author(self, obj):
-        return ", "
+        return ", ".join(author.name for author in obj.authors.all)
 
 admin.site.register(Book, BookList)
 admin.site.register(Author, AuthorList)
