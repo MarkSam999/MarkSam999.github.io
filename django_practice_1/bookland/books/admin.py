@@ -5,10 +5,12 @@ class AuthorList(admin.ModelAdmin):
     list_display = ("name", "birth_date")
     
 class BookList(admin.ModelAdmin):
-    list_display = ("title", "author", "year")
+    list_display = ("title", "get_authors", "year")
 
-    def author(self, obj):
-        return ", ".join([author.name for author in obj.author.all()])
+    def get_authors(self, obj):
+        return ", ".join([author.name for author in obj.author.all()])  # Получаем всех авторов книги
+
+    get_authors.short_description = "Authors"  # Заголовок колонки в админке
 
 admin.site.register(Book, BookList)
 admin.site.register(Author, AuthorList)
