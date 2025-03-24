@@ -19,6 +19,6 @@ from django.urls import path, include
 from aquaparks.urls import
 
 urlpatterns = [
-    path('', include('aquaparks.urls')),
+    path('', include('aquaparks.urls'), name=),
     path('admin/', admin.site.urls),
 ]
