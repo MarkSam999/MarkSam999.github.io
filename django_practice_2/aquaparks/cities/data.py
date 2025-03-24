@@ -44,7 +44,7 @@ aquapark_10 = AquaPark(name="весёлая лагуна", address="", descripti
 aquapark_10.save()
 aquapark_11 = AquaPark(name="аквамир", address="", description="a")
 aquapark_11.save()
-aquapark_12 = AquaPark(name="", address="", description="a")
+aquapark_12 = AquaPark(name="тропикана", address="", description="a")
 aquapark_12.save()
 aquapark_13 = AquaPark(name="", address="", description="a")
 aquapark_13.save()
