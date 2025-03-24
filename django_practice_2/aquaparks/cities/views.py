@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-def view(request):
+def aquaparks(request):
     context = {
         'cities': City.objects.all(),
         'aquaparks': AquaPark.objects.all()
