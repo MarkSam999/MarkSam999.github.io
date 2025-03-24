@@ -7,7 +7,7 @@ class Author(models.Model):
 
 class Book(models.Model):
     title = models.CharField(max_length=40)
-    author = models.ManyToManyField(Author)
+    author = models.ManyToManyField(Author, related_name="")
     year = models.IntegerField()
     description = models.TextField(max_length=5000)
 
