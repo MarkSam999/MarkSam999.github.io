@@ -26,7 +26,7 @@ aquapark_1 = AquaPark(name="Ква-ква парк", address="", description="a"
 aquapark_1.save()
 aquapark_2 = AquaPark(name="карибия", address="", description="a")
 aquapark_2.save()
-aquapark_3 = AquaPark(name="", address="", description="a")
+aquapark_3 = AquaPark(name="южный", address="", description="a")
 aquapark_3.save()
 aquapark_4 = AquaPark(name="", address="", description="a")
 aquapark_4.save()
