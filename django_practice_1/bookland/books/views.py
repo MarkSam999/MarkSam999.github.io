@@ -4,7 +4,7 @@ from .models import Book, Author
 def books(request):
     context = {
         'books': Book.objects.all()
-        'authors': 
+        'authors': Author.objects.all()
     }
     return render(request, 'books/index.html', context)
 
