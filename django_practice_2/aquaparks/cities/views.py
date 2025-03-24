@@ -5,4 +5,4 @@ def aquaparks(request):
         'cities': City.objects.all(),
         'aquaparks': AquaPark.objects.all()
     }
-    return render(request, "")
+    return render(request, "cities/")
