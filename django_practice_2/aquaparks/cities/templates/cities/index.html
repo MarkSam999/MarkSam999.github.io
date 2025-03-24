@@ -6,15 +6,20 @@
     <title>Aquaparks</title>
 </head>
 <body>
-    {% for city in cities %}
-    <h2>Аквапарки в городе {{ city.name }}</h2>
-    <ul>
-        {% for aquapark in city.aquapark_set.all %}
-            <li>{{ aquapark.name }} (Город: {{ city.name }})</li>
-        {% empty %}
-            <li>В этом городе нет аквапарков.</li>
-        {% endfor %}
-    </ul>
-{% endfor %}
+    <div>
+        <ul>
+            {% for aquapark in aquaparks %}
+                <li>
+                    <h1>{{ aquapark.name }}</h1>
+                    <h2>{{ aquapark.address }}, {% for city in cities %}{{ city.name }}{% endfor %}</h2>
+                    <p>{{ aquapark.description }}</p>
+                </li>
+            {% endfor %}
+        </ul>
+        <h1></h1>
+        <h2></h2>
+        <h2></h2>
+        <p></p>
+    </div>
 </body>
 </html>
