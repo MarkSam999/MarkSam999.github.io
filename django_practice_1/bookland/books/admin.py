@@ -5,8 +5,6 @@ class AuthorList(admin.ModelAdmin):
     list_display = ("name", "birth_date")
     
 class BookList(admin.ModelAdmin):
-    def author():
-        str(Author.objects.all().values())
 
     list_display = ("title", str(author), "year")
 
