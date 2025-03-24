@@ -3,7 +3,7 @@ from .models import AquaPark, City
 
 def aquaparks(request):
     context = {
-        'city': AquaPark.objects.get(city=city)
+        'city': AquaPark.objects.get(city.name=city)
         'cities': City.objects.all(),
         'aquaparks': AquaPark.objects.all()
     }
