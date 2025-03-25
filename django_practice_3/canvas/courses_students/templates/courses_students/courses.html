@@ -6,6 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-    
+    {% for student in students %}
+        <h1>{{ student.name }}</h1>
+        <p>{% for course in student.courses.all %}
+                {{ course.name }}
+            {% endfor %}
+        </p>
+    {% endfor %}
 </body>
 </html>
