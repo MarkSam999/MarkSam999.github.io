@@ -13,7 +13,7 @@ st5.save()
 
 c1 = Course(title="Math", description="")
 c1.save()
-c2 = Course(title="", description="")
+c2 = Course(title="History", description="")
 c2.save()
 c3 = Course(title="", description="")
 c3.save()
