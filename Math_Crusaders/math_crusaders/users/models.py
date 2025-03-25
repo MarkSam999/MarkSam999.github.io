@@ -1,12 +1,14 @@
 from django.db import models
 from django.contrib.auth.models import User
 from PIL import Image
+from main_app.models import Rank
 
 class Profile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     image = models.ImageField(default='profile_pics/anonymous.png', upload_to='profile_pics')
     coins = models.IntegerField(default=0)
     rating = models.IntegerField(default=100)
+    rank = models.ManyToManyField(Rank, related_name="users")
 
     def __str__(self):
         return f'{self.user.username}'
