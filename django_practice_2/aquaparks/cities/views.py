@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-def aquaparks(request)
+def aquaparks(request):
+    
