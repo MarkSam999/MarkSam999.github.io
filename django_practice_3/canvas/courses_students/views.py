@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from 
+from .models import Course, Student
 
 def courses(request):
     context = {
