@@ -1,1 +1,1 @@
-from courses_s
+from courses_students.
