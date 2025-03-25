@@ -5,3 +5,4 @@ city_2 = City.objects.get(name="Miami")
 city_3 = City.objects.get(name="Boston")
 city_4 = City.objects.get(name="Tampa")
 city_5 = City.objects.get(name="Los-Angeles")
+
