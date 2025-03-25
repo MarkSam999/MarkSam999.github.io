@@ -4,8 +4,8 @@ class City(models.Model):
     name = models.CharField(max_length=50)
 
     def __str__(self):
-        return f''
+        return f'{self.name}'
 
 class AquaPark(models.Model):
     name = models.CharField(max_length=50)
-    city = models.ForeignKey(City, on_delete=models.CASCADE)
+    city = models.ForeignKey(City, on_delete=models.C
