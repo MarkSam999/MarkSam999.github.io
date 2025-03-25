@@ -1,3 +1,3 @@
 from django.shortcuts import render
 
-def courses
+def courses(request)
