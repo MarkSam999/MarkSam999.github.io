@@ -17,4 +17,4 @@ c = Course(title="", description="")
 c = Course(title="", description="")
 c = Course(title="", description="")
 
-st1
+st1.
