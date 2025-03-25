@@ -1,6 +1,6 @@
 from courses_students.models import Student, Course
 
-st1 = Student(name="Ivan", email="")
+st1 = Student(name="Ivan", email="Ivan@email.com")
 st1.save()
 st2 = Student(name="Josh", email="")
 st2.save()
