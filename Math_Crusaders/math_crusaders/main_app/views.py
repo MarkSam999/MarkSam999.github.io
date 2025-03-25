@@ -73,7 +73,7 @@ class RatingListView(ListView):
     template_name = 'main_app/rating.html'
     context_object_name = 'profiles'
     ordering = ['-rating']
-    paginate_by = 1
+    paginate_by = 10
 
 def about(request):
     context = {
