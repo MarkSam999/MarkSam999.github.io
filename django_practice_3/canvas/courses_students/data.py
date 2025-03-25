@@ -22,4 +22,4 @@ c4.save()
 c5 = Course(title="", description="")
 c5.save()
 
-c1.
+c1.student
