@@ -12,8 +12,13 @@ st5 = Student(name="", email="")
 st5.save()
 
 c = Course(title="", description="")
+c.save()
 c = Course(title="", description="")
+c.save()
 c = Course(title="", description="")
+c.save()
 c = Course(title="", description="")
+c.save()
 c = Course(title="", description="")
+c.save()
 
