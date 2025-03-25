@@ -2,7 +2,7 @@ from courses_students.models import Student, Course
 
 st1 = Student(name="Ivan", email="Ivan@email.com")
 st1.save()
-st2 = Student(name="Josh", email="@email.com")
+st2 = Student(name="Josh", email="Josh@email.com")
 st2.save()
 st3 = Student(name="", email="@email.com")
 st3.save()
