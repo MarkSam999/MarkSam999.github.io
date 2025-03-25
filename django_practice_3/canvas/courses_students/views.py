@@ -10,6 +10,6 @@ def courses(request):
 def students(request, student_id):
     student = Student.objects.get
     context = {
-        'students': Student.objects.all()
+        'student': Student.objects.all()
     }
     return render(request, "courses_students/students.html", context)
