@@ -9,4 +9,4 @@ class Student(models.Model):
     
 class Course(models.Model):
     title = models.CharField(max_length=20)
-    description = models.TextField(max_length=5)
+    description = models.TextField(max_length=5000)
