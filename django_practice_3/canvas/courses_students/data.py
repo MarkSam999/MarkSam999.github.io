@@ -8,8 +8,8 @@ st3 = Student(name="", email="")
 st3.save()
 st4 = Student(name="", email="")
 st4.save()
-st = Student(name="", email="")
-st.save()
+st5 = Student(name="", email="")
+st5.save()
 
 
 
