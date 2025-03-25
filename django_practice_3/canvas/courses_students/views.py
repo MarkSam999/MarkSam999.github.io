@@ -11,4 +11,4 @@ def students(request):
     context = {
         'courses': Student.objects.all()
     }
-    return render(request, "courses_students/courses.html", context)
+    return render(request, "courses_students/students.html", context)
