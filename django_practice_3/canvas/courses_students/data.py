@@ -1,1 +1,1 @@
-from coursr
+from courses_s
