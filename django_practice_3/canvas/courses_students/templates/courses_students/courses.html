@@ -9,7 +9,7 @@
     {% for course in scourse %}
         <h1>{{ course.title }}</h1>
         <p>{% for student in course.students.all %}
-                {{ course.title }}
+                {{ student.name }}
             {% endfor %}
         </p>
     {% endfor %}
