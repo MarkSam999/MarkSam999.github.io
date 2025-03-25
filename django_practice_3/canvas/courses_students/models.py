@@ -7,4 +7,4 @@ class Student(models.Model):
     def __str__(self):
         return f'{self.name}'
     
-class Course(models)
+class Course(models.Model)
