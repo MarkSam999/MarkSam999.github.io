@@ -1,1 +1,1 @@
-from courses_students.
+from courses_students.models import 
