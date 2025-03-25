@@ -19,6 +19,6 @@ c3 = Course(title="", description="")
 c3.save()
 c4 = Course(title="", description="")
 c4.save()
-c = Course(title="", description="")
-c.save()
+c5 = Course(title="", description="")
+c5.save()
 
