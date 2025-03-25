@@ -1,1 +1,1 @@
-city_1 = City(name="")
+city_1 = City(name="New-York")
