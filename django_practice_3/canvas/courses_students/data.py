@@ -22,8 +22,6 @@ c4.save()
 c5 = Course(title="HOPE", description="")
 c5.save()
 
-c1
-
 c1.students.add(st1, st2, st3)
 c1.save()
 c2.students.add(st2, st4, st5)
