@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    {% for course in scourse %}
+    {% for course in courses %}
         <h1>{{ course.title }}</h1>
         <p>{% for student in course.students.all %}
                 {{ student.name }}
