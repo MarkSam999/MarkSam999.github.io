@@ -8,7 +8,7 @@ def courses(request):
     return render(request, "courses_students/courses.html", context)
 
 def students(request, student_id):
-    student = Student
+    student = Student.objects.get
     context = {
         'students': Student.objects.all()
     }
