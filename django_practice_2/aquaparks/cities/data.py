@@ -1,3 +1,3 @@
-from cities.models import City
+from cities.models import City, AquaPark
 
 city_1 = City(name="New-York")
