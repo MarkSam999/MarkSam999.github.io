@@ -8,7 +8,7 @@ st3 = Student(name="Donald", email="Donald@email.com")
 st3.save()
 st4 = Student(name="Pranav", email="Pranav@email.com")
 st4.save()
-st5 = Student(name="", email="@email.com")
+st5 = Student(name="Michael", email="Michael@email.com")
 st5.save()
 
 c1 = Course(title="", description="")
