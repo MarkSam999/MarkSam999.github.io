@@ -6,13 +6,13 @@ city_3 = City.objects.get(name="Boston")
 city_4 = City.objects.get(name="Tampa")
 city_5 = City.objects.get(name="Los-Angeles")
 
-aquapark_ = 
-aquapark_ = 
-aquapark_ = 
-aquapark_ = 
-aquapark_ = 
-aquapark_ = 
-aquapark_ = 
-aquapark_ = 
-aquapark_ = 
-aquapark_ = 
+aquapark_ = AquaPark.objects.get
+aquapark_ = AquaPark.objects.get
+aquapark_ = AquaPark.objects.get
+aquapark_ = AquaPark.objects.get
+aquapark_ = AquaPark.objects.get
+aquapark_ = AquaPark.objects.get
+aquapark_ = AquaPark.objects.get
+aquapark_ = AquaPark.objects.get
+aquapark_ = AquaPark.objects.get
+aquapark_ = AquaPark.objects.get
