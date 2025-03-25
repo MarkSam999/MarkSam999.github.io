@@ -7,7 +7,7 @@ city_4 = City.objects.get(name="Tampa")
 city_5 = City.objects.get(name="Los-Angeles")
 
 aquapark_1 = AquaPark.objects.get(id="1")
-aquapark_2 = AquaPark.objects.get(id="2")aquapark.
+aquapark_2 = AquaPark.objects.get(id="2")
 aquapark_3 = AquaPark.objects.get(id="3")
 aquapark_4 = AquaPark.objects.get(id="4")
 aquapark_5 = AquaPark.objects.get(id="5")
