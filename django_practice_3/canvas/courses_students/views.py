@@ -8,7 +8,6 @@ def courses(request):
     return render(request, "courses_students/courses.html", context)
 
 def students(request, id):
-    student = 
     context = {
         'student': studentStudent.objects.get(id=id)
     }
