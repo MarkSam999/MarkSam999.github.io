@@ -5,4 +5,4 @@ class Student(models.Model):
     email = models.CharField(max_length = 30)
 
     def __str__(self):
-        return f''
+        return f'{self.name}'
