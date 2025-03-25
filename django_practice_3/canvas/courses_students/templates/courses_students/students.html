@@ -8,7 +8,7 @@
 <body>
     {% for student in students %}
         <h1>{{ student.name }}</h1>
-        <p>{% for course in student.course %}
+        <p>{% for course in student.courses %}
                 {{ course.title }}
             {% endfor %}
         </p>
