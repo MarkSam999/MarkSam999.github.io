@@ -7,7 +7,7 @@ def courses(request):
     }
     return render(request, "courses_students/courses.html", context)
 
-def students(request, id):
+def students(request, student_id):
     courses
     context = {
         'students': Student.objects.all()
