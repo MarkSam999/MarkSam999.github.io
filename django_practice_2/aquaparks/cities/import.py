@@ -1,3 +1,5 @@
+from cities.models import City, AquaPark
+
 city_1 = City.objects.get(name="New-York")
 city_2 = City.objects.get(name="Miami")
 city_3 = City.objects.get(name="Boston")
