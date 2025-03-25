@@ -11,7 +11,7 @@ st4.save()
 st5 = Student(name="Michael", email="Michael@email.com")
 st5.save()
 
-c1 = Course(title="", description="")
+c1 = Course(title="Math", description="")
 c1.save()
 c2 = Course(title="", description="")
 c2.save()
