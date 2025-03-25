@@ -8,4 +8,4 @@ class City(models.Model):
 
 class AquaPark(models.Model):
     name = models.CharField(max_length=50)
-    city = models.ForeignKey(City, on_delete=models.C
+    city = models.ForeignKey(City, on_delete=models.CASCADE)
