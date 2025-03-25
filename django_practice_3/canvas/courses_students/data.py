@@ -11,8 +11,8 @@ st4.save()
 st5 = Student(name="", email="")
 st5.save()
 
-c = Course
-c = Course
-c = Course
-c = Course
-c = Course
+c = Course(name)
+c = Course(name)
+c = Course(name)
+c = Course(name)
+c = Course(name)
