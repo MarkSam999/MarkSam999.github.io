@@ -3,5 +3,5 @@ from .models import Course, Student
 
 def courses(request):
     context = {
-        'courses': Cou
+        'courses': Course.objects.all()
     }
