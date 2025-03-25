@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-def students(request)
+def students(request):
+    c
