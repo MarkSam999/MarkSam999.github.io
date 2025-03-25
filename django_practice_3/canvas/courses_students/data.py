@@ -2,13 +2,13 @@ from courses_students.models import Student, Course
 
 st1 = Student(name="Ivan", email="Ivan@email.com")
 st1.save()
-st2 = Student(name="Josh", email="")
+st2 = Student(name="Josh", email="@email.com")
 st2.save()
-st3 = Student(name="", email="")
+st3 = Student(name="", email="@email.com")
 st3.save()
-st4 = Student(name="", email="")
+st4 = Student(name="", email="@email.com")
 st4.save()
-st5 = Student(name="", email="")
+st5 = Student(name="", email="@email.com")
 st5.save()
 
 c1 = Course(title="", description="")
