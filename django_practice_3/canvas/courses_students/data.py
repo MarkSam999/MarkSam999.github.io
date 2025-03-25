@@ -19,7 +19,7 @@ c3 = Course(title="Chemistry", description="")
 c3.save()
 c4 = Course(title="Literature", description="")
 c4.save()
-c5 = Course(title="", description="")
+c5 = Course(title="HOPE", description="")
 c5.save()
 
 c1.students.add(st1, st2, st3)
