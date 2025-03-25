@@ -5,4 +5,4 @@ def courses(request):
     context = {
         'courses': Course.objects.all()
     }
-    return render(request, "cour")
+    return render(request, "courses_students")
