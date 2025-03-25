@@ -17,7 +17,7 @@ city_3 = City.objects.get(name="Boston")
 city_4 = City.objects.get(name="Tampa")
 city_5 = City.objects.get(name="Los-Angeles")
 
-aquapark_1 = AquaPark(name="aquapark", city=city_1)
+aquapark_1 = AquaPark(name="aquapark", city=city_3)
 aquapark_1.save()
 aquapark_2 = AquaPark(name="aquapark", city=city_1)
 aquapark_2.save()
