@@ -8,4 +8,4 @@ class Student(models.Model):
         return f'{self.name}'
     
 class Course(models.Model):
-    title = models.CharField(max_length=)
+    title = models.CharField(max_length=20)
