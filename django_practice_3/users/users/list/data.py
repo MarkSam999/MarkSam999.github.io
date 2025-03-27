@@ -1,4 +1,4 @@
-from 
+from list.models import User
 
 
 
