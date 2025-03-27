@@ -26,7 +26,7 @@ user_2.save()
 user_3.username = "John"
 user_3.email = ""
 user_3.save()
-user_4.username = ""
+user_4.username = "Kanul"
 user_4.email = ""
 user_4.save()
 user_5.username = ""
