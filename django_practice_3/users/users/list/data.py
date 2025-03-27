@@ -1,7 +1,7 @@
 from list.models import User
 
-user
-user
-user
-user
-user
+user_ = User(name="")
+user_ = User(name="")
+user_ = User(name="")
+user_ = User(name="")
+user_ = User(name="")
