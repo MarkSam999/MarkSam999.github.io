@@ -18,7 +18,7 @@ user_4 = User.objects.all()[3]
 user_5 = User.objects.all()[4]
 
 user_1.username = "Ivan"
-user_1.email = ""
+user_1.email = "ivan"
 user_1.save()
 user_2.username = "George"
 user_2.email = "george"
