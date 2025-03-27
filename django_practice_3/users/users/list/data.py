@@ -23,9 +23,9 @@ user_1.save()
 user_2.username = ""
 user_2.email = ""
 user_2.save()
-user_.username = ""
-user_.email = ""
-user_.save()
+user_3.username = ""
+user_3.email = ""
+user_3.save()
 user_.username = ""
 user_.email = ""
 user_.save()
