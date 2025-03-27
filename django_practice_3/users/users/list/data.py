@@ -20,9 +20,9 @@ user_5 = User.objects.all()[4]
 user_1.username = ""
 user_1.email = ""
 user_1.save()
-user_.username = ""
-user_.email = ""
-user_.save()
+user_2.username = ""
+user_2.email = ""
+user_2.save()
 user_.username = ""
 user_.email = ""
 user_.save()
