@@ -18,12 +18,12 @@ user_4 = User.objects.all()[3]
 user_5 = User.objects.all()[4]
 
 user_.username = ""
-user_
+user_.save()
 user_.username = ""
-user_
+user_.save()
 user_.username = ""
-user_
+user_.save()
 user_.username = ""
-user_
+user_.save()
 user_.username = ""
-user_
+user_.save()
