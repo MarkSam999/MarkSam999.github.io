@@ -18,17 +18,17 @@ user_4 = User.objects.all()[3]
 user_5 = User.objects.all()[4]
 
 user_1.username = "Ivan"
-user_1.email = "ivan"
+user_1.email = "ivan@email.com"
 user_1.save()
 user_2.username = "George"
-user_2.email = "george"
+user_2.email = "george@email.com"
 user_2.save()
 user_3.username = "John"
-user_3.email = "john"
+user_3.email = "john@email.com"
 user_3.save()
 user_4.username = "Kanul"
-user_4.email = "kanul"
+user_4.email = "kanul@email.com"
 user_4.save()
 user_5.username = "Richard"
-user_5.email = "richard"
+user_5.email = "richard@email.com"
 user_5.save()
