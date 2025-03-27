@@ -7,7 +7,7 @@
 </head>
 <body>
     {% for user in users %}
-        <h1 class="{% cycle 'gray' 'lightgray' %}">{{ user.username }}<span style="padding-left: 10px"></span></h1>
+        <h1 class="{% cycle 'gray' 'lightgray' %}">{{ user.username }}<span style="padding-left: 10px">{{}}</span></h1>
     {% endfor %}
     <style>
         .gray {
