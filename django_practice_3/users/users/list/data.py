@@ -13,6 +13,6 @@ user_5.save()
 
 user_1 = User.objects.all()[0]
 user_2 = User.objects.all()[1]
-user_1 = User.objects.all()[2]
-user_1 = User.objects.all()[3]
-user_1 = User.objects.all()[4]
+user_3 = User.objects.all()[2]
+user_4 = User.objects.all()[3]
+user_5 = User.objects.all()[4]
