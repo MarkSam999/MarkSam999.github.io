@@ -17,8 +17,8 @@ user_3 = User.objects.all()[2]
 user_4 = User.objects.all()[3]
 user_5 = User.objects.all()[4]
 
-user.
-user.
-user.
-user.
-user.
+user.username = 
+user.username = 
+user.username = 
+user.username = 
+user.username = 
