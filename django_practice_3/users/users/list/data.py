@@ -11,8 +11,8 @@ user_4.save()
 user_5 = User(username="", email="")
 user_5.save()
 
+user_1 = User.objects.all()[0]
+user_1 = User.objects.all()[1]
 user_1 = User.objects.all()[]
 user_1 = User.objects.all()[]
-user_1 = User.objects.all()[]
-user_1 = User.objects.all()[]
-user_1 = User.objects.all()[]
+user_1 = User.objects.all()[
