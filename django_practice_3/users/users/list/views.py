@@ -5,4 +5,4 @@ def users(request):
     context = {
         'users': User.objects.all()
     }
-    return render(request, "/")
+    return render(request, "list/index.html")
