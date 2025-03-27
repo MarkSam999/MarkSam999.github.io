@@ -7,7 +7,7 @@
 </head>
 <body>
     {% for user in users %}
-        <h1 class="{% cycle 'gray' 'lightgray' %}">{{ user.username }}</h1><span></span>
+        <h1 class="{% cycle 'gray' 'lightgray' %}">{{ user.username }}<span></span></h1>
     {% endfor %}
     <style>
         .gray {
@@ -18,4 +18,5 @@
             background-color: lightgray;        
         }
     </style>
-</body>
+</body>
+</html>
