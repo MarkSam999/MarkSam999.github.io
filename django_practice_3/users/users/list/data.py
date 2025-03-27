@@ -30,5 +30,5 @@ user_4.username = "Kanul"
 user_4.email = ""
 user_4.save()
 user_5.username = "Richard"
-user_5.email = ""
+user_5.email = "richard"
 user_5.save()
