@@ -2,5 +2,5 @@ from django.shortcuts import render
 
 def users(request):
     context = {
-        'users': User
+        'users': User.objects.all()
     }
