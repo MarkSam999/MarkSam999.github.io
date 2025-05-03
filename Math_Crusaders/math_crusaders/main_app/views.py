@@ -157,3 +157,6 @@ def game_map(request):
 def statistics(request):
     context = {}
     return render(request, 'main_app/statistics.html', context)
+
+def settings(request):
+    return render(request, 'main_app/settings.html')

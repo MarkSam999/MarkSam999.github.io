@@ -1,10 +1,10 @@
 body {
     visibility: hidden; 
-    overflow: hidden; 
-    height: 100vh; color: rgb(255, 255, 255);
-    margin: 0; padding: 0; font-weight: 400;
-    background-color: rgb(0, 0, 0);
-    font-family: "Montserrat";
+    overflow: hidden; color: rgb(255, 255, 255);
+    margin: 0; padding: 0; font-weight: 300;
+    background-color: rgb(30, 30, 30);
+    font-family: "Orbitron";
+    font-weight: 200;
     transform-style: preserve-3d;
     perspective: 10px;
     overflow-x: hidden;
@@ -44,7 +44,7 @@ main {
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgb(20, 20, 20);
     display: flex; position: fixed;
     width: 100%; z-index: 10;
     justify-content: center;
@@ -66,7 +66,7 @@ header {
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background-color: rgb(0,0,0); 
+    background-color: transparent; 
     margin-top: 60px;
   }
    
