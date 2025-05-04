@@ -1,3 +1,3 @@
-const add = require("./mathOperations.js") ;
+const count = require("./mathOperations.js") ;
 
 console.log(count(10,5));
