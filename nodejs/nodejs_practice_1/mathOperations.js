@@ -15,4 +15,4 @@ function count(){
     console.log(300/20);
 }
 
-module.exports
+module.exports = count;
