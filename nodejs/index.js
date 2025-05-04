@@ -1,2 +1,2 @@
 require("./batman")
-require("./batman")
+require("./superman")
