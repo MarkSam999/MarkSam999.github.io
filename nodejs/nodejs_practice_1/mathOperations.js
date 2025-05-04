@@ -14,4 +14,3 @@ const divide = (a, b) => {
 function count(){
     return 300/20;
 }
-module.exports = multiply;
