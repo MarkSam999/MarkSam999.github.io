@@ -1,2 +1,2 @@
-const superHero = "superman";
+const superHero = "batman";
 console.log(superHero);
