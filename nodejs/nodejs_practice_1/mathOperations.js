@@ -13,4 +13,3 @@ const divide = (a, b) => {
 
 function count(){
     console.log(300/20);
-}
