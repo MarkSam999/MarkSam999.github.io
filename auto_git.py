@@ -3,9 +3,8 @@ import time
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
-# Путь к репозиторию (убедись, что он правильный)
 REPO_PATH = r"C:\Users\marks\OneDrive\Документы\GitHub\MarkSam999.github.io"
-BRANCH = "main"  # Укажи нужную ветку (может быть "master" или другая)
+BRANCH = "main" 
 
 class GitAutoCommit(FileSystemEventHandler):
     def on_any_event(self, event):

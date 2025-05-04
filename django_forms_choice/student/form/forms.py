@@ -1,7 +1,7 @@
-from .models import Student
 from django import forms
+from .models import Student
 
 class ChoiceForm(forms.ModelForm):
     class Meta:
-        Model = Student
-        fields = ['name', 'edu_level', 'edu_modes', 'fav_course']
+        model = Student
+        fields = ['name', 'edu_level', 'edu_mode', 'fav_course']
