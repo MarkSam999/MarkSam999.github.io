@@ -11,6 +11,7 @@ class GitAutoCommit(FileSystemEventHandler):
         if event.event_type in ["modified", "created", "deleted"]:
             print(f"Файл изменён: {event.src_path}, выполняю коммит...")
             os.system(f'cd /d "{REPO_PATH}" && git add . && git commit -m "Auto commit" && git push origin {BRANCH}')
+            time.sleep(5)
 
 if __name__ == "__main__":
     event_handler = GitAutoCommit()
