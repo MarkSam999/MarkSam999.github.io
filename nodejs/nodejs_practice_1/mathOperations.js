@@ -12,6 +12,6 @@ const divide = (a, b) => {
 }
 
 function count(){
-    return
+    return 10*5;
 }
 module.exports = multiply;
