@@ -1,3 +1,3 @@
-require("./mathOperations.js") ;
+const count = require("./mathOperations.js") ;
 
 count();

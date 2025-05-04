@@ -10,8 +10,4 @@ const multiply = (a, b) => {
 const divide = (a, b) => {
     return a / b;
 }
-
-function count(){
-    return 300/20'
-}
 module.exports = multiply;
