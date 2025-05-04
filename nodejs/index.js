@@ -1,2 +1,2 @@
-require("./batman")
-require("./superman")
+require("./batman");
+require("./superman");
