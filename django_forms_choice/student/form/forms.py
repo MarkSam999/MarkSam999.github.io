@@ -6,5 +6,5 @@ class ChoiceForm(forms.ModelForm):
         model = Student
         fields = ['name', 'edu_level', 'edu_mode', 'fav_course']
         widgets = {
-            'name': forms.Select(attrs={'class': 'edu_level'})
+            'name': forms.TextInput(attrs={'class': 'name'})
         }
