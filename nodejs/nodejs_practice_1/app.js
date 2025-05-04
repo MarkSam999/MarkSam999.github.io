@@ -1,3 +1,3 @@
 const count = require("./mathOperations.js") ;
 
-count();
+console.log(count())
