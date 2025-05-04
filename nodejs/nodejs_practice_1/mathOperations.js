@@ -10,4 +10,4 @@ const multiply = (a, b) => {
 const divide = (a, b) => {
     return a / b;
 }
-module.exports = add, subtract, multiply, divide;
+module.exports = [add, subtract, multiply, divide;
