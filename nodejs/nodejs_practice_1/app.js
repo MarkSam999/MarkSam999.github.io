@@ -1,3 +1,3 @@
 const count = require("./mathOperations.js") ;
 
-console.log(count())
+console.log(count(20,30))
