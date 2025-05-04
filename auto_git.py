@@ -19,6 +19,7 @@ if __name__ == "__main__":
     observer.start()
     
     print("Авто-Git запущен! Ожидаю изменений...")
+    
 
     try:
         while True:
