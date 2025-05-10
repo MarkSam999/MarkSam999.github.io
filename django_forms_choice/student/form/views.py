@@ -8,6 +8,7 @@ def generate_question():
     if action == 'add':
         num1 = random.randint(1, 10)
         num2 = random.randint(1, 10)
+        
         correct_answer = num1 + num2
     if action == 'subtract':
         correct_answer = num1 - num2
