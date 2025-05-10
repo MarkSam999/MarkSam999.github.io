@@ -12,4 +12,4 @@ class SuperHero {
     }
 }
 
-module.
+module.exports = new SuperHero
