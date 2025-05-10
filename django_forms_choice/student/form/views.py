@@ -19,7 +19,7 @@ def generate_question():
     if action == 'divide':
         correct_answer = num1 / num2    
 
-    # 3 incorrect in radius 10
+    # 3 incorrect variants in radius 10
     wrong_answers = set()
     while len(wrong_answers) < 3:
         fake = correct_answer + random.choice(range(-10, 11))
