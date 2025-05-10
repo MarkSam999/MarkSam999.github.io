@@ -1,5 +1,5 @@
 class SuperHero {
     constructor(name) {
-        this.name = 
+        this.name = name
     }
 }
