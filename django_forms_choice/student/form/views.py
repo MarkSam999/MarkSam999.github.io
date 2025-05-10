@@ -13,6 +13,7 @@ def generate_question():
         correct_answer = num1 - num2
         if num2 > num1:
             num3 = num1
+            num2
     if action == 'multiply':
         correct_answer = num1 * num2
     if action == 'divide':
