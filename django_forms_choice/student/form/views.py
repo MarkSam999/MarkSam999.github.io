@@ -10,6 +10,10 @@ def generate_question():
     if action = 'add':
         correct_answer = num1 + num2
     if action = 'add':
+        correct_answer = num1 + num2
+    if action = 'add':
+        correct_answer = num1 + num2
+    if action = 'add':
         correct_answer = num1 + num2    
 
     # Генерируем 3 неправильных ответа в радиусе ±5
@@ -41,4 +45,4 @@ def math_question_view(request):
         # Сохраняем данные в сессии
         request.session['correct_answer'] = correct
         request.session['choices'] = choices
-        return render(request, 'quest
+        return render(request, 'question.html', {'form': form, 'num1': num1, 'num2': num2})
