@@ -1,1 +1,1 @@
-const SuperHero = 
+const SuperHero = require("./")
