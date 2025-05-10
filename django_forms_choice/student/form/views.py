@@ -6,6 +6,7 @@ def generate_question():
     num1 = random.randint(1, 20)
     num2 = random.randint(1, 20)
     actions = ['add', 'subtract','multiply', 'divide']
+    action = actions.
     correct_answer = num1 + num2
 
     # Генерируем 3 неправильных ответа в радиусе ±5
