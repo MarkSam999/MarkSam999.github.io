@@ -1,16 +1,39 @@
+import random
 from django.shortcuts import render, redirect
-from .forms import ChoiceForm
+from .forms import MathQuestionForm
 
-def choice_form(request):
-    if request.method == "POST":
-        form = ChoiceForm(request.POST)
+def generate_question():
+    num1 = random.randint(1, 20)
+    num2 = random.randint(1, 20)
+    correct_answer = num1 + num2
+
+    # Генерируем 3 неправильных ответа в радиусе ±5
+    wrong_answers = set()
+    while len(wrong_answers) < 3:
+        fake = correct_answer + random.choice(range(-5, 6))
+        if fake != correct_answer and fake >= 0:
+            wrong_answers.add(fake)
+
+    # Перемешиваем правильный и неправильные
+    all_answers = list(wrong_answers) + [correct_answer]
+    random.shuffle(all_answers)
+    
+    choices = [(str(ans), str(ans)) for ans in all_answers]
+    
+    return num1, num2, correct_answer, choices
+
+def math_question_view(request):
+    if request.method == 'POST':
+        form = MathQuestionForm(request.POST, choices=request.session.get('choices'))
         if form.is_valid():
-            form.save()
-            return redirect("success")
+            selected = int(form.cleaned_data['answer'])
+            correct = request.session.get('correct_answer')
+            is_correct = selected == correct
+            return render(request, 'result.html', {'is_correct': is_correct, 'correct': correct})
     else:
-        form = ChoiceForm()
-
-    return render(request, "index.html", {"form": form})
-
-def success(request):
-    return render(request, "success.html")
+        num1, num2, correct, choices = generate_question()
+        form = MathQuestionForm(choices=choices)
+        # Сохраняем данные в сессии
+        request.session['correct_answer'] = correct
+        request.session['choices'] = choices
+        return render(request, 'question.html', {'form': form, 'num1': num1, 'num2': num2})
