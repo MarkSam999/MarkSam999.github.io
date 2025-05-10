@@ -1,10 +1,12 @@
 from django import forms
-from .models import Student
 
-class ChoiceForm(forms.ModelForm):
-    class Meta:
-        model = Student
-        fields = ['name', 'edu_level', 'edu_mode', 'fav_course']
-        widgets = {
-            'name': forms.TextInput(attrs={'class': 'name'})
-        }
+class MathQuestionForm(forms.Form):
+    answer = forms.ChoiceField(
+        label="Выбери правильный ответ",
+        widget=forms.RadioSelect
+    )
+
+    def __init__(self, *args, choices=None, **kwargs):
+        super().__init__(*args, **kwargs)
+        if choices:
+            self.fields['answer'].choices = choices
