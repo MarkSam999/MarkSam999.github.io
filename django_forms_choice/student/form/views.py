@@ -43,7 +43,7 @@ def math_question_view(request):
             is_correct = selected == correct
             return render(request, 'result.html', {'is_correct': is_correct, 'correct': correct})
     else:
-        num1, num2, correct, choices = generate_question()
+        num1, num2, correct, choices, action = generate_question()
         form = MathQuestionForm(choices=choices)
         # Сохраняем данные в сессии
         request.session['correct_answer'] = correct
