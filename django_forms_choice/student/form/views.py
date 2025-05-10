@@ -21,7 +21,7 @@ def generate_question():
     wrong_answers = set()
     while len(wrong_answers) < 3:
         fake = correct_answer + random.choice(range(-10, 11))
-        if fake != correct_answer and fake >= 0:
+        if fake != correct_answer:
             wrong_answers.add(fake)
 
     # Перемешиваем правильный и неправильные
