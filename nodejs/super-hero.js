@@ -11,3 +11,5 @@ class SuperHero {
         this.name = name;
     }
 }
+
+module.exports = new SuperHero("Batman");
