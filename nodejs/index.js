@@ -6,4 +6,4 @@ batman.setName("Bruce Wayne")
 console.log(batman.getName())
 
 const superman = new SuperHero("Superman");
-console.log
+console.log(superman.getName());
