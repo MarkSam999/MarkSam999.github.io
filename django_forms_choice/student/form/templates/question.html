@@ -1,5 +1,5 @@
 <title>Math problem generator</title>
-{% if action  %}
+{% if action == 'add' %}
 <h2>Сколько будет {{ num1 }} + {{ num2 }}?</h2>
 <form method="post">
   {% csrf_token %}
