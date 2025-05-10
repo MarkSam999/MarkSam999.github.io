@@ -8,10 +8,8 @@ def generate_question():
     action_list = ['add', 'subtract','multiply', 'divide']
     action = random.choice(action_list)
     if action == 'add':
-        print("+")
         correct_answer = num1 + num2
     if action == 'subtract':
-        print("-")
         correct_answer = num1 - num2
         if num2 > num1:
             num3 = num1 
