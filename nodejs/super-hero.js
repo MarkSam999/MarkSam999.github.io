@@ -7,5 +7,7 @@ class SuperHero {
         return this.name
     }
 
-    setName
+    setName(name) {
+        
+    }
 }
