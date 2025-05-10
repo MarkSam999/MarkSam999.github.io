@@ -8,6 +8,6 @@ class SuperHero {
     }
 
     setName(name) {
-        
+        this.name = name
     }
 }
