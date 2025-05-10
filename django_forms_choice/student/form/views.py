@@ -12,9 +12,9 @@ def generate_question():
     if action = 'subtract':
         correct_answer = num1 - num2
     if action = 'multiply':
-        correct_answer = num1 + num2
+        correct_answer = num1 - num2
     if action = 'divide':
-        correct_answer = num1 + num2    
+        correct_answer = num1 / num2    
 
     # Генерируем 3 неправильных ответа в радиусе ±5
     wrong_answers = set()
