@@ -7,7 +7,8 @@ def generate_question():
     num2 = random.randint(1, 20)
     action_list = ['add', 'subtract','multiply', 'divide']
     action = random.choice(action_list)
-    correct_answer = num1 + num2
+    if action = 'add':
+        correct_answer = num1 + num2
 
     # Генерируем 3 неправильных ответа в радиусе ±5
     wrong_answers = set()
