@@ -10,7 +10,7 @@ def generate_question():
     # Генерируем 3 неправильных ответа в радиусе ±5
     wrong_answers = set()
     while len(wrong_answers) < 3:
-        fake = correct_answer + random.choice(range(-5, 6))
+        fake = correct_answer + random.choice(range(-10, 11))
         if fake != correct_answer and fake >= 0:
             wrong_answers.add(fake)
 
