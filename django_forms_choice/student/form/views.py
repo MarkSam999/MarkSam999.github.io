@@ -5,7 +5,7 @@ from .forms import MathQuestionForm
 def generate_question():
     num1 = random.randint(1, 10)
     num2 = random.randint(1, 10)
-    action_list = [subtract','multiply', 'divide']
+    action_list = ['subtract']
     action = random.choice(action_list)
     if action == 'add':
         correct_answer = num1 + num2
