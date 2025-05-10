@@ -18,7 +18,7 @@ def generate_question():
     if action == 'multiply':
         correct_answer = num1 * num2
     if action == 'divide':
-        num1 = random.randint(1, 10)
+        num1 = random.randint(1, 100)
         correct_answer = num1 / num2    
 
     # 3 incorrect variants in radius 10
@@ -50,4 +50,4 @@ def math_question_view(request):
         # Сохраняем данные в сессии
         request.session['correct_answer'] = correct
         request.session['choices'] = choices
-        return render(request, 'question.html', {'form': form, 'num1': num1, 'num2'
+        return render(request, 'question.html', {'form': form, 'num1': num1, 'num2': num2, 'action': action})
