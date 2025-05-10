@@ -11,6 +11,7 @@ def generate_question():
         correct_answer = num1 + num2
     if action == 'subtract':
         correct_answer = num1 - num2
+        if 
     if action == 'multiply':
         correct_answer = num1 * num2
     if action == 'divide':
