@@ -9,9 +9,9 @@ def generate_question():
     action = random.choice(action_list)
     if action = 'add':
         correct_answer = num1 + num2
-    if action = 'add':
+    if action = 'subtract':
         correct_answer = num1 + num2
-    if action = 'add':
+    if action = 'multiply':
         correct_answer = num1 + num2
     if action = 'add':
         correct_answer = num1 + num2    
