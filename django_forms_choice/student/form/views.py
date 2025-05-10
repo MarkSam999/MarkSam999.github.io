@@ -48,4 +48,4 @@ def math_question_view(request):
         # Сохраняем данные в сессии
         request.session['correct_answer'] = correct
         request.session['choices'] = choices
-        return render(request, 'question.html', {'form': form, 'num1': num1, 'num2': num2})
+        return render(request, 'question.html', {'form': form, 'num1': num1, 'num2': num2, 'action': action})
