@@ -1,2 +1,1 @@
-require("./batman");
-require("./superman");
+const Su
