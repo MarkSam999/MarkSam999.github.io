@@ -7,14 +7,14 @@ def generate_question():
     num2 = random.randint(1, 20)
     action_list = ['add', 'subtract','multiply', 'divide']
     action = random.choice(action_list)
-    if action = 'add':
+    if action == 'add':
         correct_answer = num1 + num2
-    if action = 'subtract':
+    if action == 'subtract':
         correct_answer = num1 - num2
         if num2 > num1:
-    if action = 'multiply':
+    if action == 'multiply':
         correct_answer = num1 * num2
-    if action = 'divide':
+    if action == 'divide':
         correct_answer = num1 / num2    
 
     # 3 incorrect in radius 10
