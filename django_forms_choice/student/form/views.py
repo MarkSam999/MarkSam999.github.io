@@ -32,7 +32,7 @@ def generate_question():
     
     choices = [(str(ans), str(ans)) for ans in all_answers]
     
-    return num1, num2, correct_answer, choices
+    return num1, num2, correct_answer, choices, action
 
 def math_question_view(request):
     if request.method == 'POST':
