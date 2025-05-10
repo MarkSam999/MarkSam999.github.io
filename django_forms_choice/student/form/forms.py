@@ -1,7 +1,7 @@
 from django import forms
 
 class MathQuestionForm(forms.Form):
-    answer = forms.ChoiceField(
+    answer = forms.IntegerField(
         label="Выбери правильный ответ",
         widget=forms.RadioSelect
     )
