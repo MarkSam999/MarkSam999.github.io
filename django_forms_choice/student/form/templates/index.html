@@ -1,23 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <form method="post">
-        <p>Name: </p> {{ form.name }}
-        <p>Education Level: </p> {{ form.edu_level }}
-    </form>
-    <style>
-        .name{
-            transition: 0.5s;
-        }
-        .name:focus{
-            background-color: blue;
-            transition: 0.5s;
-        }
-    </style>
-</body>
-</html>
+<h2>Сколько будет {{ num1 }} + {{ num2 }}?</h2>
+<form method="post">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit">Ответить</button>
+</form>
