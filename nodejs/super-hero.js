@@ -1,1 +1,3 @@
-class superHero
+class SuperHero {
+    
+}
