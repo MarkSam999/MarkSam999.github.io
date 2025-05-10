@@ -3,10 +3,6 @@
   <h2>Сколько будет {{ num1 }} + {{ num2 }}?</h2>
 {% elif action == 'subtract' %}
   <h2>Сколько будет {{ num1 }} - {{ num2 }}?</h2>
-{% elif action == 'multiply' %}
-  <h2>Сколько будет {{ num1 }} * {{ num2 }}?</h2>
-{% elif action == 'divide' %}
-  <h2>Сколько будет {{ num1 }} / {{ num2 }}?</h2>
 {% endif %}
 <form method="post">
   {% csrf_token %}
