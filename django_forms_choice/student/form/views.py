@@ -15,7 +15,7 @@ def generate_question():
             num3 = num1 
             num1 = num2
             num2 = num3
-            correct_answer = num1 - num2
+        correct_answer = num1 - num2
 
     # 3 incorrect variants in radius 10
     wrong_answers = set()
