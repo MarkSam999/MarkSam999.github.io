@@ -15,16 +15,6 @@ def generate_question():
             num3 = num1 
             num1 = num2
             num2 = num3
-    if action == 'multiply':
-        correct_answer = num1 * num2
-    if action == 'divide':
-        num1 = random.randint(1, 100)
-        num2 = random.randint(1, 10)
-        correct_answer = num1 / num2
-        if num2 > num1:
-            num3 = num1 
-            num1 = num2
-            num2 = num3    
 
     # 3 incorrect variants in radius 10
     wrong_answers = set()
