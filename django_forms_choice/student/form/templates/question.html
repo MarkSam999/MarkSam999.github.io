@@ -3,9 +3,10 @@
 <h2>Сколько будет {{ num1 }} + {{ num2 }}?</h2>
 {%  %}
 {%  %}
-
+{%  %}
+{% endif %}
 <form method="post">
   {% csrf_token %}
   {{ form.as_p }}
   <button type="submit">Ответить</button>
-<
+</form>
