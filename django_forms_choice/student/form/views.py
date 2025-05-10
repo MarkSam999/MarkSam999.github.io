@@ -3,8 +3,8 @@ from django.shortcuts import render, redirect
 from .forms import MathQuestionForm
 
 def generate_question():
-    num1 = random.randint(1, 20)
-    num2 = random.randint(1, 20)
+    num1 = random.randint(1, 10)
+    num2 = random.randint(1, 10)
     action_list = ['add', 'subtract','multiply', 'divide']
     action = random.choice(action_list)
     if action == 'add':
@@ -12,7 +12,7 @@ def generate_question():
     if action == 'subtract':
         correct_answer = num1 - num2
         if num2 > num1:
-            
+
     if action == 'multiply':
         correct_answer = num1 * num2
     if action == 'divide':
