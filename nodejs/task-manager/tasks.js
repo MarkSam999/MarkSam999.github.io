@@ -10,6 +10,7 @@ class Tasks{
 
     removeTask(){
         task.remove(list);
+        console.log("Task " + task + " added!")
         JSON.stringify(list);
     };
 
