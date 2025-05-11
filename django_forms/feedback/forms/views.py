@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from .forms import ReviewForm
 from .models import Review
 
@@ -7,6 +7,7 @@ def feedback(request):
         form = ReviewForm(request.POST)
         if form.is_valid:
             form.save()
+            return redirect('')
     else:
         form = ReviewForm()
     return render(request, "add_review.html", {'form': form})
