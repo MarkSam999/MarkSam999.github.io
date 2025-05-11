@@ -5,6 +5,6 @@ class Tasks{
 
     addTask(task){
         task.push(list);
-        localStorage.list = JSON.
+        localStorage.list = JSON.stringify
     }
 }
