@@ -20,4 +20,6 @@ class Tasks{
             console.log(task);
         }
     }
+
+    sea
 }
