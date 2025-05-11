@@ -10,6 +10,6 @@ class Tasks{
 
     removeTask(){
         task.remove(list);
-        JSON
+        JSON.stringify(list);
     };
 }
