@@ -9,5 +9,5 @@ class Review(models.Model):
     created_at = models.DateField(auto_now_add=True)
 
     models.CheckConstraint(
-        check
+        check:
     )
