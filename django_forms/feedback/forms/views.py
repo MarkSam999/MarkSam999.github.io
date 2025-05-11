@@ -9,7 +9,7 @@ def feedback(request):
             form.save()
     else:
         form = ReviewForm()
-    return render(request, "index.html", {'form': form})
+    return render(request, "add_review.html", {'form': form})
 
 def reviews(request):
     context = {
