@@ -4,4 +4,6 @@ from .forms import ReviewForm
 def feedback(request):
     if request.method == "POST":
         form = ReviewForm(request.POST)
-    return render({'form': form})
+        if form.is_valid:
+            form.save()
+    retur
