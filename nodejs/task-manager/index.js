@@ -1,2 +1,2 @@
 require("./tasks.js")
-require()
+require("./logger.js")
