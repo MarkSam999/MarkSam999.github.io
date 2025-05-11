@@ -7,7 +7,7 @@ def feedback(request):
         form = ReviewForm(request.POST)
         if form.is_valid:
             form.save()
-            return redirect('')
+            return redirect('review_list')
     else:
         form = ReviewForm()
     return render(request, "add_review.html", {'form': form})
