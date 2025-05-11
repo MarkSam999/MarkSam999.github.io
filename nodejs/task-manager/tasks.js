@@ -8,5 +8,7 @@ class Tasks{
         JSON.stringify(list)
     }
 
-    removeTask
+    removeTask(){
+        
+    }
 }
