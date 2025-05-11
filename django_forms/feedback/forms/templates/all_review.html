@@ -8,7 +8,7 @@
 <body>
     {% for review in review_list %}
         <h1>{{ review.name }} ({{ review.movie_title }})</h1>
-        <p>{{}}</p>
+        <p>{{ review.rating }}</p>
     {% endfor %}
 </body>
 </html>
