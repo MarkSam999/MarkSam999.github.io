@@ -21,7 +21,7 @@ class Tasks{
         }
     }
 
-    seatch(){
-        console.log()
+    seatch(task){
+        console.log(task);
     }
 }
