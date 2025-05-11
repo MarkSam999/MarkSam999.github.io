@@ -8,4 +8,6 @@ class Review(models.Model):
     comment = models.TextField(max_length=5000)
     created_at = models.DateField(auto_now_add=True)
 
-    models.CheckConstraint()
+    models.CheckConstraint(
+        check
+    )
