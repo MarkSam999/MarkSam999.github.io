@@ -13,5 +13,6 @@ def feedback(request):
 
 def reviews(request):
     context = {
-        'review_list': 
+        'review_list': Review.objects.all()
     }
+    
