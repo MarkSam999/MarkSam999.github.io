@@ -21,5 +21,7 @@ class Tasks{
         }
     }
 
-    sea
+    seatch(){
+        
+    }
 }
