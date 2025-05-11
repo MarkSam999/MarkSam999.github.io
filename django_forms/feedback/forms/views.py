@@ -16,4 +16,4 @@ def reviews(request):
         'review_list': Review.objects.all()
     }
 
-    return render(request, "all_reviews.html", )
+    return render(request, "all_reviews.html", context)
