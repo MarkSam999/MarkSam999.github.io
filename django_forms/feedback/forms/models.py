@@ -1,5 +1,5 @@
 from django.db import models
-from django.utils.
+from django.core.
 
 class Review(models.Model):
     name = models.CharField(max_length=100)
