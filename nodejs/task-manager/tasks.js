@@ -7,4 +7,6 @@ class Tasks{
         task.push(list);
         JSON.stringify(list)
     }
+
+    removeTask
 }
