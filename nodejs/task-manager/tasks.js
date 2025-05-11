@@ -9,6 +9,6 @@ class Tasks{
     };
 
     removeTask(){
-        task.removeTask
+        task.
     };
 }
