@@ -15,4 +15,5 @@ def reviews(request):
     context = {
         'review_list': Review.objects.all()
     }
-    
+
+    return render()
