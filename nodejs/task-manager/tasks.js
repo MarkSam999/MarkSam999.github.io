@@ -9,6 +9,5 @@ class Tasks{
     };
 
     removeTask(){
-        task.
-    };
-}
+        task.remove(list);
+        
