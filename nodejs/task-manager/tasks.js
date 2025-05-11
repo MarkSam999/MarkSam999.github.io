@@ -6,6 +6,7 @@ class Tasks{
     addTask(task){
         task.push(list);
         JSON.stringify(list);
+        console.log("Task '" + task + "' added!")
     };
 
     removeTask(){
