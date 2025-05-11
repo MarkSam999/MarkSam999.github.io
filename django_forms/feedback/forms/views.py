@@ -1,7 +1,7 @@
 from django.shortcuts import render
-from .forms import FeedbackForm
+from .forms import ReviewForm
 
 def feedback(request):
     if request.method == "POST":
-        form = FeedbackForm(request.POST)
+        form = ReviewForm(request.POST)
     return render({'form': form})
