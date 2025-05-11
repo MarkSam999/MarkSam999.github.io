@@ -5,7 +5,7 @@ from .models import Review
 def feedback(request):
     if request.method == "POST":
         form = ReviewForm(request.POST)
-        if form.is_valid:
+        if form.is_valid():
             form.save()
             return redirect('review_list')
     else:
