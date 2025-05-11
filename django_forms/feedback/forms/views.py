@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from .forms import ReviewForm
+from .models import Review
 
 def feedback(request):
     if request.method == "POST":
