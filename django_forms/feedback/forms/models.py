@@ -1,5 +1,4 @@
 from django.db import models
-from django import Q
 
 class Review(models.Model):
     name = models.CharField(max_length=100)
