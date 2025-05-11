@@ -3,7 +3,7 @@ from .forms import ReviewForm
 from .models import Review
 
 def feedback(request):
-    if request.method == "POST":
+    if request.method == "POST" and 'form':
         form = ReviewForm(request.POST)
         if form.is_valid():
             form.save()
