@@ -15,7 +15,7 @@ class Tasks{
 
     listTasks(){
         for(task in list){
-            console.log()
+            console.log(task);
         }
     }
 }
