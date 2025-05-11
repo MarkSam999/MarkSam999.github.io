@@ -10,4 +10,5 @@ def feedback(request):
         form = ReviewForm()
     return render(request, "index.html", {'form': form})
 
-def 
+def reviews(request):
+    
