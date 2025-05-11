@@ -7,7 +7,3 @@ class Review(models.Model):
     rating = models.IntegerField()
     comment = models.TextField(max_length=5000)
     created_at = models.DateField(auto_now_add=True)
-
-    models.CheckConstraint(
-        check:
-    )
