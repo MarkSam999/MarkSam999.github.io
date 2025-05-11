@@ -1,4 +1,4 @@
 from django.db import models
 
 class Review(models.Model):
-    
+    name = models.CharField()
