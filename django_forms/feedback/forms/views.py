@@ -14,7 +14,7 @@ def feedback(request):
 
 def reviews(request):
     context = {
-        'review_list': Review.objects.all()
+        'reviews': Review.objects.all()
     }
 
     return render(request, "all_reviews.html", context)
