@@ -11,4 +11,6 @@ def feedback(request):
     return render(request, "index.html", {'form': form})
 
 def reviews(request):
-    
+    context = {
+        
+    }
