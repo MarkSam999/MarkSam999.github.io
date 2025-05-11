@@ -1,4 +1,6 @@
 import views
 from django.urls import path
 
-ur
+urlpatterns = [
+    path('')
+]
