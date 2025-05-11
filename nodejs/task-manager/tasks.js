@@ -1,14 +1,14 @@
 class Tasks{
     constructor(task){
-        this.task = task
-    }
+        this.task = task;
+    };
 
     addTask(task){
         task.push(list);
-        JSON.stringify(list)
-    }
+        JSON.stringify(list);
+    };
 
     removeTask(){
-        
-    }
+
+    };
 }
