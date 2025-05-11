@@ -8,4 +8,4 @@ def feedback(request):
             form.save()
     else:
         form = ReviewForm()
-    return render({'form': form})
+    return render(request, {'form': form})
