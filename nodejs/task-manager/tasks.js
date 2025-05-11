@@ -10,4 +10,6 @@ class Tasks{
 
     removeTask(){
         task.remove(list);
-        
+        JSON
+    };
+}
