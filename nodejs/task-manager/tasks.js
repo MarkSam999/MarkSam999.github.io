@@ -22,6 +22,6 @@ class Tasks{
     }
 
     seatch(){
-        
+        console.log()
     }
 }
