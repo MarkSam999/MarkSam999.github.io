@@ -6,5 +6,6 @@ def feedback(request):
         form = ReviewForm(request.POST)
         if form.is_valid:
             form.save()
-        
+    else:
+        form = ReviewForm()
     return render({'form': form})
