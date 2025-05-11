@@ -12,4 +12,8 @@ class Tasks{
         task.remove(list);
         JSON.stringify(list);
     };
+
+    listTasks(){
+        
+    }
 }
