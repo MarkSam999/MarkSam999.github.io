@@ -4,6 +4,6 @@ class Tasks{
     }
 
     addTask(task){
-        
+        task.push(list)
     }
 }
