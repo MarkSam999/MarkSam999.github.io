@@ -1,3 +1,5 @@
 class Tasks{
-    constructor(task)
+    constructor(task){
+        this.task
+    }
 }
