@@ -12,5 +12,5 @@ def feedback(request):
 
 def reviews(request):
     context = {
-        
+        'review_list': 
     }
