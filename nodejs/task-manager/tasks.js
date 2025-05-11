@@ -3,5 +3,7 @@ class Tasks{
         this.task = task
     }
 
-    addTask(task)
+    addTask(task){
+        
+    }
 }
