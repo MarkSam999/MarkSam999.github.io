@@ -3,5 +3,5 @@ class Tasks{
         this.task = task
     }
 
-    
+    addTask(task)
 }
