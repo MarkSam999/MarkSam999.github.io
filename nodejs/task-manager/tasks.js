@@ -1,5 +1,5 @@
 class Tasks{
     constructor(task){
-        this.task
+        this.task = task
     }
 }
