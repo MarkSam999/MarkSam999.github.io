@@ -1,5 +1,6 @@
 from django.shortcuts import render
 
 def feedback(request):
-    if
+    if request.method == "POST":
+        
     return render({'form': form})
