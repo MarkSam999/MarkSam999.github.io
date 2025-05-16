@@ -92,4 +92,5 @@ class MessageForm(forms.ModelForm):
             chat_message.save()
         return chat_message  
     
-class StyleForm(forms.ModelForm)
+class StyleForm(forms.ModelForm):
+    model = Style
