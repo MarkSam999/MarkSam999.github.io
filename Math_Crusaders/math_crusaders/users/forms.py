@@ -91,3 +91,5 @@ class MessageForm(forms.ModelForm):
         if commit:
             chat_message.save()
         return chat_message  
+    
+class 
