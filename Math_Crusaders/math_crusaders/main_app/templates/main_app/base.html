@@ -33,7 +33,7 @@
             <script src="{% static 'main_app/js/main_script.js' %}" defer></script>
         <!--Custom Style-->
             {% if user.profile.style.name == "classic" %}
-            {% if user.profile.style.name == "classic" %}
+            {% elif user.profile.style.name == "classic" %}
             {% endif %}
     </head>
     <body id="{{ user.profile.style.name }}">
