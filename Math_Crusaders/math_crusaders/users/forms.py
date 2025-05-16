@@ -90,7 +90,4 @@ class MessageForm(forms.ModelForm):
             chat_message.posted_by = user
         if commit:
             chat_message.save()
-        return chat_message  
-    
-class StyleForm(forms.ModelForm):
-    model = Style
+        return chat_message
