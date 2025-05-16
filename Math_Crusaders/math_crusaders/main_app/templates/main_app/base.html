@@ -34,15 +34,15 @@
     </head>
    
     <body>
-         {% if user.style.name == "classic" %}
+        {% if user.style.name == "classic" %}
         <script>
             document.body.id = "classic";
-        </script>
-    {% elif user.style.name == "neon" %}
-        <script>
-            document.body.id = "neon";
-        </script>
-    {% endif %}
+            </script>
+        {% elif user.style.name == "neon" %}
+            <script>
+                document.body.id = "neon";
+            </script>
+        {% endif %}
         <div id="loader">
             <div id="loader_text">
                 Loading...
