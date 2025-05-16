@@ -21,7 +21,7 @@ class Profile(models.Model):
     coins = models.IntegerField(default=0)
     rating = models.IntegerField(default=100)
     rank = models.ForeignKey(Rank, on_delete=models.CASCADE, default=1, related_name="profiles")
-    style = models.ForeignKey(Style, on_delete=models.CASCADE, default=1, related_name="profiles", choices=Style.objects.all().n)
+    style = models.ForeignKey(Style, on_delete=models.CASCADE, default=1, related_name="profiles", choices=Style.objects.all().name)
 
     def __str__(self):
         return f'{self.user.username}'
