@@ -9,7 +9,7 @@ BRANCH = "main"
 class GitAutoCommit(FileSystemEventHandler):
     def on_any_event(self, event):
         if event.event_type in ["modified", "created", "deleted"]:
-            print(f"Файл изменён: {event.src_path}, выполняю коммит...")
+            print(f"File changed: {event.src_path}, commiting...")
             os.system(f'cd /d "{REPO_PATH}" && git add . && git commit -m "Auto commit" && git push origin {BRANCH}')
             time.sleep(5)
 
@@ -19,12 +19,12 @@ if __name__ == "__main__":
     observer.schedule(event_handler, path=REPO_PATH, recursive=True)
     observer.start()
     
-    print("Авто-Git запущен! Ожидаю изменений...")
+    print("Auto-Git launched! Waiting for changes...")
 
     try:
         while True:
             time.sleep(30)
     except KeyboardInterrupt:
-        print("Авто-Git остановлен.")
+        print("Авто-Git stopped.")
         observer.stop()
     observer.join()
