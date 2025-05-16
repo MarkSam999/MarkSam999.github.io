@@ -1,7 +1,7 @@
 {% extends "main_app/base.html" %}
 {% load crispy_forms_tags %}
 {% block content %}
-    <title>{{ user.username }} Profile</title>
+    <title>{{ user.username }}'s Profile</title>
     {% if user.is_authenticated %}
         <h1>{{ user.username }}</h1>
         <div class="image_container">
