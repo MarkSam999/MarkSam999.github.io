@@ -32,17 +32,6 @@
         <!--JavaScript files-->
             <script src="{% static 'main_app/js/main_script.js' %}" defer></script>
         <!--Custom Style-->
-            {% if user.style.name == "classic" %}
-                <script>
-                    let body = document.body;
-                    body.className = "classic";
-                </script>
-            {% elif user.style.name == "neon" %}
-                <script>
-                    let body = document.body;
-                    body.className = "neon";
-                </script>
-            {% endif %}
     </head>
     <body>
         <div id="loader">
