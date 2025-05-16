@@ -31,16 +31,6 @@
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" defer></script>
         <!--JavaScript files-->
             <script src="{% static 'main_app/js/main_script.js' %}" defer></script>
-        <!--Custom Style-->
-            {% if user.profile.style.name == "classic" %}
-                <script>
-                    document.body.id = "classic";
-                </script>
-            {% elif  == "neon" %}
-                <script>
-                    document.body.id = "neon";
-                </script>
-            {% endif %}
     </head>
     <body id="{{ user.profile.style.name }}">
         <div id="loader">
