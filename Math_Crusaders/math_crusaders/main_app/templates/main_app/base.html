@@ -32,7 +32,9 @@
         <!--JavaScript files-->
             <script src="{% static 'main_app/js/main_script.js' %}" defer></script>
     </head>
-    {% if user.style.name == "classic" %}
+   
+    <body>
+         {% if user.style.name == "classic" %}
         <script>
             document.body.id = "classic";
         </script>
@@ -41,7 +43,6 @@
             document.body.id = "neon";
         </script>
     {% endif %}
-    <body>
         <div id="loader">
             <div id="loader_text">
                 Loading...
