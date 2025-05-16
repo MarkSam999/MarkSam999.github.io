@@ -38,11 +38,11 @@
                 </script>
             {% elif user.profile.style.name == "neon" %}
                 <script>
-                    document.body.id = "";
+                    document.body.id = "neon";
                 </script>
             {% endif %}
     </head>
-    <body id="{{ user.profile.style.name }}">
+    <body>
         <div id="loader">
             <div id="loader_text">
                 Loading...
