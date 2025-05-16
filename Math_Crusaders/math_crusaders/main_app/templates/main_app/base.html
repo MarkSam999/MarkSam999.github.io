@@ -36,13 +36,13 @@
                 <script>
                     document.body.id = "classic";
                 </script>
-            {% elif user.profile.style.name == "neon" %}
+            {% elif  == "neon" %}
                 <script>
                     document.body.id = "neon";
                 </script>
             {% endif %}
     </head>
-    <body id="">
+    <body id="user.profile.style.name">
         <div id="loader">
             <div id="loader_text">
                 Loading...
