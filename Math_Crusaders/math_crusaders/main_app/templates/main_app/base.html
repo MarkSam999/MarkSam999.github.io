@@ -1,13 +1,13 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
-    {% if user.style == "classic" %}
+    {% if user.style.name == "classic" %}
         <script>
-            $("body").addClass = "neon";
+            document.body.id = "classic";
         </script>
-    {% elif user.style == "neon" %}
+    {% elif user.style.name == "neon" %}
         <script>
-            $("body").addClass = "neon";
+            $("body") = "neon";
         </script>
     {% endif %}
     <head>
