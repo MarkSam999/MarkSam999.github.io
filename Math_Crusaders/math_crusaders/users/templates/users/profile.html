@@ -40,6 +40,17 @@
                             </div>
                         {% endif %}
                     </div>
+                    <div>
+                        <label for="id_image">Style</label>
+                        {{ p_form.image }}
+                        {% if p_form.image.errors %}
+                            <div>
+                                {% for error in p_form.username.errors %}
+                                    <p class="messages error">{{ error }}</p>
+                                {% endfor %}
+                            </div>
+                        {% endif %}
+                    </div>
                     <div class="form-group">
                     <button class="sign_up-button" type="submit">Save</button>
                 </div>
