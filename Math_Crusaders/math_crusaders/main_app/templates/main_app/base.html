@@ -33,14 +33,14 @@
             <script src="{% static 'main_app/js/main_script.js' %}" defer></script>
         <!--Custom Style-->
             {% if user.style.name == "classic" %}
-        <script>
-            document.body.id = "classic";
-        </script>
-    {% elif user.style.name == "neon" %}
-        <script>
-            document.body.id = "neon";
-        </script>
-    {% endif %}
+                <script>
+                    document.body.id = "classic";
+                </script>
+            {% elif user.style.name == "neon" %}
+                <script>
+                    document.body.id = "neon";
+                </script>
+            {% endif %}
     </head>
     <body class="neon">
         <div id="loader">
