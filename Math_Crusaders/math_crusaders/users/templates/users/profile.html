@@ -42,8 +42,8 @@
                     </div>
                     <div>
                         <label for="id_image">Style</label>
-                        {{ p_form.image }}
-                        {% if p_form.image.errors %}
+                        {{ p_form.style }}
+                        {% if p_form.style.errors %}
                             <div>
                                 {% for error in p_form.username.errors %}
                                     <p class="messages error">{{ error }}</p>
