@@ -1,3 +1,3 @@
 const add = require("./add")
 
-console.log(sum
+console.log(add.;
