@@ -1,1 +1,1 @@
-const add = 
+const add = (a, b)
