@@ -1,3 +1,3 @@
 const add = require("./add")
 
-for()
+for(let i = 0; i < )
