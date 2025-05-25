@@ -6,4 +6,4 @@ def register(request):
         form = UserCreationForm(request.POST)
         if form.is_valid():
             form.save()
-        
+        else
