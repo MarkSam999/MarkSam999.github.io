@@ -1,6 +1,6 @@
-from from django.contrib.auth.forms import UserC
+from from django.contrib.auth.forms import UserCreationForm
 from django.shortcuts import render
 
 def register(request):
     if request.method == "POST":
-        form = U
+        form = Use
