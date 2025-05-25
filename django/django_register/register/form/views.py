@@ -3,4 +3,4 @@ from django.shortcuts import render
 
 def register(request):
     if request.method == "POST":
-        form = Use
+        form = UserCreationForm(request.POST)
