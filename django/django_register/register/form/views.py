@@ -1,4 +1,5 @@
 from django.shortcuts import render
 
 def register(request):
-    if request.method == "POST"
+    if request.method == "POST":
+        form = U
