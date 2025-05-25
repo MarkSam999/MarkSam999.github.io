@@ -12,4 +12,4 @@ def register(request):
     return render(request, "register.html", {"form": form})
 
 def home(request):
-    return render("")
+    return render(request, "")
