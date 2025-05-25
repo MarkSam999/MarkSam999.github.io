@@ -1,4 +1,4 @@
-from
+from from django.contrib.auth
 from django.shortcuts import render
 
 def register(request):
