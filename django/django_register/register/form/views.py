@@ -1,4 +1,4 @@
-from from django.contrib.auth
+from from django.contrib.auth.forms import UserC
 from django.shortcuts import render
 
 def register(request):
