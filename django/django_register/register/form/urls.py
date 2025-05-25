@@ -1,1 +1,1 @@
-from django.contrib.auth.vie
+from django.contrib.auth.views import LoginView, LogoutView
