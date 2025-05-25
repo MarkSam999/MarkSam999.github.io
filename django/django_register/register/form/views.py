@@ -1,4 +1,4 @@
 from django.shortcuts import render
 
 def register(request):
-    i
+    if request.method == "POST"
