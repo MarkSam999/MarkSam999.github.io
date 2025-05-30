@@ -1,4 +1,4 @@
 const perc = require("./perc");
 
-const sum = perc(3, 15);
+const sum = perc(3, 7);
 console.log(sum);
