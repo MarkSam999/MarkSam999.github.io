@@ -1,5 +1,5 @@
 const sum = require("./add")
-console.log(sum)
+console.log(sum);
 
 let h = 0;
 
