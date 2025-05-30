@@ -1,2 +1,2 @@
 const batman = "Batman";
-console.log()
+console.log(batman);
