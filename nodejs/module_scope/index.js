@@ -1,2 +1,2 @@
-require()
-require()
+require("./batman")
+require("./superman")
