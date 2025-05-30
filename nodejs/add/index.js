@@ -1,4 +1,4 @@
-const sum = require("./add")
+const add = require("./add")
 console.log(sum);
 
 let h = 0;
