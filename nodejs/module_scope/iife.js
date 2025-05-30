@@ -1,5 +1,5 @@
 ( function () {
-    const superHero = "man"
+    const superHero = "Batman"
     console.log(superHero);
 })();
 
