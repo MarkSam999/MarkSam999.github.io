@@ -1,7 +1,9 @@
 ( function () {
-    const superHero = ""
+    const superHero = "man"
+    console
 })();
 
 ( function () {
-    const superHero = ""
+    const superHero = "man"
+    console
 })();
