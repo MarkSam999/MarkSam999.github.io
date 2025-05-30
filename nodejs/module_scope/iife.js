@@ -4,6 +4,6 @@
 })();
 
 ( function () {
-    const superHero = "man"
+    const superHero = "Superman"
     console.log(superHero);
 })();
