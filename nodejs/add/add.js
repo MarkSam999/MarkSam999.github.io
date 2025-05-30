@@ -1,4 +1,4 @@
-const add = (a, b) => {
+const perc = (a, b) => {
     return a + b;
 }
 
