@@ -3,4 +3,4 @@ const add = (a, b) => {
 }
 const sum = add(3, 4);
 
-module.exports
+module.exports = sum;
