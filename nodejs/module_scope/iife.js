@@ -1,9 +1,9 @@
 ( function () {
     const superHero = "man"
-    console.log("")
+    console.log(superHero);
 })();
 
 ( function () {
     const superHero = "man"
-    console.log("")
+    console.log(superHero);
 })();
