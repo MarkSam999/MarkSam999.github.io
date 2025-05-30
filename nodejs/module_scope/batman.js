@@ -1,1 +1,2 @@
-const ba
+const batman = "Batman";
+console.log()
