@@ -1,2 +1,2 @@
-const batman = "Batman";
-console.log(batman);
+const superHero = "Batman";
+console.log(superHero);
