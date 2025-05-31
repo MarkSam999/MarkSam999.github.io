@@ -1,2 +1,6 @@
 from . import views
-from django.urls import p
+from django.urls import path, include
+
+urlpatterns = [
+    
+]
