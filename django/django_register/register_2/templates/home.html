@@ -7,7 +7,7 @@
 </head>
 <body>
     {% if user.is_authenticated %}
-        <form method="post" q>
+        <form method="post" action="{%%}">
             {% csrf_token %}
             <button></button>
         </form>
