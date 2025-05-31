@@ -3,5 +3,6 @@ from django.contrib.auth.models import User
 from django.contrib.auth.forms import UserCreationForm
 
 def register(request):
-    if request.method == ""
+    if request.method == "POST":
+        
     return render(request, "register.html", {"form": form})
