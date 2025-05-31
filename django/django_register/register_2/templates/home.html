@@ -6,7 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    {}
+    {% for user in users %}
+        {{  }}
+    {% endfor %}
     {% if user.is_authenticated %}
         <form method="post" action="{% url 'logout' %}">
             {% csrf_token %}
