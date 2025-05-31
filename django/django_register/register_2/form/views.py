@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from 
+from django.co
 
 def register(request):
 
