@@ -7,6 +7,7 @@
 </head>
 <body>
     <form method="post">
+        {% csrf_token %}
         <p>Username: {{ form.username }}</p>
         <p>Password: {{ form.password_1 }}</p>
         <p>Retype: {{ form.password_2 }}</p>
