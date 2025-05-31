@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, re
 from django.contrib.auth.models import User
 from django.contrib.auth.forms import UserCreationForm
 
@@ -7,6 +7,7 @@ def register(request):
         form = UserCreationForm(request.POST)
         if form.is_valid():
             form.save()
+            return re
     else:
         form = UserCreationForm()
     return render(request, "register.html", {"form": form})
