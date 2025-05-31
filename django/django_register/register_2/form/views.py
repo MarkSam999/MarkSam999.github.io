@@ -14,4 +14,4 @@ def register(request):
 
 def home(request):
     users = User.objects.all()
-    
+    return render(request. )
