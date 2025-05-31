@@ -6,7 +6,8 @@
     <title>Home</title>
 </head>
 <body>
-    {% if user.is_ %}
+    {% if user.is_authenticated %}
+    {%%}
     {% for user in users %}
     {{ user.username }}
     {% endfor %}
