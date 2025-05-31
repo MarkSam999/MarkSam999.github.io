@@ -9,7 +9,7 @@
     {% for user in users %}
     {{ user.username }}
     {% endfor %}
-    <a href=""><button href="{% url 'logout' %}">Logout</button></a>
+    <a href="{% url 'logout' %}"><button>Logout</button></a>
     <a href="{% url 'login' %}"><button>Login</button></a>
     <a href="{% url 'register' %}">><button>Login</button></a>
 </body>
