@@ -12,7 +12,10 @@
     {% for user in users %}
     {{ user.username }}
     {% endfor %}
-    <a href="{% url 'logout' %}"><button>Logout</button></a>
+    <form action="{% url 'logout' %}" method="post">
+        {% csrf_token %}
+        <button type="submit">Logout</button>
+    </form>
     <a href="{% url 'login' %}"><button>Login</button></a>
     <a href="{% url 'register' %}"><button>Register</button></a>
 </body>
