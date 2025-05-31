@@ -7,7 +7,9 @@
 </head>
 <body>
     {% if user.is_authenticated %}
-        <form me></form>
+        <form method="post">
+            {{}}
+        </form>
     {% endif %}
 </body>
 </html>
