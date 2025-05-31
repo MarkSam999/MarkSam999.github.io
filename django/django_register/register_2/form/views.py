@@ -3,4 +3,4 @@ from django.contrib.auth.models import User
 from django.contrib.auth.forms import UserCreationForm
 
 def register(request):
-    return render()
+    return render(request, "register.html", )
