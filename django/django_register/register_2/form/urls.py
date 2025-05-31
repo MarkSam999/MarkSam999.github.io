@@ -1,6 +1,6 @@
 from . import views
 from django.urls import path, include
-from django.contrib.auth.views.
+from django.contrib.auth
 
 urlpatterns = [
     path("home", views.home, name="home"),
