@@ -13,3 +13,5 @@ def register(request):
     return render(request, "register.html", {"form": form})
 
 def home(request):
+    users = User.objects.all()
+    
