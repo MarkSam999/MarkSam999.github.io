@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-def register()
+def register(request):
+    
