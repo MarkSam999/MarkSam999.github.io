@@ -6,6 +6,6 @@ if($(user_info.age) < 18){
     console.log("Adult.");
 };
 
-if($() == "USA"){
-
+if($(user_info.country) == "USA"){
+    
 };
