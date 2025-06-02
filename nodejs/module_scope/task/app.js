@@ -20,4 +20,4 @@ if(user_info.income < 2500){
     console.log("More than average");
  else if(user_info.income >= 10000){
     console.log("Rich"); 
-};
+};
