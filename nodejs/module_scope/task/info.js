@@ -1,6 +1,6 @@
 const name = "Alex";
-const age = 16;
+const age = 18;
 const country = "USA";
-const income = 8000;
+const income = 12000;
 
 module.exports = {name, age, country, income};
