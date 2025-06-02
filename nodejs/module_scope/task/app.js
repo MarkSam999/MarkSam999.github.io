@@ -16,6 +16,6 @@ if(user_info.income < 2500){
     console.log("Poor.")
 } else if(user_info.income >= 2500) and (user_info.income < 5000){
     console.log("Medium"); 
-} else if(user_info.income >= 2500) and (user_info.income < 5000){
+} else if(user_info.income >= 5000) and (user_info.income < 5000){
     console.log("Medium"); 
 };
