@@ -6,7 +6,7 @@ if(user_info.age < 18){
     console.log("Adult.");
 };
 
-if($(user_info.country) == "USA"){
+if(user_info.country == "USA"){
     console.log("American."); 
 } else {
     console.log("Not American.");
