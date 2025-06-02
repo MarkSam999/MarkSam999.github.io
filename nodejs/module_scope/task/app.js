@@ -1,5 +1,5 @@
 const user_info = require("./info");
 
-if($()){
+if($(user_info.age)){
 
 }
