@@ -12,6 +12,6 @@ if(user_info.country == "USA"){
     console.log("Not American.");
 };
 
-if(user_info.income){
-    
+if(user_info.income < 2500){
+
 };
