@@ -1,5 +1,5 @@
 const name = "Alex";
 const age = 16;
-const country = USA;
+const country = "USA";
 
 exports = {name, age, country};
