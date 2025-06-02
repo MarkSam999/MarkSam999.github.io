@@ -1,1 +1,1 @@
-const user
+const user_info = require("./info")
