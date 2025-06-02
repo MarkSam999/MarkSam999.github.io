@@ -14,4 +14,4 @@ if(user_info.country == "USA"){
 
 if(user_info.income < 2500){
     console.log("Poor.")
-} else if();
+} else if(user_info.income >= 2500);
