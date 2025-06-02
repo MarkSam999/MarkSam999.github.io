@@ -1,1 +1,2 @@
-const name = "Alex"
+const name = "Alex";
+const age = 16;
