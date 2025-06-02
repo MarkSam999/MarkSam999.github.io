@@ -6,6 +6,5 @@ if($(user_info.age) < 18){
     console.log("Adult.");
 };
 
-if(){
-    
-};
+if(%() == ){
+
