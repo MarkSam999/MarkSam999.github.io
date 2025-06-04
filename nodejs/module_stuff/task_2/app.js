@@ -1,8 +1,8 @@
-const greet = require("./hero");
+const execute = require("./hero");
 
 for(let i = 5; i > -1; i--){
     if(i == 0){
-        greet();
+        execute();
     }else{
         console.log(i);
     }
