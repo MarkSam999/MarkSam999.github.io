@@ -10,4 +10,6 @@ class SuperHero {
     setName(name){
         this.name = name;
     };
-}
+};
+
+module.exports = new
