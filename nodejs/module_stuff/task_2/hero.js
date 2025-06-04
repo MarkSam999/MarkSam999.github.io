@@ -4,6 +4,6 @@ function greet(){
     console.log("Hello,", superHero)
 };
 
-function goo
+function goodbye(){}
 
 module.exports = greet;
