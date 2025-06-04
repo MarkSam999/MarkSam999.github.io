@@ -6,8 +6,9 @@ function greet(){
 
 for(let i = 5; i > 0; i--){
     if(i = 1){
-        
-    }
-}
+        greet();
+    }else{
 
-greet();
+    }
+};
+
