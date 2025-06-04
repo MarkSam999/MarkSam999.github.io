@@ -1,1 +1,1 @@
-require("./batman")
+require("./super-hero")
