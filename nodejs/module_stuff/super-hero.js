@@ -6,4 +6,6 @@ class SuperHero {
     getName(){
         return this.name;
     }
+
+    setName
 }
