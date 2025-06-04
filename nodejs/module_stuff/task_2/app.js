@@ -4,4 +4,6 @@ function greet(){
     console.log("Hello,", superHero)
 };
 
+for()
+
 greet();
