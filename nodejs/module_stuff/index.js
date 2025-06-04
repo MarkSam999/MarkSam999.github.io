@@ -1,1 +1,1 @@
-const superHero = require("./super-hero")
+const superHero = require("./super-hero");
