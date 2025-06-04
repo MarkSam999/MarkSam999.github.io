@@ -6,4 +6,5 @@ for(let i = 5; i > -1; i--){
         greet();
     }else{
         console.log(i);
- 
+    }
+};

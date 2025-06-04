@@ -5,7 +5,7 @@ function greet(){
 };
 
 function goodbye(){
-    
+    console.log("Hello,", superHero)
 }
 
 module.exports = greet;
