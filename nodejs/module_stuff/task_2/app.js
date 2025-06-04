@@ -4,6 +4,6 @@ function greet(){
     console.log("Hello,", superHero)
 };
 
-for()
+for(let i = 5; i > 0; I--)
 
 greet();
