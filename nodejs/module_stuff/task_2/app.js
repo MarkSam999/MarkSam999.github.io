@@ -12,5 +12,5 @@ for(let i = 5; i > -1; i--){
     }
 };
 
-module
+module.exports = greet;
 
