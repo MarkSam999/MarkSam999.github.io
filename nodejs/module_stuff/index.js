@@ -1,2 +1,2 @@
 const superHero = require("./super-hero");
-console.log()
+console.log(superHero.getName)
