@@ -12,4 +12,4 @@ class SuperHero {
     };
 };
 
-module.exports = new
+module.exports = new SuperHero;
