@@ -1,7 +1,7 @@
 const superHero = "Iron Man"
 
 function greet(){
-    console.log("Hello, ", superHero)
+    console.log("Hello,", superHero)
 };
 
 greet();
