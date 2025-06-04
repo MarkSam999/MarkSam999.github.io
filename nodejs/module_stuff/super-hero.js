@@ -1,3 +1,3 @@
 class SuperHero {
-    constructor
+    constructor (name)
 }
