@@ -3,5 +3,7 @@ class SuperHero {
         this.name = name;
     }
 
-    getName =
+    getName(){
+        
+    }
 }
