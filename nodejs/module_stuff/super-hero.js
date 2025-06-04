@@ -12,4 +12,4 @@ class SuperHero {
     };
 
 }
-module.exports = new SuperHero
+module.exports = new SuperHero("Batman");
