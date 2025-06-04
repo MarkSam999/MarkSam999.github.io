@@ -1,5 +1,5 @@
 const greet = require("./hero");
-const 
+const goodbye
 
 for(let i = 5; i > -1; i--){
     if(i == 0){

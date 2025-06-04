@@ -8,4 +8,4 @@ function goodbye(){
     console.log("Goodbye,", superHero);
 };
 
-module.exports = {greet, };
+module.exports = {greet, goodbye};
