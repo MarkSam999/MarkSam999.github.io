@@ -1,3 +1,5 @@
 const superHero = "Iron Man"
 
-function greet()
+function greet(){
+    console
+};
