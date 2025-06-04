@@ -1,4 +1,4 @@
-const greet = require("./hero.gree");
+const greet = require("./hero/greet");
 const goodbye  =require("./hero")
 
 for(let i = 5; i > -1; i--){
