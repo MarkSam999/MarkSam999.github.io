@@ -10,6 +10,6 @@ class SuperHero {
     setName(name){
         this.name = name;
     };
-};
 
-module.exports = new SuperHero("Bat
+}
+module.exports = new SuperHero("B
