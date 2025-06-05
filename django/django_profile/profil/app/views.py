@@ -8,4 +8,5 @@ def register(request):
             form.save()
             return redirect('home')
     else:
+        form = UserCreationForm()
         
