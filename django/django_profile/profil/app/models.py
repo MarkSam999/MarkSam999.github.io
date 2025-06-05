@@ -7,4 +7,4 @@ class Profile(models.Model):
     avatar = models.ImageField()
     description = models.TextField(max_length=5000)
 
-    def 
+    def __init__()
