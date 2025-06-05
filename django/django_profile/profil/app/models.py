@@ -7,4 +7,5 @@ class Profile(models.Model):
     avatar = models.ImageField()
     description = models.TextField(max_length=5000)
 
-    def __init__()
+    def __init__(self):
+        return 
