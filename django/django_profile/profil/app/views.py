@@ -1,4 +1,4 @@
-from django.shortcuts import re
+from django.shortcuts import render, redirect, g
 from django.contrib.auth.forms import UserCreationForm
 
 def register(request):
