@@ -1,5 +1,5 @@
 from django.db import models
-from 
+from django.
 
 class Profile(models.Model):
     user = models.OneToOneField(User, )
