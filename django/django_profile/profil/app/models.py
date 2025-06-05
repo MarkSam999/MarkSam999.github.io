@@ -8,4 +8,4 @@ class Profile(models.Model):
     description = models.TextField(max_length=5000)
 
     def __init__(self):
-        return 
+        return self.nickname
