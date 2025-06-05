@@ -3,4 +3,4 @@ from django.dispatch import receiver
 from django.contrib.auth import User
 from .models import Profile
 
-@receiver
+@receiver(post_save, )
