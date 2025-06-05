@@ -6,7 +6,7 @@ class Profile(models.Model):
     nickname = models.CharField(max_length=15)
     avatar = models.ImageField()
     description = models.TextField(max_length=5000)
-    
+    created_at = models.DateField
 
     def __init__(self):
         return self.nickname
