@@ -1,2 +1,2 @@
-const exp = require("./math");
-console.log(exp(3, 6))
+const perc = require("./math");
+console.log(perc(3, 6))
