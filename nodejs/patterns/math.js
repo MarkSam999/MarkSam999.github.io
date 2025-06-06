@@ -7,6 +7,5 @@ const subtract = (a, b) => {
 }
 
 module.exports = {
-    add: add,
-    subtract: subtract
+    add: add, subtract
 };
