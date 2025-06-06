@@ -1,2 +1,2 @@
 const exp = require("./math");
-console.log(add(3, 6))
+console.log(exp(3, 6))
