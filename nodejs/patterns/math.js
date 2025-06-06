@@ -1,4 +1,4 @@
-const add = (a, b) => {
+const exp = (a, b) => {
     return a + b;
 }
 
