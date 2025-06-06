@@ -3,6 +3,6 @@ module.exports = (a, b) => {
     if(result >= 1){
         return result;
     } else {
-        
+        console.log("<1%")
     }
 }
