@@ -1,4 +1,4 @@
 const SuperHero = require("./super-hero");
 
 const batman = new SuperHero("Batman");
-console.log(batman.getName())
+console.log(batman.getName());
