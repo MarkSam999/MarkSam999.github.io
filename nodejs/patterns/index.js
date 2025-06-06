@@ -1,2 +1,2 @@
 const add = require("./math");
-console.log(add(45,40))
+console.log(add(3, 6))
