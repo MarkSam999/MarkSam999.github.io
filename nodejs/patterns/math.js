@@ -1,3 +1,4 @@
 module.exports = (a, b) => {
-    let result = 
+    let result = Math.round(a / b * 100);
+    return 
 }
