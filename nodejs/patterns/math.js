@@ -6,4 +6,7 @@ const subtract = (a, b) => {
     return a + b;
 }
 
-module.exports = 
+module.exports = {
+    add: add;
+    subtract: subtract
+}
