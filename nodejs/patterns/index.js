@@ -1,2 +1,2 @@
 const perc = require("./math");
-console.log(perc(3, 99))
+console.log(perc(3, 85))
