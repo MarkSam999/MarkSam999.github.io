@@ -1,5 +1,5 @@
 const exp = (a, b) => {
-    return a ** b / b;
+    return a ** b / ( a );
 }
 
 module.exports = exp;
