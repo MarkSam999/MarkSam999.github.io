@@ -1,3 +1,3 @@
 const SuperHero = require("./super-hero");
 
-const batman = new SuperHero;
+const batman = new SuperHero("Batman");
