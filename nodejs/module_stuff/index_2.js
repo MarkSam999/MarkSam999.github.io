@@ -1,1 +1,1 @@
-const add = require
+const add = require("./math")
