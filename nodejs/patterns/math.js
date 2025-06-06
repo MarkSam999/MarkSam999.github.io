@@ -1,5 +1,5 @@
 module.exports = (a, b) => {
-    let raw = 
+    let raw = a / b * 100;
     let result = Math.round(a / b * 100);
     if(result >= 1){
         console.log(result + "%");
