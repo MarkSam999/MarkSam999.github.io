@@ -4,4 +4,4 @@ from .models import Profile
 @reciever(sender=User)
 def create_user_profile(sender, created, **kwargs):
     if created:
-        Profile.
+        Profile.objects.create(User=instance)
