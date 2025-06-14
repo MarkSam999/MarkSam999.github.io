@@ -1,6 +1,6 @@
 from django.dispatch import receiver
 from .models import Profile
-from import django.contrib.auth.models.User
+import django.contrib.auth.models.User
 from django.db.models.signals import post_save
 
 @reciever(post_save, sender=User)
