@@ -1,5 +1,6 @@
 from django.dispatch import receiver
 from .models import Profile
+from django.sh
 
 @reciever(post_save, sender=User)
 def create_user_profile(sender, instance, created, **kwargs):
