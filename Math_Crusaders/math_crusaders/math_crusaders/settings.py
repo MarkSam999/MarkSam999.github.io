@@ -34,7 +34,6 @@ ALLOWED_HOSTS = ['localhost']
 INSTALLED_APPS = [
     'main_app.apps.Main_appConfig',
     'users.apps.UsersConfig',
-    'practice_games.apps.PracticeGamesConfig',
     'crispy_forms',
     'crispy_bootstrap5',
     'django_htmx',
