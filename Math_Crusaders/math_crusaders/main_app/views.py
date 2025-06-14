@@ -92,14 +92,14 @@ def news(request):
 
 class NewsPostListView(ListView):
     model = News_Post
-    template_name = 'main_app/news.html'
+    template_name = 'main_app/news/news.html'
     context_object_name = 'news_posts'
     ordering = ['-publish_date']
     paginate_by = 10
 
 class NewsPostDetailView(DetailView):
     model = News_Post
-    template_name = 'main_app/news_post.html'
+    template_name = 'main_app/news/news_post.html'
 
 class NewsPostCreateView(CreateView):
     model = News_Post
@@ -109,7 +109,7 @@ class NewsPostCreateView(CreateView):
                 'style': 'resize: none; width: 100%; place-self: center;'
             }),
         }
-    template_name = 'main_app/news_post_add.html'
+    template_name = 'main_app/news/news_post_add.html'
     success_url = reverse_lazy('news')
 
     def form_valid(self, form):
@@ -123,7 +123,7 @@ class NewsPostUpdateView(UserPassesTestMixin, UpdateView):
                 'style': 'resize: none; width: 100%; place-self: center;'
             }),
         }
-    template_name = 'main_app/news_post_add.html'
+    template_name = 'main_app/news/news_post_add.html'
     success_url = reverse_lazy('news') 
 
     def form_valid(self, form):
@@ -138,7 +138,7 @@ class NewsPostUpdateView(UserPassesTestMixin, UpdateView):
 
 class NewsPostDeleteView(UserPassesTestMixin, DeleteView):
     model = News_Post
-    template_name = 'main_app/news_post_delete.html'
+    template_name = 'main_app/news/news_post_delete.html'
     success_url = reverse_lazy('news') 
 
     def test_func(self):
