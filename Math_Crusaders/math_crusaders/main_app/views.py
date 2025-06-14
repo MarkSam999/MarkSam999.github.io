@@ -115,6 +115,7 @@ class NewsPostCreateView(CreateView):
     def form_valid(self, form):
         form.instance.posted_by = self.request.user
         return super().form_valid(form)
+    
 class NewsPostUpdateView(UserPassesTestMixin, UpdateView):
     model = News_Post
     form_class = NewsPostForm
