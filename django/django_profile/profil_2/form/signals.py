@@ -1,3 +1,3 @@
 from django.dispatch import receiver
 
-def 
+def create_user_profile()
