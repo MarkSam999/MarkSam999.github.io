@@ -35,7 +35,6 @@ INSTALLED_APPS = [
     'main_app.apps.Main_appConfig',
     'users.apps.UsersConfig',
     'practice_games.apps.PracticeGamesConfig',
-    'chats',
     'crispy_forms',
     'crispy_bootstrap5',
     'django_htmx',
