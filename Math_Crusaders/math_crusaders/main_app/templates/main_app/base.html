@@ -80,12 +80,6 @@
                 </a>
                 <p class="page_names">Map</p>
             </div>
-            <div class="header_buttons"> <!--Chats-->
-                <a class="header_links" href="{% url 'chats' %}">
-                    <img class="header_signs chat_sign" src="{% static 'media/img/void.PNG' %}" onclick="Press()" height="60px" width="60px">
-                </a>
-                <p class="page_names">Chat</p>
-            </div>
             {% if user.is_authenticated %}
                 <div class="header_buttons"> <!--Logout-->
                     <form action="{% url 'logout' %}" method="post"> 
