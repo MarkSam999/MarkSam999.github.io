@@ -1,4 +1,4 @@
 from django.dispatch import receiver
 
-@reciever()
+@reciever(sender=User)
 def create_user_profile(sender, created, **kwargs):
