@@ -73,20 +73,3 @@ class NewsPostForm(forms.ModelForm):
                 'style': 'resize: none; width: 100%; place-self: center;',
             }),
         }    
-
-class MessageForm(forms.ModelForm):
-    class Meta:
-        model = Message
-        fields = ['content']
-        widgets = {
-            'content': forms.Textarea(attrs={
-                'style': 'resize: none; width: 100%; font-size: 20px; text-align: left; place-self: center; height: 100%;',
-            }),
-        }
-    def save(self, user=None, commit=True):
-        chat_message = super().save(commit=False)
-        if user:
-            chat_message.posted_by = user
-        if commit:
-            chat_message.save()
-        return chat_message
