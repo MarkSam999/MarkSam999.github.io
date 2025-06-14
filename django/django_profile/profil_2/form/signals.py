@@ -1,6 +1,6 @@
 from django.dispatch import receiver
 from .models import Profile
-from django.
+from django.db.models.signals import pos
 
 @reciever(post_save, sender=User)
 def create_user_profile(sender, instance, created, **kwargs):
