@@ -1,3 +1,3 @@
 const obj1 = {
-    name: 
+    name: "Bruce Wayne"
 }
