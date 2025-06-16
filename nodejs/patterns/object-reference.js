@@ -4,7 +4,7 @@ const obj1 = {
 
 let obj2 = obj1;
 obj2 = [
-    
-] "Clark Kent";
+    name: "Clark Kent";
+] 
 
 console.log(obj1.name);
