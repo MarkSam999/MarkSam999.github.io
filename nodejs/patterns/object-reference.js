@@ -1,1 +1,3 @@
-const obj1 = 
+const obj1 = {
+    name
+}
