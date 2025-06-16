@@ -2,4 +2,4 @@ const obj1 = {
     name: "Bruce Wayne"
 }
 
-const 
+const obj2 = 
