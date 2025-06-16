@@ -3,4 +3,4 @@ const obj1 = {
 }
 
 const obj2 = obj1;
-obj2.name = obj1
+obj2.name = "Clark Kent";
