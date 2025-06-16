@@ -1,7 +1,7 @@
-module.exports.add = (a, b) => {
+exports.add = (a, b) => {
     return a + b;
 }
 
-module.exports.subtract = (a, b) => {
+exports.subtract = (a, b) => {
     return a - b;
 }
