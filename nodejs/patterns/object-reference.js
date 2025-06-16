@@ -3,4 +3,4 @@ const obj1 = {
 }
 
 const obj2 = obj1;
-obj
+obj2.name = obj1
