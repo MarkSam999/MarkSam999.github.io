@@ -15,5 +15,7 @@ function oneD(){
 }
 
 if (answer = 63){
-    alert("Correct")
+    alert("Correct!");
+} else {
+    
 }
