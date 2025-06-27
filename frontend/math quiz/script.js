@@ -42,11 +42,11 @@ function threeB(){
 }
 
 function threeC(){
-    answer3 = 70;
+    answer3 = 11;
 }
 
 function threeD(){
-    answer3 = 66;
+    answer3 = 12;
 }
 
 function oneA(){
