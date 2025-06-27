@@ -2,22 +2,22 @@ let answer = 0;
 
 function oneA(){
     let answer = 63;
-    check()
+    check();
 }
 
 function oneB(){
     let answer= 50;
-    check()
+    check();
 }
 
 function oneC(){
     let answer = 70;
-    check()
+    check();
 }
 
 function oneD(){
     let answer = 66;
-    check()
+    check();
 }
 
 function check(){
