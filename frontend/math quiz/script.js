@@ -65,19 +65,19 @@ function fourD(){
     answer1 = 66;
 }
 
-function oneA(){
+function fiveA(){
     answer1 = 63;
 }
 
-function oneB(){
+function fiveB(){
     answer1= 50;
 }
 
-function oneC(){
+function fiveC(){
     answer1 = 70;
 }
 
-function oneD(){
+function fiveD(){
     answer1 = 66;
 }
 
