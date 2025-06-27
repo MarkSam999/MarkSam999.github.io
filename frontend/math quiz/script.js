@@ -15,10 +15,9 @@ function oneD(){
 }
 
 function check(){
-    f (answer = 63){
-    alert("Correct!");
+    if (answer = 63){
+        alert("Correct!");
 } else {
     alert("Incorrect!");
 }
 }
-i
