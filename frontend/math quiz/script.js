@@ -1,3 +1,3 @@
 function oneA(){
-    alert("Corrs")
+    alert("Correct!");
 }
