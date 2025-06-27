@@ -34,11 +34,11 @@ function twoD(){
 }
 
 function threeA(){
-    answer3 = 63;
+    answer3 = 15;
 }
 
 function threeB(){
-    answer3= 50;
+    answer3= 16;
 }
 
 function threeC(){
