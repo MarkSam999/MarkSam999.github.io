@@ -14,4 +14,6 @@ function oneD(){
     let answer = 66;
 }
 
-if (answer = 63)
+if (answer = 63){
+    alert("Correct")
+}
