@@ -1,23 +1,23 @@
-let answer = 0;
+let answer1 = 0;
 
 function oneA(){
-    answer = 63;
+    answer1 = 63;
 }
 
 function oneB(){
-    answer= 50;
+    answer1= 50;
 }
 
 function oneC(){
-    answer = 70;
+    answer1 = 70;
 }
 
 function oneD(){
-    answer = 66;
+    answer1 = 66;
 }
 
 function check(){
-    if (answer === 63){
+    if (answer1 === 63){
         alert("Correct!");
     } else {
         alert("Incorrect!");
