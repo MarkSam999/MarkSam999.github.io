@@ -1,5 +1,3 @@
-let answer = 0;
-
 function oneA(){
     let answer = 63;
     check();
