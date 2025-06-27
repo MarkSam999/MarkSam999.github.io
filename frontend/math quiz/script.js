@@ -1,16 +1,17 @@
-function oneA(answer){
+function oneA(){
     let answer = 63;
+    check();
 }
 
-function oneB(answer){
+function oneB(){
     let answer= 50;
 }
 
-function oneC(answer){
+function oneC(){
     let answer = 70;
 }
 
-function oneD(answer){
+function oneD(){
     let answer = 66;
 }
 
