@@ -18,7 +18,7 @@ function oneD(){
 
 function check(){
     if (answer1 === 63){
-        alert("Correct!");
+        points 
     } else {
     }
 }
