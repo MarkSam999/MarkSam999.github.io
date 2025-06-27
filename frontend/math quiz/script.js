@@ -1,6 +1,6 @@
 let answer = 0;
 
-document.get(){
+document.getElementById(")(){
     let answer = 63;
 }
 
