@@ -3,5 +3,13 @@ function oneA(){
 }
 
 function oneB(){
-    
+    alert("Inorrect!");
+}
+
+function oneB(){
+    alert("Inorrect!");
+}
+
+function oneB(){
+    alert("Inorrect!");
 }
