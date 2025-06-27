@@ -33,19 +33,19 @@ function twoD(){
     answer2 = 17;
 }
 
-function oneA(){
+function threeA(){
     answer1 = 63;
 }
 
-function oneB(){
+function threeB(){
     answer1= 50;
 }
 
-function oneC(){
+function threeC(){
     answer1 = 70;
 }
 
-function oneD(){
+function threeD(){
     answer1 = 66;
 }
 
