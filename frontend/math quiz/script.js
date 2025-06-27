@@ -20,6 +20,6 @@ function oneD(){
 function check(){
     if (answer1 === 63){
         points += 1;
-    } else {
     }
+    if ()
 }
