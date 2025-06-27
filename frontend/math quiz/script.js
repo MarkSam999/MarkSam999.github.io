@@ -54,15 +54,15 @@ function fourA(){
 }
 
 function fourB(){
-    answer4= 50;
+    answer4= 8;
 }
 
 function fourC(){
-    answer4 = 70;
+    answer4 = 12;
 }
 
 function fourD(){
-    answer4 = 66;
+    answer4 = 15;
 }
 
 function fiveA(){
