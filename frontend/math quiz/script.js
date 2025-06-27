@@ -1,1 +1,1 @@
-oneA()
+function oneA()
