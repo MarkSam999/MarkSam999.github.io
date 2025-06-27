@@ -3,7 +3,7 @@ function oneA(){
 }
 
 function oneB(){
-    alert("Inorrect!");
+    let answer= 50;
 }
 
 function oneC(){
