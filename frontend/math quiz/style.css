@@ -3,6 +3,6 @@ body {
     font-family: "Cambria";
 }
 
-.choices {
-    
+.choices:hover {
+    cursor: po
 }
