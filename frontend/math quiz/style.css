@@ -4,5 +4,5 @@ body {
 }
 
 .choices:hover {
-    cursor: po
+    cursor: pointer;
 }
