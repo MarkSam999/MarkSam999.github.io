@@ -1,6 +1,6 @@
 let answer = 0;
 
-document.getElementById("")(){
+document.getElementById("oneA")(){
     let answer = 63;
 }
 
