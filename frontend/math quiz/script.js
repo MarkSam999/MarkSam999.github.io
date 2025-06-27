@@ -14,9 +14,11 @@ function oneD(){
     let answer = 66;
 }
 
-
-if (answer = 63){
+function check(){
+    f (answer = 63){
     alert("Correct!");
 } else {
     alert("Incorrect!");
 }
+}
+i
