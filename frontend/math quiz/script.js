@@ -21,10 +21,10 @@ function check(){
     if (answer1 === 63){
         points += 1;
     }
-    if (answer1 === 63){
+    if (answer2 === 63){
         points += 1;
     }
-    if (answer1 === 63){
+    if (answer3 === 63){
         points += 1;
     }
     if (answer1 === 63){
