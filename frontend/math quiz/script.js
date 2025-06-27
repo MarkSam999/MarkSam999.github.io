@@ -49,19 +49,19 @@ function threeD(){
     answer3 = 12;
 }
 
-function oneA(){
+function fourA(){
     answer1 = 63;
 }
 
-function oneB(){
+function fourB(){
     answer1= 50;
 }
 
-function oneC(){
+function fourC(){
     answer1 = 70;
 }
 
-function oneD(){
+function fourD(){
     answer1 = 66;
 }
 
