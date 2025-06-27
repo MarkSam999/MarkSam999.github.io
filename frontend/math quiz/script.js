@@ -88,10 +88,10 @@ function check(){
     if (answer2 === 14){
         points += 1;
     }
-    if (answer3 === 63){
+    if (answer3 === 12){
         points += 1;
     }
-    if (answer4 === 63){
+    if (answer4 === 8){
         points += 1;
     }
     if (answer5 === 63){
