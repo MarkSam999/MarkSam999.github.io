@@ -21,5 +21,4 @@ function check(){
     if (answer1 === 63){
         points += 1;
     }
-    if ()
 }
