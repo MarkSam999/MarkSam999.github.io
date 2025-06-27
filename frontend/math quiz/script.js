@@ -18,11 +18,11 @@ function oneD(){
 }
 
 function twoA(){
-    answer2 = 63;
+    answer2 = 12;
 }
 
 function twoB(){
-    answer2= 50;
+    answer2= ;
 }
 
 function twoC(){
