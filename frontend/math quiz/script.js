@@ -1,5 +1,5 @@
 function oneA(){
-    let answer
+    let answer = 63;
 }
 
 function oneB(){
