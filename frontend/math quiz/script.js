@@ -20,6 +20,5 @@ function check(){
     if (answer1 === 63){
         alert("Correct!");
     } else {
-        alert("Incorrect!");
     }
 }
