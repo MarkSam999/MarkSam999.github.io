@@ -17,20 +17,20 @@ function oneD(){
     answer1 = 66;
 }
 
-function oneA(){
-    answer1 = 63;
+function twoA(){
+    answer2 = 63;
 }
 
-function oneB(){
-    answer1= 50;
+function twoB(){
+    answer2= 50;
 }
 
-function oneC(){
-    answer1 = 70;
+function twoC(){
+    answer2 = 70;
 }
 
-function oneD(){
-    answer1 = 66;
+function twoD(){
+    answer2 = 66;
 }
 
 function oneA(){
