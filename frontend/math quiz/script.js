@@ -11,5 +11,6 @@ function oneC(){
 }
 
 function oneD(){
-    let answer = ;
+    let answer = 66;
 }
+
