@@ -22,15 +22,15 @@ function twoA(){
 }
 
 function twoB(){
-    answer2= ;
+    answer2= 15;
 }
 
 function twoC(){
-    answer2 = 70;
+    answer2 = 14;
 }
 
 function twoD(){
-    answer2 = 66;
+    answer2 = 17;
 }
 
 function oneA(){
