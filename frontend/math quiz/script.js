@@ -74,11 +74,11 @@ function fiveB(){
 }
 
 function fiveC(){
-    answer5 = 70;
+    answer5 = 30;
 }
 
 function fiveD(){
-    answer5 = 66;
+    answer5 = 28;
 }
 
 function check(){
