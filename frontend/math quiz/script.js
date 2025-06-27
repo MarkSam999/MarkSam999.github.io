@@ -6,10 +6,10 @@ function oneB(){
     alert("Inorrect!");
 }
 
-function oneB(){
+function oneC(){
     alert("Inorrect!");
 }
 
-function oneB(){
+function oneD(){
     alert("Inorrect!");
 }
