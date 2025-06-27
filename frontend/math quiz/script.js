@@ -7,9 +7,9 @@ function oneB(){
 }
 
 function oneC(){
-    alert("Inorrect!");
+    let answer = 70;
 }
 
 function oneD(){
-    alert("Inorrect!");
+    let answer = ;
 }
