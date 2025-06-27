@@ -1,5 +1,5 @@
 function oneA(){
-    alert("Correct!");
+    let answer
 }
 
 function oneB(){
