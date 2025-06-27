@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Battle Game - Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="menu-container">
+        <h2>Main Menu</h2>
+        <button onclick="startGame()">Start Game</button>
+        <button onclick="saveProgress()">Save Progress</button>
+        <button onclick="signOut()">Sign Out</button>
+    </div>
+    <div id="game-container" style="display:none;">
+        <div id="task-container"></div>
+        <input type="text" id="answer" placeholder="Your answer">
+        <button onclick="submitAnswer()">Submit</button>
+    </div>
+    <!-- Include Firebase JS SDKs -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js"></script>
+    <script src="app.js"></script>
+    <script src="taskGenerator.js"></script>
+</body>
+</html>
+
