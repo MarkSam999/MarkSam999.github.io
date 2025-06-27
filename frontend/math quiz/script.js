@@ -94,7 +94,8 @@ function check(){
     if (answer4 === 8){
         points += 1;
     }
-    if (answer5 === 63){
+    if (answer5 === 30){
         points += 1;
     }
+    
 }
