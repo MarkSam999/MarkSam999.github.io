@@ -34,19 +34,19 @@ function twoD(){
 }
 
 function threeA(){
-    answer1 = 63;
+    answer3 = 63;
 }
 
 function threeB(){
-    answer1= 50;
+    answer3= 50;
 }
 
 function threeC(){
-    answer1 = 70;
+    answer3 = 70;
 }
 
 function threeD(){
-    answer1 = 66;
+    answer3 = 66;
 }
 
 function oneA(){
