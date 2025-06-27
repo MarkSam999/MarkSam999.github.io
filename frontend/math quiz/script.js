@@ -50,19 +50,19 @@ function threeD(){
 }
 
 function fourA(){
-    answer1 = 63;
+    answer4 = 63;
 }
 
 function fourB(){
-    answer1= 50;
+    answer4= 50;
 }
 
 function fourC(){
-    answer1 = 70;
+    answer4 = 70;
 }
 
 function fourD(){
-    answer1 = 66;
+    answer4 = 66;
 }
 
 function fiveA(){
