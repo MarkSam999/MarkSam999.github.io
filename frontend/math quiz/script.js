@@ -66,19 +66,19 @@ function fourD(){
 }
 
 function fiveA(){
-    answer1 = 63;
+    answer5 = 63;
 }
 
 function fiveB(){
-    answer1= 50;
+    answer5= 50;
 }
 
 function fiveC(){
-    answer1 = 70;
+    answer5 = 70;
 }
 
 function fiveD(){
-    answer1 = 66;
+    answer5 = 66;
 }
 
 function check(){
