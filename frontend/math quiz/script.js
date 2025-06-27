@@ -97,5 +97,5 @@ function check(){
     if (answer5 === 30){
         points += 1;
     }
-    alert("You got " + points + "")
+    alert("You got " + points + "/5!")
 }
