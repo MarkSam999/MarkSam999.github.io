@@ -9,9 +9,9 @@ if(action == '+'){
     q1ca = q1n1 + a1n2;
 } else if(action == '-'){
 
-} else if(action == ''){
+} else if(action == '*'){
 
-} else if(action == ''){
+} else if(action == '/'){
 
 }
 $("#q1").text(action);
