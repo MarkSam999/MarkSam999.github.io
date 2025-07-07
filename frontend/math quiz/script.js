@@ -14,6 +14,13 @@ if(action == '+'){
 } else if(action == '-'){
     q1ca = q1n1 - q1n2;
     q1txt = q1n1 + " " + action + " " + q1n2;
+    if(q1n2 > q1n1){
+        q1n1 = Math.round(Math.random() * 10);
+        q1n2 = Math.round(Math.random() * 10);
+    };
+    if(q1n2 = 0){
+        q1n2 = Math.round(Math.random() * 10);
+    };
 } else if(action == '*'){
     q1ca = q1n1 * q1n2;
     q1txt = q1n1 + " " + action + " " + q1n2;
