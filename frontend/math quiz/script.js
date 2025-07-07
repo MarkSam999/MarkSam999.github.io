@@ -10,6 +10,8 @@ if(action == '+'){
 } else if(){
 
 } else if(){
+
+} else if(){
     
 }
 $("#q1").text(action);
