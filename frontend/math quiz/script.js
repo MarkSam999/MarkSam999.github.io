@@ -3,6 +3,7 @@ let points = 0;
 
 let q1n1 = Math.round(Math.random() * 10);
 let q1n2 = Math.round(Math.random() * 10);
+let action = 
 $("#q1").text(q1n1);
 
 function oneA(){
