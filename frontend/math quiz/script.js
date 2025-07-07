@@ -1,7 +1,7 @@
 let answer1 = 0;
 let points = 0;
 
-q1_n1
+q1_n1 = M
 
 function oneA(){
     answer1 = 63;
