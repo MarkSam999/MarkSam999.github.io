@@ -7,6 +7,8 @@ let q1n2 = Math.round(Math.random() * 10);
 let action = actions[Math.round(Math.random() * 3)];
 if(action == '+'){
     q1ca = q1n1 + a1n2;
+} else if(){
+    
 }
 $("#q1").text(action);
 
