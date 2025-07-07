@@ -1,8 +1,6 @@
 let answer1 = 0;
 let points = 0;
 
-
-
 function oneA(){
     answer1 = 63;
 }
