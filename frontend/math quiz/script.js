@@ -10,9 +10,9 @@ if(action == '+'){
 } else if(action == '-'){
     q1ca = q1n1 - q1n2;
 } else if(action == '*'){
-    q1ca = q1n1 + q1n2;
+    q1ca = q1n1 * q1n2;
 } else if(action == '/'){
-    q1ca = q1n1 + q1n2;
+    q1ca = q1n1 / q1n2;
 }
 $("#q1").text(action);
 
