@@ -7,16 +7,16 @@ let q1n2 = Math.round(Math.random() * 10);
 let action = actions[Math.round(Math.random() * 3)];
 if(action == '+'){
     q1ca = q1n1 + q1n2;
-    q1txt = q1n1 + action + q1n2;
+    q1txt = q1n1 + + action + q1n2;
 } else if(action == '-'){
     q1ca = q1n1 - q1n2;
-    q1txt = q1n1 + action + q1n2;
+    q1txt = q1n1 + + action + q1n2;
 } else if(action == '*'){
     q1ca = q1n1 * q1n2;
-    q1txt = q1n1 + action + q1n2;
+    q1txt = q1n1 + + action + q1n2;
 } else if(action == '/'){
     q1ca = q1n1 / q1n2;
-    q1txt = q1n1 + action + q1n2;
+    q1txt = q1n1 + + action + q1n2;
 }
 $("#q1").text(q1txt);
 
