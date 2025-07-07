@@ -1,7 +1,7 @@
 let answer1 = 0;
 let points = 0;
 
-q1n1 = Math.random()
+q1n1 = Math.random() * 10;
 alert(q1n1);
 
 function oneA(){
