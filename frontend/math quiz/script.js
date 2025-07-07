@@ -2,7 +2,7 @@ let answer1 = 0;
 let points = 0;
 
 q1n1 = Math.random()
-$("#q1").text = q1n1;
+
 
 function oneA(){
     answer1 = 63;
