@@ -1,4 +1,4 @@
-let answer1 = 0;
+let a1 = 0;
 let points = 0;
 
 let q1n1 = Math.round(Math.random() * 10);
