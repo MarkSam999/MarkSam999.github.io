@@ -14,7 +14,7 @@ if(action == '+'){
 } else if(action == '/'){
     q1ca = q1n1 / q1n2;
 }
-$("#q1").text(action);
+$("#q1").text(q1ca);
 
 function oneA(){
     a1 = 63;
