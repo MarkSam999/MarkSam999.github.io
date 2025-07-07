@@ -2,7 +2,7 @@ let answer1 = 0;
 let points = 0;
 
 q1n1 = Math.round(Math.random() * 10);
-$("#q1").innerHTML = ;
+$("#q1").innerHTML = q1n1;
 
 function oneA(){
     answer1 = 63;
@@ -101,3 +101,4 @@ function check(){
         points += 1;
     }
     alert("You got " + points + "/5!")
+}
