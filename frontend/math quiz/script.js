@@ -2,7 +2,7 @@ let a1 = 0;
 let points = 0;
 
 let q1n1 = Math.round(Math.random() * 10);
-
+let q1n2 = Math.round(Math.random() * 10);
 $("#q1").text(q1n1);
 
 function oneA(){
