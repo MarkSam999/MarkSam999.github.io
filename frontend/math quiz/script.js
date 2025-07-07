@@ -5,7 +5,7 @@ let actions = ['+', "-", '*', '/']
 let q1n1 = Math.round(Math.random() * 10);
 let q1n2 = Math.round(Math.random() * 10);
 let action = actions[Math.round(Math.random() * 4)];
-$("#q1").text(q1n1);
+$("#q1").text(action);
 
 function oneA(){
     a1 = 63;
@@ -104,4 +104,4 @@ function check(){
         points += 1;
     }
     alert("You got " + points + "/5!")
-}
+}
