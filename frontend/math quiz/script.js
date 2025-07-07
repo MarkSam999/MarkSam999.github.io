@@ -4,8 +4,8 @@ let actions = ['+', "-", '*', '/']
 
 let q1n1 = Math.round(Math.random() * 10);
 let q1n2 = Math.round(Math.random() * 10);
-if(q1n2 = 0){
-        q1n2 = Math.round(Math.random() * 10);
+if(q1n2 == 0){
+    q1n2 = Math.round(Math.random() * 10);
 };
 let action = actions[Math.round(Math.random() * 3)];
 if(action == '+'){
