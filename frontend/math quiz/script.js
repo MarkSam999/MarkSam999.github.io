@@ -22,7 +22,7 @@ if(action == '+'){
     if (q1n2 < 2){
         q1n2 = Math.round(Math.random() * 10);
     } 
-    q1txt = q1n1 + " " + action + " " + q1n2;
+    q1txt = ""q1n1 + " " + action + " " + q1n2;
 }
 $("#q1").text(q1txt);
 
