@@ -27,6 +27,11 @@ if(action == '+'){
     if (q1n2 < 2){
         q1n2 += 1;
         q1txt = "1. "+ q1n1 + " " + action + " " + q1n2 + " = ?";
+    } else if (q1n2 > q1n1){
+        q1res = q1n2;
+        q1n2 = q1n1;
+        q1n1 = q1res;
+        q1txt = "1. "+ q1n1 + " " + action + " " + q1n2 + " = ?";
     }
     q1txt = "1. "+ q1n1 + " " + action + " " + q1n2 + " = ?";
 }
