@@ -37,7 +37,7 @@ if(action == '+'){
 }
 $("#q1").text(q1txt);
 
-for(let i = 0; i < 4)
+for(let i = 0, i < 4, i++){}
 let choice = Math.round(q1ca + Math.random() * 5 || q1ca - Math.random() * 5);
 console.log(choice);
 
