@@ -45,7 +45,7 @@ for(let i = 0; i < 4; i++){
     }
     choices.push(choice);
 }
-choices[Math.round(Math.random * 3)]
+choices[Math.round(Math.random * 3)] = q1ca;
 
 console.log(choices);
 
