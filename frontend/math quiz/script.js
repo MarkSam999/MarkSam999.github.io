@@ -45,7 +45,7 @@ for(let i = 0; i < 4; i++){
     }
     choices.push(choice);
 }
-choices[Math.round(M)]
+choices[Math.round(Math.random * 3)]
 
 console.log(choices);
 
