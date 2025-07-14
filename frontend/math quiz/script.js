@@ -48,4 +48,7 @@ function oneD(){
 }
 
 function check(){
-    if(a1)
+    if(a1 == q1ca){
+        
+    }
+}
