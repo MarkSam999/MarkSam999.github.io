@@ -38,7 +38,7 @@ if(action == '+'){
 $("#q1").text(q1txt);
 let choice = document.createElement("p");
 choice.innerHTML = Math.round(q1ca + Math.random() * 5 || q1ca - Math.random() * 5)
-choice.append();
+alert("choice")
 
 function check(){
     if(a1 == q1ca){
