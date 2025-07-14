@@ -32,7 +32,7 @@ if(action == '+'){
 }
 $("#q1").text(q1txt);
 
-$("p").append()Math.round(Math.random() * 10 + q1ca);
+$("p").append(Math.round(Math.random() * 10 + q1ca));
 
 function check(){
     if(a1 == q1ca){
