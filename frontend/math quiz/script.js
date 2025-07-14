@@ -33,7 +33,7 @@ if(action == '+'){
 $("#q1").text(q1txt);
 
 $("#").onclick(function(){
-    a1 = 66;
+    a1 = Math.round(Math.random() * 3);
 })
 
 function check(){
