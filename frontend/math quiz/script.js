@@ -34,19 +34,19 @@ $("#q1").text(q1txt);
 
 $("#").onclick((){
     a1 = 63;
-}
+})
 
 $("#").onclick((){
     a1= 50;
-}
+})
 
 $("#").onclick((){
     a1 = 70;
-}
+})
 
-$("#").onclick((){
+$("#").onclick(function(){
     a1 = 66;
-}
+})
 
 function check(){
     if(a1 == q1ca){
