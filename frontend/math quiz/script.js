@@ -1,4 +1,4 @@
-let a1 = 0;
+let a1 = null;
 let actions = ['+', "-", '*', '/']
 
 let q1n1 = Math.round(Math.random() * 10);
