@@ -51,6 +51,6 @@ function check(){
     if(a1 == q1ca){
         alert("Yes!")
     } else{
-        alert("Yes!")
+        alert("No")
     }
 }
