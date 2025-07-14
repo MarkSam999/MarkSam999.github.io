@@ -37,7 +37,7 @@ if(action == '+'){
 }
 $("#q1").text(q1txt);
 let choice = document.createElement("p");
-choice.innerHTML = Math.round(q1caMath.random() * 5 +  || q1ca - Math.random() * 5)
+choice.innerHTML = Math.round(q1ca + Math.random() * 5 || q1ca - Math.random() * 5)
 choice.append();
 
 function check(){
