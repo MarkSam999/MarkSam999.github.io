@@ -36,8 +36,7 @@ if(action == '+'){
     q1txt = "1. "+ q1n1 + " " + action + " " + q1n2 + " = ?";
 }
 $("#q1").text(q1txt);
-let choice = document.createElement("p");
-choice.innerHTML = Math.round(q1ca + Math.random() * 5 || q1ca - Math.random() * 5)
+let choice = Math.round(q1ca + Math.random() * 5 || q1ca - Math.random() * 5);
 alert(choice);
 
 function check(){
