@@ -32,19 +32,19 @@ if(action == '+'){
 }
 $("#q1").text(q1txt);
 
-function oneA(){
+(){
     a1 = 63;
 }
 
-function oneB(){
+(){
     a1= 50;
 }
 
-function oneC(){
+(){
     a1 = 70;
 }
 
-function oneD(){
+(){
     a1 = 66;
 }
 
