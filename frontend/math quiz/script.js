@@ -19,7 +19,7 @@ if(action == '+'){
     q1txt = "1. "+ q1n1 + " " + action + " " + q1n2 + " = ?";
 } else if(action == '/'){
     q1ca = q1n1 / q1n2;
-    if (q1n2 < 2){
+    if (q1n2 < 2 || ){
         q1n2 = Math.round(Math.random() * 10);
         q1txt = "1. "+ q1n1 + " " + action + " " + q1n2 + " = ?";
     }
