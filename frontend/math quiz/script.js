@@ -49,6 +49,6 @@ function oneD(){
 
 function check(){
     if(a1 == q1ca){
-        
+        alert("Yes!")
     }
 }
