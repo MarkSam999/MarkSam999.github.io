@@ -45,6 +45,7 @@ for(let i = 0; i < 4; i++){
     }
     choices.push(choice);
 }
+choices[]
 
 console.log(choices);
 
