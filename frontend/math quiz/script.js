@@ -31,7 +31,9 @@ if(action == '+'){
     q1txt = "1. "+ q1n1 + " " + action + " " + q1n2 + " = ?";
 }
 $("#q1").text(q1txt);
-    a1 = Math.round(Math.random() * 10 + q1ca);
+
+a1 = Math.round(Math.random() * 10 + q1ca);
+
 function check(){
     if(a1 == q1ca){
         alert("Yes!")
