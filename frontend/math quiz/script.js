@@ -36,6 +36,8 @@ if(action == '+'){
     q1txt = "1. "+ q1n1 + " " + action + " " + q1n2 + " = ?";
 }
 $("#q1").text(q1txt);
+
+
 let choice = Math.round(q1ca + Math.random() * 5 || q1ca - Math.random() * 5);
 console.log(choice);
 
