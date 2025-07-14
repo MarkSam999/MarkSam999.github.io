@@ -41,7 +41,3 @@ function oneC(){
 function oneD(){
     a1 = 66;
 }
-
-function twoA(){
-    a2 = 12;
-}
