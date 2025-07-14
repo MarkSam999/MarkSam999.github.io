@@ -46,3 +46,7 @@ function oneC(){
 function oneD(){
     a1 = 66;
 }
+
+function check(){
+    
+}
