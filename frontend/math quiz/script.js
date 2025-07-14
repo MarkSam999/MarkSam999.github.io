@@ -6,7 +6,7 @@ let q1n2 = Math.round(Math.random() * 10);
 if(q1n2 == 0){
     q1n2 += 1;
 };
-let action = Math.random() * 10 + q1ca;
+let action = actions[Math.round];
 if(action == '+'){
     q1ca = q1n1 + q1n2;
     q1txt = "1. "+ q1n1 + " " + action + " " + q1n2 + " = ?";
