@@ -1,5 +1,4 @@
 let a1 = 0;
-let points = 0;
 let actions = ['+', "-", '*', '/']
 
 let q1n1 = Math.round(Math.random() * 10);
