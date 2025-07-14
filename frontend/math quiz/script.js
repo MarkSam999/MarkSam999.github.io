@@ -39,7 +39,7 @@ $("#q1").text(q1txt);
 
 let choices = [];
 for(let i = 0; i < 4; i++){
-    let choice = Math.round(q1ca + Math.random() * 5 || q1ca - Math.random() * 5);
+    let choice = Math.round(q1ca + Math.random() * 5) || Math.round(q1ca - Math.random() * 5);
     if (choice < 0){
         choice = Math.round(q1ca + Math.random() * 5) || Math.round(q1ca - Math.random() * 5);
     }
