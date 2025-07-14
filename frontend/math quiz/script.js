@@ -45,7 +45,7 @@ for(let i = 0; i < 4; i++){
     }
     choices.push(choice);
 }
-choices[]
+choices[Math.round(M)]
 
 console.log(choices);
 
