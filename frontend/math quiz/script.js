@@ -48,5 +48,4 @@ function oneD(){
 }
 
 function check(){
-    
-}
+    if(a1)
