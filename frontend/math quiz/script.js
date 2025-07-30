@@ -1,57 +1,55 @@
 let a1 = null;
 let actions = ['+', "-", '*', '/']
 
-let q1n1 = Math.round(Math.random() * 10);
-let q1n2 = Math.round(Math.random() * 10);
-if(q1n2 == 0){
-    q1n2 += 1;
-};
-let action = actions[Math.round(Math.random() * 3)];
-if(action == '+'){
-    q1ca = q1n1 + q1n2;
-    q1txt = "1. "+ q1n1 + " " + action + " " + q1n2 + " = ?";
-} else if(action == '-'){
-    q1ca = q1n1 - q1n2;
-    if (q1n2 > q1n1){
-        q1res = q1n2;
-        q1n2 = q1n1;
-        q1n1 = q1res;
-        q1txt = "1. "+ q1n1 + " " + action + " " + q1n2 + " = ?";
+for(let i = 0; i < 5; i++){
+    let q_num = i + 1;
+    let ca = 0;
+    let n1 = Math.round(Math.random() * 10);
+    let n2 = Math.round(Math.random() * 10);
+    let action = actions[Math.floor(Math.random() * 4)];
+    if(action == '+'){
+        ca = n1 + n2;
+    } else if(action == '-'){
+        ca = n1 - n2;
+        if (n2 > n1){
+            res = n2;
+            n2 = n1;
+            n1 = res;
+        }
+    } else if(action == '*'){
+        ca = n1 * n2;
+    } else if(action == '/'){
+        n1 = n2 * Math.round(Math.random() * 10);
+        ca = n1 / n2;
+        if (n2 < 2){
+            n2 += 1;
+        } else if (n2 > n1){
+            res = n2;
+            n2 = n1;
+            n1 = res;
+        }
     }
-    q1txt = "1. "+ q1n1 + " " + action + " " + q1n2 + " = ?";
-} else if(action == '*'){
-    q1ca = q1n1 * q1n2;
-    q1txt = "1. "+ q1n1 + " " + action + " " + q1n2 + " = ?";
-} else if(action == '/'){
-    q1ca = q1n1 / q1n2;
-    if (q1n2 < 2){
-        q1n2 += 1;
-        q1txt = "1. "+ q1n1 + " " + action + " " + q1n2 + " = ?";
-    } else if (q1n2 > q1n1){
-        q1res = q1n2;
-        q1n2 = q1n1;
-        q1n1 = q1res;
-        q1txt = "1. "+ q1n1 + " " + action + " " + q1n2 + " = ?";
+    let choices = [];
+    for(let i = 0; i < 4; i++){
+        let choice = Math.round((ca + Math.random() * 5) + Math.round(ca - Math.random() * 5) / 2);
+        if (choice < 0){
+            choice = 0;
+        }
+        if (choice == choices[i - 1]){
+            choice = choice + 1 || choice - 1;
+        }
+        choices.push(choice);
     }
-    q1txt = "1. "+ q1n1 + " " + action + " " + q1n2 + " = ?";
-}
-$("#q1").text(q1txt);
+    let random = Math.floor(Math.random() * 4);
+    choices[random] = ca;
 
-let choices = [];
-for(let i = 0; i < 4; i++){
-    let choice = Math.round(q1ca + Math.random() * 5) || Math.round(q1ca - Math.random() * 5);
-    if (choice < 0){
-        choice = 0;
-    }
-    choices.push(choice);
-}
+    let question = document.createElement("h1");
+    question.innerHTML = q_num + ". " + n1 + " " + action + " " + n2 + " = ?";
+    $("#questions").append(question);
 
-console.log(choices);
-
-function check(){
-    if(a1 == q1ca){
-        alert("Yes!")
-    } else{
-        alert("No")
+    for (let ch = 0; ch < 4; ch++){
+        let choiceDiv = document.createElement("div");
+        choiceDiv.innerHTML = "<button>" + q_num) + ")</button>" + "<span>" + choices[ch] + "</span>";
+        $("#questions").append(choiceDiv);
     }
 }
