@@ -22,7 +22,7 @@ for(let i = 0; i < 5; i++){
             choice = 0;
         }
         if (choice == choices[i - 1] || choice == choices[i - 2] || choice == choices[i - 3]){
-            choice = choice + 1 || choice - 1;
+            choice = choice + Math.random() * 5) || choice - 1;
         }
         choices.push(choice);
     }
