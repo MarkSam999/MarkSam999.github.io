@@ -21,7 +21,7 @@ for(let i = 0; i < 5; i++){
         if (choice < 0){
             choice = 0;
         }
-        if (choice == choices[i - 1]){
+        if (choice == choices[i - 1] || choice == choices[i - 1] || choice == choices[i - 1]){
             choice = choice + 1 || choice - 1;
         }
         choices.push(choice);
