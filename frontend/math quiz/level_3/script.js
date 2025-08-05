@@ -19,7 +19,7 @@ for(let i = 0; i < 5; i++){
     for(let i = 0; i < 4; i++){
         let choice = Math.round(((ca + Math.random() * 5) + Math.round(ca - Math.random() * 5)) / 2);
         if (choice == choices[i - 1] || choice == choices[i - 2] || choice == choices[i - 3]){
-            choice += Math.round(((ca + Math.random() * 5) + Math.round(ca - Math.random() * 5)) / 2);
+            choice = choice + Math.round(((ca + Math.random() * 5) + Math.round(ca - Math.random() * 5)) / 2);
         }
         choices.push(choice);
     }
