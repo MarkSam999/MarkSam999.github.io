@@ -10,7 +10,7 @@ for(let i = 0; i < 5; i++){
     if(action == 'square'){
         ca = n1 ** 2;
         txt = q_num + ". "  + n1 + "<sup> 2</sup>" + " = ?";
-    } else if(action == 'root'){}
+    } else if(action == 'root'){
         ca = Math.round(Math.random() * 10);
         n1 = ca ** 2;
         txt = q_num + ". "  + " √" + n1 + " = ?";
