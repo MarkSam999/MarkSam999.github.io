@@ -17,7 +17,7 @@ for(let i = 0; i < 5; i++){
     }
     let choices = [];
     for(let i = 0; i < 4; i++){
-        let choice = Math.round((ca + Math.random() * 5) + Math.round(ca - Math.random() * 5) / 2);
+        let choice = Math.round(((ca + Math.random() * 5) + Math.round(ca - Math.random() * 5)) / 2);
         if (choice < 0){
             choice = 0;
         }
