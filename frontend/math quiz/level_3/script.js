@@ -8,6 +8,7 @@ for(let i = 0; i < 100; i++){
     let action = actions[Math.round(Math.random())];
 
     if(action == 'square'){
+        squares 
         ca = n1 ** 2;
         txt = q_num + ". "  + n1 + "<sup> 2</sup>" + " = ?";
     } else if(action == 'root'){
@@ -22,7 +23,7 @@ for(let i = 0; i < 100; i++){
         let choice = Math.round(ca + 1 + Math.random() * 4) || Math.round(ca -1 - Math.random() * 4);
         choices.push(choice);
     }
-    
+
     let random = Math.floor(Math.random() * 4);
     choices[random] = ca;
 
