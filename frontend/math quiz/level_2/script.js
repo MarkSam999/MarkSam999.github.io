@@ -4,7 +4,7 @@ let actions = ['*', '/']
 for(let i = 0; i < 5; i++){
     let q_num = i + 1;
     let ca = 0;
-    let n1 = Math.round(Math.random() * 10);
+    let n1 = Math.round(1 + Math.random(9));
     let n2 = Math.round(Math.random() * 10);
     let action = actions[Math.floor(Math.random() * 2)];
     if(action == '*'){
