@@ -1,5 +1,4 @@
 let actions = ['square', 'root']
-let squares = 0;
 
 for(let i = 0; i < 100; i++){
     let q_num = i + 1;
@@ -9,7 +8,6 @@ for(let i = 0; i < 100; i++){
     let action = actions[Math.round(Math.random())];
 
     if(action == 'square'){
-        squares += 1;
         ca = n1 ** 2;
         txt = q_num + ". "  + n1 + "<sup> 2</sup>" + " = ?";
     } else if(action == 'root'){
