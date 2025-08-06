@@ -7,7 +7,7 @@ for(let i = 0; i < 100; i++){
     let ca = 0;
     let n1 = 1 + Math.floor(Math.random() * 9);
     if(n1 == 0){
-        zeros +
+        zeros += 1;
     }
     let action = actions[Math.round(Math.random())];
     if(action == 'square'){
@@ -36,3 +36,5 @@ for(let i = 0; i < 100; i++){
         $("#questions").append(choiceDiv);
     }
 }
+
+alert(zeros);
