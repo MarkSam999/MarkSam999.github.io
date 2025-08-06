@@ -1,6 +1,6 @@
 let actions = ['square', 'root']
 
-for(let i = 0; i < 100; i++){
+for(let i = 0; i < 1; i++){
     let q_num = i + 1;
     let txt = "";
     let ca = 0;
