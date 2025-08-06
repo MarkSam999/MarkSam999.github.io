@@ -2,6 +2,7 @@ let a1 = null;
 let actions = ['*', '/']
 
 for(let i = 0; i < 5; i++){
+    let zeros = 0;
     let q_num = i + 1;
     let ca = 0;
     let n1 = 1 + Math.floor(Math.random() * 9);
