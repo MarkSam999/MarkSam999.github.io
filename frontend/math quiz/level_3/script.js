@@ -30,4 +30,5 @@ for(let i = 0; i < 100; i++){
         let choiceDiv = document.createElement("div");
         choiceDiv.innerHTML = "<button>" + (ch + 1) + ")</button>" + "<span>" + choices[ch] + "</span>";
         $("#questions").append(choiceDiv);
-    
+    }
+}
