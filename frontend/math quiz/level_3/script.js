@@ -5,10 +5,8 @@ for(let i = 0; i < 100; i++){
     let txt = "";
     let ca = 0;
     let n1 = 1 + Math.floor(Math.random() * 9);
-    if(n1 == 0){
-        zeros += 1;
-    }
     let action = actions[Math.round(Math.random())];
+
     if(action == 'square'){
         ca = n1 ** 2;
         txt = q_num + ". "  + n1 + "<sup> 2</sup>" + " = ?";
@@ -17,7 +15,9 @@ for(let i = 0; i < 100; i++){
         n1 = ca ** 2;
         txt = q_num + ". "  + " √" + n1 + " = ?";
     }
+
     let choices = [];
+    
     for(let i = 0; i < 4; i++){
         let choice = Math.round(ca + 1 + Math.random() * 4) || Math.round(ca -1 - Math.random() * 4);
         choices.push(choice);
