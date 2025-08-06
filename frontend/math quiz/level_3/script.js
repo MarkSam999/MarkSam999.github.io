@@ -6,8 +6,8 @@ for(let i = 0; i < 100; i++){
     let txt = "";
     let ca = 0;
     let n1 = 1 + Math.floor(Math.random() * 9);
-    if(n1 = 0){
-        
+    if(n1 == 0){
+        zeros +
     }
     let action = actions[Math.round(Math.random())];
     if(action == 'square'){
