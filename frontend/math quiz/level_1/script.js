@@ -4,8 +4,8 @@ let actions = ['+', "-"]
 for(let i = 0; i < 5; i++){
     let q_num = i + 1;
     let ca = 0;
-    let n1 = Math.round(1 + Math.random(9));
-    let n2 = Math.round(1 + Math.random(9));
+    let n1 = 1 + Math.floor(Math.random() * 9);
+    let n2 = 1 + Math.floor(Math.random() * 9);
     let action = actions[Math.round(Math.random())];
     if(action == '+'){
         ca = n1 + n2;
