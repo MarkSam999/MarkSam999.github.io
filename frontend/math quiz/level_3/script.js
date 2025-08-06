@@ -4,7 +4,7 @@ for(let i = 0; i < 100; i++){
     let q_num = i + 1;
     let txt = "";
     let ca = 0;
-    let n1 = Math.round(Math.random(10));
+    let n1 = Math.round(1 + Math.random(9));
     let action = actions[Math.floor(Math.random() * 2)];
     if(action == 'square'){
         ca = n1 ** 2;
@@ -30,5 +30,4 @@ for(let i = 0; i < 100; i++){
         let choiceDiv = document.createElement("div");
         choiceDiv.innerHTML = "<button>" + (ch + 1) + ")</button>" + "<span>" + choices[ch] + "</span>";
         $("#questions").append(choiceDiv);
-    }
-}
+    
