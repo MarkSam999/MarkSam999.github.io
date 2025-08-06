@@ -2,7 +2,6 @@ body {
     background-color: rgb(24, 24, 24);
     font-family: "Orbitron";
     color: white;
-    text-shadow: 0 0 10px blue, 0 0 20px blue, 0 0 30px blue;
     margin: 0;
 }
 
