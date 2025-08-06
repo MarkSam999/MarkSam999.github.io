@@ -4,7 +4,7 @@ for(let i = 0; i < 100; i++){
     let q_num = i + 1;
     let txt = "";
     let ca = 0;
-    let n1 = Math.floor(Math.random() * 9);
+    let n1 = 1 + Math.floor(Math.random() * 9);
     let action = actions[Math.floor(Math.random() * 2)];
     if(action == 'square'){
         ca = n1 ** 2;
