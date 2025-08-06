@@ -10,7 +10,7 @@ for(let i = 0; i < 5; i++){
     if(action == '*'){
         ca = n1 * n2;
     } else if(action == '/'){
-        n1 = n2 * Math.round(1 + Math.random(9));
+        n1 = n2 * Math.round(1 + Math.random() * 9);
         ca = n1 / n2;
         if (n2 < 2){
             n2 += 1;
