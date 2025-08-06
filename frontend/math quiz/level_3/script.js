@@ -5,7 +5,7 @@ for(let i = 0; i < 5; i++){
     let txt = "";
     let ca = 0;
     let n1 = Math.round(1 + Math.random(9));
-    let action = actions[Math.random()];
+    let action = actions[Math.round(Math.random())];
     if(action == 'square'){
         ca = n1 ** 2;
         txt = q_num + ". "  + n1 + "<sup> 2</sup>" + " = ?";
