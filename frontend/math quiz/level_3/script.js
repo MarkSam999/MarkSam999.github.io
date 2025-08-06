@@ -1,4 +1,5 @@
 let actions = ['square', 'root']
+let zeros=0;
 
 for(let i = 0; i < 100; i++){
     let q_num = i + 1;
