@@ -39,4 +39,4 @@ for(let i = 0; i < 100; i++){
     }
 }
 
-alert("Squares: " + squares + "%")
+alert("Squares: " + squares / i  + "%")
