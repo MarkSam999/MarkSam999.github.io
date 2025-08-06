@@ -1,4 +1,3 @@
-let a1 = null;
 let actions = ['square', 'root']
 
 for(let i = 0; i < 5; i++){
