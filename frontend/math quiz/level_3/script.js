@@ -17,10 +17,7 @@ for(let i = 0; i < 5; i++){
     }
     let choices = [];
     for(let i = 0; i < 4; i++){
-        let choice = Math.round(((ca + Math.random() * 5) + Math.round(ca - Math.random() * 5)) / 2);
-        if (choice == choices[i - 1] || choice == choices[i - 2] || choice == choices[i - 3]){
-            choice = choice + 1 || choice - 1;
-        }
+        let choice = Math.round(ca + Math.random() * 5) || Math.round(ca + Math.random() * 5);
         choices.push(choice);
     }
     let random = Math.floor(Math.random() * 4);

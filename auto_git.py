@@ -25,7 +25,6 @@ if __name__ == "__main__":
         while True:
             time.sleep(30)
     except KeyboardInterrupt:
-        print("Auto"
-        "-Git stopped.")
+        print("Auto-Git stopped.")
         observer.stop()
     observer.join()
