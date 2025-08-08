@@ -30,14 +30,16 @@ for(let i = 0; i < 5; i++){
         let choice = Math.round(ca + 1 + Math.random() * 4) || Math.round(ca - 1 - Math.random() * 4);
         choices.push(choice);
 
-        let choiceDiv = document.createElement("div");
-        choiceDiv.innerHTML = "<button class='choices' value='" + choice +  "' onclick='set();'>" + (ch + 1) + ")</button>" + "<span>" + choice + "</span>";
-        $("#questions").append(choiceDiv);
+        
     }
 
     let random = Math.floor(Math.random() * 4);
     choices[random] = ca;
     console.log(choices);
+
+    let choiceDiv = document.createElement("div");
+    choiceDiv.innerHTML = "<button class='choices' value='" + choice +  "' onclick='set();'>" + (ch + 1) + ")</button>" + "<span>" + choice + "</span>";
+        $("#questions").append(choiceDiv);
 }        
 
 function set(){
