@@ -17,6 +17,8 @@ for(let i = 0; i < 5; i++){
         n1 = ca ** 2;
         txt = q_num + ". "  + " √" + n1 + " = ?";
     }
+    
+    correct
 
     let choices = [];
 
