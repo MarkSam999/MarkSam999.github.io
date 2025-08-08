@@ -43,6 +43,6 @@ for(let i = 0; i < 5; i++){
 }        
 
 function set(){
-    let answer = this.id;
+    let answer = this.class;
     alert(answer);
 };
