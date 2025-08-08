@@ -33,11 +33,10 @@ for(let i = 0; i < 5; i++){
         let choice = Math.round(ca + 1 + Math.random() * 4) || Math.round(ca - 1 - Math.random() * 4);
         choices.push(choice);
         let choiceDiv = document.createElement("div");
-        choiceDiv.innerHTML = "<button id='' onclick='set();'>" + (ch + 1) + ")</button>" + "<span>" + choices[ch] + "</span>";
+        choiceDiv.innerHTML = "<button id='+" + "+' onclick='set();'>" + (ch + 1) + ")</button>" + "<span>" + choices[ch] + "</span>";
         $("#questions").append(choiceDiv);
     }
 }        
 
 function set(){
 
-};
