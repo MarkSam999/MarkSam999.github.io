@@ -20,6 +20,9 @@ for(let i = 0; i < 5; i++){
             n1 = res;
         }
     }
+
+    correct_list.push(ca);
+
     let choices = [];
     for(let i = 0; i < 4; i++){
         let choice = Math.round(ca + Math.random() * 5) || Math.round(ca + Math.random() * 5);
@@ -41,6 +44,4 @@ for(let i = 0; i < 5; i++){
     for (let ch = 0; ch < 4; ch++){
         let choiceDiv = document.createElement("div");
         choiceDiv.innerHTML = "<button>" + (ch + 1) + ")</button>" + "<span>" + choices[ch] + "</span>";
-        $("#questions").append(choiceDiv);
-    }
-}
+        $("#questions").append
