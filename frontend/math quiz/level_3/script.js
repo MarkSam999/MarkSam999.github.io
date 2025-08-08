@@ -40,5 +40,5 @@ for(let i = 0; i < 5; i++){
 
 function set(){
     let answer = this.id;
-    answer_list
+    answer_list.push(answer);
 };
