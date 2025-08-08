@@ -40,5 +40,3 @@ for(let i = 0; i < 5; i++){
         $("#questions").append(choiceDiv);
     }
 }
-
-alert(correct_list);
