@@ -39,5 +39,5 @@ for(let i = 0; i < 5; i++){
 }        
 
 function set(){
-    let 
+    let answer = this.id;
 };
