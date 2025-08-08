@@ -28,7 +28,7 @@ for(let i = 0; i < 5; i++){
         let choiceDiv = document.createElement("div");
         choiceDiv.innerHTML = "<button id='ch' onclick='set();'>" + (ch + 1) + ")</button>" + "<span>" + choices[ch] + "</span>";
         $("#questions").append(choiceDiv);
-}
+    }
     }
 
     let random = Math.floor(Math.random() * 4);
