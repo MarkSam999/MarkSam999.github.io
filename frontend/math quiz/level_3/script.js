@@ -18,7 +18,7 @@ for(let i = 0; i < 5; i++){
         txt = q_num + ". "  + " √" + n1 + " = ?";
     }
     
-    correct
+    correct_list.push(ca);
 
     let choices = [];
 
