@@ -40,3 +40,5 @@ for(let i = 0; i < 5; i++){
         $("#questions").append(choiceDiv);
     }
 }
+
+function set(q_num, set)
