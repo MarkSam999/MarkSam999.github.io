@@ -36,9 +36,6 @@ for(let i = 0; i < 5; i++){
         choiceDiv.innerHTML = "<button id='ch' onclick='set();'>" + (ch + 1) + ")</button>" + "<span>" + choices[ch] + "</span>";
         $("#questions").append(choiceDiv);
     }
-    
-
-    
 }        
 
 function set(){
