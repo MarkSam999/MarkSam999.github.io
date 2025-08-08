@@ -1,6 +1,6 @@
 let actions = ['square', 'root']
 let correct_list = [];
-let player_list = [];
+let answer_list = [];
 
 for(let i = 0; i < 5; i++){
     let q_num = i + 1;
@@ -40,5 +40,5 @@ for(let i = 0; i < 5; i++){
 
 function set(){
     let answer = this.id;
-    player
+    answer_list
 };
