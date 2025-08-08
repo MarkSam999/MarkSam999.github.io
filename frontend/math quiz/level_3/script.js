@@ -1,4 +1,5 @@
 let actions = ['square', 'root']
+let correct_list = []
 
 for(let i = 0; i < 5; i++){
     let q_num = i + 1;
