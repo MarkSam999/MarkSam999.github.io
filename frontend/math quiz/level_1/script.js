@@ -7,7 +7,7 @@ for(let i = 0; i < 5; i++){
     let n1 = 1 + Math.floor(Math.random() * 9);
     let n2 = 1 + Math.floor(Math.random() * 9);
     let action = actions[Math.round(Math.random())];
-    
+
     if(action == '+'){
         ca = n1 + n2;
     } else if(action == '-'){
@@ -18,7 +18,9 @@ for(let i = 0; i < 5; i++){
             n1 = res;
         }
     }
+
     let choices = [];
+
     for(let i = 0; i < 4; i++){
         let choice = Math.round(ca + Math.random() * 5) || Math.round(ca + Math.random() * 5);
         if (choice < 0){
@@ -27,6 +29,7 @@ for(let i = 0; i < 5; i++){
         if (choice == choices[i - 1]){
             choice = choice + 1 || choice - 1;
         }
+        
         choices.push(choice);
     }
     let random = Math.floor(Math.random() * 4);
