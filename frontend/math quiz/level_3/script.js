@@ -36,11 +36,11 @@ for(let i = 0; i < 5; i++){
 
     for(let ch = 0; ch < 4; ch++){
         let choiceDiv = document.createElement("div");
-        choiceDiv.innerHTML = "<button id='ch" + (ch + 1) + "q" + q_num + "' onclick='set(q_num, ch);'>" + (ch + 1) + ")</button>" + "<span>" + choices[ch] + "</span>";
+        choiceDiv.innerHTML = "<button id='ch" +  onclick='set(q_num, ch);'>" + (ch + 1) + ")</button>" + "<span>" + choices[ch] + "</span>";
         $("#questions").append(choiceDiv);
     }
 }
 
 function set(){
-    
+
 };
