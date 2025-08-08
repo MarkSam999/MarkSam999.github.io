@@ -22,7 +22,12 @@ for(let i = 0; i < 5; i++){
 
     let choices = [];
 
-    
+    let random = Math.floor(Math.random() * 4);
+    choices[random] = ca;
+
+    let question = document.createElement("h1");
+    question.innerHTML = txt;
+    $("#questions").append(question);
 
     for(let ch = 0; ch < 4; ch++){
         let choice = Math.round(ca + 1 + Math.random() * 4) || Math.round(ca - 1 - Math.random() * 4);
@@ -33,12 +38,7 @@ for(let i = 0; i < 5; i++){
     }
     
 
-    let random = Math.floor(Math.random() * 4);
-    choices[random] = ca;
-
-    let question = document.createElement("h1");
-    question.innerHTML = txt;
-    $("#questions").append(question);
+    
 }        
 
 function set(){
