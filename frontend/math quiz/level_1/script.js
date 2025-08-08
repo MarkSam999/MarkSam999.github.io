@@ -19,6 +19,8 @@ for(let i = 0; i < 5; i++){
         }
     }
 
+    correct_list.push(ca);
+
     let choices = [];
 
     for(let i = 0; i < 4; i++){
@@ -29,9 +31,10 @@ for(let i = 0; i < 5; i++){
         if (choice == choices[i - 1]){
             choice = choice + 1 || choice - 1;
         }
-        
+
         choices.push(choice);
     }
+
     let random = Math.floor(Math.random() * 4);
     choices[random] = ca;
 
