@@ -10,9 +10,10 @@ main {
     margin-left: 15px;
 }
 
+
+
 .choices:hover {
     cursor: pointer;
-    border: none;
 }
 
 button {
