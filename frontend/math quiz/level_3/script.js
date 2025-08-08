@@ -25,7 +25,10 @@ for(let i = 0; i < 5; i++){
     for(let ch = 0; ch < 4; ch++){
         let choice = Math.round(ca + 1 + Math.random() * 4) || Math.round(ca - 1 - Math.random() * 4);
         choices.push(choice);
-        
+        let choiceDiv = document.createElement("div");
+        choiceDiv.innerHTML = "<button id='ch' onclick='set();'>" + (ch + 1) + ")</button>" + "<span>" + choices[ch] + "</span>";
+        $("#questions").append(choiceDiv);
+}
     }
 
     let random = Math.floor(Math.random() * 4);
@@ -34,10 +37,7 @@ for(let i = 0; i < 5; i++){
     let question = document.createElement("h1");
     question.innerHTML = txt;
     $("#questions").append(question);
-        let choiceDiv = document.createElement("div");
-        choiceDiv.innerHTML = "<button id='ch' onclick='set();'>" + (ch + 1) + ")</button>" + "<span>" + choices[ch] + "</span>";
-        $("#questions").append(choiceDiv);
-}
+        
 
 function set(){
 
