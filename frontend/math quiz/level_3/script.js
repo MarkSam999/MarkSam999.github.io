@@ -37,9 +37,14 @@ for(let i = 0; i < 5; i++){
     choices[random] = ca;
     console.log(choices);
 
+    for(let ch = 0; ch < 4; ch++){
+
+        
+    }
+
     let choiceDiv = document.createElement("div");
     choiceDiv.innerHTML = "<button class='choices' value='" + choice +  "' onclick='set();'>" + (ch + 1) + ")</button>" + "<span>" + choice + "</span>";
-        $("#questions").append(choiceDiv);
+    $("#questions").append(choiceDiv);
 }        
 
 function set(){
