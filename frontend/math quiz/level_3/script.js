@@ -22,7 +22,7 @@ for(let i = 0; i < 5; i++){
 
     let choices = [];
 
-    for(let ch = 0; ch < 4; i++){
+    for(let ch = 0; ch < 4; ch++){
         let choice = Math.round(ca + 1 + Math.random() * 4) || Math.round(ca - 1 - Math.random() * 4);
         choices.push(choice);
     }
