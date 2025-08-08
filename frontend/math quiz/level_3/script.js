@@ -37,6 +37,7 @@ for(let i = 0; i < 5; i++){
 
     let random = Math.floor(Math.random() * 4);
     choices[random] = ca;
+    console.log(choices);
 }        
 
 function set(){
