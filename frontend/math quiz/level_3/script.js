@@ -43,6 +43,6 @@ for(let i = 0; i < 5; i++){
 }        
 
 function set(){
-    let answer = this.value;
+    let answer = this.;
     alert(answer);
 };
