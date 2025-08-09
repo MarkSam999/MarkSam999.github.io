@@ -53,6 +53,6 @@ function check(){
     let points = 0;
 
     for(let c = 0; c < max; c++){
-        if(answer_list)
+        if(answer_list[c] == )
     } 
 }
