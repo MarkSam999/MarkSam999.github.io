@@ -46,6 +46,6 @@ for(let i = 0; i < 5; i++){
 };
 
 function set(question, value){
-
+    
     alert(question + ", " + value);
 }
