@@ -46,7 +46,6 @@ for(let i = 0; i < max; i++){
 
 function set(question, value){
     answer_list[question] = value;
-    alert(answer_list);
 }
 
 function check(){
