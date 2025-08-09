@@ -46,5 +46,6 @@ for(let i = 0; i < 5; i++){
 };
 
 function set(question, value){
-    answer_list[]
-    alert(question + ", " + value)
+    answer_list[question] =
+    alert(question + ", " + value);
+}
