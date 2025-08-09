@@ -42,4 +42,4 @@ for(let i = 0; i < 5; i++){
     
 };
 
-$(".choices")alert(this.innerHTML);
+$(".choices").click()alert(this.innerHTML);
