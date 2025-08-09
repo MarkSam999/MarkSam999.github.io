@@ -43,5 +43,5 @@ for(let i = 0; i < 5; i++){
 };
 
 function set(value){
-    alert(button.getAttribute("value"));
+    alert(value);
 }
