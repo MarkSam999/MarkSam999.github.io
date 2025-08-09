@@ -19,6 +19,7 @@ main {
 }
 
 .numbers {
+    position: relative;
     transition: 0.5s;
 }
 
@@ -27,8 +28,9 @@ main {
     transition: 0.5s;
 }
 
-.numbers:active {
-    margin-top: 5px;
+.numbers:active{
+    text-shadow: 0 0 10px rgb(202, 71, 62), 0 0 20px rgb(202, 71, 62), 0 0 30px rgb(202, 153, 62);
+    top: 5px;
     transition: 0.5s;
 }
 
