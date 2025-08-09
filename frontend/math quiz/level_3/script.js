@@ -42,6 +42,4 @@ for(let i = 0; i < 5; i++){
     
 };
 
-function set(){
-    alert(this.innerHTML);
-};
+$()alert(this.innerHTM
