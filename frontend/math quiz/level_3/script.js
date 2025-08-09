@@ -43,5 +43,5 @@ for(let i = 0; i < 5; i++){
 };
 
 function set(){
-    alert($("#1").innerHTML);
+    alert($(".1").innerHTML);
 }
