@@ -36,7 +36,7 @@ for(let i = 0; i < 5; i++){
 
     for(let div = 0; div < 4; div++){
         let choiceDiv = document.createElement("div");
-        choiceDiv.innerHTML = "<button class='choices' value='" + choices[div] + "'>" + (div + 1) + ")</button>" + "<span>" + choices[div] + "</span>";
+        choiceDiv.innerHTML = "<button class='choices' value='" + choices[div] + "' onclick=''>" + (div + 1) + ")</button>" + "<span>" + choices[div] + "</span>";
         $("#questions").append(choiceDiv);
     }
     
