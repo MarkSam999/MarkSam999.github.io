@@ -8,9 +8,7 @@ for(let i = 0; i < 5; i++){
     let ca = 0;
     let n1 = 1 + Math.floor(Math.random() * 9);
     let action = actions[Math.round(Math.random())];
-
-    let nothing = 0;
-    answer_list.push(nothing);
+    answer_list.push(ca);
 
     if(action == 'square'){
         ca = n1 ** 2;
