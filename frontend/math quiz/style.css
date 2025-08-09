@@ -27,7 +27,9 @@ main {
     transition: 0.5s;
 }
 
-.numbers
+.numbers:active {
+    
+}
 
 button {
     background-color: transparent;
