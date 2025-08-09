@@ -43,5 +43,5 @@ for(let i = 0; i < 5; i++){
 };
 
 function set(){
-    alert(document.getElementsByClassName);
+    alert(document.getElementsByClassName("choices"));
 }
