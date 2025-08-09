@@ -19,7 +19,6 @@ main {
 }
 
 .numbers {
-    position: relative;
     transition: 0.5s;
 }
 
