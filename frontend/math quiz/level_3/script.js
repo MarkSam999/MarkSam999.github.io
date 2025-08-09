@@ -48,3 +48,5 @@ function set(question, value){
     answer_list[question] = value;
     alert(answer_list);
 }
+
+function check()
