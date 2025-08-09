@@ -38,6 +38,8 @@ for(let i = 0; i < 5; i++){
         let choiceDiv = document.createElement("div");
         choiceDiv.innerHTML = "<button class='choices' onclick='set();'>" + (div + 1) + ")</button>" + "<span>" + choices[div] + "</span>";
         $("#questions").append(choiceDiv);
+
+        function 
     }
     
 }        
