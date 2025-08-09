@@ -58,5 +58,5 @@ function check(){
         }
     }
     
-    alert("You got ")
+    alert("You got " + points + " out of" + max + "!")
 }
