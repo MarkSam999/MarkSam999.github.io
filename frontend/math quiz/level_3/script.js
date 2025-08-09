@@ -42,7 +42,7 @@ for(let i = 0; i < 5; i++){
     
 };
 
-let choiceHTML = 
+let choiceClass = 
 
 $(".choices").addEventListener('click', function(){
     alert(this.innerHTML);
