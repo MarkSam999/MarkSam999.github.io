@@ -40,8 +40,7 @@ for(let i = 0; i < 5; i++){
         $("#questions").append(choiceDiv);
 
         function set(){
-            let answer = this.class;
-            alert(answer);
+            alert("Done!");
         };
     }
     
