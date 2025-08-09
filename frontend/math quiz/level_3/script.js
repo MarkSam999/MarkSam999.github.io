@@ -43,5 +43,5 @@ for(let i = 0; i < 5; i++){
 };
 
 function set(){
-    alert(document.getElementById("n49"));
+    alert(document.getElementById("n1"));
 }
