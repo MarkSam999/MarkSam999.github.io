@@ -50,5 +50,5 @@ function set(question, value){
 }
 
 function check(){
-    for(let)
+    for(let )
 }
