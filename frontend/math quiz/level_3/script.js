@@ -56,5 +56,7 @@ function check(){
         if(answer_list[c] == correct_list[c]){
             points += 1;
         }
-    } 
+    }
+    
+    alert()
 }
