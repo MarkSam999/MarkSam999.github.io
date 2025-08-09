@@ -42,4 +42,4 @@ for(let i = 0; i < 5; i++){
     
 };
 
-$(".choices").addEventListener(alert(this.innerHTML);
+$(".choices").addEventListener('click'alert(this.innerHTML));
