@@ -42,6 +42,6 @@ for(let i = 0; i < 5; i++){
     
 };
 
-function set(value){
+function set(value, question){
     alert(value);
 }
