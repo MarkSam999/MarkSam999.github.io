@@ -19,7 +19,7 @@ main {
 }
 
 .numbers.hover {
-    text-shadow: 
+    text-shadow: text-shadow: 0 0 10px rgb(18, 187, 55), 0 0 20px rgb(18, 187, 55), 0 0 30px rgb(18, 187, 55);
 }
 
 button {
