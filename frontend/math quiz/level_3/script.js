@@ -1,8 +1,9 @@
 let actions = ['square', 'root']
 let correct_list = [];
 let answer_list = [];
+let max = 5;
 
-for(let i = 0; i < 5; i++){
+for(let i = 0; i < max; i++){
     let q_num = i + 1;
     let txt = "";
     let ca = 0;
