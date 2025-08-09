@@ -42,7 +42,7 @@ for(let i = 0; i < 5; i++){
     
 };
 
-const choiceClass = document.get
+const choiceClass = document.getElementsByClassName("choices");
 
 choiceClass.addEventListener('click', function(){
     alert(this.innerHTML);
