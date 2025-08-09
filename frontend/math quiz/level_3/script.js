@@ -36,12 +36,12 @@ for(let i = 0; i < 5; i++){
 
     for(let div = 0; div < 4; div++){
         let choiceDiv = document.createElement("div");
-        choiceDiv.innerHTML = "<button class='choices' id='" + choices[div] + "' onclick='set();'>" + (div + 1) + ")</button>" + "<span>" + choices[div] + "</span>";
+        choiceDiv.innerHTML = "<button class='choices' id='n" + choices[div] + "' onclick='set();'>" + (div + 1) + ")</button>" + "<span>" + choices[div] + "</span>";
         $("#questions").append(choiceDiv);
     }
     
 };
 
 function set(){
-    alert(document.getElementById("49"));
+    alert(document.getElementById("n49"));
 }
