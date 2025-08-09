@@ -43,5 +43,5 @@ for(let i = 0; i < 5; i++){
 };
 
 function set(event){
-    alert(event);
+    alert(event.value);
 };
