@@ -43,5 +43,5 @@ for(let i = 0; i < 5; i++){
 };
 
 function set(){
-    alert(document.get);
+    alert(document.getElementById);
 }
