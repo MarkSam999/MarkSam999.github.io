@@ -18,7 +18,7 @@ main {
     cursor: pointer;
 }
 
-.numbers.hover {
+.numbers:hover {
     text-shadow: 0 0 10px rgb(202, 153, 62), 0 0 20px rgb(202, 153, 62), 0 0 30px rgb(202, 153, 62);
 }
 
