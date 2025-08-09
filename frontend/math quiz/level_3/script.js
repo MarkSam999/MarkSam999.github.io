@@ -49,4 +49,6 @@ function set(question, value){
     alert(answer_list);
 }
 
-function check()
+function check(){
+    for(let)
+}
