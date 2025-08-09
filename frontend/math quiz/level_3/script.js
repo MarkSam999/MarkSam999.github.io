@@ -10,7 +10,7 @@ for(let i = 0; i < 5; i++){
     let action = actions[Math.round(Math.random())];
 
     let nothing = 0;
-    answer_list.push(void);
+    answer_list.push(nothing);
 
     if(action == 'square'){
         ca = n1 ** 2;
