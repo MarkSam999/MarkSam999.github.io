@@ -24,7 +24,7 @@ main {
 }
 
 .numbers:hover {
-    cursorL pointer;
+    cursor: pointer;
     text-shadow: 0 0 10px rgb(202, 153, 62), 0 0 20px rgb(202, 153, 62), 0 0 30px rgb(202, 153, 62);
     transition: 0.5s;
 }
