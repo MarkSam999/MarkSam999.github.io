@@ -44,6 +44,6 @@ for(let i = 0; i < 5; i++){
     
 };
 
-function set(this){
+function set(){
     alert(this.getAttribute("value"));
 };
