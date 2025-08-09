@@ -44,6 +44,6 @@ for(let i = 0; i < 5; i++){
 
 let choiceClass = 
 
-$(".choices").addEventListener('click', function() => {
+$(".choices").addEventListener('click', function(){
     alert(this.innerHTML);
 });
