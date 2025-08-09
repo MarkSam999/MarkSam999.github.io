@@ -28,7 +28,9 @@ main {
 }
 
 .numbers:active {
-    posi
+    position: relative;
+    top: 5px;
+    transition: 0.5s;
 }
 
 button {
