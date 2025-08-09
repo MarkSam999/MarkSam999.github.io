@@ -58,5 +58,5 @@ function check(){
         }
     }
     
-    alert()
+    alert("You got ")
 }
