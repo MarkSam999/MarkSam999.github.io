@@ -50,5 +50,7 @@ function set(question, value){
 }
 
 function check(){
-    for(let c = 0; c < max; c++) 
+    for(let c = 0; c < max; c++){
+        
+    } 
 }
