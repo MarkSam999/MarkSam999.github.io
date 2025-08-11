@@ -1,7 +1,10 @@
 let a1 = null;
 let actions = ['+', "-"]
+let correct_list = [];
+let answer_list = [];
+let max = 5;
 
-for(let i = 0; i < 5; i++){
+for(let i = 0; i < max; i++){
     let q_num = i + 1;
     let ca = 0;
     let n1 = 1 + Math.floor(Math.random() * 9);
