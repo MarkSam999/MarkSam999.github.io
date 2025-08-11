@@ -31,13 +31,7 @@ for(let i = 0; i < max; i++){
     let choices = [];
 
     for(let ch = 0; ch < 4; ch++){
-        let choice = Math.round(ca + Math.random() * 5) || Math.round(ca + Math.random() * 5);
-        if (choice < 0){
-            choice = 0;
-        }
-        if (choice == choices[i - 1]){
-            choice = choice + 1 || choice - 1;
-        }
+        let choice = Math.round(ca + 1 + Math.random() * 4) || Math.round(ca - 1 - Math.random() * 4);
         choices.push(choice);
     }
 
