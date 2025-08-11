@@ -7,7 +7,7 @@ for(let i = 0; i < max; i++){
     let q_num = i + 1;
     let ca = 0;
     let n1 = (1 + Math.round(Math.random() * 49));
-    let perc = 1 + Math.round(Math.random() * 99);
+    let perc = 1 + Math.round(Math.random() * 19);
 
     correct_list.push(ca);
 
