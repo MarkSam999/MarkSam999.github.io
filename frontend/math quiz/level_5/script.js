@@ -2,7 +2,7 @@ let a1 = null;
 let actions = ['+', "-", "*", "/"]
 let correct_list = [];
 let answer_list = [];
-let max = 5;
+let max = 10;
 
 for(let i = 0; i < max; i++){
     let q_num = i + 1;
