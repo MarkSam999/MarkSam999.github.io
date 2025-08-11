@@ -6,7 +6,7 @@ let max = 10;
 for(let i = 0; i < max; i++){
     let q_num = i + 1;
     let ca = 0;
-    let n1 = (1 + Math.round(Math.random() * 49));
+    let n1 = 1 + Math.round(Math.random() * 49);
     let perc = 5 * (1 + Math.round(Math.random() * 19));
 
     ca = n1 / 100 * perc;
