@@ -20,7 +20,7 @@ for(let i = 0; i < max; i++){
     $("#questions").append(question);
 
     for(let ch = 0; ch < 4; ch++){
-        let choice = Math.round(ca + 0.1 + Math.random() * 6.9) || Math.round(ca - 0.1 - Math.random() * 6.9);
+        let choice = Math.round(ca + 1 + Math.random() * 69) / 10 || Math.round(ca - 1 - Math.random() * 69);
         choices.push(choice);
     }
 
