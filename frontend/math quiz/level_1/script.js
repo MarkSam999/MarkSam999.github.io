@@ -48,3 +48,19 @@ for(let i = 0; i < 5; i++){
         $("#questions").append(choiceDiv);
     }
 }
+
+function set(question, value){
+    answer_list[question] = value;
+}
+
+function check(){
+    let points = 0;
+
+    for(let c = 0; c < max; c++){
+        if(answer_list[c] == correct_list[c]){
+            points += 1;
+        }
+    }
+    
+    alert("You got " + points + " out of " + max + "!")
+}
