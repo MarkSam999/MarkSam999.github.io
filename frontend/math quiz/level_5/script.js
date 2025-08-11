@@ -9,7 +9,7 @@ for(let i = 0; i < max; i++){
     let n1 = 1 + Math.round(Math.random() * 49);
     let perc = 5 * (1 + Math.round(Math.random() * 19));
 
-    ca = Math.round(n1 / 100 * perc);
+    ca = Math.round(n1 / 10 * perc) / 10;
 
     correct_list.push(ca);
 
