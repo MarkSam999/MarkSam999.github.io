@@ -42,8 +42,6 @@ for(let i = 0; i < max; i++){
     let random = Math.floor(Math.random() * 4);
     choices[random] = ca;
 
-    
-
     for (let div = 0; div < 4; div++){
         let choiceDiv = document.createElement("div");
         choiceDiv.innerHTML = "<button class='choices' onclick='set(" + i + ", " + choices[div]  + ");'>" + (div + 1) + ")</button>" + "<span onclick='set(" + i + ", " + choices[div]  + ");' class='numbers'>" + choices[div] + "</span>";
