@@ -30,7 +30,7 @@ for(let i = 0; i < max; i++){
 
     let choices = [];
 
-    for(let i = 0; i < 4; i++){
+    for(let ch = 0; ch < 4; ch++){
         let choice = Math.round(ca + Math.random() * 5) || Math.round(ca + Math.random() * 5);
         if (choice < 0){
             choice = 0;
