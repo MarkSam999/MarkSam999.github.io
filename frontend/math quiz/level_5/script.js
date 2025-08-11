@@ -9,6 +9,8 @@ for(let i = 0; i < max; i++){
     let n1 = (1 + Math.round(Math.random() * 49));
     let perc = 5 * (1 + Math.round(Math.random() * 19));
 
+    ca = 
+
     correct_list.push(ca);
 
     let choices = [];
