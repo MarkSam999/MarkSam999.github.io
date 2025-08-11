@@ -3,7 +3,7 @@ let correct_list = [];
 let answer_list = [];
 let max = 10;
 
-for(let i = 0; i < max; i++){
+for(let i = 0; i < max; i++){89
     let q_num = i + 1;
     let ca = 0;
     let n1 = 1 + Math.round(Math.random() * 49);
