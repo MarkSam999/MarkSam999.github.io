@@ -16,7 +16,7 @@ for(let i = 0; i < max; i++){
     let choices = [];
 
     let question = document.createElement("h1");
-    question.innerHTML = q_num + ". " + n1 + " -> " + perx + "% = ?";
+    question.innerHTML = q_num + ". " + n1 + " -> " + perc + "% = ?";
     $("#questions").append(question);
 
     for(let ch = 0; ch < 4; ch++){
