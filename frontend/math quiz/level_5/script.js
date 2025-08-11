@@ -7,30 +7,7 @@ for(let i = 0; i < max; i++){
     let q_num = i + 1;
     let ca = 0;
     let n1 = (1 + Math.floor(Math.random() * 99)) / 10;
-    let perc = (1 + Math.floor(Math.random() * 100)) / 10;
-
-    if(action == '+'){
-        ca = n1 + n2;
-    } else if(action == '-'){
-        ca = n1 - n2;
-        if (n2 > n1){
-            res = n2;
-            n2 = n1;
-            n1 = res;
-        }
-    } else if(action == '*'){
-        ca = n1 * n2;
-    } else if(action == '/'){
-        n1 = n2 * (1 + Math.floor(Math.random() * 99)) / 10;
-        ca = n1 / n2;
-        if (n2 < 0.1){
-            n2 += 0.1;
-        } else if (n2 > n1){
-            res = n2;
-            n2 = n1;
-            n1 = res;
-        }
-    }
+    let perc = (1 + Math.floor(Math.random() * 100));
 
     correct_list.push(ca);
 
