@@ -9,7 +9,7 @@ for(let i = 0; i < max; i++){
     let ca = 0;
     let n1 = (1 + Math.floor(Math.random() * 99)) / 10;
     let n2 = (1 + Math.floor(Math.random() * 99)) / 10;
-    let action = actions[Math.floor(Math.random()* 4)];
+    let action = actions[Math.floor(Math.random() * 4)];
 
     if(action == '+'){
         ca = n1 + n2;
