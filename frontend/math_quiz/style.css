@@ -12,7 +12,7 @@ main {
 
 .choices {
     border: none;
-    
+    font-family: Orbitron;
 }
 
 .choices:hover {
