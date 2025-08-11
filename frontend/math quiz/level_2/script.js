@@ -30,7 +30,9 @@ for(let i = 0; i < max; i++){
 
     let choices = [];
 
-    
+    let question = document.createElement("h1");
+    question.innerHTML = q_num + ". " + n1 + " " + action + " " + n2 + " = ?";
+    $("#questions").append(question);
 
     for(let ch = 0; ch < 4; ch++){
         let choice = Math.round(ca + 1 + Math.random() * 4) || Math.round(ca - 1 - Math.random() * 4);
@@ -40,9 +42,7 @@ for(let i = 0; i < max; i++){
     let random = Math.floor(Math.random() * 4);
     choices[random] = ca;
 
-    let question = document.createElement("h1");
-    question.innerHTML = q_num + ". " + n1 + " " + action + " " + n2 + " = ?";
-    $("#questions").append(question);
+    
 
     for (let div = 0; div < 4; div++){
         let choiceDiv = document.createElement("div");
