@@ -28,4 +28,6 @@ urlpatterns = [
     path('game_map/', views.game_map, name='game_map'),
     path('statistics/', views.statistics, name='statistics'),
     path('settings/', views.settings, name='settings')
+
+    
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
