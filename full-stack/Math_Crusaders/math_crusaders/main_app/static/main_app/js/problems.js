@@ -205,9 +205,6 @@ function level_4(){
 }
 
 function level_5(){
-    let a1 = null;
-    let correct_list = [];
-    let answer_list = [];
     let max = 10;
 
     for(let i = 0; i < max; i++){
