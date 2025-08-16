@@ -31,7 +31,7 @@ function level_1(){
 
         let question = document.createElement("h1");
         question.innerHTML = q_num + ". " + n1 + " " + action + " " + n2 + " = ?";
-        document.body.getElementById("questions").append(question);
+        body.getElementById("questions").append(question);
 
         for(let ch = 0; ch < 4; ch++){
             let choice = Math.round(ca + 1 + Math.random() * 4) || Math.round(ca - 1 - Math.random() * 4);
@@ -44,7 +44,7 @@ function level_1(){
         for (let div = 0; div < 4; div++){
             let choiceDiv = document.createElement("div");
             choiceDiv.innerHTML = "<button class='choices' onclick='set(" + i + ", " + choices[div]  + ");'>" + (div + 1) + ")</button>" + "<span onclick='set(" + i + ", " + choices[div]  + ");' class='numbers'>" + choices[div] + "</span>";
-            document.body.getElementById("questions").append(choiceDiv);
+            body.getElementById("questions").append(choiceDiv);
         }
     }
 
