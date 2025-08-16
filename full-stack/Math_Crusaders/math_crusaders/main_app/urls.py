@@ -28,5 +28,5 @@ urlpatterns = [
     path('news/new/', NewsPostCreateView.as_view(), name='news_post_add'),
     path('news/<int:pk>/edit', NewsPostUpdateView.as_view(), name='news_post_edit'),
     path('news/<int:pk>/delete', NewsPostDeleteView.as_view(), name='news_post_delete'),
-    path('education/practice/level1', views.level1(), name="level1")
+    path('education/practice/level_1', views.level_1(), name="level1")
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
