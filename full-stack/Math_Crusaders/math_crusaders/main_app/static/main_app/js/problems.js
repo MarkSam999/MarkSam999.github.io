@@ -5,7 +5,7 @@ let max = 0;
 
 function level_1(){
     actions = ['+', "-"]
-    let max = 5;
+    max = 5;
 
     for(let i = 0; i < max; i++){
         let q_num = i + 1;
@@ -54,7 +54,7 @@ function level_1(){
 
 function level_2(){
     actions = ['*', '/']
-    let max = 5;
+    max = 5;
 
     for(let i = 0; i < max; i++){
         let q_num = i + 1;
