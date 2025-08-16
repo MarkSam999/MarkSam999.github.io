@@ -1,11 +1,10 @@
 let answer_list = [];
 let correct_list = [];
 let actions = [];
-let max = 0;
+let max = 5;
 
 function level_1(){
     actions = ['+', "-"]
-    max = 5;
 
     for(let i = 0; i < max; i++){
         let q_num = i + 1;
