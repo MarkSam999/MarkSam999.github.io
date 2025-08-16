@@ -67,17 +67,17 @@ function level_5(){
 }
 
 function set(question, value){
-        answer_list[question] = value;
-    }
+    answer_list[question] = value;
+}
 
 function check(){
     let points = 0;
 
-        for(let c = 0; c < max; c++){
-            if(answer_list[c] == correct_list[c]){
-                points += 1;
-            }
+    for(let c = 0; c < max; c++){
+        if(answer_list[c] == correct_list[c]){
+            points += 1;
         }
+    }
         
-        alert("You got " + points + " out of " + max + "!")
+    alert("You got " + points + " out of " + max + "!")
     }
