@@ -71,7 +71,7 @@ function set(question, value){
     }
 
 function check(){
-        let points = 0;
+    let points = 0;
 
         for(let c = 0; c < max; c++){
             if(answer_list[c] == correct_list[c]){
