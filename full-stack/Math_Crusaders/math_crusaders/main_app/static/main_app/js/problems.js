@@ -102,7 +102,6 @@ function level_2(){
 
 function level_3(){
     actions = ['square', 'root']
-    max = 5;
 
     for(let i = 0; i < max; i++){
         let q_num = i + 1;
@@ -147,8 +146,7 @@ function level_3(){
 
 function level_4(){
     actions = ['+', "-", "*", "/"]
-    max = 10;
-
+    
     for(let i = 0; i < max; i++){
         let q_num = i + 1;
         let ca = 0;
