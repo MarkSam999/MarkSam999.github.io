@@ -50,9 +50,9 @@ function level1(){
         answer_list[question] = value;
     }
 
-    
+}
 
-}function check(){
+function check(){
         let points = 0;
 
         for(let c = 0; c < max; c++){
@@ -62,4 +62,4 @@ function level1(){
         }
         
         alert("You got " + points + " out of " + max + "!")
-   
+    }
