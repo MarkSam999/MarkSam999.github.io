@@ -2,7 +2,7 @@ let answer_list = [];
 let correct_list = [];
 let actions = [];
 
-function level1(){
+function level_1(){
     actions = ['+', "-"]
     let max = 5;
 
