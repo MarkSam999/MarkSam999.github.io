@@ -3,7 +3,6 @@ let correct_list = [];
 let actions = [];
 
 function level1(){
-    let a1 = null;
     actions = ['+', "-"]
     let max = 5;
 
@@ -53,7 +52,6 @@ function level1(){
 }
 
 function level_2(){
-    let a1 = null;
     let actions = ['*', '/']
     let correct_list = [];
     let answer_list = [];
