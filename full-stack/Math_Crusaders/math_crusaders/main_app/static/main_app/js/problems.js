@@ -103,8 +103,6 @@ function level_2(){
 
 function level_3(){
     actions = ['square', 'root']
-    let correct_list = [];
-    let answer_list = [];
     let max = 5;
 
     for(let i = 0; i < max; i++){
@@ -149,7 +147,6 @@ function level_3(){
 }
 
 function level_4(){
-    let a1 = null;
     let actions = ['+', "-", "*", "/"]
     let correct_list = [];
     let answer_list = [];
