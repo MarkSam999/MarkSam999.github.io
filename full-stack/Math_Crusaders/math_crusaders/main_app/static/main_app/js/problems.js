@@ -3,7 +3,7 @@ let correct_list = [];
 let actions = [];
 let max = 5;
 
-function level_one(){
+function level_1(){
     actions = ['+', "-"]
 
     for(let i = 0; i < max; i++){
