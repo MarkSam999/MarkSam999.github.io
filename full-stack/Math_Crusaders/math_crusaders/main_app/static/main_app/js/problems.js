@@ -146,7 +146,7 @@ function level_3(){
 
 function level_4(){
     actions = ['+', "-", "*", "/"]
-    
+
     for(let i = 0; i < max; i++){
         let q_num = i + 1;
         let ca = 0;
@@ -202,7 +202,6 @@ function level_4(){
 }
 
 function level_5(){
-    max = 10;
 
     for(let i = 0; i < max; i++){
         let q_num = i + 1;
