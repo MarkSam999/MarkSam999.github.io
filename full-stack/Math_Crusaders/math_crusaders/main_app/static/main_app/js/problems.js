@@ -46,11 +46,13 @@ function level1(){
         }
     }
 
-    function set(question, value){
-        answer_list[question] = value;
-    }
+    
 
 }
+
+function set(question, value){
+        answer_list[question] = value;
+    }
 
 function check(){
         let points = 0;
