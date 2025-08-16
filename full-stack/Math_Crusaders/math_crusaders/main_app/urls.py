@@ -30,4 +30,5 @@ urlpatterns = [
     path('news/<int:pk>/delete', NewsPostDeleteView.as_view(), name='news_post_delete'),
 
     path('education/')
+    path('education/')
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
