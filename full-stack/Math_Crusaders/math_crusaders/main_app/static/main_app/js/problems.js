@@ -1,6 +1,7 @@
 let answer_list = [];
 let correct_list = [];
 let actions = [];
+let max = 0;
 
 function level_1(){
     actions = ['+', "-"]
