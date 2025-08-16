@@ -52,9 +52,7 @@ function level1(){
 }
 
 function level_2(){
-    let actions = ['*', '/']
-    let correct_list = [];
-    let answer_list = [];
+    actions = ['*', '/']
     let max = 5;
 
     for(let i = 0; i < max; i++){
