@@ -102,7 +102,7 @@ function level_2(){
 }
 
 function level_3(){
-    let actions = ['square', 'root']
+    actions = ['square', 'root']
     let correct_list = [];
     let answer_list = [];
     let max = 5;
