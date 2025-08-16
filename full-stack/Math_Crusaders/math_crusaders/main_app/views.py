@@ -163,4 +163,4 @@ def settings(request):
     return render(request, 'main_app/settings.html')
 
 def level1(request):
-    return render(request, 'main_app/lev.html')
+    return render(request, 'main_app/index.html')
