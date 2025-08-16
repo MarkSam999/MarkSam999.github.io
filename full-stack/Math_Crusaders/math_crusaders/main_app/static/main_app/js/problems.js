@@ -1,4 +1,4 @@
-
+let answer_list = [];
 
 function level1(){
     let a1 = null;
