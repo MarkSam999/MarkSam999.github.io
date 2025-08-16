@@ -31,7 +31,7 @@ function level_1(){
 
         let question = document.createElement("h1");
         question.innerHTML = q_num + ". " + n1 + " " + action + " " + n2 + " = ?";
-        document.getElementById().append(question);
+        document.getElementById("questions").append(question);
 
         for(let ch = 0; ch < 4; ch++){
             let choice = Math.round(ca + 1 + Math.random() * 4) || Math.round(ca - 1 - Math.random() * 4);
@@ -254,4 +254,3 @@ function check(){
     }
         
     alert("You got " + points + " out of " + max + "!")
-}
