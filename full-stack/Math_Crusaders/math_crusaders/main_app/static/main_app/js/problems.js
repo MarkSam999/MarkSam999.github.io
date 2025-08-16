@@ -5,8 +5,6 @@ let actions = [];
 function level1(){
     let a1 = null;
     actions = ['+', "-"]
-    let correct_list = [];
-    let answer_list = [];
     let max = 5;
 
     for(let i = 0; i < max; i++){
