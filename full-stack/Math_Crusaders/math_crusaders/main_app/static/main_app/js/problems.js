@@ -50,6 +50,10 @@ function level1(){
 
 }
 
+function level_2(){
+    
+}
+
 function set(question, value){
         answer_list[question] = value;
     }
