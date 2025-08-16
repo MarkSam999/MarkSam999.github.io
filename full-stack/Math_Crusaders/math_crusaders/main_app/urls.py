@@ -15,6 +15,8 @@ urlpatterns = [
 
     path('home/', views.home, name='home'),
 
+    
+
     path('news/', NewsPostListView.as_view(), name='news'),
     path('news/<int:pk>/', NewsPostDetailView.as_view(), name='news_post'),
     path('news/<int:pk>/edit', NewsPostUpdateView.as_view(), name='news_post_edit'),
@@ -28,6 +30,4 @@ urlpatterns = [
     path('game_map/', views.game_map, name='game_map'),
     path('statistics/', views.statistics, name='statistics'),
     path('settings/', views.settings, name='settings')
-
-    
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
