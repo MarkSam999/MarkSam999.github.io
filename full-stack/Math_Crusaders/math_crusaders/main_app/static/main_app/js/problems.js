@@ -1,5 +1,5 @@
 function level1(){
-    let a1 = null;
+let a1 = null;
 let actions = ['+', "-"]
 let correct_list = [];
 let answer_list = [];
