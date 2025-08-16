@@ -206,7 +206,7 @@ function level_4(){
 }
 
 function level_5(){
-    let max = 10;
+    max = 10;
 
     for(let i = 0; i < max; i++){
         let q_num = i + 1;
