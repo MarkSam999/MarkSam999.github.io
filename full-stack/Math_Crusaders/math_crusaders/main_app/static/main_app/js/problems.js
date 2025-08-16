@@ -117,7 +117,6 @@ function level_4(){
             $("#questions").append(choiceDiv);
         }
     }
-
 }
 
 function level_5(){
