@@ -9,8 +9,8 @@ function level_1(){
     for(let i = 0; i < max; i++){
         let q_num = i + 1;
         let ca = 0;
-        let n1 = 1 + Math.floor(Math.random() * 9);
-        let n2 = 1 + Math.floor(Math.random() * 9);
+        let n1 = 1 + Math.round(Math.random() * 9);
+        let n2 = 1 + Math.round(Math.random() * 9);
         let action = actions[Math.round(Math.random())];
 
         if(action == '+'){
