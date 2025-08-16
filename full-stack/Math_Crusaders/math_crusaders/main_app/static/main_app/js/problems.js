@@ -147,9 +147,7 @@ function level_3(){
 }
 
 function level_4(){
-    let actions = ['+', "-", "*", "/"]
-    let correct_list = [];
-    let answer_list = [];
+    actions = ['+', "-", "*", "/"]
     let max = 10;
 
     for(let i = 0; i < max; i++){
