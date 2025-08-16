@@ -1,4 +1,5 @@
 let answer_list = [];
+let actions = [];
 
 function level1(){
     let a1 = null;
