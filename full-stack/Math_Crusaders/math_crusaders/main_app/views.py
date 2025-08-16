@@ -162,5 +162,5 @@ def statistics(request):
 def settings(request):
     return render(request, 'main_app/settings.html')
 
-def level1(request):
+def level_1(request):
     return render(request, 'main_app/education/level_1.html')
