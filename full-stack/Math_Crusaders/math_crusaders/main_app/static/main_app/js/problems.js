@@ -66,7 +66,7 @@ function level_1(){
             let choiceDiv = document.createElement("div");
             choiceDiv.innerHTML = "<div class='choices' onclick='set(" + i + ", " + choices[div]  + ");'>" + choices[div] + "</div>";
 
-            $("#table_" + div).append(choiceDiv);
+            $("#cell_" + q_num + "_" + (cell + 1)).append(choiceDiv);
         }
     }
 
@@ -272,4 +272,3 @@ function check(){
     }
         
     alert("You got " + points + " out of " + max + "!")
-}
