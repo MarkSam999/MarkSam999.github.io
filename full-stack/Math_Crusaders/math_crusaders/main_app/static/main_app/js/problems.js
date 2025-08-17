@@ -62,7 +62,7 @@ function level_1(){
 
             if(cell <= 1){
                 $("#row_" + q_num + "_1").append(cellHTML);
-            }
+            } else if()
 
         }
         
