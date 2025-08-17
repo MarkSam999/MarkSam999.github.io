@@ -47,7 +47,10 @@ function level_1(){
         for(let row = 0; row < 2; row++){
             let unit = document.createElement("tr");
             $("#table_" + q_num).append(unit);
-            for (let cell = 0; cell < 2){}
+            
+            for (let cell = 0; cell < 2; cell++){
+
+            }
         }
         
         for (let div = 0; div < 4; div++){
