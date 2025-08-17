@@ -272,3 +272,4 @@ function check(){
     }
         
     alert("You got " + points + " out of " + max + "!")
+}
