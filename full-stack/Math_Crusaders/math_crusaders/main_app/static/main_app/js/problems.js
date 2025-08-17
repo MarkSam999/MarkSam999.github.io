@@ -51,11 +51,10 @@ function level_1(){
             } else if(cell == 3){
                 rowHTML.id = "row_2";
             }
-            
             $("#table_" + q_num).append(rowHTML);
 
-                let cellHTML = document.createElement("td");
-                cellHTML.id = "cell_" + q_num + "_" + "";
+            let cellHTML = document.createElement("td");
+            cellHTML.id = "cell_" + q_num + "_" + ;
         }
         
         for (let div = 0; div < 4; div++){
