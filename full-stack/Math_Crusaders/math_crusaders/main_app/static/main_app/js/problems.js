@@ -45,12 +45,12 @@ function level_1(){
         $("#questions").append(choiceTable);
 
         for(let row = 0; row < 2; row++){
-            let rowDiv = document.createElement("tr");
-            rowDiv.id
-            $("#table_" + q_num).append(rowDiv);
+            let rowHTML = document.createElement("tr");
+            rowHTML.id
+            $("#table_" + q_num).append(rowHTML);
 
             for (let cell = 0; cell < 2; cell++){
-                let cellDiv = document.createElement("td");
+                let cellHTML = document.createElement("td");
             }
         }
         
