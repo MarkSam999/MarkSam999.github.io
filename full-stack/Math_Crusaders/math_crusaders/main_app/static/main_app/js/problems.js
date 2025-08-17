@@ -51,8 +51,9 @@ function level_1(){
                 row.id = "row_1";
                 $("#table_" + q_num).append(row);
             } else if(cell == 3){
-
+                let row = document.createElement("tr");
                 row.id = "row_2";
+                $("#table_" + q_num).append(row);
             }
             
 
