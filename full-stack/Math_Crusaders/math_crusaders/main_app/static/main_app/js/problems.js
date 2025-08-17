@@ -45,6 +45,8 @@ function level_1(){
         $("#questions").append(choiceTable);
 
         for(let cell = 0; cell < 4; cell++){
+            let cellHTML = document.createElement("td");
+            cellHTML.id = "cell_" + q_num + "_" + (cell + 1);
             
             if(cell == 1){
                 let row = document.createElement("tr");
@@ -56,8 +58,7 @@ function level_1(){
                 $("#table_" + q_num).append(row);
             }
 
-            let cellHTML = document.createElement("td");
-            cellHTML.id = "cell_" + q_num + "_" + (cell + 1);
+            
         }
         
         for (let div = 0; div < 4; div++){
