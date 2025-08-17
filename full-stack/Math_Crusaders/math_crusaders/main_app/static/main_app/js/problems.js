@@ -49,7 +49,7 @@ function level_1(){
             rowHTML.id = "row_" + row;
             $("#table_" + q_num).append(rowHTML);
 
-            for (let cell = 0; cell < 2; cell++){
+            for (let cell = 1; cell < 3; cell++){
                 let cellHTML = document.createElement("td");
                 cellHTML.id = "cell_" + q_num + "_" + (row + cell);
             }
