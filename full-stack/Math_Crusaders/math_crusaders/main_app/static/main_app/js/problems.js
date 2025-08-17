@@ -44,12 +44,12 @@ function level_1(){
         choiceTable.id = "table_" + q_num;
         $("#questions").append(choiceTable);
 
-        for(let row = 0; row < 2; row++){
+        for(let row = 0; row < 4; row++){
             let rowHTML = document.createElement("tr");
             rowHTML.id = "row_" + row;
             $("#table_" + q_num).append(rowHTML);
                 let cellHTML = document.createElement("td");
-                cellHTML.id = "cell_" + q_num + "_" + ;
+                cellHTML.id = "cell_" + q_num + "_" + "";
         }
         
         for (let div = 0; div < 4; div++){
