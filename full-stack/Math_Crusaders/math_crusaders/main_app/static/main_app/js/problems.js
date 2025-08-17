@@ -47,9 +47,9 @@ function level_1(){
         for(let cell = 0; cell < 4; cell++){
             let rowHTML = document.createElement("tr");
             if(cell == 1){
-                rowHTML.id = "row_";
+                rowHTML.id = "row_2";
             } else if(cell == 3){
-                rowHTML.id = "row_" + row;
+                rowHTML.id = "row_4";
             }
             
             $("#table_" + q_num).append(rowHTML);
