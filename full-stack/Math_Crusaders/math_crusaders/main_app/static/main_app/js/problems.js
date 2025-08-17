@@ -49,7 +49,7 @@ function level_1(){
             $("#table_" + q_num).append(rowDiv);
 
             for (let cell = 0; cell < 2; cell++){
-
+                
             }
         }
         
