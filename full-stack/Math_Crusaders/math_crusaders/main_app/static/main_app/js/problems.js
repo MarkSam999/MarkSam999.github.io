@@ -42,7 +42,7 @@ function level_1(){
 
         for (let div = 0; div < 4; div++){
             let choiceTable = document.createElement("table");
-            choiceTable.innerHTML = "<tr></tr><tr></tr>"
+            choiceTable.innerHTML = "<tr><></></tr><tr></tr>"
 
             let choiceDiv = document.createElement("div");
             choiceDiv.innerHTML = "<div class='choices' onclick='set(" + i + ", " + choices[div]  + ");'>" + choices[div] + "</div>";
