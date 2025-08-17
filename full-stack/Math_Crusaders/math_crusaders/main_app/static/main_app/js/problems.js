@@ -45,8 +45,8 @@ function level_1(){
         $("#questions").append(choiceTable);
 
         for(let row = 0; row < 2; row++){
-            let row_ = document.createElement("tr");
-            $("#table_" + q_num).append(row_);
+            let rowDiv = document.createElement("tr");
+            $("#table_" + q_num).append(rowDiv);
 
             for (let cell = 0; cell < 2; cell++){
 
