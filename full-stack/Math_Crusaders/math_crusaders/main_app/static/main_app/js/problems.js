@@ -47,7 +47,7 @@ function level_1(){
         for(let cell = 0; cell < 4; cell++){
             let rowHTML = document.createElement("tr");
             if(){
-
+                rowHTML.id = "row_";
             }
             else if(){
                 rowHTML.id = "row_" + row;
