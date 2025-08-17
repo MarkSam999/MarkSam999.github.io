@@ -60,6 +60,8 @@ function level_1(){
                 $("#row_" + q_num + "_2").append(cellHTML);
             }
 
+            if()
+
         }
         
         for (let div = 0; div < 4; div++){
