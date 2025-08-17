@@ -45,13 +45,13 @@ function level_1(){
         $("#questions").append(choiceTable);
 
         for(let cell = 0; cell < 4; cell++){
-            let rowHTML = document.createElement("tr");
+            let row = document.createElement("tr");
             if(cell == 1){
-                rowHTML.id = "row_1";
+                row.id = "row_1";
             } else if(cell == 3){
-                rowHTML.id = "row_2";
+                row.id = "row_2";
             }
-            $("#table_" + q_num).append(rowHTML);
+            $("#table_" + q_num).append(row);
 
             let cellHTML = document.createElement("td");
             cellHTML.id = "cell_" + q_num + "_" + (cell + 1);
