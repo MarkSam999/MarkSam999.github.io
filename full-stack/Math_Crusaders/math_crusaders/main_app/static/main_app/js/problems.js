@@ -55,7 +55,6 @@ function level_1(){
                 row.id = "row_2";
                 $("#table_" + q_num).append(row);
             }
-            
 
             let cellHTML = document.createElement("td");
             cellHTML.id = "cell_" + q_num + "_" + (cell + 1);
