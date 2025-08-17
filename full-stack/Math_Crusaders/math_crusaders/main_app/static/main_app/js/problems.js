@@ -41,7 +41,6 @@ function level_1(){
         choices[random] = ca;
 
         let choiceTable = document.createElement("table");
-        choiceTable.id = "table_" + q_num;
         choiceTable.innerHTML = "<tr><td></td><td></td></tr><tr><td></td><td></td></tr>"
         $("#questions").append(choiceTable);
 
@@ -49,7 +48,7 @@ function level_1(){
             let choiceDiv = document.createElement("div");
             choiceDiv.innerHTML = "<div class='choices' onclick='set(" + i + ", " + choices[div]  + ");'>" + choices[div] + "</div>";
 
-            $("#table_").append(choiceDiv);
+            $("#table_" + div).append(choiceDiv);
         }
     }
 
