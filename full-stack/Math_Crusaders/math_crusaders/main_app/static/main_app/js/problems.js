@@ -42,8 +42,7 @@ function level_1(){
 
         let choiceTable = document.createElement("table");
         choiceTable.innerHTML = "<tr><td></td><td></td></tr><tr><td></td><td></td></tr>"
-        }
-
+        
 
         for (let div = 0; div < 4; div++){
             
