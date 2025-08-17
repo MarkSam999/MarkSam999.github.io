@@ -55,7 +55,7 @@ function level_1(){
                 $("#")
             } else if(cell == 3){
                 let row = document.createElement("tr");
-                row.id = "row_2";
+                row.id = "row_" + q_num + "_2";
                 $("#table_" + q_num).append(row);
                 $("#")
             }
