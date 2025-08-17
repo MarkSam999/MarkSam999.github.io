@@ -42,14 +42,13 @@ function level_1(){
 
         let choiceTable = document.createElement("table");
         choiceTable.id
-$("#questions").append(choiceTable);
+        $("#questions").append(choiceTable);
 
         for(let cell = 0; cell < 2; cell++){
             let row = document.createElement("tr");
             
         }
         
-
         for (let div = 0; div < 4; div++){
             let choiceDiv = document.createElement("div");
             choiceDiv.innerHTML = "<div class='choices' onclick='set(" + i + ", " + choices[div]  + ");'>" + choices[div] + "</div>";
