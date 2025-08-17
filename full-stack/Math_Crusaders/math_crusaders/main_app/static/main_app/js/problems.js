@@ -41,7 +41,7 @@ function level_1(){
         choices[random] = ca;
 
         let choiceTable = document.createElement("table");
-        for(let row = 0; row < 2; row++){
+        for(let cell = 0; cell < 2; cell++){
             let document.createElement("tr")
         }
         $("#questions").append(choiceTable);
