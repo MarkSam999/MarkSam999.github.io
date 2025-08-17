@@ -54,7 +54,7 @@ function level_1(){
             $("#table_" + q_num).append(rowHTML);
 
             let cellHTML = document.createElement("td");
-            cellHTML.id = "cell_" + q_num + "_" + ;
+            cellHTML.id = "cell_" + q_num + "_" + (cell + 1);
         }
         
         for (let div = 0; div < 4; div++){
