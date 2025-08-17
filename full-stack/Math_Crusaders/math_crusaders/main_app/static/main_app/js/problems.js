@@ -47,6 +47,7 @@ function level_1(){
         for(let cell = 0; cell < 4; cell++){
             let row = document.createElement("tr");
             if(cell == 1){
+                
                 row.id = "row_1";
             } else if(cell == 3){
                 row.id = "row_2";
