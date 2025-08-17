@@ -57,7 +57,7 @@ function level_1(){
                 let row = document.createElement("tr");
                 row.id = "row_" + q_num + "_2";
                 $("#table_" + q_num).append(row);
-                $("#row_" + q_num + "_2").append
+                $("#row_" + q_num + "_2").append(cellHTML);
             }
 
         }
