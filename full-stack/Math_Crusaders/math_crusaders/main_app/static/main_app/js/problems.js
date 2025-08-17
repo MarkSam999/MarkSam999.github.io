@@ -46,7 +46,7 @@ function level_1(){
 
         for(let cell = 0; cell < 2; cell++){
             let row = document.createElement("tr");
-            $()
+            $("#table_" + q_num)
         }
         
         for (let div = 0; div < 4; div++){
@@ -258,5 +258,4 @@ function check(){
         }
     }
         
-    alert("You got " + points + " out of " + max + "!")
-}
+    alert("You got " + points + " out of " 
