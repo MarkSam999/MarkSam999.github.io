@@ -42,7 +42,8 @@ function level_1(){
 
         let choiceTable = document.createElement("table");
         for(let cell = 0; cell < 2; cell++){
-            let document.createElement("tr")
+            let row = document.createElement("tr");
+            document
         }
         $("#questions").append(choiceTable);
 
