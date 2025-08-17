@@ -46,7 +46,7 @@ function level_1(){
 
         for(let row = 0; row < 2; row++){
             let rowHTML = document.createElement("tr");
-            rowHTML.id
+            rowHTML.id = ""
             $("#table_" + q_num).append(rowHTML);
 
             for (let cell = 0; cell < 2; cell++){
@@ -263,5 +263,4 @@ function check(){
         }
     }
         
-    alert("You got " + points + " out of " + max + "!")
-}
+    alert("You got " + points + " out of " + max + "!")
