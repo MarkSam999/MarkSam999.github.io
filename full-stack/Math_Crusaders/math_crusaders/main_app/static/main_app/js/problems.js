@@ -41,7 +41,7 @@ function level_1(){
         choices[random] = ca;
 
         for (let div = 0; div < 4; div++){
-            
+            let choiceTable = 
             let choiceDiv = document.createElement("div");
             choiceDiv.innerHTML = "<div class='choices' onclick='set(" + i + ", " + choices[div]  + ");'>" + choices[div] + "</div>";
             $("#questions").append(choiceDiv);
