@@ -46,6 +46,7 @@ function level_1(){
 
         for(let row = 0; row < 2; row++){
             let rowDiv = document.createElement("tr");
+            rowDiv.id
             $("#table_" + q_num).append(rowDiv);
 
             for (let cell = 0; cell < 2; cell++){
