@@ -46,7 +46,8 @@ function level_1(){
 
         for(let cell = 0; cell < 2; cell++){
             let row = document.createElement("tr");
-            $("#table_" + q_num).append("row")
+            $("#table_" + q_num).append("row");
+            for 
         }
         
         for (let div = 0; div < 4; div++){
