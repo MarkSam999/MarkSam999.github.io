@@ -47,18 +47,19 @@ function level_1(){
         for(let cell = 0; cell < 4; cell++){
             let cellHTML = document.createElement("td");
             cellHTML.id = "cell_" + q_num + "_" + (cell + 1);
-            
+
             if(cell == 1){
                 let row = document.createElement("tr");
                 row.id = "row_1";
                 $("#table_" + q_num).append(row);
+                %
             } else if(cell == 3){
                 let row = document.createElement("tr");
                 row.id = "row_2";
                 $("#table_" + q_num).append(row);
+                %
             }
 
-            
         }
         
         for (let div = 0; div < 4; div++){
