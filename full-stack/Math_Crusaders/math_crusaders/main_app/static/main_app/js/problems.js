@@ -57,12 +57,14 @@ function level_1(){
                 let row = document.createElement("tr");
                 row.id = "row_" + q_num + "_2";
                 $("#table_" + q_num).append(row);
-                $("#row_" + q_num + "_2").append(cellHTML);
+                
             }
 
             if(cell <= 1){
                 $("#row_" + q_num + "_1").append(cellHTML);
-            } else()
+            } else {
+                $("#row_" + q_num + "_2").append(cellHTML);
+            }
 
         }
         
