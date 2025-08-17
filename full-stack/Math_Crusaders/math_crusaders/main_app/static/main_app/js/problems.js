@@ -51,6 +51,7 @@ function level_1(){
 
             for (let cell = 0; cell < 2; cell++){
                 let cellHTML = document.createElement("td");
+                rowHTML.id = "row_" + row;
             }
         }
         
