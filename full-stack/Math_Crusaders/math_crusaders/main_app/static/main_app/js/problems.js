@@ -48,11 +48,8 @@ function level_1(){
             let rowHTML = document.createElement("tr");
             rowHTML.id = "row_" + row;
             $("#table_" + q_num).append(rowHTML);
-
-            for (let cell = 0; cell < 2; cell++){
                 let cellHTML = document.createElement("td");
                 cellHTML.id = "cell_" + q_num + "_" + ;
-            }
         }
         
         for (let div = 0; div < 4; div++){
