@@ -42,7 +42,7 @@ function level_1(){
 
         let choiceTable = document.createElement("table");
         choiceTable.innerHTML = "<tr><td></td><td></td></tr><tr><td></td><td></td></tr>"
-        
+        $("#questions").append(choiceTable);
 
         for (let div = 0; div < 4; div++){
             
@@ -255,5 +255,4 @@ function check(){
         }
     }
         
-    alert("You got " + points + " out of " + max + "!")
-}
+    alert("You got " + points + " out of " + max + "!
