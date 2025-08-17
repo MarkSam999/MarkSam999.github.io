@@ -40,6 +40,8 @@ function level_1(){
         let random = Math.floor(Math.random() * 4);
         choices[random] = ca;
 
+        
+
         for (let div = 0; div < 4; div++){
             let choiceTable = document.createElement("table");
             choiceTable.innerHTML = "<tr><td></td><td></td></tr><tr><td></td><td></td></tr>"
