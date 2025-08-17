@@ -58,7 +58,7 @@ function level_1(){
                 $("#table_" + q_num).append(row);
             }
 
-            if(cell <= 1){
+            if(cell < 2){
                 $("#row_" + q_num + "_1").append(cellHTML);
             } else {
                 $("#row_" + q_num + "_2").append(cellHTML);
