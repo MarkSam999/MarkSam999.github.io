@@ -49,7 +49,7 @@ function level_1(){
             let choiceDiv = document.createElement("div");
             choiceDiv.innerHTML = "<div class='choices' onclick='set(" + i + ", " + choices[div]  + ");'>" + choices[div] + "</div>";
 
-            $("#table_" + q_num).append(choiceDiv);
+            $("#table_").append(choiceDiv);
         }
     }
 
