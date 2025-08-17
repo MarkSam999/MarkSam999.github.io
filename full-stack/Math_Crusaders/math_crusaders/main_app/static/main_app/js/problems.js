@@ -40,11 +40,12 @@ function level_1(){
         let random = Math.floor(Math.random() * 4);
         choices[random] = ca;
 
+        let choiceTable = document.createElement("table");
+        choiceTable.innerHTML = "<tr><td></td><td></td></tr><tr><td></td><td></td></tr>"
         
 
         for (let div = 0; div < 4; div++){
-            let choiceTable = document.createElement("table");
-            choiceTable.innerHTML = "<tr><td></td><td></td></tr><tr><td></td><td></td></tr>"
+            
 
             let choiceDiv = document.createElement("div");
             choiceDiv.innerHTML = "<div class='choices' onclick='set(" + i + ", " + choices[div]  + ");'>" + choices[div] + "</div>";
@@ -254,5 +255,4 @@ function check(){
         }
     }
         
-    alert("You got " + points + " out of " + max + "!")
-}
+    alert("You got " + points + " out of " + max
