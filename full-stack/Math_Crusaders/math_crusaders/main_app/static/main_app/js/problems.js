@@ -46,7 +46,7 @@ function level_1(){
 
         for(let row = 0; row < 2; row++){
             let rowHTML = document.createElement("tr");
-            rowHTML.id = "row_"
+            rowHTML.id = "row_" + row;
             $("#table_" + q_num).append(rowHTML);
 
             for (let cell = 0; cell < 2; cell++){
