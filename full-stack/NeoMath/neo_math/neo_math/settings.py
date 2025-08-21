@@ -56,7 +56,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'math_crusaders.urls'
+ROOT_URLCONF = 'neo_math.urls'
 
 TEMPLATES = [
     {
