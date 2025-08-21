@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'math_crusaders.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'neo_math.settings')
 
 application = get_wsgi_application()
