@@ -57,9 +57,9 @@ main {
 
 header {
     background-color: rgb(20, 20, 20);
-    display: flex; position: fixed;z-index: 10;
+    display: flex; position: fixed;
     justify-content: center;
-    height: 100%; width: 60px;
+    height: 100%; width: 60px; z-index: 10;
 }
 
 .hist_heading {
