@@ -87,11 +87,6 @@
                         <a class="header_links">
                             <img class="header_signs profile_sign" src="{{ user.profile.image.url }}" height="35px" width="35px" id="profileBtn">
                         </a>
-                        <div class="page_lists" id="profileTable">
-                            <a class="lists_strings" href="{% url 'profile' %}"><div>Profile</div></a>
-                            <a class="lists_strings" href="{% url 'statistics' %}"><div>Statistics</div></a>
-                            <a class="lists_strings" href="{% url 'settings' %}"><div>Settings</div></a>
-                        </div>
                     </div>
                 {% else %}
                     <div class="header_buttons"> <!--No-image Profile-->
@@ -105,13 +100,11 @@
                     <a class="header_links" href="{% url 'register' %}">
                         <img class="header_signs register_sign" src="{% static 'media/img/void.PNG' %}" onclick="Press()" height="60px" width="60px">
                     </a>
-                    <p class="page_names">Register</p>
                 </div>
                 <div class="header_buttons"> <!--Login-->
                     <a class="header_links" href="{% url 'login' %}">
                         <img class="header_signs login_sign" src="{% static 'media/img/void.PNG' %}" onclick="Press()" height="60px" width="60px">
                     </a>
-                    <p class="page_names">Login</p>
                 </div>
             {% endif %}
         </header>
