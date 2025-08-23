@@ -55,7 +55,7 @@ main {
 }
 
 header {
-    background-color: rgba(0, 0, 100, 0);
+    background-color: rgba(0, 0, 100, 255);
     display: flex; position: fixed; flex-direction: column;
     height: 100%; width: 60px; z-index: 10;
 }
