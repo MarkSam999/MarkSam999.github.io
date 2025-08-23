@@ -21,8 +21,3 @@ $("#aboutBtn").click(function(){
     $("#aboutTable").toggle(600);
 });
 
-$("#profileTable").hide(0);
-$("#profileBtn").click(function(){
-    $("#profileTable").toggle(600);
-});
-
