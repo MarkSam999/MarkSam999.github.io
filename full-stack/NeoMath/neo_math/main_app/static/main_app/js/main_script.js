@@ -1,3 +1,7 @@
+function handleMouseDown(event) {
+    event.target.style.transform = "translateY(3px)";
+};
+
 function handleMouseUp(event) {
     setTimeout(() => {
         event.target.style.transform = "";
