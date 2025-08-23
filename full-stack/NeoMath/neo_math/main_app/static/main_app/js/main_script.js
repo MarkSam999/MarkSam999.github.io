@@ -9,7 +9,7 @@ function handleMouseUp(event) {
 };
 
 
-$("#progress").animate({width: "100%"}, 2000);
+$("#progress").animate({width: "100%"}, 10000);
 setTimeout(() => {
     document.getElementById('loader').style.display = 'none';
     document.body.style.visibility = 'visible';
