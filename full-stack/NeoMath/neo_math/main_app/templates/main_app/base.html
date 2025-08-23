@@ -67,13 +67,11 @@
                 <a class="header_links" href="{% url 'news' %}">
                     <img class="header_signs news_sign" src="{% static 'media/img/void.PNG' %}" onclick="Press()" height="60px" width="60px">
                 </a>
-                <p class="page_names">News</p>
             </div>
             <div class="header_buttons"> <!--Game map-->
                 <a class="header_links" href="{% url 'game_map' %}">
                     <img class="header_signs game_map_sign" src="{% static 'media/img/void.PNG' %}" onclick="Press()" height="60px" width="60px">
                 </a>
-                <p class="page_names">Map</p>
             </div>
             {% if user.is_authenticated %}
                 <div class="header_buttons"> <!--Logout-->
