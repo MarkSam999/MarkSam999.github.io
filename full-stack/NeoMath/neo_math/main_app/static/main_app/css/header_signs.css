@@ -11,8 +11,7 @@
 }
 
 .home_sign{
-    background-image: 
-    url(../../media/img/header_signs/home_sign.png);
+    background-image: url('../../media/img/header_signs/home_sign.png');
 }
 
 .home_sign:hover{
