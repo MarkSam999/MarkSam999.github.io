@@ -40,13 +40,14 @@
     border: solid 2px white; border-radius: 30px;
     position: relative; top: 20px; left: 25%;
     text-align: center; align-items: center; justify-content: center;
-    box-shadow: 0 0 15px blue, ;
+    box-shadow: 0 0 15px blue;
 }
 
 #progress {
     height: 26px; width: 3.7%;
     background-color: rgb(255, 255, 255);
-    border-radius: 30px;
+    border-radius: 30px; box-shadow: 0 0 15px blue;
+}
 }
 
 main {
