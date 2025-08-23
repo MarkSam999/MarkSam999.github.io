@@ -74,7 +74,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'math_crusaders.wsgi.application'
+WSGI_APPLICATION = 'neo_math.wsgi.application'
 
 
 # Database
