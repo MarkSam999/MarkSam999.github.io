@@ -57,16 +57,11 @@
                 <a class="header_links" href="{% url 'rating' %}">
                     <img class="header_signs rating_sign" src="{% static 'media/img/void.PNG' %}" onclick="Press()" height="60px" width="60px">
                 </a>
-                <p class="page_names">Rating</p>
             </div>
             <div class="header_buttons"> <!--About-->
                 <a class="header_links">
                     <img class="header_signs about_sign" src="{% static 'media/img/void.PNG' %}" height="60px" width="60px" id="aboutBtn">
                 </a>
-                <div class="page_lists" id="aboutTable">
-                    <a class="lists_strings" href="{% url 'history' %}"><div>History</div></a>
-                    <a class="lists_strings" href="#"><div>Help</div></a>
-                </div>
             </div>
             <div class="header_buttons"> <!--News-->
                 <a class="header_links" href="{% url 'news' %}">
