@@ -61,7 +61,7 @@ header {
     width: 60px; z-index: 10;
     justify-content: center;
     height: 100%; width: 100%;
-    word-wrap: ;
+    word-wrap: normal;
 }
 
 .hist_heading {
@@ -91,4 +91,5 @@ header {
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: rgb(25, 20, 105)
+    background: rgb(25, 20, 105); 
+  }
