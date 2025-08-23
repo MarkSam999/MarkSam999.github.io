@@ -37,7 +37,7 @@
 }
 
 #progress_bar {
-    width: 50%; height: 30px; place-self: center; 
+    width: 50%; height: 30px;
     border: solid 2px white; border-radius: 30px;
     position: relative; top: 20px;
     box-shadow: 0 0 15px blue;
