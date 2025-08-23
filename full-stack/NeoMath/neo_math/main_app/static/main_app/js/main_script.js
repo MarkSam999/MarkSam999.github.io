@@ -9,12 +9,12 @@ function handleMouseUp(event) {
 };
 
 
-$("#progress").animate({width: "100%"}, 10000);
+$("#progress").animate({width: "100%"}, 1800);
 setTimeout(() => {
     document.getElementById('loader').style.display = 'none';
     document.body.style.visibility = 'visible';
     document.body.style.overflow = 'auto';
-}, 10200);
+}, 2000);
 
 $("#aboutTable").hide(0);
 $("#aboutBtn").click(function(){
