@@ -44,9 +44,9 @@
 }
 
 #progress {
-    height: 12px; width: 3.7%;
+    height: 14px; width: 3.7%;
     background-color: rgb(255, 255, 255);
-    border-radius: 12px;
+    border-radius: 14px;
 }
 
 main {
