@@ -23,12 +23,12 @@ from users.views import email_login_view
 from users import views as user_views
 
 urlpatterns = [
-    path('mathcrusaders/admin', admin.site.urls),
-    path('mathcrusaders/register/', user_views.register, name='register'),
-    path('mathcrusaders/profile/', user_views.profile, name='profile'),
-    path('mathcrusaders/login/', email_login_view, name='login'),
-    path('mathcrusaders/logout/', auth_views.LogoutView.as_view(template_name='users/logout.html'), name='logout'),
-    path('mathcrusaders/', include('main_app.urls')),
+    path('admin', admin.site.urls),
+    path('register/', user_views.register, name='register'),
+    path('profile/', user_views.profile, name='profile'),
+    path('login/', email_login_view, name='login'),
+    path('logout/', auth_views.LogoutView.as_view(template_name='users/logout.html'), name='logout'),
+    path('', include('main_app.urls')),
 ]
 
 if settings.DEBUG:
