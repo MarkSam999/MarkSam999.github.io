@@ -23,7 +23,7 @@ if __name__ == "__main__":
 
     try:
         while True:
-            time.sleep(300)
+            time.sleep(3000)
     except KeyboardInterrupt:
         print("Auto-Git stopped.")
         observer.stop()
