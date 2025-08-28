@@ -57,7 +57,7 @@ main {
 header {
     background-color: transparent;
     display: flex; position: fixed; flex-direction: column;
-    height: 100%; width: auto; z-index: 10;
+    height: 100%; width: 70px; z-index: 10;
 }
 
 .hist_heading {

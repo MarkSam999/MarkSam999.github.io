@@ -7,7 +7,8 @@
 
 .header_buttons {
     text-align: center; height: 60px;
-    padding: 50px 15px;
+    padding: 35px 0; position: relative;
+    bottom: 30px;
 }
 
 .header_signs:hover {
