@@ -1,9 +1,13 @@
 .header_signs {
-    background-size: 55px 55px;
-    padding: 55px;
+    background-size: 60px 60px;
     background-repeat: no-repeat;
     place-self: center;
     transition: 0.45s;
+}
+
+.header_buttons {
+    text-align: center; height: 60px;
+    margin-right: auto; margin-left: auto;
 }
 
 .header_signs:hover {
@@ -205,7 +209,3 @@
 }
 
 
-.header_buttons {
-    text-align: center; height: 60px;
-    margin-right: auto; margin-left: auto;
-}
