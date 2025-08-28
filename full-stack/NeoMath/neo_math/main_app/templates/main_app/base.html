@@ -45,17 +45,17 @@
         <header>
             <div class="header_buttons"> <!--Home-->
                 <a class="header_links" href="{% url 'home' %}">
-                    <img class="header_signs home_sign" src="{% static 'media/img/void.PNG' %}" onclick="Press()" height="60px" width="60px">
+                    <img class="header_signs home_sign" src="{% static 'media/img/void.PNG' %}" height="60px" width="60px">
                 </a>
             </div>
             <div class="header_buttons"> <!--Arena-->
                 <a class="header_links" href="{% url 'arena' %}">
-                    <img class="header_signs arena_sign" src="{% static 'media/img/void.PNG' %}" onclick="Press()" height="60px" width="60px">
+                    <img class="header_signs arena_sign" src="{% static 'media/img/void.PNG' %}" height="60px" width="60px">
                 </a>
             </div>
             <div class="header_buttons"> <!--Rating-->
                 <a class="header_links" href="{% url 'rating' %}">
-                    <img class="header_signs rating_sign" src="{% static 'media/img/void.PNG' %}" onclick="Press()" height="60px" width="60px">
+                    <img class="header_signs rating_sign" src="{% static 'media/img/void.PNG' %}" height="60px" width="60px">
                 </a>
             </div>
             <div class="header_buttons"> <!--About-->
@@ -65,12 +65,12 @@
             </div>
             <div class="header_buttons"> <!--News-->
                 <a class="header_links" href="{% url 'news' %}">
-                    <img class="header_signs news_sign" src="{% static 'media/img/void.PNG' %}" onclick="Press()" height="60px" width="60px">
+                    <img class="header_signs news_sign" src="{% static 'media/img/void.PNG' %}" height="60px" width="60px">
                 </a>
             </div>
             <div class="header_buttons"> <!--Game map-->
                 <a class="header_links" href="{% url 'game_map' %}">
-                    <img class="header_signs game_map_sign" src="{% static 'media/img/void.PNG' %}" onclick="Press()" height="60px" width="60px">
+                    <img class="header_signs game_map_sign" src="{% static 'media/img/void.PNG' %}" height="60px" width="60px">
                 </a>
             </div>
             {% if user.is_authenticated %}
@@ -78,7 +78,7 @@
                     <form action="{% url 'logout' %}" method="post"> 
                         {% csrf_token %}
                         <button type="submit" class="header_links logout_button">
-                            <img class="header_signs logout_sign" src="{% static 'media/img/void.PNG' %}" onclick="Press()" height="60px" width="60px">
+                            <img class="header_signs logout_sign" src="{% static 'media/img/void.PNG' %}" height="60px" width="60px">
                         </button>
                     </form>
                 </div>
@@ -98,12 +98,12 @@
             {% else %}
                 <div class="header_buttons"> <!--Register-->
                     <a class="header_links" href="{% url 'register' %}">
-                        <img class="header_signs register_sign" src="{% static 'media/img/void.PNG' %}" onclick="Press()" height="60px" width="60px">
+                        <img class="header_signs register_sign" src="{% static 'media/img/void.PNG' %}" height="60px" width="60px">
                     </a>
                 </div>
                 <div class="header_buttons"> <!--Login-->
                     <a class="header_links" href="{% url 'login' %}">
-                        <img class="header_signs login_sign" src="{% static 'media/img/void.PNG' %}" onclick="Press()" height="60px" width="60px">
+                        <img class="header_signs login_sign" src="{% static 'media/img/void.PNG' %}" height="60px" width="60px">
                     </a>
                 </div>
             {% endif %}
