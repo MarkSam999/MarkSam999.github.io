@@ -1,0 +1,55 @@
+.arrow_next_sign {
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    transition: 0.45s;
+    background-image: 
+    url(../../media/img/nav_signs/usual/arrow_next.png);
+}
+
+.arrow_next_sign:hover {
+    background-image: 
+    url(../../media/img/nav_signs/hover/arrow_next_hover.PNG);
+    transition: 0.45s;
+}
+
+.arrow_prev_sign {
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    transition: 0.45s;
+    background-image: 
+    url(../../media/img/nav_signs/usual/arrow_prev.png);
+}
+
+.arrow_prev_sign:hover {
+    background-image: 
+    url(../../media/img/nav_signs/hover/arrow_prev_hover.PNG);
+    transition: 0.45s;
+}
+
+.arrow_last_sign {
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    transition: 0.45s;
+    background-image: 
+    url(../../media/img/nav_signs/usual/arrow_last.png);
+}
+
+.arrow_last_sign:hover {
+    background-image: 
+    url(../../media/img/nav_signs/hover/arrow_last_hover.PNG);
+    transition: 0.45s;
+}
+
+.arrow_first_sign {
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    transition: 0.45s;
+    background-image: 
+    url(../../media/img/nav_signs/usual/arrow_first.png);
+}
+
+.arrow_first_sign:hover {
+    background-image: 
+    url(../../media/img/nav_signs/hover/arrow_first_hover.PNG);
+    transition: 0.45s;
+}
