@@ -5,12 +5,7 @@
     transition: 0.45s;
 }
 
-.header_buttons {
-    text-align: center; height: 60px; width: 60px;
-    padding: 35px 0; position: relative;
-    bottom: 30px;
-}
-
+.he
 .header_signs:hover {
     cursor: pointer;
     transition: 0.45s;
