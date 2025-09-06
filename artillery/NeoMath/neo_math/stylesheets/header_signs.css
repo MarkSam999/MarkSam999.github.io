@@ -14,10 +14,6 @@
     transition: 0.45s;
 }
 
-.home_sign{
-    background-image: url('');
-}
-
 .arena_sign{
     background-image: url('../media/images/header_signs/arena_sign.PNG')
 }
