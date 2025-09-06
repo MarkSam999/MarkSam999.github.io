@@ -1,7 +1,3 @@
-.header_links {
-    background-color: transparent;
-}
-
 .header_signs:hover {
     cursor: pointer;
     transition: 0.45s;
