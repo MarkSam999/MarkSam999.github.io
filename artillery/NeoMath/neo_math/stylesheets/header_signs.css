@@ -25,50 +25,50 @@
 }
 
 .arena_sign{
-    background-image: url('../media/img/header_signs/arena_sign.PNG')
+    background-image: url('../media/images/header_signs/arena_sign.PNG')
 }
 
 .arena_sign:hover{
-    background-image: url('../media/img/hovered_signs/arena_sign_hover.PNG')
+    background-image: url('../media/images/hovered_signs/arena_sign_hover.PNG')
 }
 
 .rating_sign{
-    background-image: url('../media/img/header_signs/rating_sign.PNG')
+    background-image: url('../media/images/header_signs/rating_sign.PNG')
 }
 
 .rating_sign:hover{
-    background-image: url('../media/img/hovered_signs/rating_sign_hover.PNG')
+    background-image: url('../media/images/hovered_signs/rating_sign_hover.PNG')
 }
 
 
 .about_sign{
     background-image: 
-    url('../media/img/header_signs/about_sign.png');
+    url('../media/images/header_signs/about_sign.png');
 }
 
 .about_sign:hover{
     background-image: 
-    url('../media/img/hovered_signs/about_sign_hover.png');
+    url('../media/images/hovered_signs/about_sign_hover.png');
 }
 
 .hist_sign{
     background-image: 
-    url('../media/img/header_signs/hist_sign.png');
+    url('../media/images/header_signs/hist_sign.png');
 }
 
 .hist_sign:hover{
     background-image: 
-    url('../media/img/hovered_signs/hist_sign_hover.png');
+    url('../media/images/hovered_signs/hist_sign_hover.png');
 }
 
 .news_sign{
     background-image: 
-    url('../media/img/header_signs/news_sign.png');
+    url('../media/images/header_signs/news_sign.png');
 }
 
 .news_sign:hover{
     background-image: 
-    url('../media/img/hovered_signs/news_sign_hover.png');
+    url('../media/images/hovered_signs/news_sign_hover.png');
 }
 
 .game_map_sign{
@@ -78,47 +78,47 @@
 
 .game_map_sign:hover{
     background-image: 
-    url('../media/img/hovered_signs/game_map_sign_hover.png');
+    url('../media/images/hovered_signs/game_map_sign_hover.png');
 }
 
 .statistics_sign{
     background-image: 
-    url('../media/img/header_signs/statistics_sign.PNG');
+    url('../media/images/header_signs/statistics_sign.PNG');
 }
 
 .statistics_sign:hover{
     background-image: 
-    url('../media/img/hovered_signs/statistics_sign_hover.PNG');
+    url('../media/images/hovered_signs/statistics_sign_hover.PNG');
 }
 
 .chat_sign{
     background-image: 
-    url('../media/img/header_signs/chat_sign.png');
+    url('../media/images/header_signs/chat_sign.png');
 }
 
 .chat_sign:hover{
     background-image: 
-    url('../media/img/hovered_signs/chat_sign_hover.png');
+    url('../media/images/hovered_signs/chat_sign_hover.png');
 }
 
 .register_sign{
     background-image: 
-    url('../media/img/header_signs/register_sign.PNG');
+    url('../media/images/header_signs/register_sign.PNG');
 }
 
 .register_sign:hover{
     background-image: 
-    url('../media/img/hovered_signs/register_sign_hover.PNG');
+    url('../media/images/hovered_signs/register_sign_hover.PNG');
 }
 
 .login_sign{
     background-image: 
-    url('../media/img/header_signs/login_sign.PNG');
+    url('../media/images/header_signs/login_sign.PNG');
 }
 
 .login_sign:hover{
     background-image: 
-    url('../media/img/hovered_signs/login_sign_hover.png');
+    url('../media/images/hovered_signs/login_sign_hover.png');
 }
 
 .logout_button {
@@ -130,12 +130,12 @@
 
 .logout_sign {
     background-image: 
-    url('../media/img/header_signs/logout_sign.PNG');
+    url('../media/images/header_signs/logout_sign.PNG');
 }
 
 .logout_sign:hover {
     background-image: 
-    url('../media/img/hovered_signs/logout_sign_hover.PNG');
+    url('../media/images/hovered_signs/logout_sign_hover.PNG');
 }
 
 .profile_sign {
