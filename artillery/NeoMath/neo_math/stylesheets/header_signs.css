@@ -1,5 +1,6 @@
 .header_signs {
     background-size: 100%;
+    background-repeat: no-repeat;
     place-self: center;
     transition: 0.45s;
 }
