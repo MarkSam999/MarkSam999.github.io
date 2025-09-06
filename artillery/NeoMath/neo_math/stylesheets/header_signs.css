@@ -4,6 +4,7 @@
     place-self: center;
     transition: 0.45s;
 }
+
 .header_signs:hover {
     cursor: pointer;
     transition: 0.45s;
