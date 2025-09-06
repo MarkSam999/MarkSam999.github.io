@@ -55,11 +55,6 @@
     url('../media/images/hovered_signs/news_sign_hover.png');
 }
 
-.game_map_sign{
-    background-image: 
-    url('../media/images/header_signs/game_map_sign.PNG');
-}
-
 .game_map_sign:hover{
     background-image: 
     url('../media/images/hovered_signs/game_map_sign_hover.png');
