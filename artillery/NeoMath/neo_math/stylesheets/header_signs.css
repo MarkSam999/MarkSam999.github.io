@@ -30,12 +30,6 @@
     background-image: url('../media/images/hovered_signs/rating_sign_hover.PNG')
 }
 
-
-.about_sign{
-    background-image: 
-    url('../media/images/header_signs/about_sign.png');
-}
-
 .about_sign:hover{
     background-image: 
     url('../media/images/hovered_signs/about_sign_hover.png');
