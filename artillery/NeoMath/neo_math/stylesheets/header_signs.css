@@ -20,10 +20,6 @@
     background-image: url('../media/images/header_signs/home_sign.png');
 }
 
-.home_sign:hover{
-    transform: none;
-}
-
 .arena_sign{
     background-image: url('../media/images/header_signs/arena_sign.PNG')
 }
