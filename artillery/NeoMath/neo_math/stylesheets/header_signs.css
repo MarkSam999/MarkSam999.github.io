@@ -43,47 +43,47 @@
 
 .about_sign{
     background-image: 
-    url(../../media/img/header_signs/about_sign.png);
+    url('../../media/img/header_signs/about_sign.png');
 }
 
 .about_sign:hover{
     background-image: 
-    url(../../media/img/hovered_signs/about_sign_hover.png);
+    url('../../media/img/hovered_signs/about_sign_hover.png');
 }
 
 .hist_sign{
     background-image: 
-    url(../../media/img/header_signs/hist_sign.png);
+    url('../../media/img/header_signs/hist_sign.png');
 }
 
 .hist_sign:hover{
     background-image: 
-    url(../../media/img/hovered_signs/hist_sign_hover.png);
+    url('../../media/img/hovered_signs/hist_sign_hover.png');
 }
 
 .news_sign{
     background-image: 
-    url(../../media/img/header_signs/news_sign.png);
+    url('../../media/img/header_signs/news_sign.png');
 }
 
 .news_sign:hover{
     background-image: 
-    url(../../media/img/hovered_signs/news_sign_hover.png);
+    url('../../media/img/hovered_signs/news_sign_hover.png');
 }
 
 .game_map_sign{
     background-image: 
-    url(../../media/img/header_signs/game_map_sign.PNG);
+    url('../../media/img/header_signs/game_map_sign.PNG');
 }
 
 .game_map_sign:hover{
     background-image: 
-    url(../../media/img/hovered_signs/game_map_sign_hover.png);
+    url('../../media/img/hovered_signs/game_map_sign_hover.png');
 }
 
 .statistics_sign{
     background-image: 
-    url(../../media/img/header_signs/statistics_sign.PNG);
+    url('../../media/img/header_signs/statistics_sign.PNG');
 }
 
 .statistics_sign:hover{
