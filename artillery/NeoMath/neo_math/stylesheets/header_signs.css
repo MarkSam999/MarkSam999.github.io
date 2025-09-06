@@ -135,14 +135,6 @@
     transition: 0.45s;
 }
 
-#profileTable {
-    transform: translateY(16px);
-}
-
-#profileTable.active {
-    transform: translateY(25px);
-}
-
 .page_lists {
     background-color: rgb(5, 5, 5);
     justify-content: center;
