@@ -4,11 +4,6 @@
     place-self: center;
     transition: 0.45s;
 }
-
-.header_links {
-    border: solid 0;
-}
-
 .header_signs:hover {
     cursor: pointer;
     transition: 0.45s;
