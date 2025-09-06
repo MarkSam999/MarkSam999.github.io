@@ -2,42 +2,6 @@
     cursor: pointer;
 }
 
-.arena_sign{
-    background-image: url('../media/images/header_signs/arena_sign.PNG')
-}
-
-.arena_sign:hover{
-    background-image: url('../media/images/hovered_signs/arena_sign_hover.PNG')
-}
-
-.rating_sign{
-    background-image: url('../media/images/header_signs/rating_sign.PNG')
-}
-
-.rating_sign:hover{
-    background-image: url('../media/images/hovered_signs/rating_sign_hover.PNG')
-}
-
-.about_sign:hover{
-    background-image: 
-    url('../media/images/hovered_signs/about_sign_hover.png');
-}
-
-.hist_sign{
-    background-image: 
-    url('../media/images/header_signs/hist_sign.png');
-}
-
-.hist_sign:hover{
-    background-image: 
-    url('../media/images/hovered_signs/hist_sign_hover.png');
-}
-
-.news_sign{
-    background-image: 
-    url('../media/images/header_signs/news_sign.png');
-}
-
 .news_sign:hover{
     background-image: 
     url('../media/images/hovered_signs/news_sign_hover.png');
