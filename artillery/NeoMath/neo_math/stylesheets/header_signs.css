@@ -73,7 +73,7 @@
 
 .game_map_sign{
     background-image: 
-    url('../../media/img/header_signs/game_map_sign.PNG');
+    url('../media/images/header_signs/game_map_sign.PNG');
 }
 
 .game_map_sign:hover{
