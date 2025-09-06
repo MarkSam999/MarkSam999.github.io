@@ -5,7 +5,9 @@
     transition: 0.45s;
 }
 
-
+.header_links {
+    
+}
 
 .header_signs:hover {
     cursor: pointer;
