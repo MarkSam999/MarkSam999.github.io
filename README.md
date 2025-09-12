@@ -7,4 +7,4 @@ In folder called "ants", I have many projects that are generally small in code (
 
 Next, the "medium". Just like the "ants", this folder contains projects where the original idea is the usage of a specific coding tool.
 
-And, finally, folder "giants". In accordance to the name, here are the projects that are designed not only to show what did I learn, but also to show my overall mastery in web development.
+And, finally, folder "giants". In accordance to the name, here are the projects that are very very big in designed not only to show what did I learn, but also to show my overall mastery in web development.
