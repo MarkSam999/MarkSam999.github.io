@@ -1,6 +1,5 @@
 Welcome to my repository, dear reader! My name is Mark Samoilov. In this README file, I will briefly describe what do I make here.
 
-
 In this repository, I have three types of projects: ants, medium, and giants. Each of type of these projects have their own folder and unique characteristics, and I will explain all of them in a moment.
 
 In folder called "ants", I have many projects that are generally small in code (usually a few decades of strings), and very easy to understand, just like "to-do list". I make them generally for practicing, especially while learning something new or reviewing something I probably forgot.
