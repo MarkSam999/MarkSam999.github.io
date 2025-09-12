@@ -3,7 +3,7 @@ Welcome to my repository, dear reader! My name is Mark Samoilov. In this README 
 
 In this repository, I have three types of projects: villages, towns, and cities. Each of type of these projects have their own
 
-In folder called "villages", I have many projects that are generally small in code (a few decades of strings) and easy to understand. In these projects, I mainly use HTML for structuring and CSS for styling. Sometimes, you may see JavaScript code, becauseI make them generally for practice, especially while learning something new or reviewing something I probably forgot.
+In folder called "villages", I have many projects that are generally small in code -  and easy to understand. In these projects, I mainly use HTML for structuring and CSS for styling. Sometimes, you may see JavaScript code, becauseI make them generally for practice, especially while learning something new or reviewing something I probably forgot.
 
 In folder called "towns".
 
