@@ -3,7 +3,7 @@ let correct_list = [];
 let actions = [];
 let max = 5;
 
-function level_1(){
+function lvl1(){
     actions = ['+', "-"]
 
     for(let i = 0; i < max; i++){
@@ -78,7 +78,7 @@ function level_1(){
 
 }
 
-function level_2(){
+function lvl2(){
     actions = ['*', '/']
 
     for(let i = 0; i < max; i++){
@@ -127,7 +127,7 @@ function level_2(){
     }
 }
 
-function level_3(){
+function lvl3(){
     actions = ['square', 'root']
 
     for(let i = 0; i < max; i++){
@@ -171,7 +171,7 @@ function level_3(){
     };
 }
 
-function level_4(){
+function lvl4(){
     actions = ['+', "-", "*", "/"]
 
     for(let i = 0; i < max; i++){
@@ -228,7 +228,7 @@ function level_4(){
     }
 }
 
-function level_5(){
+function lvl5(){
 
     for(let i = 0; i < max; i++){
         let q_num = i + 1;
