@@ -32,9 +32,15 @@ body {
 }
 
 #progress {
-    height: 14px; width: 3.7%;
+    height: 14px;
     background-color: rgb(255, 255, 255);
     border-radius: 14px;
+    animation: stretch 2.9s;
+}
+
+@keyframes stretch {
+  0% {width: 2.4%;}
+  100% {width: 100%;}
 }
 
 main {

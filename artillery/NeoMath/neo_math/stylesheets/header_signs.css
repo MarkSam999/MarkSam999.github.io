@@ -1,5 +1,15 @@
+.header_signs {
+    width: 60px; height: 60px;
+    transition: 0.5s;
+}
+
 .header_signs:hover {
     cursor: pointer;
+    transition: 0.5s;
+}
+
+.home_sign {
+    background-image: url(../media/images/header_signs/home_sign.png) 60px 60px;
 }
 
 .page_names {
