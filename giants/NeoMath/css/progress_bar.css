@@ -1,0 +1,19 @@
+#progress_bar {
+    width: 50%; height: 18px;
+    border: solid 2px white; border-radius: 18px;
+    position: relative; top: 20px; left: 25%;
+    text-align: center; align-items: center; justify-content: center;
+    box-shadow: 0 0 15px blue;
+}
+
+#progress {
+    height: 14px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 14px;
+    animation: stretch 2.9s;
+}
+
+@keyframes stretch {
+  0% {width: 2.4%;}
+  100% {width: 100%;}
+}
