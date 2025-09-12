@@ -9,7 +9,7 @@
 }
 
 .home_sign {
-    background-image: url(../media/images/header_signs/home_sign.png) 60px 60px;
+    background: url(../media/images/header_signs/home_sign.png) 100% 100%;
 }
 
 .page_names {
