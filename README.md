@@ -7,4 +7,4 @@ In folder called "ants", I have many projects that are generally small in code (
 
 In folder called "medium",
 
-And, finally, folder "giants". In accordance to the name, I make the projects that are designed not to show what did I learn, but to show my overall experience in web development. Here you will see codes written in HTML, CSS, and JavaScript.
+And, finally, folder "giants". In accordance to the name, here are the projects that are designed not to show what did I learn, but to show my overall experience in web development. Here you will see codes written in HTML, CSS, and JavaScript.
