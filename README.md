@@ -7,4 +7,4 @@ In folder called "infantry". I have many projects that are generally small in co
 
 In folder called "cavalry".
 
-And, finally, folder "artillery". In this folder, I have projects that are the largest I've ever created. Like the heavy artillery units, they are expensive in production and reload too slowly. But every shot leads to an explosion that could smash a house and to scare the entire city.
+And, finally, folder "artillery". I this folder, 
