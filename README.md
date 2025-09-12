@@ -7,4 +7,4 @@ In folder called "villages", I have many projects that are generally small in co
 
 In folder called "towns". Like the "villages", these projects are practical, so, they may seem too simple or too 
 
-And, finally, folder "cities". In this folder, I make the projects that are designed not to show what did I learn, but to show my overall experience in web development. Here you will see  codes written in HTML, CSS, and JavaScript that may seem big for the first time.
+And, finally, folder "cities". In this folder, I make the projects that are designed not to show what did I learn, but to show my overall experience in web development. Here you will see codes written in HTML, CSS, and JavaScript.
