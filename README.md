@@ -7,4 +7,4 @@ In folder called "infantry". I have many projects that are generally small in co
 
 In folder called "cavalry".
 
-And, finally, folder "artillery". I this folder, I make the projects rather not to show what do I
+And, finally, folder "artillery". I this folder, I make the projects rather not to show what do
