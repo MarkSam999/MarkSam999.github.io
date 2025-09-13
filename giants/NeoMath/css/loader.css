@@ -13,7 +13,7 @@
 }
 
 #progress_bar {
-    width: 50%; height: 18px; position: relative; top: 38vh;
+    width: 50%; height: 18px; position: relative; top: 38%;
     border: solid 2px white; border-radius: 18px;
     box-shadow: 0 0 15px blue; margin: 0 auto;
 }
