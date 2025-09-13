@@ -11,6 +11,7 @@ function appendCSS(){
         document.head.append(styleHTML);
     };
 };
+
 function appendJS(){
     scriptList = ['main_script', 'problems'];
     for(let sc = 0; sc < 2; sc++){
