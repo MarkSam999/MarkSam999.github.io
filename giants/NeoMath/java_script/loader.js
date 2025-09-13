@@ -1,4 +1,4 @@
-document.header.style.display = "none";
+document.getElementsByTagName()header.style.display = "none";
 
 setTimeout(() => {
     document.getElementById('loader').style.display = 'none';
