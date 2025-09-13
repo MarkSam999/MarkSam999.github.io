@@ -1,7 +1,6 @@
 #loader {
-    visibility: visible;display: block;
+    visibility: visible; display: block;
     position: fixed; text-align: center;
-    
     width: 100%; height: 100%; z-index: 9999;
     background-color: rgb(77, 77, 77);
     font-size: 24px; padding-top: 10%;
