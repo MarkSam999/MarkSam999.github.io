@@ -3,6 +3,6 @@ function appendCSS(){
     for(let s = 0; s < 6; s++){
         let styleHTML = document.createElement('link')
         styleHTML.rel = "stylesheet";
-        
+        styleHTML.type = 
     }
 }
