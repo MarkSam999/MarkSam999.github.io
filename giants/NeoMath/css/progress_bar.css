@@ -15,9 +15,9 @@
 }
 
 #progress {
-    height: 14px;
+    height: 16px;
     background-color: rgb(255, 255, 255);
-    border-radius: 14px;
+    border-radius: 16px;
     animation: stretch 50s;
 }
 
