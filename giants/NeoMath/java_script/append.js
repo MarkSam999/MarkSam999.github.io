@@ -3,11 +3,11 @@ let scriptList = [];
 
 function appendCSS(){
     styleList = ['header_signs', 'nav_signs', 'problems', 'progress_bar', 'style', 'text'];
-    for(let s = 0; s < 6; s++){
+    for(let st = 0; st < 6; st++){
         let styleHTML = document.createElement('link')
         styleHTML.rel = "stylesheet";
         styleHTML.type = "text/css";
-        styleHTML.href = "../css/" + styleList[s] + ".css";
+        styleHTML.href = "../css/" + styleList[st] + ".css";
         document.head.append(styleHTML);
     };
 };
