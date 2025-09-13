@@ -14,10 +14,8 @@ function appendCSS(){
 function appendJS(){
     scriptList = ['main_script', 'problems'];
     for(let sc = 0; sc < 2; sc++){
-        let scriptHTML = document.createElement('link')
-        scriptHTML.rel = "stylesheet";
-        scriptHTML.type = "text/css";
-        scriptHTML.href = "../css/" + styleList[sc] + ".js";
+        let scriptHTML = document.createElement('link');
+        scriptHTML.src = "../css/" + styleList[sc] + ".js";
         document.head.append(scriptHTML);
     };
 };
