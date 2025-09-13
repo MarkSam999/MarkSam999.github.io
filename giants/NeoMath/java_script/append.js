@@ -13,11 +13,11 @@ function appendCSS(){
 };
 function appendJS(){
     scriptList = ['main_script', 'problems'];
-    for(let s = 0; s < 2; s++){
+    for(let sc = 0; sc < 2; sc++){
         let styleHTML = document.createElement('link')
         styleHTML.rel = "stylesheet";
         styleHTML.type = "text/css";
-        styleHTML.href = "../css/" + styleList[s] + ".css";
+        styleHTML.href = "../css/" + styleList[sc] + ".css";
         document.head.append(styleHTML);
     };
 };
