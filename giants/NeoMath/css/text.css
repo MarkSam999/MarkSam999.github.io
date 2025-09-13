@@ -16,7 +16,7 @@ h1, h2 {
     font-size: 24px;
     text-shadow: 0 0 20px rgb(49, 75, 221),  0 0 20px rgb(49, 75, 221),
     0 0 10px rgb(49, 75, 221), 0 0 10px rgb(49, 75, 221);
-  }
+}
 
 .green_text {
     color: rgb(43, 148, 22);
