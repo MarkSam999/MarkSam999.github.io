@@ -8,7 +8,7 @@
 
 #progress_bar {
     width: 50%; height: 18px;
-    border: solid 2px white; border-radius: 100%;
+    border: solid 2px white; border-radius: 18px;
     text-align: center; align-items: center; justify-content: center;
     box-shadow: 0 0 15px blue;
 }
