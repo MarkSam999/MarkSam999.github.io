@@ -1,5 +1,3 @@
-document.getElementsByTagName("header").display = "none";
-
 setTimeout(() => {
     document.getElementById('loader').style.display = 'none';
     document.body.style.visibility = 'visible';
