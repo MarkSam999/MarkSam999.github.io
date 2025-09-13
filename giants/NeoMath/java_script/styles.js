@@ -1,3 +1,3 @@
 function appendCSS(){
-    let styles = ['header_signs', 'nav_signs', 'problems', 'progress_bar']
+    let styleList = ['header_signs', 'nav_signs', 'problems', 'progress_bar']
 }
