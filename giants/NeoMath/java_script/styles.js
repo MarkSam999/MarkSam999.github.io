@@ -1,3 +1,3 @@
 function appendCSS(){
-    let 
+    let styles =
 }
