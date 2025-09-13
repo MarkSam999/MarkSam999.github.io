@@ -15,7 +15,7 @@ function appendJS(){
     scriptList = ['main_script', 'problems'];
     for(let sc = 0; sc < 2; sc++){
         let scriptHTML = document.createElement('link');
-        scriptHTML.src = "../css/" + styleList[sc] + ".js";
+        scriptHTML.src = "../java_script/" + styleList[sc] + ".js";
         document.head.append(scriptHTML);
     };
 };
