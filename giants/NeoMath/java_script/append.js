@@ -2,7 +2,7 @@ let styleList = [];
 let scriptList = [];
 
 function appendCSS(){
-    styleList = ['header_signs', 'nav_signs', 'problems', 'progress_bar', 'style', 'text'];
+    styleList = ['header_signs', 'nav_signs', 'problems', 'loader', 'style', 'text'];
     for(let st = 0; st < 6; st++){
         let styleHTML = document.createElement('link')
         styleHTML.rel = "stylesheet";
