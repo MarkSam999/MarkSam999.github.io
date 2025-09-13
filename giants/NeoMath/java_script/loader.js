@@ -1,4 +1,4 @@
-$("header").style.display = "none";
+document.body.header.style.display = "inline"
 
 setTimeout(() => {
     document.getElementById('loader').style.display = 'none';
