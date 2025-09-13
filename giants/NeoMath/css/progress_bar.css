@@ -19,6 +19,7 @@
     background-color: rgb(255, 255, 255);
     border-radius: 18px;
     animation: stretch 2.9s;
+    display:
 }
 
 @keyframes stretch {
