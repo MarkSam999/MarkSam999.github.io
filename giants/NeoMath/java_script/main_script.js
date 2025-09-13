@@ -1,4 +1,4 @@
-$("header").visibility = none;
+$("header").visibility = "none";
 
 setTimeout(() => {
     document.getElementById('loader').style.display = 'none';
