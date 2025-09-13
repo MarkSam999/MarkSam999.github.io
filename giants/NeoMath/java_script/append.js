@@ -1,5 +1,5 @@
 let styleList = [];
-let script
+let scriptList = [];
 function appendCSS(){
     styleList = ['header_signs', 'nav_signs', 'problems', 'progress_bar', 'style', 'text'];
     for(let s = 0; s < 6; s++){
