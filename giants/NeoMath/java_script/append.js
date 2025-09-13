@@ -12,8 +12,8 @@ function appendCSS(){
     };
 };
 function appendJS(){
-    scriptList = ['main_script', 'nav_signs', 'problems', 'progress_bar', 'style', 'text'];
-    for(let s = 0; s < 6; s++){
+    scriptList = ['main_script', 'problems'];
+    for(let s = 0; s < 2; s++){
         let styleHTML = document.createElement('link')
         styleHTML.rel = "stylesheet";
         styleHTML.type = "text/css";
