@@ -13,7 +13,7 @@ function appendCSS(){
 };
 
 function appendJS(){
-    scriptList = ['main_script', 'problems'];
+    scriptList = ['loader', 'problems'];
     for(let sc = 0; sc < 2; sc++){
         let scriptHTML = document.createElement('script');
         scriptHTML.src = "../java_script/" + scriptList[sc] + ".js";
