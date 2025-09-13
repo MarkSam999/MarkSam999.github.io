@@ -6,6 +6,6 @@ function appendCSS(){
         styleHTML.rel = "stylesheet";
         styleHTML.type = "text/css";
         styleHTML.href = "../css/" + styleList[s] + ".css";
-        document.head
+        document.head.append(styleHTML)
     };
 };
