@@ -1,1 +1,1 @@
-The medium projects in my repository are projects I make 
+The medium projects in my repository are projects I make for practice and a little bit to 
