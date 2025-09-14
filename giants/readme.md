@@ -1,1 +1,1 @@
-Here, you will find the projects that are literally giants - large codes, wide functionality, and many more!
+Here, you will find the projects that are literally giants - large codes, wide functionality
