@@ -1,1 +1,1 @@
-This folder contains projects 
+This folder contains projects that are small as 
