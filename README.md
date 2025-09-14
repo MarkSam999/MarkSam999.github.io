@@ -4,4 +4,4 @@ In this repository, I have three types of projects: babies, medium, and giants. 
 
 # Projects types
 [Baby projects](/babies/)
-[Baby projects](/babies/)
+[Medium projects](/babies/)
