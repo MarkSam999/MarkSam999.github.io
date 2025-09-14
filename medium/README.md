@@ -1,1 +1,1 @@
-The medium projects
+The medium projects in my repository are projects that are also used 
