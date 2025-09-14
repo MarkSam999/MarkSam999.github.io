@@ -1,1 +1,1 @@
-This folder contains projects that are small as 
+This folder contains projects that are as small and simple as babies in real world.
