@@ -41,7 +41,7 @@ function appendHTML(){
         header.append(link);
 
         let linkLogo = document.createElement("div");
-        linkLogo.className = "header_links";
+        linkLogo.className = "header_signs";
         linkLogo.id = linkList[l];
 
         link.append(linkLogo);
