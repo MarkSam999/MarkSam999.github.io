@@ -22,7 +22,7 @@ function appendHTML(){
     progressBar.id = "progress_bar";
     progressDiv.append(progressBar);
 
-    
+
     /* Adds the header with the links */
     linkList = ['about', 'course', 'home']
     document.body.append("header");
@@ -37,7 +37,7 @@ function appendHTML(){
             link.href = linkList[l] + ".html";
         }
         
-        document.header.append("link");
+        document.header.append(link);
 
         let linkLogo = document.createElement("div");
         linkLogo.className = "header_links";
