@@ -21,7 +21,8 @@ function appendHTML(){
     progressBar.id = "progress_bar";
     progressDiv.append(progressBar);
 
-    /* Adds the header  */
+    /* Adds the header with the links */
+    
 }
 
 /* the function that adds all listed css-files to an html-page */
