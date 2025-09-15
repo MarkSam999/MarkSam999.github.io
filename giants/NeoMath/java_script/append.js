@@ -28,11 +28,13 @@ function appendHTML(){
 
     for(let l = 0; l < 3; l++){
         if(l == 1){
-            
+
+        } else {
+            let link = document.createElement("a");
+            link.className = "header_signs";
+            link.href = linkList[l] + ".html";
         }
-        let link = document.createElement("a");
-        link.className = "header_signs";
-        link.href = linkList[l] + ".html";
+        
     }
 }
 
