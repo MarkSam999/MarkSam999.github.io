@@ -26,7 +26,8 @@ function appendHTML(){
 
     for(let l = 0; l < 3; l++){
         let link = document.createElement("a");
-        link.className
+        link.className = "header_signs";
+        
     }
 }
 
