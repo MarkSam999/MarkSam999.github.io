@@ -8,17 +8,17 @@
     transition: 0.5s;
 }
 
-.home {
+#home {
     background-image: url(../media/images/header_signs/home.png);
     background-size: 100%;
 }
 
-.about {
+#about {
     background-image: url(../media/images/header_signs/about.png);
     background-size: 100%;
 }
 
-.game_map {
+#game_map {
     background-image: url(../media/images/header_signs/game_map.png);
     background-size: 100%;
 }
