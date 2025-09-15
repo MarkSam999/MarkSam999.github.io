@@ -23,7 +23,9 @@ function appendHTML(){
 
     /* Adds the header with the links */
     let header = document.createElement("header");
-    for(let )
+    for(let l = 0; l < 3; l++){
+        
+    }
 }
 
 /* the function that adds all listed css-files to an html-page */
