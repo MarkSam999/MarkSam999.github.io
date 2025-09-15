@@ -22,7 +22,7 @@ function appendHTML(){
     progressDiv.append(progressBar);
 
     /* Adds the header with the links */
-    
+    let header
 }
 
 /* the function that adds all listed css-files to an html-page */
