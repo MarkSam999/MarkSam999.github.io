@@ -28,7 +28,7 @@ function appendHTML(){
 
     for(let l = 0; l < 3; l++){
         let link = document.createElement("a");
-        link.className = "header_signs";
+        link.className = "header_links";
 
         if(l == 2){
             link.href = "education/" + linkList[l] + ".html";
@@ -37,6 +37,8 @@ function appendHTML(){
         }
         
         document.header.append("link");
+
+        
     }
 }
 
