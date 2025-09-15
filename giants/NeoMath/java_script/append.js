@@ -3,7 +3,7 @@ let scriptList = [];
 
 /* the function that adds an html-code to any page where this function is called */
 function appendHTML(){
-    /* Adds a page that simulates the  */
+    /* Adds a page that simulates the loading process */
     let loaderDiv = document.createElement("div");
     loaderDiv.id = "loader";
     document.body.append(loaderDiv);
