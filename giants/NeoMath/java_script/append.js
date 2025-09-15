@@ -36,7 +36,7 @@ function appendHTML(){
             link.href = linkList[l] + ".html";
         }
         
-        document.header.append()
+        document.header.append("link")
     }
 }
 
