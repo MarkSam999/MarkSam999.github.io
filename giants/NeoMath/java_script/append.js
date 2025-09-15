@@ -38,7 +38,7 @@ function appendHTML(){
         
         document.header.append("link");
 
-        let linkLogo 
+        let linkLogo = document.createElement("")
     }
 }
 
