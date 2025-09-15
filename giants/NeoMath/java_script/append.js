@@ -25,7 +25,7 @@ function appendHTML(){
 
     /* Adds the header with the links */
     linkList = ['home', 'about', 'course']
-    let header = document.createElement("header")
+    let header = document.createElement("header");
     document.body.append(header);
 
     for(let l = 0; l < 3; l++){
