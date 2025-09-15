@@ -29,13 +29,10 @@ function appendHTML(){
     for(let l = 0; l < 3; l++){
         let link = document.createElement("a");
         link.className = "header_signs";
-        
+
         if(l == 1){
-            
-            link.href = linkList[l] + ".html";
+            link.href = "" linkList[l] + ".html";
         } else {
-            let link = document.createElement("a");
-            link.className = "header_signs";
             link.href = linkList[l] + ".html";
         }
         
