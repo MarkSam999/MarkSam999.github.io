@@ -37,7 +37,7 @@ function appendHTML(){
             link.href = linkList[l] + ".html";
         }
         
-        document.header.append("link")
+        document.header.append("link");
     }
 }
 
