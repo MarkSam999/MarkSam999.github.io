@@ -29,7 +29,7 @@ function appendHTML(){
     for(let l = 0; l < 3; l++){
         let link = document.createElement("a");
         link.className = "header_signs";
-        link.id = linkList[i];
+        link.id = linkList[l];
 
         if(l == 2){
             link.href = "education/" + linkList[l] + ".html";
