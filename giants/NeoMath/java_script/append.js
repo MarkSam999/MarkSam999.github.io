@@ -1,7 +1,6 @@
-
+let linkList = [];
 let styleList = [];
 let scriptList = [];
-let linkList
 
 /* the function that adds an html-code to any page where this function is called */
 function appendHTML(){
