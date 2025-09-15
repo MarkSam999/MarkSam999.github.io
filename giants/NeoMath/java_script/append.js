@@ -27,9 +27,10 @@ function appendHTML(){
     document.body.append("header");
 
     for(let l = 0; l < 3; l++){
-        if(l == 1){
-            let link = document.createElement("a");
+        let link = document.createElement("a");
             link.className = "header_signs";
+        if(l == 1){
+            
             link.href = linkList[l] + ".html";
         } else {
             let link = document.createElement("a");
