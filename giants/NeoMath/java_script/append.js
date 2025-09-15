@@ -3,7 +3,7 @@ let scriptList = [];
 
 /* the function that adds an html-code to any page where this function is called */
 function appendHTML(){
-    /* Adds loading page */
+    /* Adds a page that s */
     let loaderDiv = document.createElement("div");
     loaderDiv.id = "loader";
     document.body.append(loaderDiv);
@@ -42,4 +42,4 @@ function appendJS(){
         scriptHTML.src = "../java_script/" + scriptList[sc] + ".js";
         document.head.append(scriptHTML);
     };
-};
+}
