@@ -12,13 +12,13 @@
     0 0 10px rgb(49, 75, 221), 0 0 10px rgb(49, 75, 221);
 }
 
-#progress_bar {
+#progress_div {
     width: 50%; height: 18px;
     border: solid 2px white; border-radius: 18px;
     box-shadow: 0 0 15px blue; margin: 0 auto;
 }
 
-#progress {
+#progress_bar {
     height: 18px;
     background-color: rgb(255, 255, 255);
     border-radius: 18px;

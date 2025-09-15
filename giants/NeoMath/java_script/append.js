@@ -1,6 +1,25 @@
 let styleList = [];
 let scriptList = [];
 
+/* the function that adds a specific html-code to any page where this function is called */
+function appendHTML(){
+    let loaderDiv = document.createElement("div");
+    document.body.append(loaderDiv);
+
+    let loaderText = document.createElement("p");
+    loaderText.innerHTML = "Loading...";
+    loaderDiv.append(loaderText);
+
+    let progressDiv = document.createElement("div");
+    progressDiv.id = "progress_div";
+    loaderDiv.append(progressDiv);
+
+    let progressBar = document.createElement("div");
+    progressBar.id = "progress_bar";
+    progressDiv.append(progressBar);
+}
+
+/* the function that adds all listed css-files to an html-page */
 function appendCSS(){
     styleList = ['header_signs', 'nav_signs', 'problems', 'loader', 'style', 'text'];
     for(let st = 0; st < 6; st++){
@@ -12,6 +31,7 @@ function appendCSS(){
     };
 };
 
+/* the function that adds all listed js-files to an html-page */
 function appendJS(){
     scriptList = ['loader', 'problems'];
     for(let sc = 0; sc < 2; sc++){

@@ -7,7 +7,7 @@
             <link rel="icon" href="../media/images/icon.PNG">
         <!--jQuery-->
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>     
-        <!--Scripts-->
+        <!--Parent Script-->
             <script src="../java_script/append.js"></script>
         <!--CSS & JS-->
             <script>
@@ -16,12 +16,11 @@
             </script>
     </head>
     <body>
-        <div id="loader">
-            <p id="loader_text">Loading...</p>
-            <div id="progress_bar">
-                <div id="progress"></div>
-            </div>
-        </div>
+        <!--Parent Template-->
+        <script>
+            appendHTML();
+        </script>
+        
         <header>
             <a class="header_links" href="home.html">
                 <div class="header_signs home"></div>
