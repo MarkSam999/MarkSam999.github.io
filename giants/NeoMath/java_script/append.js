@@ -9,7 +9,7 @@ function appendHTML(){
 
     let loaderText = document.createElement("p");
     loaderText.innerHTML = "Loading...";
-    loaderText.id = ""
+    loaderText.id = "loader_text"
     loaderDiv.append(loaderText);
 
     let progressDiv = document.createElement("div");
