@@ -4,7 +4,7 @@ let scriptList = [];
 /* the function that adds a specific html-code to any page where this function is called */
 function appendHTML(){
     let loaderDiv = document.createElement("div");
-    loaderDiv.id = 
+    loaderDiv.id = "loader";
     document.body.append(loaderDiv);
 
     let loaderText = document.createElement("p");
