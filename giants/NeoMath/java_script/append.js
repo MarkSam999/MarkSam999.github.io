@@ -30,7 +30,7 @@ function appendHTML(){
         let link = document.createElement("a");
         link.className = "header_signs";
 
-        if(l == 1){
+        if(l == 2){
             link.href = "education/" + linkList[l] + ".html";
         } else {
             link.href = linkList[l] + ".html";
