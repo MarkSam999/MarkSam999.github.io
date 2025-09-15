@@ -48,7 +48,7 @@ function appendHTML(){
     }
 }
 
-/* the function that adds all listed css-files to an html-page */
+/* this function adds all listed css-files to an html-page */
 function appendCSS(){
     styleList = ['header_signs', 'nav_signs', 'problems', 'loader', 'style', 'text'];
     for(let st = 0; st < 6; st++){
