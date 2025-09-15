@@ -20,6 +20,8 @@ function appendHTML(){
     let progressBar = document.createElement("div");
     progressBar.id = "progress_bar";
     progressDiv.append(progressBar);
+
+    /* Adds the header  */
 }
 
 /* the function that adds all listed css-files to an html-page */
