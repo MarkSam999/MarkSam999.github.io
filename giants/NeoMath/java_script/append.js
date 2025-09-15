@@ -43,7 +43,7 @@ function appendHTML(){
         linkLogo.className = "header_links";
         linkLogo.id = linkList[l];
 
-        link.append();
+        link.append(linkLogo);
     }
 }
 
