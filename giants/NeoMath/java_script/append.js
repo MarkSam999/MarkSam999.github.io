@@ -1,5 +1,6 @@
 let styleList = [];
 let scriptList = [];
+let linkList
 
 /* the function that adds an html-code to any page where this function is called */
 function appendHTML(){
@@ -27,7 +28,7 @@ function appendHTML(){
     for(let l = 0; l < 3; l++){
         let link = document.createElement("a");
         link.className = "header_signs";
-        
+
     }
 }
 
