@@ -42,4 +42,4 @@ function appendJS(){
         scriptHTML.src = "../java_script/" + scriptList[sc] + ".js";
         document.head.append(scriptHTML);
     };
-}
+};
