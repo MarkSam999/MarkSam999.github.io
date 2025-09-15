@@ -37,7 +37,7 @@ function appendHTML(){
             link.href = linkList[l] + ".html";
         }
         
-        document.header.append(link);
+        document.body.header.append(link);
 
         let linkLogo = document.createElement("div");
         linkLogo.className = "header_links";
