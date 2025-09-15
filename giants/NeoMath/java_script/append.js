@@ -32,7 +32,7 @@ function appendHTML(){
         let link = document.createElement("a");
         link.className = "header_links";
 
-        if(linkList[i] == 'course'){
+        if(linkList[l] == 'course'){
             link.href = "education/" + linkList[l] + ".html";
         } else {
             link.href = linkList[l] + ".html";
