@@ -23,7 +23,7 @@ function appendHTML(){
 
     /* Adds the header with the links */
     let header = document.createElement("header");
-    for 
+    for(let )
 }
 
 /* the function that adds all listed css-files to an html-page */
