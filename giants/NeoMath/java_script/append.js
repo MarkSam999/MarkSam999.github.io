@@ -41,7 +41,7 @@ function appendHTML(){
 
         let linkLogo = document.createElement("div");
         linkLogo.className = "header_links";
-        linkLogo.id = 
+        linkLogo.id = linkList[l];
     }
 }
 
