@@ -22,10 +22,10 @@ function appendHTML(){
     progressDiv.append(progressBar);
 
     /* Adds the header with the links */
-    let header = document.createElement("header");
     document.body.append("header");
+
     for(let l = 0; l < 3; l++){
-        let link = document
+        let link = document.create
     }
 }
 
