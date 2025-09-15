@@ -23,8 +23,9 @@ function appendHTML(){
 
     /* Adds the header with the links */
     let header = document.createElement("header");
+    
     for(let l = 0; l < 3; l++){
-        let link
+        let link = document
     }
 }
 
