@@ -38,7 +38,7 @@ function appendHTML(){
         
         document.header.append("link");
 
-        
+        let link
     }
 }
 
