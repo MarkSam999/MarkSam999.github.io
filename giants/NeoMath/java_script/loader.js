@@ -1,5 +1,5 @@
 setTimeout(() => {
-    $("#loader").style.display = 'none';
+    document.getElementById.style.display = 'none';
     document.body.style.visibility = 'visible';
     document.body.style.overflow = 'auto';
 }, 3000);
