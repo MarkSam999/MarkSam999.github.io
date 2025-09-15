@@ -31,7 +31,7 @@ function appendHTML(){
         link.className = "header_signs";
 
         if(l == 1){
-            link.href = "" linkList[l] + ".html";
+            link.href = "education/" + linkList[l] + ".html";
         } else {
             link.href = linkList[l] + ".html";
         }
