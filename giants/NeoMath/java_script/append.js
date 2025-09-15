@@ -23,7 +23,7 @@ function appendHTML(){
     progressDiv.append(progressBar);
 
     /* Adds the header with the links */
-    linkList = ['home', ]
+    linkList = ['home', 'about', 'course']
     document.body.append("header");
 
     for(let l = 0; l < 3; l++){
