@@ -2,6 +2,8 @@ let linkList = [];
 let styleList = [];
 let scriptList = [];
 
+console.log
+
 /* the function that adds an html-code to any page where this function is called */
 function appendHTML(){
     /* Adds a page that simulates the loading process */
