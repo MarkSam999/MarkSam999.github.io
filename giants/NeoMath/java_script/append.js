@@ -49,13 +49,13 @@ function appendHTML(link_path){
 }
 
 /* this function adds all listed stylesheets to an html-page */
-function appendCSS(relt ){
+function appendCSS(relt){
     styleList = ['header_signs', 'nav_signs', 'problems', 'loader', 'style', 'text'];
     for(let st = 0; st < 6; st++){
         let styleHTML = document.createElement('link')
         styleHTML.rel = "stylesheet";
         styleHTML.type = "text/css";
-        styleHTML.href = relt    + "css/" + styleList[st] + ".css";
+        styleHTML.href = relt + "css/" + styleList[st] + ".css";
         document.head.append(styleHTML);
     };
 };
