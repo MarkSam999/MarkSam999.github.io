@@ -2,7 +2,7 @@ let linkList = [];
 let styleList = [];
 let scriptList = [];
 
-console.log(for"Times");
+console.log(for(){"Times"});
 
 /* the function that adds an html-code to any page where this function is called */
 function appendHTML(){
