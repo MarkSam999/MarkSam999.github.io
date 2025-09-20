@@ -65,7 +65,7 @@ function appendJS(){
     scriptList = ['loader', 'problems'];
     for(let sc = 0; sc < 2; sc++){
         let scriptHTML = document.createElement('script');
-        scriptHTML.src = "C:\Users\marks\OneDrive\Документы\GitHub\MarkSam999.github.io\giants\NeoMath\java_script" + scriptList[sc] + ".js";
+        scriptHTML.src = "C:\Users\marks\OneDrive\Документы\GitHub\MarkSam999.github.io\giants\NeoMath\java_script\" + scriptList[sc] + ".js";
         document.head.append(scriptHTML);
     };
 };
