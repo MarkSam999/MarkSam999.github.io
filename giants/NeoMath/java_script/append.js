@@ -65,7 +65,7 @@ function appendJS(times){
     scriptList = ['loader', 'problems'];
     for(let sc = 0; sc < 2; sc++){
         let scriptHTML = document.createElement('script');
-        scriptHTML.src = ("../" * times) + "java_script/" + scriptList[sc] + ".js";
+        scriptHTML.src = ("../" ) + "java_script/" + scriptList[sc] + ".js";
         document.head.append(scriptHTML);
     };
 };
