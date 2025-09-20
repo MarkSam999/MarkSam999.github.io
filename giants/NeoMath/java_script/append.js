@@ -63,7 +63,7 @@ function appendCSS(){
 };
 
 /* the function that adds all listed js-files to an html-page */
-function appendJS(relat){
+function appendJS(relt){
     scriptList = ['loader', 'problems'];
     for(let sc = 0; sc < 2; sc++){
         let scriptHTML = document.createElement('script');
