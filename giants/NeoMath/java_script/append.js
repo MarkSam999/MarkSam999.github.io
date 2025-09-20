@@ -3,7 +3,7 @@ let styleList = [];
 let scriptList = [];
 
 /* the function that adds an html-code to any page where this function is called */
-function appendHTML(link_path){
+function appendHTML(html_path){
     /* Adds a page that simulates the loading process */
     let loaderDiv = document.createElement("div");
     loaderDiv.id = "loader";
@@ -35,7 +35,7 @@ function appendHTML(link_path){
         if(linkList[l] == 'course'){
             link.href = "education/" + linkList[l] + ".html";
         } else {
-            link.href = link_path + linkList[l] + ".html";
+            link.href = html_path + linkList[l] + ".html";
         }
         
         header.append(link);
