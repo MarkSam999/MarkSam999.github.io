@@ -55,7 +55,7 @@ function appendCSS(relt){
         let styleHTML = document.createElement('link')
         styleHTML.rel = "stylesheet";
         styleHTML.type = "text/css";
-        styleHTML.href = "C:\Users\marks\OneDrive\Документы\GitHub\MarkSam999.github.io\giants\NeoMath\css" + styleList[st] + ".css";
+        styleHTML.href = relt + "" + styleList[st] + ".css";
         document.head.append(styleHTML);
     };
 };
