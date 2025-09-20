@@ -3,7 +3,7 @@ let styleList = [];
 let scriptList = [];
 
 /* the function that adds an html-code to any page where this function is called */
-function appendHTML(){
+function appendHTML(link_path){
     /* Adds a page that simulates the loading process */
     let loaderDiv = document.createElement("div");
     loaderDiv.id = "loader";
@@ -35,7 +35,7 @@ function appendHTML(){
         if(linkList[l] == 'course'){
             link.href = "education/" + linkList[l] + ".html";
         } else {
-            link.href = linkList[l] + ".html";
+            link.href = link_path + linkList[l] + ".html";
         }
         
         header.append(link);
@@ -49,13 +49,13 @@ function appendHTML(){
 }
 
 /* this function adds all listed stylesheets to an html-page */
-function appendCSS(relt){
+function appendCSS(relt ){
     styleList = ['header_signs', 'nav_signs', 'problems', 'loader', 'style', 'text'];
     for(let st = 0; st < 6; st++){
         let styleHTML = document.createElement('link')
         styleHTML.rel = "stylesheet";
         styleHTML.type = "text/css";
-        styleHTML.href = relt + "css/" + styleList[st] + ".css";
+        styleHTML.href = relt    + "css/" + styleList[st] + ".css";
         document.head.append(styleHTML);
     };
 };
