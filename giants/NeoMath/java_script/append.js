@@ -55,7 +55,7 @@ function appendCSS(relt){
         let styleHTML = document.createElement('link')
         styleHTML.rel = "stylesheet";
         styleHTML.type = "text/css";
-        styleHTML.href = relt + "" + styleList[st] + ".css";
+        styleHTML.href = relt + "css/" + styleList[st] + ".css";
         document.head.append(styleHTML);
     };
 };
