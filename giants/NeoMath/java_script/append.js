@@ -61,11 +61,11 @@ function appendCSS(){
 };
 
 /* the function that adds all listed js-files to an html-page */
-function appendJS(rel){
+function appendJS(backs){
     scriptList = ['loader', 'problems'];
     for(let sc = 0; sc < 2; sc++){
         let scriptHTML = document.createElement('script');
-        scriptHTML.src = "../../" + "java_script/" + scriptList[sc] + ".js";
+        scriptHTML.src = rel + "java_script/" + scriptList[sc] + ".js";
         document.head.append(scriptHTML);
     };
 };
