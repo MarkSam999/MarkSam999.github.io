@@ -49,7 +49,7 @@ function appendHTML(){
 }
 
 /* this function adds all listed stylesheets to an html-page */
-function appendCSS(){
+function appendCSS(relt){
     styleList = ['header_signs', 'nav_signs', 'problems', 'loader', 'style', 'text'];
     for(let st = 0; st < 6; st++){
         let styleHTML = document.createElement('link')
