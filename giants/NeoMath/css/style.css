@@ -67,6 +67,7 @@ header {
 
 a {
   text-decoration: none;
+  
 }
 
 a:hover {
@@ -75,4 +76,5 @@ a:hover {
   0 0 25px gold,
   0 0 35px gold,
   0 0 45px gold;
+  
 }
