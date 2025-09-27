@@ -35,7 +35,7 @@ function appendHTML(html_path){
 
         let linkLogo = document.createElement("div");
         linkLogo.className = "header_signs";
-        linkLogo.style.background = "url('../media/" + + linkList[l] + "'), 100%";
+        linkLogo.style.background = "url('../media/images/" + + linkList[l] + "'), 100%";
 
         header.append(link);
         link.append(linkLogo);
