@@ -4,7 +4,7 @@ let scriptList = [];
 
 /* Adds levels for the course.html page*/
 function appendCourse(){
-    let course = [""]
+    let course = ["Addition"]
     let lesson = document.createElement("a");
     lesson.className
 }
