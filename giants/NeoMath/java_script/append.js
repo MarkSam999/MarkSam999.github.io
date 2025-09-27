@@ -9,7 +9,7 @@ function appendCourse(){
     for(let lsn = 0; lsn < course.length; lsn++){
         let lessonLink = document.createElement("a");
         lessonLink.className = "lessons";
-        lessonLink.innerHTML = 
+        lessonLink.innerHTML = course[lsn]
     }
     
 }
