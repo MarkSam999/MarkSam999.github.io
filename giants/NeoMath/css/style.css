@@ -67,7 +67,7 @@ header {
 
 .lessons {
   transition: 0.5s;
-  line-height: 27px;
+  line-height: 24px;
 }
 
 .lessons:hover {
