@@ -66,6 +66,7 @@ header {
   }
 
 .lessons {
+  text-decoration: none;
   transition: 0.5s;
   line-height: 24px;
 }
