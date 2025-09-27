@@ -33,13 +33,13 @@ function appendHTML(html_path){
         link.className = "header_links";
         link.href = linkList[l] + ".html";
         
-        header.append(link);
+        if 
 
         let linkLogo = document.createElement("div");
         linkLogo.className = "header_signs";
         linkLogo.id = linkList[l];
 
-        
+        header.append(link);
         link.append(linkLogo);
     }
 }
