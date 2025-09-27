@@ -67,8 +67,8 @@ header {
 
 .lessons {
   text-decoration: none;
-  transition: 0.5s; display: block;
-  line-height: 27px; width: auto;
+  transition: 0.5s;
+  line-height: 27px;
 }
 
 .lessons:hover {
