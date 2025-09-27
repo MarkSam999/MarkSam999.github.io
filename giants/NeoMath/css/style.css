@@ -70,9 +70,9 @@ a {
 }
 
 a:hover {
-  text-shadow:0 0 gold, 
-  0 0 gold, 
-  0 0 gold,
-  0 0 gold,
-  0 0 gold;
+  text-shadow:0 0 5pxgold, 
+  0 0 5pxgold, 
+  0 0 5pxgold,
+  0 0 5pxgold,
+  0 0 5pxgold;
 }
