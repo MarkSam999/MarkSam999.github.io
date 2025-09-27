@@ -68,7 +68,7 @@ header {
 .levels {
   text-decoration: none;
   transition: 0.5s; display: block;
-  line-height: 5px;
+  line-height: 15px;
 }
 
 .levels:hover {
