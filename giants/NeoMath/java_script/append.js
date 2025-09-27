@@ -34,6 +34,8 @@ function appendHTML(html_path){
         link.href = linkList[l] + ".html";
         
         if(){
+
+        } else {
             
         }
 
