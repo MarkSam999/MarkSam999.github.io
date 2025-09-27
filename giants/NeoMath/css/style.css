@@ -65,12 +65,12 @@ header {
     background: rgb(25, 20, 105); 
   }
 
-a {
+.levels {
   text-decoration: none;
   transition: 0.5s;
 }
 
-a:hover {
+.levels:hover {
   text-shadow:0 0 5px gold, 
   0 0 15px gold, 
   0 0 25px gold,
