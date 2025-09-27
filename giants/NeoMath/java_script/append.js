@@ -7,10 +7,10 @@ function appendCourse(){
     let course = ["Addition", "Subtraction", "Multiplication"];
 
     for(let lsn = 0; lsn < course.length, lsn++){
-        
+        let lessonLink = document.createElement("a");
+        lessonLink.className
     }
-    let lessonLink = document.createElement("a");
-    lessonLink.className
+    
 }
 
 /* the function that adds an html-code to any page where this function is called */
