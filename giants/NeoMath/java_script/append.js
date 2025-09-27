@@ -6,7 +6,7 @@ let scriptList = [];
 function appendCourse(){
     let course = ["Addition", "Subtraction", "Multiplication"];
 
-    for(let l)
+    for(let lsn = 0; lsn )
     let lessonLink = document.createElement("a");
     lessonLink.className
 }
