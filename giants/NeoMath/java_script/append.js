@@ -2,7 +2,7 @@ let linkList = [];
 let styleList = [];
 let scriptList = [];
 
-/* Adds levels for the course.html page*/
+/* Adds lessons for the course.html page*/
 function appendCourse(){
     let course = ["Addition", "Subtraction", "Multiplication"];
 
