@@ -7,3 +7,18 @@
     cursor: pointer;
     transition: 0.5s;
 }
+
+#home {
+    background-image: url(../media/images/header_signs/home.png);
+    background-size: 100%;
+}
+
+#about {
+    background-image: url(../media/images/header_signs/about.png);
+    background-size: 100%;
+}
+
+#course {
+    background-image: url(../media/images/header_signs/course.png);
+    background-size: 100%;
+}
