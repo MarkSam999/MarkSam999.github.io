@@ -4,7 +4,7 @@ let scriptList = [];
 
 /* Adds levels for the course.html page*/
 function appendLevels(){
-
+    
 }
 
 /* the function that adds an html-code to any page where this function is called */
