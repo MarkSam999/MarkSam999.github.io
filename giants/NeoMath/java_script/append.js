@@ -39,6 +39,7 @@ function appendHTML(html_path){
         linkLogo.className = "header_signs";
         linkLogo.id = linkList[l];
 
+        
         link.append(linkLogo);
     }
 }
