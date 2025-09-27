@@ -11,8 +11,7 @@ function appendCourse(){
         lessonLink.className = "lessons";
         lessonLink.innerHTML = "Lesson " + (lsn + 1) + ": " + course[lsn];
 
-        let mainTag = document.getElementsByTagName("main");
-        mainTag.append(lessonLink);
+        main.append(lessonLink);
     }
     
 }
