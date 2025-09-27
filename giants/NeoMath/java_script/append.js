@@ -10,7 +10,7 @@ function appendCourse(){
         let lessonLink = document.createElement("a");
         lessonLink.className = "lessons";
         lessonLink.innerHTML = "Lesson " + (lsn + 1) + ": " + course[lsn];
-        document.main.append(lessonLink);
+        document.body.main.append(lessonLink);
     }
     
 }
