@@ -32,12 +32,6 @@ function appendHTML(html_path){
         let link = document.createElement("a");
         link.className = "header_links";
         link.href = linkList[l] + ".html";
-        
-        if(){
-
-        } else {
-
-        }
 
         let linkLogo = document.createElement("div");
         linkLogo.className = "header_signs";
