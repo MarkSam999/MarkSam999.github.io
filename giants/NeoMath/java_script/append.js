@@ -31,7 +31,7 @@ function appendHTML(html_path){
     for(let l = 0; l < 3; l++){
         let link = document.createElement("a");
         link.className = "header_links";
-        link.href = link
+        link.href = linkList[l]
         
         header.append(link);
 
