@@ -3,8 +3,8 @@ let styleList = [];
 let scriptList = [];
 
 /* Adds levels for the course.html page*/
-function appendLevels(){
-    
+function appendCourse(){
+
 }
 
 /* the function that adds an html-code to any page where this function is called */
