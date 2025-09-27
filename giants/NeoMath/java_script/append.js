@@ -25,6 +25,8 @@ function appendHTML(html_path){
 
     /* Adds the header with the links */
     linkList = ['home', 'about', 'course']
+
+    
     let header = document.createElement("header");
     document.body.append(header);
 
@@ -36,7 +38,7 @@ function appendHTML(html_path){
         if(){
 
         } else {
-            
+
         }
 
         let linkLogo = document.createElement("div");
