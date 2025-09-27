@@ -67,7 +67,7 @@ header {
 
 .levels {
   text-decoration: none;
-  transition: 0.5s; display: in
+  transition: 0.5s; display: inline-block;
 }
 
 .levels:hover {
