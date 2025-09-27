@@ -24,14 +24,14 @@ function appendHTML(html_path){
 
 
     /* Adds the header with the links */
-    linkList = ['home', 'about', 'course']
+    linkList = ['home', 'about', 'education/course']
     let header = document.createElement("header");
     document.body.append(header);
 
     for(let l = 0; l < 3; l++){
         let link = document.createElement("a");
         link.className = "header_links";
-        link.href = linkList[l]
+        link.href = linkList[l];
         
         header.append(link);
 
