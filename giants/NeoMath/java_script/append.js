@@ -7,7 +7,7 @@ function appendCourse(){
     let course = ["Addition", "Subtraction", "Multiplication"];
 
     for(let lsn = 0; lsn < course.length; lsn++){
-        let lessonLink = document.createElement("p");
+        let lessonLink = document.createElement("a");
         lessonLink.className = "lessons";
         lessonLink.innerHTML = "<a>Lesson " + (lsn + 1) + ": " + course[lsn] + "</a>";
 
