@@ -4,9 +4,8 @@ let scriptList = [];
 
 
 function appendLevels(){
-    
-}
 
+}
 
 /* the function that adds an html-code to any page where this function is called */
 function appendHTML(html_path){
