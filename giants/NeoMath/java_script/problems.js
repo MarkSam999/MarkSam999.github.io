@@ -6,7 +6,7 @@ let max = 5;
 function lvl1(){
     $(".check").css.visibility = "visible";
 
-    actions = ['+', "-"]
+    actions = ['+', "-"];
     
 
     for(let i = 0; i < max; i++){
