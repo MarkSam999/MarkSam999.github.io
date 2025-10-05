@@ -4,7 +4,7 @@ let actions = [];
 let max = 5;
 
 function lvl1(){
-$(".check").css.visibility = "visible";
+    $(".check").css.visibility = "visible";
 
     actions = ['+', "-"]
     
