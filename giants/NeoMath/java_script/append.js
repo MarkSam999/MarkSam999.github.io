@@ -23,7 +23,7 @@ function appendPractice(){
         levelLink.href = "education/level_" + (lvl + 1) + ".html";
         levelLink.innerHTML = "Level " + (lvl + 1);
 
-        $("main").append(lessonLink);
+        $("main").append(levelLink);
     }
 }
 
