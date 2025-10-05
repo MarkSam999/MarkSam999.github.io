@@ -64,7 +64,7 @@ function lvl1(){
                 $("#row_" + q_num + "_2").append(cellHTML);
             }
 
-            let answerDiv = document.createElement
+            let answerDiv = document.createElement("div")
 
         }
         
