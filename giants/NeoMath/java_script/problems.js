@@ -51,6 +51,7 @@ function lvl1(){
         for(let cell = 0; cell < 4; cell++){
             let cellHTML = document.createElement("td");
             cellHTML.id = "cell_" + q_num + "_" + (cell + 1);
+            cellHTML.cla
 
             if(cell == 0){
                 let row = document.createElement("tr");
