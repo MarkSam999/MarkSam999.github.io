@@ -17,7 +17,7 @@ function appendCourse(){
 }
 
 function appendPractice(){
-    for(let lvls = 0; lvls < )
+    for(let lvls = 0; lvls < 5; lvls++)
 }
 
 /* the function that adds an html-code to any page where this function is called */
@@ -80,4 +80,3 @@ function appendJS(js_path){
         scriptHTML.src = js_path + "java_script/" + scriptList[sc] + ".js";
         document.head.append(scriptHTML);
     };
-};
