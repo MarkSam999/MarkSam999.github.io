@@ -64,6 +64,8 @@ function lvl1(){
                 $("#row_" + q_num + "_2").append(cellHTML);
             }
 
+            let 
+
         }
         
         for (let div = 0; div < 4; div++){
