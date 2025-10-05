@@ -5,7 +5,7 @@ let max = 5;
 
 function lvl1(){
     actions = ['+', "-"]
-    $(".check").css = "visibility: visible";
+    $(".check").css = "visibility: visible;";
 
     for(let i = 0; i < max; i++){
         let q_num = i + 1;
