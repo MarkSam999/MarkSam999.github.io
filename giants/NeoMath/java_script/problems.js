@@ -5,7 +5,7 @@ let max = 5;
 
 function lvl1(){
     $("#play").hide();
-    $("#show").hide();
+    $("#show").show();
 
     actions = ['+', "-"];
     
