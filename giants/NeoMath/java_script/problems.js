@@ -63,9 +63,6 @@ function lvl1(){
             } else {
                 $("#row_" + q_num + "_2").append(cellHTML);
             }
-
-            let answerDiv = document.createElement("div")
-
         }
         
         for (let div = 0; div < 4; div++){
