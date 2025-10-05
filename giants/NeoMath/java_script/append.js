@@ -22,6 +22,8 @@ function appendPractice(){
         levelLink.className = "levels";
         levelLink.href = "education/level_" + (lvl + 1) + ".html";
         levelLink.innerHTML = "Level " + (lvl + 1);
+
+        $("main").append(lessonLink);
     }
 }
 
