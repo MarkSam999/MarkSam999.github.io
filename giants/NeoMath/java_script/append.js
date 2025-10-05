@@ -19,7 +19,8 @@ function appendCourse(){
 function appendPractice(){
     for(let lvls = 0; lvls < 5; lvls++){
         let levelLink = document.createElement("a");
-        levelLink.className = 
+        levelLink.className = "levels";
+        
     }
 }
 
