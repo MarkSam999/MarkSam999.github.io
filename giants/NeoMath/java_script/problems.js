@@ -48,8 +48,6 @@ function lvl1(){
             let cellHTML = document.createElement("td");
             cellHTML.id = "cell_" + q_num + "_" + (cell + 1);
 
-            
-
             if(cell == 0){
                 let row = document.createElement("tr");
                 row.id = "row_" + q_num + "_1";
