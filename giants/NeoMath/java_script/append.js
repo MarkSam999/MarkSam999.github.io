@@ -17,7 +17,7 @@ function appendCourse(){
 }
 
 function appendPractice(){
-    for
+    for(let lvls = 0; lvls)
 }
 
 /* the function that adds an html-code to any page where this function is called */
