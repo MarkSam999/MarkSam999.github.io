@@ -5,6 +5,7 @@ let max = 5;
 
 function lvl1(){
     actions = ['+', "-"]
+    $()
 
     for(let i = 0; i < max; i++){
         let q_num = i + 1;
