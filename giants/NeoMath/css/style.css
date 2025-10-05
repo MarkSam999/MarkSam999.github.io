@@ -71,7 +71,7 @@ header {
   line-height: 24px;
 }
 
-.lessons:hover {
+.lessons:hover,  {
   text-shadow:0 0 5px gold, 
   0 0 15px gold, 
   0 0 25px gold,
