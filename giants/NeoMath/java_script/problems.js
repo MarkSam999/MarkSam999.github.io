@@ -46,6 +46,7 @@ function lvl1(){
 
         for(let cell = 0; cell < 4; cell++){
             let cellHTML = document.createElement("td");
+            let div
             cellHTML.id = "cell_" + q_num + "_" + (cell + 1);
 
             if(cell == 0){
