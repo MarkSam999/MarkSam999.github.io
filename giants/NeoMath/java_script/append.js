@@ -16,6 +16,8 @@ function appendCourse(){
     
 }
 
+function appendPractice()
+
 /* the function that adds an html-code to any page where this function is called */
 function appendHTML(html_path){
     /* Adds a page that simulates the loading process */
