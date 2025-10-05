@@ -17,10 +17,10 @@ function appendCourse(){
 }
 
 function appendPractice(){
-    for(let lvls = 0; lvls < 5; lvls++){
+    for(let lvl = 0; lvl < 5; lvl++){
         let levelLink = document.createElement("a");
         levelLink.className = "levels";
-        levelLink.href = "education/level_" + (lvls + 1) + ".html";
+        levelLink.href = "education/level_" + (lvl + 1) + ".html";
         levelLink.innerHTML = "Level " + ()
     }
 }
