@@ -21,7 +21,7 @@ function appendPractice(){
         let levelLink = document.createElement("a");
         levelLink.className = "levels";
         levelLink.href = "education/level_" + (lvl + 1) + ".html";
-        levelLink.innerHTML = "Level " + ()
+        levelLink.innerHTML = "Level " + (lvl + 1);
     }
 }
 
