@@ -52,7 +52,7 @@ function lvl1(){
             let cellHTML = document.createElement("td");
             cellHTML.id = "cell_" + q_num + "_" + (cell + 1);
             cellHTML.className = "cells";
-            cellHTML.onclick = "set(" + q_num + "," +  + ");"
+            cellHTML.onclick = "set(" + q_num + "," + choices[cell] + ");"
 
             if(cell == 0){
                 let row = document.createElement("tr");
