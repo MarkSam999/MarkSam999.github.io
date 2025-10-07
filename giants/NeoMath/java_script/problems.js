@@ -269,6 +269,7 @@ function lvl5(){
 
 function set(question, value){
     answer_list[question] = value;
+    if
 }
 
 function check(){
