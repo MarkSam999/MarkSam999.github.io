@@ -269,7 +269,7 @@ function lvl5(){
 
 function set(question, value){
     answer_list[question] = value;
-    alert(question, value);
+    alert(question + ", value);
 }
 
 function check(){
