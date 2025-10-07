@@ -269,6 +269,12 @@ function lvl5(){
 
 function set(question, value){
     answer_list[question] = value;
+    
+    if(value == correct_list[question]){
+        alert("Correct!")
+    } else {
+        alert("Incorrect!")
+    }
 }
 
 function check(){
