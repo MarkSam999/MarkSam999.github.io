@@ -77,7 +77,6 @@ function start(){
 
             $("#cell_" + q_num + "_" + (div + 1)).append(choiceDiv);
         }
-    }
 
     
 
