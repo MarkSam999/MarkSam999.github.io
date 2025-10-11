@@ -17,7 +17,7 @@ function start(level){
 }
 
 function next(){
-    if (q_num > max - 1){
+    if (q_num == max){
         finish();
     } else {
         q_num += 1;
