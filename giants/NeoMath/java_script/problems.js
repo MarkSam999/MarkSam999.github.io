@@ -1,6 +1,6 @@
 // Global values
 let ca = 0;
-let
+let yourAnswer = 0;
 let actions = [];
 let max = 5;
 let points = 0;
