@@ -19,7 +19,7 @@ function start(level){
 function next(){
     if (q_num > max){
         finish();
-    } else {}
+    } else {
         q_num += 1;
         let n1 = 1 + Math.round(Math.random() * 9);
         let n2 = 1 + Math.round(Math.random() * 9);
@@ -83,6 +83,7 @@ function next(){
 
             $("#cell_" + q_num + "_" + (div + 1)).append(choiceDiv);
         }
+    }
 }
 
 function lvl2(){
