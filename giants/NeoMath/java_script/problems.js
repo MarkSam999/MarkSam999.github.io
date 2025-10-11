@@ -11,10 +11,8 @@ function start(level){
     $("#answer").show();
 
     if(level == 1){
-    
+        actions = ['+', "-"];
     }
-    actions = ['+', "-"];
-
     next();
 }
 
