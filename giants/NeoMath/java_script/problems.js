@@ -54,7 +54,9 @@ function next(){
         choiceTable.id = "table_" + q_num;
         $("#questions").append(choiceTable);
 
-        if(q_num == 1)
+        if(q_num == 1){
+            
+        }
         for(let cell = 0; cell < 4; cell++){
             let cellHTML = document.createElement("td");
             cellHTML.id = "cell_" + q_num + "_" + (cell + 1);
