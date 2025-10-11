@@ -57,30 +57,9 @@ function next(){
         if(q_num == 1){
 
         } else {
-            
-        }
-        for(let cell = 0; cell < 4; cell++){
-            let cellHTML = document.createElement("td");
-            cellHTML.id = "cell_" + q_num + "_" + (cell + 1);
-            cellHTML.className = "cells";
-            cellHTML.onclick = "set(" + choices[cell] + ");"
 
-            if(cell == 0){
-                let row = document.createElement("tr");
-                row.id = "row_" + q_num + "_1";
-                $("#table_" + q_num).append(row);
-            } else if(cell == 2){
-                let row = document.createElement("tr");
-                row.id = "row_" + q_num + "_2";
-                $("#table_" + q_num).append(row);
-            }
-
-            if(cell < 2){
-                $("#row_" + q_num + "_1").append(cellHTML);
-            } else {
-                $("#row_" + q_num + "_2").append(cellHTML);
-            }
         }
+        
         
         for (let div = 0; div < 4; div++){
             let choiceDiv = document.createElement("div");
