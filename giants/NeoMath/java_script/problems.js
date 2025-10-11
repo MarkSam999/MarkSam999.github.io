@@ -17,6 +17,7 @@ function start(level){
 }
 
 function next(){
+    if 
         q_num += 1;
         let n1 = 1 + Math.round(Math.random() * 9);
         let n2 = 1 + Math.round(Math.random() * 9);
