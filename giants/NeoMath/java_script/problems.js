@@ -63,6 +63,7 @@ function next(){
 
                 if(cell == 0){
                     let row = document.createElement("tr");
+                    row.id = "row_1";
                     $("#table_" + q_num).append(row);
                 } else if(cell == 2){
                     let row = document.createElement("tr");
