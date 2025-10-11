@@ -84,7 +84,7 @@ function next(){
             $("#currQues").innerHTML = q_num + ". " + n1 + " " + action + " " + n2 + " = ?";
 
             for(let cell = 0; cell < 4; cell++){
-                ("#cell" + (cell + 1)).onclick = "set(" + choices[cell] + ");";
+                $("#cell" + (cell + 1)).onclick = "set(" + choices[cell] + ");";
             }
         }
         
