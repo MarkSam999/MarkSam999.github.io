@@ -266,7 +266,7 @@ function lvl5(){
     }
 }
 
-function set(question, value){
+function set(value){
     yourAnswer = value;
     
     if(value == ca){
