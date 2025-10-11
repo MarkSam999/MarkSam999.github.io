@@ -79,7 +79,9 @@ function start(){
         }
 }
 
-function 
+function next(){
+    
+}
 
 function lvl2(){
     actions = ['*', '/']
