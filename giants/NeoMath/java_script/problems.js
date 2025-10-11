@@ -81,6 +81,8 @@ function next(){
                 }
             }
         } else {
+            ("#currQues").innerHTML = q_num + ". " + n1 + " " + action + " " + n2 + " = ?";
+
             for(let cell = 0; cell < 4; cell++){
                 ("#cell" + (cell + 1)).onclick = "set(" + choices[cell] + ");";
             }
@@ -91,7 +93,7 @@ function next(){
             let choiceDiv = document.createElement("div");
             choiceDiv.innerHTML = "<div class='choices' onclick='set(" + choices[div]  + ");'>" + choices[div] + "</div>";
 
-            $("#cell_" + q_num + "_" + (div + 1)).append(choiceDiv);
+            $("#cell_" + (div + 1)).append(choiceDiv);
         }
     }
 }
