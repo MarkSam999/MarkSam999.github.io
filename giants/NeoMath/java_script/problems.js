@@ -79,6 +79,8 @@ function start(){
         }
 }
 
+function 
+
 function lvl2(){
     actions = ['*', '/']
 
