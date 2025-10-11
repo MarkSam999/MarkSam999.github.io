@@ -21,7 +21,7 @@ function next(){
         let n1 = 1 + Math.round(Math.random() * 9);
         let n2 = 1 + Math.round(Math.random() * 9);
         let action = actions[Math.round(Math.random())];
-        alert(action)
+        alert(action);
 
         if(action == '+'){
             ca = n1 + n2;
