@@ -271,7 +271,7 @@ function lvl5(){
 function set(question, value){
     yourAnswer = value;
     
-    if(value == correct_list[question]){
+    if(value == ca){
         points += 1;
         alert("Correct! Points: " + points);
     } else {
