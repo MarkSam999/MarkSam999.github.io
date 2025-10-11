@@ -10,6 +10,7 @@ function start(level){
     $("#play").hide();
     $("#answer").show();
 
+    if(level == 1)
     actions = ['+', "-"];
 
     next();
