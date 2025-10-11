@@ -50,12 +50,12 @@ function next(){
         let random = Math.floor(Math.random() * 4);
         choices[random] = ca;
 
-        let choiceTable = document.createElement("table");
-        choiceTable.id = "table_" + q_num;
-        $("#questions").append(choiceTable);
+        
 
         if(q_num == 1){
-
+            let choiceTable = document.createElement("table");
+            choiceTable.id = "table_" + q_num;
+            $("#questions").append(choiceTable);
             
             for(let cell = 0; cell < 4; cell++){
                 let cellHTML = document.createElement("td");
