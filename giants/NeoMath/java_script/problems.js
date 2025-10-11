@@ -72,9 +72,9 @@ function next(){
                 }
 
                 if(cell < 2){
-                    $("#row_" + q_num + "_1").append(cellHTML);
+                    $("#row1").append(cellHTML);
                 } else {
-                    $("#row_" + q_num + "_2").append(cellHTML);
+                    $("#row_2").append(cellHTML);
                 }
             }
         } else {
