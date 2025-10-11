@@ -59,7 +59,7 @@ function next(){
                 let cellHTML = document.createElement("td");
                 cellHTML.id = "cell_" + (cell + 1);
                 cellHTML.className = "cells";
-                cellHTML.onclick = "set(" + choices[cell] + ");"
+                cellHTML.onclick = "set(" + choices[cell] + ");";
 
                 if(cell == 0){
                     let row = document.createElement("tr");
@@ -79,7 +79,7 @@ function next(){
             }
         } else {
             for(let cell = 0; cell < 4; cell++){
-                ("#cell" + (cell + 1)).onclick = 
+                ("#cell" + (cell + 1)).onclick = "set(" + choices[cell] + ");";
             }
         }
         
