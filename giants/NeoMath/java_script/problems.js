@@ -33,8 +33,6 @@ function next(){
             }
         }
 
-        correct_list.push(ca);
-
         let choices = [];
 
         let question = document.createElement("h1");
