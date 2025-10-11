@@ -72,7 +72,7 @@ function next(){
                 }
 
                 if(cell < 2){
-                    $("#row1").append(cellHTML);
+                    $("#row_1").append(cellHTML);
                 } else {
                     $("#row_2").append(cellHTML);
                 }
