@@ -80,7 +80,7 @@ function start(){
 }
 
 function next(){
-            let q_num = i + 1;
+        let q_num = i + 1;
         let ca = 0;
         let n1 = 1 + Math.round(Math.random() * 9);
         let n2 = 1 + Math.round(Math.random() * 9);
