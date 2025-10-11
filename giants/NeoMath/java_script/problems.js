@@ -78,7 +78,7 @@ function next(){
             }
         }
         } else {
-
+            for()
         }
         
         
