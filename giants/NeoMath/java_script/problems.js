@@ -272,6 +272,7 @@ function set(question, value){
     answer_list[question] = value;
     
     if(value == correct_list[question]){
+        points += 1;
         alert("Correct! Points: " + points);
     } else {
         alert("Incorrect!")
@@ -279,11 +280,6 @@ function set(question, value){
 }
 
 function finish(){
-    for(let c = 0; c < max; c++){
-        if(answer_list[c] == correct_list[c]){
-            points += 1;
-        }
-    }
         
     alert("You got " + points + " out of " + max + "!")
 }
