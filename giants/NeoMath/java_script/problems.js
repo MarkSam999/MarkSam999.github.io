@@ -51,6 +51,8 @@ function next(){
         choices[random] = ca;
 
         if(q_num == 1){
+
+            
             let choiceTable = document.createElement("table");
             choiceTable.id = "table_" + q_num;
             $("#questions").append(choiceTable);
