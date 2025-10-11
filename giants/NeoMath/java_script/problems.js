@@ -278,7 +278,7 @@ function set(question, value){
     }
 }
 
-function check(){
+function finish(){
     for(let c = 0; c < max; c++){
         if(answer_list[c] == correct_list[c]){
             points += 1;
