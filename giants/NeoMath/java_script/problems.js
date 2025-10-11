@@ -3,7 +3,7 @@ let correct_list = [];
 let actions = [];
 let max = 5;
 let points = 0;
-
+let q_num = 0;
 
 function start(){
     $("#play").hide();
@@ -11,7 +11,7 @@ function start(){
 
     actions = ['+', "-"];
 
-    let q_num = 0;
+    
 
     next();
 }
