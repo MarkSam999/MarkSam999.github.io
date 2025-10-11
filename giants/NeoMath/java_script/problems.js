@@ -4,6 +4,7 @@ let actions = [];
 let max = 5;
 let points = 0;
 
+
 function start(){
     $("#play").hide();
     $("#answer").show();
