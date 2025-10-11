@@ -79,7 +79,7 @@ function next(){
             }
         } else {
             for(let cell = 0; cell < 4; cell++){
-                ("#cell" + (cell + 1)).onclick
+                ("#cell" + (cell + 1)).onclick = 
             }
         }
         
