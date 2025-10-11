@@ -278,6 +278,7 @@ function set(question, value){
     } else {
         alert("Incorrect!")
     }
+    next();
 }
 
 function finish(){
