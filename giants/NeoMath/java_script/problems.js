@@ -276,7 +276,7 @@ function set(question, value){
         points += 1;
         alert("Correct! Points: " + points);
     } else {
-        alert("Incorrect!")
+        alert("Incorrect!");
     }
     next();
 }
