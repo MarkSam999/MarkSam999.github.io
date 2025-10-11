@@ -78,7 +78,7 @@ function next(){
             }
         }
         } else {
-            for(let )
+            for(let cell = 0;)
         }
         
         
