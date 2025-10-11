@@ -66,7 +66,7 @@ function next(){
                     $("#table_" + q_num).append(row);
                 } else if(cell == 2){
                     let row = document.createElement("tr");
-                    row.id = "row_" + q_num + "_2";
+                    row.id = "row_2";
                     $("#table_" + q_num).append(row);
                 }
 
