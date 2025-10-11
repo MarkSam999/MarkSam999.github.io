@@ -1,5 +1,5 @@
 // Global values
-let correctAnswer = 0;
+let ca = 0;
 let yourAnswer = 0;
 let actions = [];
 let max = 5;
