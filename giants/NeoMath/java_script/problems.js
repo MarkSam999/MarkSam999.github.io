@@ -272,7 +272,7 @@ function set(question, value){
     answer_list[question] = value;
     
     if(value == correct_list[question]){
-        alert("Correct! Points: " + points)
+        alert("Correct! Points: " + points);
     } else {
         alert("Incorrect!")
     }
