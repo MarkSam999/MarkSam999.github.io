@@ -2,6 +2,7 @@ let answer_list = [];
 let correct_list = [];
 let actions = [];
 let max = 5;
+let points = 0;
 
 function lvl1(){
     $("#play").hide();
@@ -278,7 +279,6 @@ function set(question, value){
 }
 
 function check(){
-
     for(let c = 0; c < max; c++){
         if(answer_list[c] == correct_list[c]){
             points += 1;
