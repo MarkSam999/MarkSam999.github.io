@@ -63,7 +63,7 @@ function next(){
 
             if(cell == 0){
                 let row = document.createElement("tr");
-                row.id = "row_" + q_num + "_1";
+                row.id = "cell_" + cell;
                 $("#table_" + q_num).append(row);
             } else if(cell == 2){
                 let row = document.createElement("tr");
@@ -79,7 +79,7 @@ function next(){
         }
         } else {
             for(let cell = 0; cell < 4; cell++){
-                
+
             }
         }
         
