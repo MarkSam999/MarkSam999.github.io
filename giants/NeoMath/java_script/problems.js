@@ -38,9 +38,7 @@ function next(){
 
         let choices = [];
 
-        let question = document.createElement("h1");
-        question.innerHTML = q_num + ". " + n1 + " " + action + " " + n2 + " = ?";
-        $("#questions").append(question);
+        
 
         for(let ch = 0; ch < 4; ch++){
             let choice = Math.round(ca + 1 + Math.random() * 4) || Math.round(ca - 1 - Math.random() * 4);
@@ -51,8 +49,10 @@ function next(){
         choices[random] = ca;
 
         if(q_num == 1){
+            let question = document.createElement("h1");
+            question.innerHTML = q_num + ". " + n1 + " " + action + " " + n2 + " = ?";
+            $("#questions").append(question);
 
-            
             let choiceTable = document.createElement("table");
             choiceTable.id = "table_" + q_num;
             $("#questions").append(choiceTable);
