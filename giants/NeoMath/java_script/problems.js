@@ -11,8 +11,6 @@ function start(){
 
     actions = ['+', "-"];
 
-    
-
     next();
 }
 
