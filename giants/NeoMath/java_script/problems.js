@@ -9,7 +9,8 @@ function start(){
     $("#answer").show();
 
     actions = ['+', "-"];
-    
+
+    let q_num = 0;
 
     next();
 }
