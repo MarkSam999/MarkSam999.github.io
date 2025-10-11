@@ -9,6 +9,7 @@ function start(){
     $("#answer").show();
 
     actions = ['+', "-"];
+    
 
     next();
 }
