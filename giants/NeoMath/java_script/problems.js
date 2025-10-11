@@ -269,7 +269,7 @@ function lvl5(){
 }
 
 function set(question, value){
-    answer_list[question] = value;
+    yourAnswer = value;
     
     if(value == correct_list[question]){
         points += 1;
