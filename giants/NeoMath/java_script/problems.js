@@ -280,6 +280,5 @@ function set(question, value){
 }
 
 function finish(){
-        
     alert("You got " + points + " out of " + max + "!")
 }
