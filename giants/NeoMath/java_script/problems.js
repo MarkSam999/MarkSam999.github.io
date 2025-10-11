@@ -50,6 +50,7 @@ function next(){
 
         if(q_num == 1){
             let question = document.createElement("h1");
+            question.id("")
             question.innerHTML = q_num + ". " + n1 + " " + action + " " + n2 + " = ?";
             $("#questions").append(question);
 
