@@ -1,6 +1,5 @@
 // Global values
-let answer_list = [];
-let correct_list = [];
+let ca = 0;
 let actions = [];
 let max = 5;
 let points = 0;
@@ -18,7 +17,7 @@ function start(level){
 
 function next(){
         q_num += 1;
-        let ca = 0;
+        
         let n1 = 1 + Math.round(Math.random() * 9);
         let n2 = 1 + Math.round(Math.random() * 9);
         let action = actions[Math.round(Math.random())];
