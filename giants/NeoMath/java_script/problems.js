@@ -57,7 +57,7 @@ function next(){
         if(q_num == 1){
             for(let cell = 0; cell < 4; cell++){
                 let cellHTML = document.createElement("td");
-                cellHTML.id = "cell_" + q_num + "_" + (cell + 1);
+                cellHTML.id = "cell_" + (cell + 1);
                 cellHTML.className = "cells";
                 cellHTML.onclick = "set(" + choices[cell] + ");"
 
