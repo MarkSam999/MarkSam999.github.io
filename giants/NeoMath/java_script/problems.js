@@ -80,7 +80,72 @@ function start(){
 }
 
 function next(){
-    
+            let q_num = i + 1;
+        let ca = 0;
+        let n1 = 1 + Math.round(Math.random() * 9);
+        let n2 = 1 + Math.round(Math.random() * 9);
+        let action = actions[Math.round(Math.random())];
+
+        if(action == '+'){
+            ca = n1 + n2;
+        } else if(action == '-'){
+            ca = n1 - n2;
+            if (n2 > n1){
+                res = n2;
+                n2 = n1;
+                n1 = res;
+            }
+        }
+
+        correct_list.push(ca);
+
+        let choices = [];
+
+        let question = document.createElement("h1");
+        question.innerHTML = q_num + ". " + n1 + " " + action + " " + n2 + " = ?";
+        $("#questions").append(question);
+
+        for(let ch = 0; ch < 4; ch++){
+            let choice = Math.round(ca + 1 + Math.random() * 4) || Math.round(ca - 1 - Math.random() * 4);
+            choices.push(choice);
+        }
+
+        let random = Math.floor(Math.random() * 4);
+        choices[random] = ca;
+
+        let choiceTable = document.createElement("table");
+        choiceTable.id = "table_" + q_num;
+        $("#questions").append(choiceTable);
+
+        for(let cell = 0; cell < 4; cell++){
+            let cellHTML = document.createElement("td");
+            cellHTML.id = "cell_" + q_num + "_" + (cell + 1);
+            cellHTML.className = "cells";
+            cellHTML.onclick = "set(" + i + "," + choices[cell] + ");"
+
+            if(cell == 0){
+                let row = document.createElement("tr");
+                row.id = "row_" + q_num + "_1";
+                $("#table_" + q_num).append(row);
+            } else if(cell == 2){
+                let row = document.createElement("tr");
+                row.id = "row_" + q_num + "_2";
+                $("#table_" + q_num).append(row);
+            }
+
+            if(cell < 2){
+                $("#row_" + q_num + "_1").append(cellHTML);
+            } else {
+                $("#row_" + q_num + "_2").append(cellHTML);
+            }
+        }
+        
+        for (let div = 0; div < 4; div++){
+            let choiceDiv = document.createElement("div");
+            choiceDiv.innerHTML = "<div class='choices' onclick='set(" + i + ", " + choices[div]  + ");'>" + choices[div] + "</div>";
+
+            $("#cell_" + q_num + "_" + (div + 1)).append(choiceDiv);
+        }
 }
 
 function lvl2(){
