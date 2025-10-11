@@ -9,7 +9,6 @@ function lvl1(){
     $("#answer").show();
 
     actions = ['+', "-"];
-    
 
     for(let i = 0; i < max; i++){
         let q_num = i + 1;
