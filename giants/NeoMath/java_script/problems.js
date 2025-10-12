@@ -72,7 +72,7 @@ function next(){
                     choiceDiv.id = "div_" + (div + 1);
                     choiceDiv.className = 'choices';
                     choiceDiv.innerHTML = choices[div];
-                    $("#cell_" + (div + 1)).append(choiceDiv);
+                    $("#cell_" + (div + 1))).append(choiceDiv);
             }
         } else {
             $("#currQues").text(q_num + ". " + n1 + " " + action + " " + n2 + " = ?");
