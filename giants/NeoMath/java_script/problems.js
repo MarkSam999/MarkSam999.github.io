@@ -57,21 +57,6 @@ function next(){
             $("#questions").append(choiceTable);
             
             for(let cell = 0; cell < 2; cell++){
-                let cellHTML = document.createElement("td");
-                cellHTML.id = "cell_" + (cell + 1);
-                cellHTML.className = "cells";
-                cellHTML.onclick = function(){set(choices[cell])};
-
-                if(cell == 0){
-                    let row = document.createElement("tr");
-                    row.id = "row_1";
-                    $("#table_" + q_num).append(row);
-                } else if(cell == 2){
-                    let row = document.createElement("tr");
-                    row.id = "row_2";
-                    $("#table_" + q_num).append(row);
-                }
-
                 if(cell == 0){
                     $("#row_1").append(cellHTML);
                 } else {
