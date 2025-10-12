@@ -59,7 +59,7 @@ function next(){
             for(let r = 0; r < 2; r++){
                 row = document.createElement("tr");
                 choiceTable.append(row);
-                for(let d)
+                for(let d = 0; d < 2; d++)
             }
 
             for (let div = 0; div < 4; div++){
