@@ -89,7 +89,6 @@ function next(){
             }
         } else {
             $("#currQues").text(q_num + ". " + n1 + " " + action + " " + n2 + " = ?");
-            alert($("#currQues").text());
 
             for(let cell = 0; cell < 4; cell++){
                 $("#cell_" + (cell + 1)).innerHTML = choices[cell];
