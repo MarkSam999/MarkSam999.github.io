@@ -100,7 +100,9 @@ function set(value){
 
 function finish(){
     console.log("You got " + points + " out of " + max + "!");
-}function lvl2(){
+}
+
+function lvl2(){
     actions = ['*', '/']
 
     for(let i = 0; i < max; i++){
