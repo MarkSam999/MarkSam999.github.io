@@ -18,7 +18,7 @@ function start(level){
     q_num += 1;
     let n1 = 1 + Math.round(Math.random() * 9);
     let n2 = 1 + Math.round(Math.random() * 9);
-    let action = actions[Math.round(Math.random() * actions)];
+    let action = actions[Math.round(Math.random() * actions.length / 2)];
 
 
 }
