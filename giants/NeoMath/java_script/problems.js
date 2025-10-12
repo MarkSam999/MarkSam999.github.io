@@ -10,8 +10,6 @@ function globalValues(){
     let n1 = 0;
     let n2 = 0;
     let action = 0;
-}
-globalValues();
 
 function start(level){
     $("#play").hide();
