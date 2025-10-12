@@ -55,6 +55,7 @@ function next(){
     if (q_num == max){
         $("#next").hide();
     }
+    
         $("#currQues").text(q_num + ". " + n1 + " " + action + " " + n2 + " = ?");
 
         for(let cell = 0; cell < 4; cell++){
