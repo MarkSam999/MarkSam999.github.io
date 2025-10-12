@@ -42,8 +42,8 @@ function start(level){
         actions = ['+', "-"];
     };
 
+    gen();
 
-    gen()
     // Creates a question template
     let question = document.createElement("h1");
     question.id = "currQues";
