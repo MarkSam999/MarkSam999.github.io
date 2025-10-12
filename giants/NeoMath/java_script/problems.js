@@ -8,7 +8,29 @@ let points = 0;
 let q_num = 0;
 
 function gen(){
+    q_num += 1;
+    let n1 = 1 + Math.round(Math.random() * 9);
+    let n2 = 1 + Math.round(Math.random() * 9);
+    let action = actions[Math.round(Math.random() * (actions.length - 1))];
 
+    if(action == '+'){
+        ca = n1 + n2;
+    } else if(action == '-'){
+        ca = n1 - n2;
+        if (n2 > n1){
+            res = n2;
+            n2 = n1;
+            n1 = res;
+        }
+    }
+
+    for(let ch = 0; ch < 4; ch++){
+        let choice = Math.round(ca + 1 + Math.random() * 4) || Math.round(ca - 1 - Math.random() * 4);
+        choices.push(choice);
+    }
+
+    let random = Math.floor(Math.random() * 4);
+    choices[random] = ca;
 }
 
 function start(level){
@@ -21,9 +43,7 @@ function start(level){
     };
 
 
-    // Generates the values for a question
-    
-
+    gen()
     // Creates a question template
     let question = document.createElement("h1");
     question.id = "currQues";
