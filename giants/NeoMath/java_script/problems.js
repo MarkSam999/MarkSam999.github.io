@@ -79,6 +79,8 @@ function next(){
                 } else {
                     $("#row_2").append(cellHTML);
                 }
+
+                
             }
         } else {
             $("#currQues").innerHTML = q_num + ". " + n1 + " " + action + " " + n2 + " = ?";
