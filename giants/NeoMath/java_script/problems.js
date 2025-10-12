@@ -1,4 +1,5 @@
 // Global values
+class globalValues()
 let ca = 0;
 let yourAnswer = 0;
 let actions = [];
@@ -50,7 +51,7 @@ function start(level){
 
 function next(){
     gen();
-    
+
     if (q_num == max - 1){
         $("#next").hide();
     } else {
