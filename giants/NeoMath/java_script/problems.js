@@ -60,7 +60,7 @@ function next(){
                 let cellHTML = document.createElement("td");
                 cellHTML.id = "cell_" + (cell + 1);
                 cellHTML.className = "cells";
-                cellHTML.onclick = "set(" + choices[cell] + ");";
+                cellHTML.addEve= "set(" + choices[cell] + ");";
 
                 if(cell == 0){
                     let row = document.createElement("tr");
