@@ -32,7 +32,7 @@ function start(level){
         }
     }
 
-
+    
 }
 
 function next(){
