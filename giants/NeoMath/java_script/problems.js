@@ -67,7 +67,7 @@ function next(){
                     cell = document.createElement("td");
                     cell.id = "cell_" + d_num;
                     cell.className = 'choices';
-                    console.log(d_num + "; ");
+                    console.log(d_num);
                     row.append(cell);
                 }
             }
