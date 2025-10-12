@@ -61,6 +61,7 @@ function next(){
                 choiceTable.append(row);
                 for(let d = 0; d < 2; d++){
                     cell = document.createElement("td");
+                    c
                     row.append(cell);
                 }
             }
