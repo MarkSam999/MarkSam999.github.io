@@ -273,9 +273,9 @@ function set(value){
     
     if(value == ca){
         points += 1;
-        alert("Correct! Points: " + points);
+        console.log("Correct! Points: " + points);
     } else {
-        alert("Incorrect!");
+        console.log("Incorrect!");
     };
     next();
 }
