@@ -281,5 +281,5 @@ function set(value){
 }
 
 function finish(){
-    alert("You got " + points + " out of " + max + "!");
+    console.log("You got " + points + " out of " + max + "!");
 }
