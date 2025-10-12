@@ -48,26 +48,26 @@ function start(level){
     question.innerHTML = q_num + ". " + n1 + " " + action + " " + n2 + " = ?";
     $("#questions").append(question);
 
-            let choiceTable = document.createElement("table");
-            choiceTable.id = "table_" + q_num;
-            $("#questions").append(choiceTable);
+    let choiceTable = document.createElement("table");
+    choiceTable.id = "table_" + q_num;
+    $("#questions").append(choiceTable);
             
-            let d_num = 0;
-            for(let r = 0; r < 2; r++){
-                row = document.createElement("tr");
-                choiceTable.append(row);
-                for(let d = 0; d < 2; d++){
-                    d_num += 1;
-                    cell = document.createElement("td");
-                    cell.id = "cell_" + d_num;
-                    cell.className = 'choices';
-                    cell.innerHTML = choices[d_num - 1];
-                    console.log(cell.innerHTML);
-                    cell.onclick = function(){set(choices[d_num - 1])};
+    let d_num = 0;
+    for(let r = 0; r < 2; r++){
+        row = document.createElement("tr");
+        choiceTable.append(row);
+        for(let d = 0; d < 2; d++){
+            d_num += 1;
+            cell = document.createElement("td");
+            cell.id = "cell_" + d_num;
+            cell.className = 'choices';
+            cell.innerHTML = choices[d_num - 1];
+            console.log(cell.innerHTML);
+            cell.onclick = function(){set(choices[d_num - 1])};
 
-                    row.append(cell);
-                }
-            }
+            row.append(cell);
+        }
+    }
 }
 
 function next(){
