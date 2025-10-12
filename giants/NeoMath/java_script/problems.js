@@ -86,7 +86,7 @@ function next(){
                     choiceDiv.innerHTML = "<div class='choices' onclick='set(" + choices[div]  + ");'>" + choices[div] + "</div>";
 
                     $("#cell_" + (div + 1)).append(choiceDiv);
-                }
+            }
         } else {
             $("#currQues").innerHTML = q_num + ". " + n1 + " " + action + " " + n2 + " = ?";
 
