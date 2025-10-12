@@ -49,7 +49,8 @@ function start(level){
 }
 
 function next(){
-    gen()
+    gen();
+    
     if (q_num == max - 1){
         $("#next").hide();
     } else {
