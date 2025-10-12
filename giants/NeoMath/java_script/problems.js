@@ -2,6 +2,7 @@
 let ca = 0;
 let yourAnswer = 0;
 let actions = [];
+let choices = 
 let max = 5;
 let points = 0;
 let q_num = 0;
@@ -31,7 +32,7 @@ function start(level){
         }
     }
 
-    
+
 }
 
 function next(){
