@@ -57,6 +57,8 @@ function next(){
             $("#questions").append(choiceTable);
             
             for(let r = 0; r < 2; r++){
+                let num = 0;
+
                 row = document.createElement("tr");
                 choiceTable.append(row);
                 for(let d = 0; d < 2; d++){
