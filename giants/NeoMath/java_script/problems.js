@@ -41,7 +41,6 @@ function start(level){
             cell.id = "cell_" + d_num;
             cell.className = 'choices';
             cell.innerHTML = choices[d_num - 1];
-            console.log(cell.innerHTML);
             cell.onclick = function(){set(choices[d_num - 1])};
 
             row.append(cell);
