@@ -93,7 +93,6 @@ function set(value){
     } else {
         console.log("Incorrect!");
     };
-    next();
 }
 
 function finish(){
