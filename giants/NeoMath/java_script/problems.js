@@ -37,7 +37,8 @@ function start(level){
         choices.push(choice);
     }
 
-    
+    let random = Math.floor(Math.random() * 4);
+    choices[random] = ca;
 }
 
 function next(){
@@ -46,8 +47,7 @@ function next(){
     } else {
         
 
-        let random = Math.floor(Math.random() * 4);
-        choices[random] = ca;
+        
 
         if(q_num == 1){
             let question = document.createElement("h1");
