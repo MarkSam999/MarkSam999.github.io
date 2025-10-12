@@ -67,6 +67,7 @@ function next(){
                     cell.className = 'choices';
                     cell.innerHTML = choices[d_num - 1];
                     console.log(cell.innerHTML);
+                    
 
                     row.append(cell);
                 }
