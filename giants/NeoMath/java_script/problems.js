@@ -60,8 +60,6 @@ function next(){
                 row = document.createElement("tr");
                 if(row == 0){
                     choiceTable.append(row);
-                } else {
-                    choiceTable.append(row);
                 }
 
                 
