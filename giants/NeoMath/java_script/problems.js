@@ -19,8 +19,8 @@ function start(level){
 }
 
 function next(){
-    if (q_num == max){
-        finish();
+    if (q_num == max - 1){
+        $("#next").show();
     } else {
         q_num += 1;
         let n1 = 1 + Math.round(Math.random() * 9);
