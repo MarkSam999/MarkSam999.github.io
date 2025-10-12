@@ -1,5 +1,7 @@
 // Global values
-class globalValues()
+class globalValues(){
+    
+}
 let ca = 0;
 let yourAnswer = 0;
 let actions = [];
