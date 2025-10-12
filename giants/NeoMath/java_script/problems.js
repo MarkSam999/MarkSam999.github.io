@@ -88,8 +88,8 @@ function next(){
                     $("#cell_" + (div + 1)).append(choiceDiv);
             }
         } else {
-            $("#currQues").append(q_num + ". " + n1 + " " + action + " " + n2 + " = ?");
-            alert($("#currQues").text);
+            $("#currQues").text(q_num + ". " + n1 + " " + action + " " + n2 + " = ?");
+            alert($("#currQues").text());
 
             for(let cell = 0; cell < 4; cell++){
                 $("#cell_" + (cell + 1)).innerHTML = choices[cell];
