@@ -1,6 +1,5 @@
 // Global values
 let ca = 0;
-let value = 0;
 let yourAnswer = 0;
 let actions = [];
 let max = 5;
