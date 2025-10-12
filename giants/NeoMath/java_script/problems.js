@@ -36,6 +36,8 @@ function start(level){
         let choice = Math.round(ca + 1 + Math.random() * 4) || Math.round(ca - 1 - Math.random() * 4);
         choices.push(choice);
     }
+
+    
 }
 
 function next(){
