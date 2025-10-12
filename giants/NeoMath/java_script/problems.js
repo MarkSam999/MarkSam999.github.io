@@ -102,6 +102,7 @@ function gen(){
     let random = Math.floor(Math.random() * 4);
     choices[random] = ca;
 }
+
 function lvl2(){
     actions = ['*', '/']
 
