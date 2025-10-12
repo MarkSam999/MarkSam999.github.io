@@ -7,6 +7,8 @@ let max = 5;
 let points = 0;
 let q_num = 0;
 
+function 
+
 function start(level){
     $("#play").hide();
     $("#next").show();
