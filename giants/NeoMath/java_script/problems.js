@@ -65,7 +65,7 @@ function next(){
                     cell = document.createElement("td");
                     cell.id = "cell_" + d_num;
                     cell.className = 'choices';
-                    cell.innerHTML = 
+                    cell.innerHTML = choice
 
                     row.append(cell);
                 }
