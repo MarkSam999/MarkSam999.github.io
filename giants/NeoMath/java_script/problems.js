@@ -30,6 +30,8 @@ function start(level){
             n1 = res;
         }
     }
+
+    
 }
 
 function next(){
