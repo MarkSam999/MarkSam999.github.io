@@ -59,9 +59,9 @@ function next(){
             for(let row = 0; row < 2; row++){
                 row = document.createElement("tr");
                 if(row == 0){
-                    cho.append(cellHTML);
+                    .append(cellHTML);
                 } else {
-                    $("#row_2").append(cellHTML);
+                    .append(cellHTML);
                 }
 
                 
