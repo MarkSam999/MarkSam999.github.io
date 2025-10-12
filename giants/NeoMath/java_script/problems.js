@@ -74,7 +74,7 @@ function next(){
             $("#currQues").text(q_num + ". " + n1 + " " + action + " " + n2 + " = ?");
 
             for(let cell = 0; cell < 4; cell++){
-                $("#div_" + (cell + 1)).text(choices[cell]);
+                $("#cell_" + (cell + 1)).text(choices[cell]);
                 $("#cell_" + (cell + 1)).onclick = set(choices[cell]);
             }
         }
