@@ -14,7 +14,7 @@ function start(level){
 
     if(level == 1){
         actions = ['+', "-"];
-    }
+    };
     
     q_num += 1;
     let n1 = 1 + Math.round(Math.random() * 9);
