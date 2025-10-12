@@ -66,7 +66,7 @@ function next(){
 
                     cell = document.createElement("td");
                     cell.id = "cell_" + d_num;
-                    cell.onclick = set(choices[d_num]);
+                    cell.onclick = set(choices[d_num - 1]);
                     row.append(cell);
                 }
             }
