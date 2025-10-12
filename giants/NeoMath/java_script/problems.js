@@ -1,6 +1,5 @@
 // Global values
-function globalValues(){
-    let ca = 0;
+let ca = 0;
     let yourAnswer = 0;
     let actions = [];
     let choices = [];
