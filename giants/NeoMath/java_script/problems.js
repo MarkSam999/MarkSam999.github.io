@@ -56,7 +56,7 @@ function next(){
             choiceTable.id = "table_" + q_num;
             $("#questions").append(choiceTable);
             
-            for(let cell = 0; cell < 4; cell++){
+            for(let cell = 0; cell < 2; cell++){
                 let cellHTML = document.createElement("td");
                 cellHTML.id = "cell_" + (cell + 1);
                 cellHTML.className = "cells";
@@ -72,7 +72,7 @@ function next(){
                     $("#table_" + q_num).append(row);
                 }
 
-                if(cell < 2){
+                if(cell == 2){
                     $("#row_1").append(cellHTML);
                 } else {
                     $("#row_2").append(cellHTML);
