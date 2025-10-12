@@ -88,6 +88,7 @@ function next(){
                     $("#cell_" + (div + 1)).append(choiceDiv);
             }
         } else {
+            currQues = 
             $("#currQues"). = q_num + ". " + n1 + " " + action + " " + n2 + " = ?";
 
             for(let cell = 0; cell < 4; cell++){
