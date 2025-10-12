@@ -66,8 +66,7 @@ function next(){
                     cell.id = "cell_" + d_num;
                     cell.className = 'choices';
                     cell.innerHTML = choices[d_num - 1];
-                    cell.onclick = set(choices[cell]);
-                    console
+                    console.log()
 
                     row.append(cell);
                 }
