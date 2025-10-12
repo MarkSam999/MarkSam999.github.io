@@ -1,6 +1,6 @@
 // Global values
-class globalValues(){
-    
+function globalValues(){
+
 }
 let ca = 0;
 let yourAnswer = 0;
