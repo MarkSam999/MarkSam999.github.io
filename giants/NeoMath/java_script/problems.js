@@ -56,9 +56,9 @@ function next(){
             choiceTable.id = "table_" + q_num;
             $("#questions").append(choiceTable);
             
-            for(let row = 0; cell < 2; cell++){
+            for(let row = 0; row < 2; row++){
                 row = document.createElement("tr");
-                if(cell == 0){
+                if(row == 0){
                     $("#row_1").append(cellHTML);
                 } else {
                     $("#row_2").append(cellHTML);
