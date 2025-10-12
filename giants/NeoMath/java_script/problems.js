@@ -51,7 +51,7 @@ function next(){
 
         
 
-        if(q_num == 1){
+        
             let question = document.createElement("h1");
             question.id = "currQues";
             question.innerHTML = q_num + ". " + n1 + " " + action + " " + n2 + " = ?";
@@ -77,14 +77,12 @@ function next(){
                     row.append(cell);
                 }
             }
-        } else {
             $("#currQues").text(q_num + ". " + n1 + " " + action + " " + n2 + " = ?");
 
             for(let cell = 0; cell < 4; cell++){
                 $("#cell_" + (cell + 1)).text(choices[cell]);
                 $("#cell_" + (cell + 1)).onclick = set(choices[cell]);
             }
-        }
         
     }
 }
