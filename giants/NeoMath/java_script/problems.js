@@ -84,7 +84,23 @@ function next(){
     }
 }
 
-function lvl2(){
+
+
+function set(value){
+    yourAnswer = value;
+    
+    if(value == ca){
+        points += 1;
+        console.log("Correct! Points: " + points);
+    } else {
+        console.log("Incorrect!");
+    };
+    next();
+}
+
+function finish(){
+    console.log("You got " + points + " out of " + max + "!");
+}function lvl2(){
     actions = ['*', '/']
 
     for(let i = 0; i < max; i++){
@@ -266,20 +282,4 @@ function lvl5(){
             $("#questions").append(choiceDiv);
         }
     }
-}
-
-function set(value){
-    yourAnswer = value;
-    
-    if(value == ca){
-        points += 1;
-        console.log("Correct! Points: " + points);
-    } else {
-        console.log("Incorrect!");
-    };
-    next();
-}
-
-function finish(){
-    console.log("You got " + points + " out of " + max + "!");
 }
