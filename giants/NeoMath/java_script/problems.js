@@ -70,14 +70,6 @@ function next(){
                     row.append(cell);
                 }
             }
-
-            for (let div = 0; div < 4; div++){
-                    let choiceDiv = document.createElement("div");
-                    choiceDiv.id = "div_" + (div + 1);
-                    choiceDiv.className = 'choices';
-                    choiceDiv.innerHTML = choices[div];
-                    $("#cell_" + ((div + 1) / 2)).append(choiceDiv);
-            }
         } else {
             $("#currQues").text(q_num + ". " + n1 + " " + action + " " + n2 + " = ?");
 
