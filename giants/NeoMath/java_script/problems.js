@@ -86,7 +86,7 @@ function next(){
                     choiceDiv.id = "div_" + (div + 1);
                     choiceDiv.className = 'choices';
                     choiceDiv.addEventListener("click", set(choices[div]))
-                    choiceDiv.innerHTML = "<div onclick='set(" + choices[div]  + ");'>" + choices[div] + "</div>";
+                    choiceDiv.innerHTML = choices[div] + "</div>";
 
                     $("#cell_" + (div + 1)).append(choiceDiv);
             }
