@@ -78,13 +78,15 @@ function next(){
                     $("#row_2").append(cellHTML);
                 }
 
-                for (let div = 0; div < 4; div++){
+                
+            }
+
+            for (let div = 0; div < 4; div++){
                     let choiceDiv = document.createElement("div");
                     choiceDiv.innerHTML = "<div class='choices' onclick='set(" + choices[div]  + ");'>" + choices[div] + "</div>";
 
                     $("#cell_" + (div + 1)).append(choiceDiv);
                 }
-            }
         } else {
             $("#currQues").innerHTML = q_num + ". " + n1 + " " + action + " " + n2 + " = ?";
 
