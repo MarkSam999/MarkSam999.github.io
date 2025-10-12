@@ -57,6 +57,7 @@ function next(){
             $("#questions").append(choiceTable);
             
             for(let cell = 0; cell < 2; cell++){
+                
                 if(cell == 0){
                     $("#row_1").append(cellHTML);
                 } else {
