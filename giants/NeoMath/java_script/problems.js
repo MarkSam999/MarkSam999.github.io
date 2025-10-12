@@ -52,7 +52,7 @@ function start(level){
 function next(){
     gen();
 
-    if (q_num == max - 1){
+    if (q_num == max){
         $("#next").hide();
     } else {
         $("#currQues").text(q_num + ". " + n1 + " " + action + " " + n2 + " = ?");
