@@ -7,7 +7,9 @@ let max = 5;
 let points = 0;
 let q_num = 0;
 
-function 
+function gen(){
+    
+}
 
 function start(level){
     $("#play").hide();
