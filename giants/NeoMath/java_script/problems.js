@@ -49,10 +49,10 @@ function start(level){
 }
 
 function next(){
+    gen()
     if (q_num == max - 1){
         $("#next").hide();
     } else {
-        
         $("#currQues").text(q_num + ". " + n1 + " " + action + " " + n2 + " = ?");
 
         for(let cell = 0; cell < 4; cell++){
