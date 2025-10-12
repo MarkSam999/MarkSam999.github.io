@@ -42,7 +42,7 @@ function start(level){
     let random = Math.floor(Math.random() * 4);
     choices[random] = ca;
 
-    // Creating a question
+    // Creates a question template
     let question = document.createElement("h1");
             question.id = "currQues";
             question.innerHTML = q_num + ". " + n1 + " " + action + " " + n2 + " = ?";
