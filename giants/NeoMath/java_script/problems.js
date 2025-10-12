@@ -8,7 +8,7 @@ function globalValues(){
     let points = 0;
     let q_num = 0;
     let n1 = 0;
-    
+    let n2 = 0;
 }
 globalValues();
 
