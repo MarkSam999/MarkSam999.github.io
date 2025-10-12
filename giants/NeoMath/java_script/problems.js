@@ -44,9 +44,9 @@ function start(level){
 
     // Creates a question template
     let question = document.createElement("h1");
-            question.id = "currQues";
-            question.innerHTML = q_num + ". " + n1 + " " + action + " " + n2 + " = ?";
-            $("#questions").append(question);
+    question.id = "currQues";
+    question.innerHTML = q_num + ". " + n1 + " " + action + " " + n2 + " = ?";
+    $("#questions").append(question);
 
             let choiceTable = document.createElement("table");
             choiceTable.id = "table_" + q_num;
