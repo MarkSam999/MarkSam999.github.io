@@ -58,13 +58,10 @@ function next(){
             
             let d_num = 0;
             for(let r = 0; r < 2; r++){
-                
-
                 row = document.createElement("tr");
                 choiceTable.append(row);
                 for(let d = 0; d < 2; d++){
                     d_num += 1;
-
                     cell = document.createElement("td");
                     cell.id = "cell_" + d_num;
                     cell.className = 'choices';
