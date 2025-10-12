@@ -8,9 +8,7 @@ function globalValues(){
     let points = 0;
     let q_num = 0;
 }
-
-
-
+globalValues();
 
 function start(level){
     $("#play").hide();
