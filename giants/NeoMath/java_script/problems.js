@@ -25,11 +25,11 @@ function start(level){
     } else if(action == '-'){
         ca = n1 - n2;
         if (n2 > n1){
-                    res = n2;
-                    n2 = n1;
-                    n1 = res;
-                }
-            }
+            res = n2;
+            n2 = n1;
+            n1 = res;
+        }
+    }
 }
 
 function next(){
