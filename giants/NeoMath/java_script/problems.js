@@ -62,6 +62,7 @@ function next(){
                 row = document.createElement("tr");
                 choiceTable.append(row);
                 for(let d = 0; d < 2; d++){
+                    num += 1;
                     cell = document.createElement("td");
                     cell.id = "cell_" + d_num;
                     cell.onclick = set()
