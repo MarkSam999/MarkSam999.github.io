@@ -8,8 +8,8 @@ let q_num = 0;
 
 function start(level){
     $("#play").hide();
-    $("#finish").show();
     $("#next").show();
+    $("#finish").show();
 
     if(level == 1){
         actions = ['+', "-"];
