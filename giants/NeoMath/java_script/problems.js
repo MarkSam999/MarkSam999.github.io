@@ -17,7 +17,7 @@ function start(level){
     };
 
 
-    // Generating a problem
+    // Generates a problem
     q_num += 1;
     let n1 = 1 + Math.round(Math.random() * 9);
     let n2 = 1 + Math.round(Math.random() * 9);
@@ -42,7 +42,7 @@ function start(level){
     let random = Math.floor(Math.random() * 4);
     choices[random] = ca;
 
-    // 
+    // Creating a question
     let question = document.createElement("h1");
             question.id = "currQues";
             question.innerHTML = q_num + ". " + n1 + " " + action + " " + n2 + " = ?";
