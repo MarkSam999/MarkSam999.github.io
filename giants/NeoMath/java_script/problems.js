@@ -72,7 +72,7 @@ function next(){
                     $("#table_" + q_num).append(row);
                 }
 
-                if(cell == 2){
+                if(cell == 0){
                     $("#row_1").append(cellHTML);
                 } else {
                     $("#row_2").append(cellHTML);
