@@ -60,7 +60,7 @@ function next(){
                 row = document.createElement("tr");
                 choiceTable.append(row);
                 for(let d = 0; d < 2; d++){
-                    cell
+                    cell = 
                 }
             }
 
