@@ -12,6 +12,7 @@ function start(level){
     $("#next").show();
     $("#finish").show();
 
+    // Level 
     if(level == 1){
         actions = ['+', "-"];
     };
