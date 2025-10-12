@@ -1,7 +1,7 @@
 // Global values
 let ca = 0;
-    let yourAnswer = 0;
-    let actions = [];
+let actions = [];
+let yourAnswer = 0;
     let choices = [];
     let max = 5;
     let points = 0;
