@@ -78,7 +78,7 @@ function gen(){
             nx = n2;
             n2 = n1;
             n1 = nx;
-            
+            ca = n1 - n2;
         }
     }
 
