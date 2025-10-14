@@ -31,7 +31,7 @@ function start(level){
         div = document.createElement("div");
         div.id = "div_" + d;
         div.className = 'choices';
-        div.innerHTML = choices[d_num - 1];
+        div.innerHTML = choices[d];
         div.onclick = function(){set(choices[d_num - 1])};
 
         $("#questions").append(div);
