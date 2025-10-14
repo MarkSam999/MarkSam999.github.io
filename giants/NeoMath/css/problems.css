@@ -4,6 +4,6 @@
 
 .choices {
     border: 1px solid white; cursor: pointer;
-    text-align: center; align
+    text-align: center; align-items: end;
     font-size: 30px; height: 50px; width: 60px; 
 }
