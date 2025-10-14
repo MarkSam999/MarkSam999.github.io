@@ -5,5 +5,5 @@
 .choices {
     border: 1px solid white;
     text-align: center; cursor: pointer;
-    height: 15px; width: 25%;
+    height: 50px; width: 25%; 
 }
