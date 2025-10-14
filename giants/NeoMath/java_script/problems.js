@@ -32,7 +32,7 @@ function start(level){
         div.id = "div_" + d;
         div.className = 'choices';
         div.innerHTML = choices[d];
-        div.onclick = function(){set(choices[d_num - 1])};
+        div.onclick = function(){set(choices[d])};
 
         $("#questions").append(div);
     }
