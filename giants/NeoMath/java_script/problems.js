@@ -41,7 +41,7 @@ function start(level){
 function next(){
     gen();
 
-    if (q_num == max){
+    if(q_num == max){
         $("#next").hide();
     }
 
