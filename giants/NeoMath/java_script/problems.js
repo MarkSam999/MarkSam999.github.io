@@ -75,9 +75,9 @@ function gen(){
     } else if(action == '-'){
         ca = n1 - n2;
         if (n2 > n1){
-            res = n2;
+            nx = n2;
             n2 = n1;
-            n1 = res;
+            n1 = nx;
         }
     }
 
