@@ -26,25 +26,15 @@ function start(level){
     question.id = "currQues";
     question.innerHTML = q_num + ". " + n1 + " " + action + " " + n2 + " = ?";
     $("#questions").append(question);
-
-    let choiceTable = document.createElement("table");
-    choiceTable.id = "table_" + q_num;
-    $("#questions").append(choiceTable);
             
-    let d_num = 0;
-    for(let r = 0; r < 2; r++){
-        row = document.createElement("tr");
-        choiceTable.append(row);
-        for(let d = 0; d < 2; d++){
-            d_num += 1;
-            cell = document.createElement("td");
-            cell.id = "cell_" + d_num;
-            cell.className = 'choices';
-            cell.innerHTML = choices[d_num - 1];
-            cell.onclick = function(){set(choices[d_num - 1])};
+    for(let d = 0; d < 4; d++){
+        div = document.createElement("div");
+        div.id = "div_" + d;
+        div.className = 'choices';
+        div.innerHTML = choices[d_num - 1];
+        div.onclick = function(){set(choices[d_num - 1])};
 
-            row.append(cell);
-        }
+        $("#questions").append(div);
     }
 }
 
@@ -58,8 +48,8 @@ function next(){
     $("#currQues").text(q_num + ". " + n1 + " " + action + " " + n2 + " = ?");
 
     for(let cell = 0; cell < 4; cell++){
-        $("#cell_" + (cell + 1)).text(choices[cell]);
-        $("#cell_" + (cell + 1)).onclick = function(){set(choices[cell])};
+        $("#div_" + (cell + 1)).text(choices[cell]);
+        $("#div_" + (cell + 1)).onclick = function(){set(choices[cell])};
     }
 }
 
@@ -72,10 +62,6 @@ function set(value){
     } else {
         console.log("Incorrect!");
     };
-}
-
-function finish(){
-    console.log("You got " + points + " out of " + max + "!");
 }
 
 function gen(){
@@ -100,8 +86,12 @@ function gen(){
         choices.push(choice);
     }
 
-    let random = Math.floor(Math.random() * 4);
+    var random = Math.floor(Math.random() * 4);
     choices[random] = ca;
+}
+
+function finish(){
+    console.log("You got " + points + " out of " + max + "!");
 }
 
 function lvl2(){
