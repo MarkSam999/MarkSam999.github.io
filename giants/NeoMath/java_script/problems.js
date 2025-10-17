@@ -95,6 +95,12 @@ function finish(){
     console.log("You got " + points + " out of " + max + "!");
 }
 
+function replay(){
+    q_num = 0;
+    points = 0;
+    
+}
+
 function lvl2(){
     actions = ['*', '/']
 
