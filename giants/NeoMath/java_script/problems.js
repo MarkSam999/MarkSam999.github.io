@@ -92,7 +92,7 @@ function gen(){
 }
 
 function finish(){
-    console.log("You got " + points + " out of " + max + "!");
+    alert("You got " + points + " out of " + max + "!");
     $("#replay").show();
 }
 
