@@ -101,7 +101,7 @@ function replay(){
     q_num = 0;
     points = 0;
     $("#finish").hide();
-    $("#replay").hide()
+    $("#replay").hide();
     $("#next").show();
     next();
 }
