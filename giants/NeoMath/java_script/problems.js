@@ -8,7 +8,7 @@ let q_num = 0;
 let n1 = 0;
 let n2 = 0;
 let action = 0;
-let choices = [];
+let choices = [0, 0, 0, 0];
 
 function start(level){
     $("#play").hide();
