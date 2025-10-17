@@ -93,12 +93,13 @@ function gen(){
 
 function finish(){
     console.log("You got " + points + " out of " + max + "!");
-    C
+    $("#replay").show();
 }
 
 function replay(){
     q_num = 0;
     points = 0;
+    $("#finish").hide();
     $("#next").show();
     next();
 }
