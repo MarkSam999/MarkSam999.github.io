@@ -39,6 +39,7 @@ function start(level){
 }
 
 function next(){
+    $("#finish").show();
     gen();
 
     if(q_num == max){
