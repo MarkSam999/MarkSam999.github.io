@@ -98,6 +98,7 @@ function finish(){
 function replay(){
     q_num = 0;
     points = 0;
+    
     next();
 }
 
