@@ -39,7 +39,6 @@ function start(level){
 }
 
 function next(){
-    $("#finish").show();
     gen();
 
     if(q_num == max){
@@ -100,7 +99,6 @@ function finish(){
 function replay(){
     q_num = 0;
     points = 0;
-    $("#finish").hide();
     $("#replay").hide();
     $("#next").show();
     next();
