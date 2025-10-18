@@ -4,4 +4,4 @@ Currently, this website has 4 pages. The first one is "Home" page. To be honest,
 
 The second one is "About" page - also blank, but I am going to add some information in the future. 
 
-And the "Practice" page - it has links to a several lessons and levels. Now, only one level
+And the "Practice" page - it has links to a several lessons and levels. Now, only one level is available. However, this level already 
