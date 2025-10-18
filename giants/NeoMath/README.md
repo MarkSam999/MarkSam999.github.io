@@ -1,1 +1,1 @@
-This is my favorite project, because I like math. Currently, this website has 4 pages. The first one is ""
+This is my favorite project, because I like math. Currently, this website has 4 pages. The first one is "Home" page. 
