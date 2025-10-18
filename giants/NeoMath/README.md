@@ -1,1 +1,1 @@
-This is my favorite project, because I like math. Currently, this website has 4 pages. The first one is "Home" page. To be honest, it only has some text, like ""
+This is my favorite project, because I like math. Currently, this website has 4 pages. The first one is "Home" page. To be honest, it only has some text, like "welcome to neomath"
