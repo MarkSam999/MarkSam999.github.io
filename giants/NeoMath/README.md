@@ -1,1 +1,1 @@
-This is my favorite project
+This is my favorite project, because
