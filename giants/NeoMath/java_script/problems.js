@@ -24,11 +24,11 @@ function start(level){
     let question = document.createElement("h1");
     question.id = "currQues";
     if(action == "^"){
-        question.innerHTML = q_num + ". "  + n1 + "<sup> 2</sup>" + " = ?");
+        question.innerHTML = q_num + ". "  + n1 + "<sup> 2</sup>" + " = ?";
     } else if(action == "√"){
-        question.innerHTML = q_num + ". "  + " √" + n1 + " = ?");
+        question.innerHTML = q_num + ". "  + " √" + n1 + " = ?";
     } else {
-        question.innerHTML = q_num + ". " + n1 + " " + action + " " + n2 + " = ?");
+        question.innerHTML = q_num + ". " + n1 + " " + action + " " + n2 + " = ?";
     }
     $("#questions").append(question);
             
