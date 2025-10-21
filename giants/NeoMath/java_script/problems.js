@@ -315,6 +315,7 @@ function lvl5(){
 
 // Global values
 let actions = [];
+
 let ca = 0;
 
 let yourAnswer = 0;
