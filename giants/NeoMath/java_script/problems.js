@@ -96,7 +96,7 @@ function gen(){
         }
     } else if(action == "^"){
         ca = n1 ** 2;
-        $("#currQues").text(q_num + ". "  + n1 + "<sup> 2</sup>" + " = ?");
+        $("#currQues").html(q_num + ". "  + n1 + "<sup> 2</sup>" + " = ?");
     } else if(action == "√"){
         ca = 1 + Math.floor(Math.random() * 9);
         n1 = ca ** 2;
