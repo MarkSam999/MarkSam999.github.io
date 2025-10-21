@@ -13,7 +13,7 @@ function start(level){
     } else if(level == 3){
         actions = ["+", "-", "*", "/"];
     } else if(level == 4){
-        actions = ["^", "root"];
+        actions = ["^", "√"];
     } else if(level == 5){
         actions = ["%"];
     };
