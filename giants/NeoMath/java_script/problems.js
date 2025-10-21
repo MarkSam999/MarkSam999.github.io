@@ -23,7 +23,6 @@ function start(level){
     // Creates a question template
     let question = document.createElement("h1");
     question.id = "currQues";
-    question.innerHTML = txt;
     $("#questions").append(question);
             
     for(let d = 0; d < 4; d++){
