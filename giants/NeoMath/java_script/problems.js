@@ -313,7 +313,7 @@ function lvl5(){
     }
 }
 
-// Global values
+// Global values in alphabetical order
 let actions = [];
 let action = 0;
 let ca = 0;
