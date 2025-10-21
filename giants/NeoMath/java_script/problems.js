@@ -88,7 +88,9 @@ function gen(){
             n1 = nx;
             ca = n1 - n2;
         }
-    } else if(action == "*")
+    } else if(action == "*"){
+        
+    }
 
     for(let ch = 0; ch < 4; ch++){
         let choice = Math.round(ca + 1 + Math.random() * 4) || Math.round(ca - 1 - Math.random() * 4);
