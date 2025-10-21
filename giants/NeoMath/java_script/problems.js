@@ -69,7 +69,7 @@ function next(){
     }
 }
 
-// Records an answer chosen by a player
+// Sets an answer chosen by a player
 function set(value){
     yourAnswer = value;
     
