@@ -4,7 +4,7 @@ let scriptList = [];
 
 /* Adds links to the lessons for the course.html page */
 function appendCourse(){
-    let course = ["Addition", "Subtraction", "Multiplication", "Division"];
+    let courses = ["Addition", "Subtraction", "Multiplication", "Division"];
 
     for(let lsn = 0; lsn < courses.length; lsn++){
         let lessonLink = document.createElement("a");
