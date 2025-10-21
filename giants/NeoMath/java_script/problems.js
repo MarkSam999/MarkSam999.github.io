@@ -17,13 +17,13 @@ function start(level){
 
     if(level == 1){
         actions = ['+', "-"];
-    } else if {
-
-    } else if(level == 3){
+    } else if (){
 
     } else if(level == 3){
 
     } else if(level == 4){
+
+    } else if(level == 5){
 
     };
 
