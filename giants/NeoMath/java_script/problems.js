@@ -28,10 +28,8 @@ function start(level){
     } else if(action == "√"){
         question.innerHTML = q_num + ". "  + " √" + n1 + " = ?";
     } else if {
-        
-    }
-    
-    else {
+
+    } else {
         question.innerHTML = q_num + ". " + n1 + " " + action + " " + n2 + " = ?";
     }
     $("#questions").append(question);
