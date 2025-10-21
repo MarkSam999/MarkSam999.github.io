@@ -45,7 +45,7 @@ function next(){
         $("#next").hide();
     }
 
-    
+    if(action == "")
     $("#currQues").text(q_num + ". " + n1 + " " + action + " " + n2 + " = ?");
 
     for(let div = 0; div < 4; div++){
