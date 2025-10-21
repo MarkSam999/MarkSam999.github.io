@@ -103,7 +103,6 @@ function gen(){
         txt = q_num + ". "  + " √" + n1 + " = ?";
     } else if(action == "%"){
         perc = 5 * (1 + Math.round(Math.random() * 19));
-
         ca = Math.round(n1 / 10 * perc) / 10;
     };
 
