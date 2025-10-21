@@ -19,12 +19,12 @@ function start(level){
         actions = ['+', "-"];
     } else if {
 
-    }{
+    } else if(){
 
-    }{
+    } else if(){
 
-    }{
-        
+    } else if(){
+
     };
 
     gen();
