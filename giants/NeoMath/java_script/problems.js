@@ -10,7 +10,7 @@ let n2 = 0;
 let action = 0;
 let choices = [0, 0, 0, 0];
 
-// Creates 
+// Creates the elements for the quiz
 function start(level){
     $("#play").hide();
     $("#next").show();
