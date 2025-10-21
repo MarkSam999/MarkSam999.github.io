@@ -11,6 +11,7 @@ function start(level){
     } else if (level == 2){
         actions = ["*", "/"];
     } else if(level == 3){
+        
         actions = ["^", "root"];
     } else if(level == 4){
         actions = ["+", "-", "*", "/"];
