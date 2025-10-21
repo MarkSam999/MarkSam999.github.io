@@ -72,10 +72,10 @@ header {
 }
 
 .lessons:hover, .levels:hover {
-  text-shadow:0 0 5px gold, 
-  0 0 15px gold, 
-  0 0 25px gold,
-  0 0 35px gold,
-  0 0 45px gold;
+  text-shadow:0 0 5px levels, 
+  0 0 15px levels, 
+  0 0 25px levels,
+  0 0 35px levels,
+  0 0 45px levels;
   transition: 0.5s;
 }
