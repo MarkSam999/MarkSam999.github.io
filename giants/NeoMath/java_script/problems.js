@@ -19,11 +19,11 @@ function start(level){
         actions = ['+', "-"];
     } else if {
 
-    } else if(){
+    } else if(level == 2){
 
-    } else if(){
+    } else if(level == 3){
 
-    } else if(){
+    } else if(level == ){
 
     };
 
