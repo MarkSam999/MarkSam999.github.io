@@ -102,7 +102,6 @@ function gen(){
         }
     } else if(action == "^"){
         ca = n1 ** 2;
-        txt = q_num + ". "  + n1 + "<sup> 2</sup>" + " = ?";
     } else if(action == "√"){
         ca = 1 + Math.floor(Math.random() * 9);
         n1 = ca ** 2;
