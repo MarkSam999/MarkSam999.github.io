@@ -75,7 +75,7 @@ function set(value){
     };
 }
 
-// Generates 
+// Generates the 
 function gen(){
     q_num += 1;
     n1 = 1 + Math.round(Math.random() * 9);
