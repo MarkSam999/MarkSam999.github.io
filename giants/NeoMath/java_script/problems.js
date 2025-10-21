@@ -46,7 +46,7 @@ function next(){
     }
 
     if(action == "^"){
-        $("#currQues").text
+        $("#currQues").text();
     }
     $("#currQues").text(q_num + ". " + n1 + " " + action + " " + n2 + " = ?");
 
