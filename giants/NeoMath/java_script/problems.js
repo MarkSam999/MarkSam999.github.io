@@ -20,7 +20,7 @@ function start(level){
     } else if (level == 2){
         actions = ["*", "/"];
     } else if(level == 3){
-        actions = [];
+        actions = [""];
     } else if(level == 4){
         actions = [];
     } else if(level == 5){
