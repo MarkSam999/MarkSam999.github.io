@@ -129,7 +129,7 @@ function gen(){
     choices[random] = ca;
 }
 
-// 
+// Shows how many points has a player 
 function finish(){
     alert("You got " + points + " out of " + max + "!");
     $("#replay").show();
