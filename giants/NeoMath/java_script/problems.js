@@ -23,6 +23,13 @@ function start(level){
     // Creates a question template
     let question = document.createElement("h1");
     question.id = "currQues";
+    if(action == "^"){
+        $("#currQues").html(q_num + ". "  + n1 + "<sup> 2</sup>" + " = ?");
+    } else if(action == "√"){
+        $("#currQues").html(q_num + ". "  + " √" + n1 + " = ?");
+    } else {
+        $("#currQues").text(q_num + ". " + n1 + " " + action + " " + n2 + " = ?");
+    }
     $("#questions").append(question);
             
     for(let d = 0; d < 4; d++){
