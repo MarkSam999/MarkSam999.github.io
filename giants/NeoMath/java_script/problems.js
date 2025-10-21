@@ -16,7 +16,7 @@ function start(level){
     $("#finish").show();
 
 
-    // 
+    // Chooses the 
     if(level == 1){
         actions = ['+', "-"];
     } else if (level == 2){
