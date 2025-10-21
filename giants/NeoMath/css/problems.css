@@ -14,16 +14,16 @@
 }
 
 .choices:hover {
-    text-shadow:0 0 5px lightblue, 
-    0 0 15px lightblue, 
-    0 0 25px lightblue,
-    0 0 35px lightblue,
-    0 0 45px lightblue;
+    text-shadow:0 0 5px white, 
+    0 0 15px white, 
+    0 0 25px white,
+    0 0 35px white,
+    0 0 45px white;
     transition: 0.5s;
 }
 
 .choices:active {
-    text-shadow:0 0 5px lightblue, 
-    0 0 15px lightblue;
+    text-shadow:0 0 5px white, 
+    0 0 15px white;
     transition: 0.5s;
 }
