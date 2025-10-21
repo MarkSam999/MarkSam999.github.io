@@ -56,8 +56,10 @@ function appendHTML(path){
     for(let l = 0; l < linkList.length; l++){
         let link = document.createElement("a");
         link.className = "header_links";
-        if(path == undefined)
-        link.href = path + linkList[l] + ".html";
+        if(path == undefined){
+            link.href = path + linkList[l] + ".html";
+        }
+        
 
         let linkLogo = document.createElement("div");
         linkLogo.className = "header_signs";
