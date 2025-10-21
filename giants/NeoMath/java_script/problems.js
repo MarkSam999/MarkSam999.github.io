@@ -22,8 +22,10 @@ function start(level){
     }{
 
     }{
+
+    }{
         
-    }{};
+    };
 
     gen();
 
