@@ -1,4 +1,4 @@
-// Starts the quiz
+// Starts the game
 function start(level){
     $("#play").hide();
     $("#next").show();
