@@ -75,7 +75,7 @@ function set(value){
     };
 }
 
-// Generates the 
+// Generates the question and the available choices
 function gen(){
     q_num += 1;
     n1 = 1 + Math.round(Math.random() * 9);
