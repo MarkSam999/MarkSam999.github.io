@@ -1,4 +1,4 @@
-
+// Imitates the loading process
 setTimeout(() => {
     document.getElementById("loader").style.display = 'none';
     document.body.style.visibility = 'visible';
