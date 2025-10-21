@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!--Icon-->
+            <link rel="icon" href="../../media/images/icon.PNG">
+        <!--jQuery-->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>     
+        <!--Parent Script-->
+            <script src="../../java_script/append.js"></script>
+        <!--CSS & JS-->
+            <script>
+                appendCSS("../../");
+                appendJS("../../");
+            </script>
+    </head>
+    <body>
+        <!--Parent Template-->
+        <script>
+            appendHTML("../");
+        </script>
+        <div class="wrapper">
+        <main>
+            <title>Level 1</title>
+            <button id="play" onclick="start(3);">Play</button>
+            <div id="questions">
+
+            </div>
+
+            <button id="next" onclick="next();">Next</button>
+            <button id="finish" onclick="finish();">Finish</button>
+            <button id="replay" onclick="replay();">Play Again</button>
+        </main>
+        </div>
+    </body>
+</html>
