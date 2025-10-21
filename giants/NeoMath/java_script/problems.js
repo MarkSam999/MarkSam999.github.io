@@ -92,14 +92,14 @@ function gen(){
         ca = n1 * n2;
     } else if(action == "/"){
         n1 = n2 * (1 + Math.round(Math.random() * 9));
-            ca = n1 / n2;
-            if (n2 < 2){
-                n2 += 1;
-            } else if (n2 > n1){
-                res = n2;
-                n2 = n1;
-                n1 = res;
-            }
+        ca = n1 / n2;
+        if (n2 < 2){
+            n2 += 1;
+        } else if (n2 > n1){
+            res = n2;
+            n2 = n1;
+            n1 = res;
+        }
     }
 
     for(let ch = 0; ch < 4; ch++){
