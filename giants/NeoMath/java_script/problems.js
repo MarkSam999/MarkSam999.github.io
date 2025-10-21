@@ -18,11 +18,11 @@ function start(level){
     if(level == 1){
         actions = ['+', "-"];
     } else if (level == 2){
-
+actions = [];
     } else if(level == 3){
-
+actions = [];
     } else if(level == 4){
-
+actions = [];
     } else if(level == 5){
 
     };
