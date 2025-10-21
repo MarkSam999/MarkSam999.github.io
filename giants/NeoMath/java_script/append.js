@@ -9,7 +9,7 @@ function appendCourse(){
     for(let lsn = 0; lsn < courses.length; lsn++){
         let lessonLink = document.createElement("a");
         lessonLink.className = "lessons";
-        lessonLink.innerHTML = "Lesson " + (lsn + 1) + ": " + course[lsn];
+        lessonLink.innerHTML = "Lesson " + (lsn + 1) + ": " + courses[lsn];
 
         $("main").append(lessonLink);
     }
