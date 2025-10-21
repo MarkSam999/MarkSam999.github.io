@@ -114,7 +114,7 @@ function gen(){
         n1 = ca ** 2;
         txt = q_num + ". "  + " √" + n1 + " = ?";
     } else if(action == "%"){
-        let perc = 5 * (1 + Math.round(Math.random() * 19));
+        perc = 5 * (1 + Math.round(Math.random() * 19));
 
         ca = Math.round(n1 / 10 * perc) / 10;
     };
