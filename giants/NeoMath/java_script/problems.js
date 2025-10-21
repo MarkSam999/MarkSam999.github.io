@@ -89,7 +89,7 @@ function gen(){
             ca = n1 - n2;
         }
     } else if(action == "*"){
-        
+        ca = n1 * n2;
     }
 
     for(let ch = 0; ch < 4; ch++){
