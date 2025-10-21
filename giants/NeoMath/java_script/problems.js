@@ -28,7 +28,7 @@ function start(level){
     } else if(action == "√"){
         question.innerHTML = q_num + ". "  + " √" + n1 + " = ?";
     } else if (action == "%"){
-        question.innerHTML
+        question.innerHTML = q_num + ". " + n1 + " → " + perc + "% = ?";
     } else {
         question.innerHTML = q_num + ". " + n1 + " " + action + " " + n2 + " = ?";
     }
