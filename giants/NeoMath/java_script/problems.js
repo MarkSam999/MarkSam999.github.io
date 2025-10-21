@@ -53,7 +53,6 @@ function next(){
         $("#currQues").text(q_num + ". " + n1 + " " + action + " " + n2 + " = ?");
     }
     
-
     for(let div = 0; div < 4; div++){
         $("#div_" + div).text(choices[div]);
         $("#div_" + div).onclick = function(){set(choices[div])};
