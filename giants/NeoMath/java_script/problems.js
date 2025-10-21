@@ -83,6 +83,7 @@ function gen(){
             n1 = nx;
             ca = n1 - n2;
         }
+        txt = q_num + ". " + n1 + " " + action + " " + n2 + " = ?";
     } else if(action == "*"){
         ca = n1 * n2;
     } else if(action == "/"){
