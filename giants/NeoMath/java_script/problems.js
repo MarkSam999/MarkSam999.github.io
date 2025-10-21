@@ -17,7 +17,7 @@ function start(level){
 
     if(level == 1){
         actions = ['+', "-"];
-    } else if (){
+    } else if (level == 2){
 
     } else if(level == 3){
 
