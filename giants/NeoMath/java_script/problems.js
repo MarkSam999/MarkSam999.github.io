@@ -50,9 +50,9 @@ function next(){
     } else if(action == "/"){
         $("#currQues").html(q_num + ". "  + n1 + "<sup> 2</sup>" + " = ?");
     } else {
-
+        $("#currQues").text(q_num + ". " + n1 + " " + action + " " + n2 + " = ?");
     }
-    $("#currQues").text(q_num + ". " + n1 + " " + action + " " + n2 + " = ?");
+    
 
     for(let div = 0; div < 4; div++){
         $("#div_" + div).text(choices[div]);
