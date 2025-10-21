@@ -20,7 +20,7 @@ function appendPractice(){
     for(let lvl = 0; lvl < 5; lvl++){
         let levelLink = document.createElement("a");
         levelLink.className = "levels";
-        levelLink.href = "education/level_" + (lvl + 1) + ".html";
+        levelLink.href = "practice/level_" + (lvl + 1) + ".html";
         levelLink.innerHTML = "Level " + (lvl + 1);
 
         $("main").append(levelLink);
