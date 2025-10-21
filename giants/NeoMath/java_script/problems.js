@@ -6,6 +6,7 @@ let max = 5;
 let points = 0;
 let q_num = 0;
 let n1 = 0;
+let perc = 0;
 let n2 = 0;
 let action = 0;
 let choices = [0, 0, 0, 0];
