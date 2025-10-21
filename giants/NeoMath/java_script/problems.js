@@ -58,7 +58,7 @@ function next(){
     } else if(action == "√"){
         $("#currQues").html(q_num + ". "  + " √" + n1 + " = ?");
     } else if(action == "%"){
-        $("")
+        $("#currQues").
     } else {
         $("#currQues").text(q_num + ". " + n1 + " " + action + " " + n2 + " = ?");
     }
