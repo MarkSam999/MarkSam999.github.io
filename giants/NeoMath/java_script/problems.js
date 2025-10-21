@@ -65,6 +65,7 @@ function next(){
     }
 }
 
+// 
 function set(value){
     yourAnswer = value;
     
