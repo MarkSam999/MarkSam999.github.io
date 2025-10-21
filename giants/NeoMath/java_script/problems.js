@@ -135,7 +135,7 @@ function finish(){
     $("#replay").show();
 }
 
-// 
+// Launches the game straight from the beginning
 function replay(){
     q_num = 0;
     points = 0;
