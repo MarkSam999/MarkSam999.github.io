@@ -65,7 +65,7 @@ function next(){
     }
 }
 
-// Records the 
+// Records an answer chosen by a player
 function set(value){
     yourAnswer = value;
     
