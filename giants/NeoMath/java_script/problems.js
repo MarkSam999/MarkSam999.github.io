@@ -65,7 +65,7 @@ function next(){
     }
 }
 
-// 
+// Records the 
 function set(value){
     yourAnswer = value;
     
