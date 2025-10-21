@@ -23,7 +23,7 @@ function start(level){
 
     } else if(level == 3){
 
-    } else if(level == ){
+    } else if(level == 4){
 
     };
 
