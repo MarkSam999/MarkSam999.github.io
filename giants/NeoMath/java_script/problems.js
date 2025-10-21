@@ -101,7 +101,8 @@ function gen(){
             n1 = res;
         }
     } else if(action == "^"){
-
+        ca = n1 ** 2;
+            txt = q_num + ". "  + n1 + "<sup> 2</sup>" + " = ?";
     } else if(action == "root"){
 
     } else if(action == "%"){
