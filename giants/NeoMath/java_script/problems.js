@@ -49,7 +49,7 @@ function start(level){
     }
 }
 
-// Replaces the innerHTML 
+// Replaces the innerHTML of the 
 function next(){
     gen();
 
