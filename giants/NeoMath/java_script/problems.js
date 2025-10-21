@@ -24,7 +24,7 @@ function start(level){
     } else if(level == 4){
         actions = [""];
     } else if(level == 5){
-        actions = ""
+        actions = [""]
     };
 
     gen();
