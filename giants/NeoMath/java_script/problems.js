@@ -324,4 +324,5 @@ let n2 = 0;
 let perc = 0;
 let points = 0;
 let q_num = 0;
+
 let yourAnswer = 0;
