@@ -135,6 +135,7 @@ function finish(){
     $("#replay").show();
 }
 
+// 
 function replay(){
     q_num = 0;
     points = 0;
