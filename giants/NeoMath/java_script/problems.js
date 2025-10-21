@@ -84,6 +84,7 @@ function gen(){
     n2 = 1 + Math.round(Math.random() * 9);
     action = actions[Math.round(Math.random() * (actions.length - 1))];
 
+    
     if(action == '+'){
         ca = n1 + n2;
     } else if(action == '-'){
