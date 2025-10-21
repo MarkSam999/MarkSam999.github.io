@@ -10,6 +10,7 @@ let n2 = 0;
 let action = 0;
 let choices = [0, 0, 0, 0];
 
+// Creates 
 function start(level){
     $("#play").hide();
     $("#next").show();
