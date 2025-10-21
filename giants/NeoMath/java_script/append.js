@@ -59,10 +59,9 @@ function appendHTML(path){
         if(path == undefined){
             link.href = linkList[l] + ".html";
         } else {
-            link.href = linkList[l] + ".html";
+            link.href = path + linkList[l] + ".html";
         }
         
-
         let linkLogo = document.createElement("div");
         linkLogo.className = "header_signs";
         linkLogo.id = linkList[l];
