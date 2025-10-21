@@ -49,6 +49,7 @@ function start(level){
     }
 }
 
+// Replaces
 function next(){
     gen();
 
