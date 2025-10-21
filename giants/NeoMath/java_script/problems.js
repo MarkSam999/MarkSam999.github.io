@@ -47,7 +47,7 @@ function next(){
 
     if(action == "^"){
         $("#currQues").html(q_num + ". "  + n1 + "<sup> 2</sup>" + " = ?");
-    } else if()
+    } else if(action == "/")
     $("#currQues").text(q_num + ". " + n1 + " " + action + " " + n2 + " = ?");
 
     for(let div = 0; div < 4; div++){
