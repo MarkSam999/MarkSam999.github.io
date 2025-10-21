@@ -144,7 +144,7 @@ function replay(){
     next();
 }
 
-// Global values in alphabetical order made 
+// Global values in alphabetical order 
 let actions = [];
 let action = 0;
 let ca = 0;
