@@ -17,7 +17,8 @@ function start(level){
 
     if(level == 1){
         actions = ['+', "-"];
-    }{}{}{}{};
+    } else if 
+    {}{}{}{};
 
     gen();
 
