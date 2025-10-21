@@ -27,7 +27,11 @@ function start(level){
         question.innerHTML = q_num + ". "  + n1 + "<sup> 2</sup>" + " = ?";
     } else if(action == "√"){
         question.innerHTML = q_num + ". "  + " √" + n1 + " = ?";
-    } else if {}else {
+    } else if {
+        
+    }
+    
+    else {
         question.innerHTML = q_num + ". " + n1 + " " + action + " " + n2 + " = ?";
     }
     $("#questions").append(question);
