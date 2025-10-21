@@ -57,7 +57,9 @@ function appendHTML(path){
         let link = document.createElement("a");
         link.className = "header_links";
         if(path == undefined){
-            link.href = path + linkList[l] + ".html";
+            link.href = linkList[l] + ".html";
+        } else {
+            link.href = linkList[l] + ".html";
         }
         
 
