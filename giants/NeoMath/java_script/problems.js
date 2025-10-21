@@ -105,7 +105,6 @@ function gen(){
     } else if(action == "√"){
         ca = 1 + Math.floor(Math.random() * 9);
         n1 = ca ** 2;
-        txt = q_num + ". "  + " √" + n1 + " = ?";
     } else if(action == "%"){
         perc = 5 * (1 + Math.round(Math.random() * 19));
         ca = Math.round(n1 / 10 * perc) / 10;
