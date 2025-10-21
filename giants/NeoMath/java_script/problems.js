@@ -57,7 +57,9 @@ function next(){
         $("#currQues").html(q_num + ". "  + n1 + "<sup> 2</sup>" + " = ?");
     } else if(action == "√"){
         $("#currQues").html(q_num + ". "  + " √" + n1 + " = ?");
-    } else {
+    } else if(){
+        
+    }else {
         $("#currQues").text(q_num + ". " + n1 + " " + action + " " + n2 + " = ?");
     }
     
