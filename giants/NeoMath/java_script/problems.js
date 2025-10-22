@@ -156,6 +156,8 @@ function timer(){
     }, 1000);
     if(seconds == 0){
         console.log("The time is over!")
+    } else {
+        timer();
     }
 };
 
