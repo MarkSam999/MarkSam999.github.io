@@ -132,7 +132,7 @@ function gen(){
 
     setTimeout(() => {
 
-    });
+    }, 1000);
 }
 
 // Shows how many points did a player get and gives an opportunity to play again
