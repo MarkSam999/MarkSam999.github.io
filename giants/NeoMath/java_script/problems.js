@@ -151,8 +151,8 @@ function replay(){
 // Launches the timer
 function timer(){
     setInterval(function(){
-        seconds,
-    });
+        seconds -= 1;
+    }, 1000);
 };
 
 // Global values in alphabetical order
