@@ -146,7 +146,7 @@ function replay(){
     next();
 }
 
-
+// Launches the timer
 function timer(){
     setTimeout(() => {
         seconds -= 1;
