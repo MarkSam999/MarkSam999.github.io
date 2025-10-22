@@ -7,7 +7,7 @@
 }
 
 #timebar {
-    display: flex; justify-content: center;
+    display: flex; text-align: left;
     width: 80%; height: 10px;
     border: solid 4px white; border-radius: 10px;
 }
