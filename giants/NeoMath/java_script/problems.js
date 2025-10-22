@@ -150,7 +150,7 @@ function replay(){
 
 // Launches the timer
 function timer(){
-    setInterval(function(){
+    let setInterval(function(){
         seconds -= 1;
         console.log(seconds);
         if(seconds == 0){
