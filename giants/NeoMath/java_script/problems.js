@@ -152,6 +152,7 @@ function replay(){
 function timer(){
     setInterval(function(){
         seconds -= 1;
+        console.log(seconds);
     }, 1000);
 };
 
