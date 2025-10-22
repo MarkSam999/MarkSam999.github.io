@@ -7,7 +7,8 @@
 }
 
 #timebar {
-    justify-content: ;
+    display: flex;
+    justify-content: center;
 }
 
 .choices {
