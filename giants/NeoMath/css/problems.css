@@ -9,7 +9,7 @@
 #timebar {
     display: flex; width: 80%; 
     justify-content: center;
-    border: solid 4px white; border-radius: 
+    border: solid 4px white; border-radius: 10px;
 }
 
 .choices {
