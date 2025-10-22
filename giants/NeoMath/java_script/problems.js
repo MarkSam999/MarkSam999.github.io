@@ -84,7 +84,7 @@ function set(value){
 // Generates the question and the available choices
 function gen(){
     q_num += 1;
-    
+    seconds = 30;
     n1 = 1 + Math.round(Math.random() * 9);
     n2 = 1 + Math.round(Math.random() * 9);
     action = actions[Math.round(Math.random() * (actions.length - 1))];
