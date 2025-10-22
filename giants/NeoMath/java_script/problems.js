@@ -146,6 +146,11 @@ function replay(){
     next();
 }
 
+setTimeout(() => {
+        seconds -= 1;
+        console.log(seconds);
+    }, 1000);
+
 // Global values in alphabetical order
 let actions = [];
 let action = 0;
