@@ -131,7 +131,8 @@ function gen(){
     choices[random] = ca;
 
     setTimeout(() => {
-
+        seconds -= 1;
+        
     }, 1000);
 }
 
