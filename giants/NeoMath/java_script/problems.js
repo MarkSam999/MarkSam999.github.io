@@ -131,13 +131,13 @@ function gen(){
     choices[random] = ca;
 
     timer();
-}
+};
 
 // Shows how many points did a player get and gives an opportunity to play again
 function finish(){
     alert("You got " + points + " out of " + max + "!");
     $("#replay").show();
-}
+};
 
 // Launches the game straight from the beginning
 function replay(){
@@ -146,7 +146,7 @@ function replay(){
     $("#replay").hide();
     $("#next").show();
     next();
-}
+};
 
 // Launches the timer
 function timer(){
@@ -155,8 +155,8 @@ function timer(){
             seconds -= 1;
             console.log(seconds);
         }, 1000);
-    }
-}
+    };
+};
 
 // Global values in alphabetical order
 let actions = [];
