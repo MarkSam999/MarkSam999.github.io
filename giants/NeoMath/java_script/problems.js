@@ -150,10 +150,10 @@ function replay(){
 
 // Launches the timer
 function timer(){
-        setTimeout(() => {
-            seconds -= 1;
-            console.log(seconds);
-        }, 1000);
+    setTimeout(() => {
+        seconds -= 1;
+        console.log(seconds);
+    }, 1000);
 };
 
 // Global values in alphabetical order
