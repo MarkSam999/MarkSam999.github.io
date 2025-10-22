@@ -155,12 +155,6 @@ function timer(){
         console.log(seconds);
         clearInterval
     }, 1000);
-
-    if(seconds == 0){
-        console.log("The time is over!");
-    } else {
-        tim
-    }
 };
 
 // Global values in alphabetical order
