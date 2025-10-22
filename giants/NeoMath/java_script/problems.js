@@ -157,7 +157,7 @@ function timer(){
     if(seconds == 0){
         console.log("The time is over!");
     } else {
-        timer();
+        res
     }
 };
 
