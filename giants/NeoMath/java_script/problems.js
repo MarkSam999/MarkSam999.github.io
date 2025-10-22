@@ -111,7 +111,7 @@ function gen(){
             res = n2;
             n2 = n1;
             n1 = res;
-        }
+        };
     } else if(action == "^"){
         ca = n1 ** 2;
     } else if(action == "√"){
@@ -125,7 +125,7 @@ function gen(){
     for(let ch = 0; ch < 4; ch++){
         let choice = Math.round(ca + 1 + Math.random() * 4) || Math.round(ca - 1 - Math.random() * 4);
         choices[ch] = choice;
-    }
+    };
 
     var random = Math.floor(Math.random() * 4);
     choices[random] = ca;
