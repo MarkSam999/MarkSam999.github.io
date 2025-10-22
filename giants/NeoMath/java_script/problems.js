@@ -155,6 +155,7 @@ function timer(){
         console.log(seconds);
         if(seconds == 0){
             clearInterval(time);
+            
         }
     }, 1000);
 };
