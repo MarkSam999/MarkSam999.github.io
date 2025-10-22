@@ -148,7 +148,7 @@ function replay(){
 
 // Launches the timer
 function timer(){
-    for (let )
+    for (let sec = 0; sec < )
     setTimeout(() => {
         seconds -= 1;
         console.log(seconds);
