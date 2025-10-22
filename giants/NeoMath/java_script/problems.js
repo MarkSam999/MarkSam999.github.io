@@ -153,8 +153,9 @@ function timer(){
     setTimeout(() => {
         seconds -= 1;
         console.log(seconds);
+        
     }, 1000);
-    
+
     if(seconds == 0){
         console.log("The time is over!");
     } else {
