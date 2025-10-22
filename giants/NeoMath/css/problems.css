@@ -12,7 +12,9 @@
     border: solid 4px white; border-radius: 10px;
 }
 
-
+#time {
+    
+}
 
 .choices {
     border: 2px solid white; transition: 0.5s;
