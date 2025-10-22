@@ -153,7 +153,9 @@ function timer(){
     setInterval(function(){
         seconds -= 1;
         console.log(seconds);
-        if(seconds == 0)
+        if(seconds == 0){
+            clearInterval();
+        }
     }, 1000);
 };
 
