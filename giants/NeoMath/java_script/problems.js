@@ -153,7 +153,7 @@ function replay(){
 function timer(){
     let time = setInterval(function(){
         seconds -= 1;
-        
+        $("#time")
         console.log(seconds);
         if(seconds == 0){
             clearInterval(time);
