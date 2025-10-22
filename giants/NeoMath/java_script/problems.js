@@ -129,8 +129,6 @@ function gen(){
 
     var random = Math.floor(Math.random() * 4);
     choices[random] = ca;
-
-    
 }
 
 // Shows how many points did a player get and gives an opportunity to play again
