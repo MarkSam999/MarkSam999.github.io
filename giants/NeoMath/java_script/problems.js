@@ -3,6 +3,7 @@ function start(level){
     $("#play").hide();
     $("#next").show();
     $("#finish").show();
+    $("")
 
 
     // Chooses the possible actions based on the chosen level
