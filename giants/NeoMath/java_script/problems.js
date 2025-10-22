@@ -154,9 +154,8 @@ function timer(){
         setTimeout(() => {
         seconds -= 1;
         console.log(seconds);
-    }, 1000);
+        }, 1000);
     }
-    
 }
 
 // Global values in alphabetical order
