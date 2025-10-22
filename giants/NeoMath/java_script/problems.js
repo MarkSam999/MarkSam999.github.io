@@ -132,7 +132,7 @@ function gen(){
 
     setTimeout(() => {
         seconds -= 1;
-        console.log()
+        console.log(seconds);
     }, 1000);
 }
 
