@@ -146,6 +146,7 @@ function replay(){
     next();
 }
 
+function timer()
 setTimeout(() => {
         seconds -= 1;
         console.log(seconds);
