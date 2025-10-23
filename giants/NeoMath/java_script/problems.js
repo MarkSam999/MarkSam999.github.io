@@ -75,6 +75,8 @@ function set(value){
 
     $(".choices").click(function(){});
     $(".choices").css("cursor", "not-allowed");
+
+    s
     
     if(value == ca){
         points += 1;
@@ -173,7 +175,7 @@ function timer(){
 function show(){
     $(".choices").click(function(){});
     $(".choices").css("cursor", "not-allowed");
-    
+
     for(let ch = 0; ch < 4; ch++){
         if($("#div_" + ch).text() == ca){
             $("#div_" + ch).css("text-shadow", "0 0 5px green, 0 0 15px green, 0 0 25px green, 0 0 35px green, 0 0 45px green");
