@@ -72,6 +72,8 @@ function next(){
 // Sets an answer chosen by a player
 function set(value){
     yourAnswer = value;
+
+    
     
     if(value == ca){
         points += 1;
