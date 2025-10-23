@@ -156,7 +156,7 @@ function timer(){
         $("#time").css("width", (100 * seconds / 5) + "%");
         $("#seconds").text(seconds);
 
-        if(seconds == 0){
+        if(seconds < 0){
             clearInterval(time);
             
             for(let ch = 0; ch < 4; ch++){
