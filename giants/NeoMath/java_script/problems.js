@@ -153,7 +153,7 @@ function timer(){
     let time = setInterval(function(){
         seconds--;
         $("#time").css("width", (100 * seconds / 30) + "%");
-        console.log(seconds);
+        $("")
         if(seconds == 0){
             clearInterval(time);
             setTimeout(() => {
