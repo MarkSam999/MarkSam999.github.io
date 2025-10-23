@@ -158,7 +158,6 @@ function timer(){
         if(seconds == 0){
             clearInterval(time);
             
-            setTimeout(() => {
                 for(let ch = 0; ch < 4; ch++){
                     if($("div_" + ch).text() == ca){
                         $("div_" + ch).css("text-shadow", "0 0 5px green, 0 0 15px green, 0 0 25px green, 0 0 35px green, 0 0 45px green");
