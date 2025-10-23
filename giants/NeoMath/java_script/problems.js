@@ -171,7 +171,7 @@ function timer(){
 // Shows which choice is correct by changing the lightning color
 function show(){
     $(".choices").click(function(){
-        console.log("Error ")
+        console.log("Error 228: the time is up or ")
     });
     $(".choices").css("cursor", "not-allowed");
 
