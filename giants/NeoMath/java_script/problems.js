@@ -162,8 +162,7 @@ function set(value){
         points--;
     });
     $(".choices").css("cursor", "not-allowed");
-
-
+    
     show();
     
     if(value == ca){
