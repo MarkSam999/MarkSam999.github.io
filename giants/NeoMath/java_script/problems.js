@@ -154,7 +154,7 @@ function timer(){
     }, 1000);
 };
 
-// Sets an answer chosen by a player 
+// Sets an answer chosen by a player & disables further clicks
 function set(value){
     yourAnswer = value;
 
