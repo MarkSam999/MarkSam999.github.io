@@ -159,8 +159,7 @@ function timer(){
         if(seconds < 0){
             clearInterval(time);
             
-            
-            
+            show();
         };
     }, 1000);
 };
