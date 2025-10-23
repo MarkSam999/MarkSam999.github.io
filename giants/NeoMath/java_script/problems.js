@@ -168,6 +168,8 @@ function timer(){
     }, 1000);
 };
 
+
+
 // Shows which choice is correct by changing the lightning color
 function show(){
     $(".choices").click(function(){
