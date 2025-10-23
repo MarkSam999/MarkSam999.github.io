@@ -171,6 +171,8 @@ function timer(){
     }, 1000);
 };
 
+function 
+
 // Global values in alphabetical order
 let actions = [];
 let action = 0;
