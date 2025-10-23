@@ -47,6 +47,8 @@ function start(level){
 
 // Replaces the innerHTML of the existing elements
 function next(){
+    ava
+    
     gen();
 
     if(q_num == max){
