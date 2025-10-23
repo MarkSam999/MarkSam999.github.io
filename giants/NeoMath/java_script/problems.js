@@ -158,7 +158,7 @@ function timer(){
         if(seconds == 0){
             clearInterval(time);
             for(let ch = 0; ch < 4; ch++){
-                if("")
+                if($(""))
             }
             setTimeout(() => {
                 alert("The time is over!");
