@@ -169,10 +169,10 @@ function set(value){
             points += 1;
             availability = false;
         }
-        
+
         console.log("Correct! Points: " + points);
     } else {
-        console.log("Incorrect!");
+        console.log("Correct! Points: " + points);
     };
 }
 
