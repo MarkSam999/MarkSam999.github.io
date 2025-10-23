@@ -172,7 +172,7 @@ function set(value){
 
         console.log("Correct! Points: " + points);
     } else {
-        console.log("Correct! Points: " + points);
+        console.log("Incorrect! Points: " + points);
     };
 }
 
