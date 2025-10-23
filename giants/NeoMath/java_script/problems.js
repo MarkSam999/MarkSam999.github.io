@@ -1,7 +1,9 @@
 // Starts the game
 function start(level){
     $("#play").hide();
-    $("#next", "#finish", "#timebar").show();
+    $("#next", "#finish","#timebar").show();
+    $("#finish").show();
+    $("#timebar").show();
 
     // Chooses the possible actions based on the chosen level
     if(level == 1){
