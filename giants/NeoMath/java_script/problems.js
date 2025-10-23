@@ -73,9 +73,6 @@ function next(){
 function set(value){
     yourAnswer = value;
 
-    $(".choices").click(function(){});
-    $(".choices").css("cursor", "not-allowed");
-
     show();
     
     if(value == ca){
