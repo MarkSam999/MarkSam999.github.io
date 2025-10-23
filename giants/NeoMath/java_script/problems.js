@@ -157,15 +157,15 @@ function timer(){
         $("#seconds").text(seconds);
         if(seconds == 0){
             clearInterval(time);
-            for(let ch = 0; ch < 4; ch++){
-                if($("div_" + ch).text() == ca){
-                    $("div_" + ch).css("text-shadow", "0 0 5px green, 0 0 15px green, 0 0 25px green, 0 0 35px green, 0 0 45px green,")
+            
+            setTimeout(() => {
+                for(let ch = 0; ch < 4; ch++){
+                    if($("div_" + ch).text() == ca){
+                        $("div_" + ch).css("text-shadow", "0 0 5px green, 0 0 15px green, 0 0 25px green, 0 0 35px green, 0 0 45px green,")
                 } else {
                     $("div_" + ch).css("text-shadow", "0 0 5px red, 0 0 15px red, 0 0 25px red, 0 0 35px red, 0 0 45px red,")
                 }
             }
-            setTimeout(() => {
-                
             }, 1000);
             
         };
