@@ -76,7 +76,7 @@ function set(value){
     $(".choices").click(function(){});
     $(".choices").css("cursor", "not-allowed");
 
-    s
+    show();
     
     if(value == ca){
         points += 1;
