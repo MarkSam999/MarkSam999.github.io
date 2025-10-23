@@ -185,6 +185,7 @@ function show(){
 // Global values in alphabetical order
 let actions = [];
 let action = 0;
+let availa
 let ca = 0;
 let choices = [0, 0, 0, 0];
 let max = 5;
