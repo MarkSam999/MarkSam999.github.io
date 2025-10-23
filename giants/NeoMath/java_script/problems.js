@@ -165,8 +165,10 @@ function set(value){
     show();
     
     if(value == ca){
-        if(availability == true){}
-        points += 1;
+        if(availability == true){
+            points += 1;
+        } else
+        
         console.log("Correct! Points: " + points);
     } else {
         console.log("Incorrect!");
