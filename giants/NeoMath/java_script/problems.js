@@ -152,7 +152,7 @@ function replay(){
 // Launches the timer
 function timer(){
     let time = setInterval(function(){
-        seconds -= 1;
+        seconds--;
         $("#time").css("width", (100 * seconds / 30) + "%");
         console.log(seconds);
         if(seconds == 0){
