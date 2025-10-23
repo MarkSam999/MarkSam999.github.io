@@ -84,7 +84,7 @@ function set(value){
 // Generates the question and the available choices
 function gen(){
     q_num += 1;
-    seconds = 30;
+    seconds = 5;
     $("#time").css("width", "100%");
 
     n1 = 1 + Math.round(Math.random() * 9);
@@ -153,7 +153,7 @@ function replay(){
 function timer(){
     let time = setInterval(function(){
         seconds--;
-        $("#time").css("width", (100 * seconds / 30) + "%");
+        $("#time").css("width", (100 * seconds / 5) + "%");
         $("#seconds").text(seconds);
         if(seconds == 0){
             clearInterval(time);
