@@ -158,6 +158,8 @@ function timer(){
 function set(value){
     yourAnswer = value;
 
+    
+
     show();
     
     if(value == ca){
