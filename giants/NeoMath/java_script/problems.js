@@ -161,8 +161,6 @@ function set(value){
     yourAnswer = value;
 
     $(".choices").css("cursor", "not-allowed");
-    var choiceClass = $(".choices");
-    choiceClass.click("");
 
     show();
     
