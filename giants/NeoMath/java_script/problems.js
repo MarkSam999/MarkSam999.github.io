@@ -165,7 +165,7 @@ function timer(){
     }, 1000);
 };
 
-// Shows which choice is correct by 
+// Shows which choice is correct by changing the lightning color
 function show(){
     for(let ch = 0; ch < 4; ch++){
         if($("#div_" + ch).text() == ca){
