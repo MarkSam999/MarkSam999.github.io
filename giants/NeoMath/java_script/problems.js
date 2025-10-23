@@ -73,7 +73,7 @@ function next(){
 function set(value){
     yourAnswer = value;
 
-    
+    $("")
     
     if(value == ca){
         points += 1;
