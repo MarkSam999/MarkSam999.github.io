@@ -171,7 +171,7 @@ function timer(){
 // Shows which choice is correct by changing the lightning color
 function show(){
     $(".choices").click(function(){
-        points--;
+        points -= 1;
     });
     $(".choices").css("cursor", "not-allowed");
 
