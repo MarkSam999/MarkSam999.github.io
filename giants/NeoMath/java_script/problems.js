@@ -85,11 +85,12 @@ function set(value){
 function gen(){
     q_num += 1;
     seconds = 30;
+    $("#time").css("width", (100 * seconds / 30) + "%");
 
     n1 = 1 + Math.round(Math.random() * 9);
     n2 = 1 + Math.round(Math.random() * 9);
     action = actions[Math.round(Math.random() * (actions.length - 1))];
-    $("#time").css("width", (100 * seconds / 30) + "%");
+    
     if(action == '+'){
         ca = n1 + n2;
     } else if(action == '-'){
