@@ -157,6 +157,7 @@ function timer(){
         $("#seconds").text(seconds);
         if(seconds == 0){
             clearInterval(time);
+            
             setTimeout(() => {
                 alert("The time is over!");
             }, 1000);
