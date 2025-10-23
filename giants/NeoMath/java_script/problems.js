@@ -4,6 +4,7 @@ function start(level){
     $("#next").show();
     $("#finish").show();
     $("#timebar").show();
+    $("#time")
 
 
     // Chooses the possible actions based on the chosen level
