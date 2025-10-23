@@ -47,7 +47,7 @@ function start(level){
 
 // Replaces the innerHTML of the existing elements
 function next(){
-    ava
+    availability = true;
     
     gen();
 
