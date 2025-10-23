@@ -167,6 +167,8 @@ function set(value){
         console.log("Correct! Points: " + points);
     } else {
         console.log("Incorrect!");
+    } else {
+        
     };
 }
 
