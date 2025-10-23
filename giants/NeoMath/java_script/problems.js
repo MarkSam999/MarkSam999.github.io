@@ -74,7 +74,7 @@ function set(value){
     yourAnswer = value;
 
     $(".choices").click(function(){});
-    $(".choices").click
+    $(".choices").css("cursor", "")
     
     if(value == ca){
         points += 1;
