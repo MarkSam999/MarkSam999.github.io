@@ -165,7 +165,7 @@ function timer(){
                     } else {
                         $("div_" + ch).css("text-shadow", "0 0 5px red, 0 0 15px red, 0 0 25px red, 0 0 35px red, 0 0 45px red");
                     }
-                }
+                };
             }, 1000);
             
         };
