@@ -154,7 +154,7 @@ function replay(){
 // Launches the timer
 function timer(){
     let time = setInterval(function(){
-        seconds -= 1;
+        seconds--;
         $("#time").css("width", (100 * seconds / 5) + "%");
         $("#seconds").text(seconds);
 
