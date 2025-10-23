@@ -1,7 +1,7 @@
 // Starts the game
 function start(level){
     $("#play").hide();
-    $("#next", "").show();
+    $("#next", "#finish").show();
     $("#finish").show();
     $("#timebar").show();
 
