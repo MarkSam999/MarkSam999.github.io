@@ -162,7 +162,7 @@ function set(value){
         points--;
     });
     $(".choices").css("cursor", "not-allowed");
-    
+
     show();
     
     if(value == ca){
@@ -176,7 +176,6 @@ function set(value){
 
 // Shows which choice is correct by changing the lightning color
 function show(){
-    
     for(let ch = 0; ch < 4; ch++){
         if($("#div_" + ch).text() == ca){
             $("#div_" + ch).css("text-shadow", "0 0 5px green, 0 0 15px green, 0 0 25px green, 0 0 35px green, 0 0 45px green");
