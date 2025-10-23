@@ -69,20 +69,6 @@ function next(){
     }
 }
 
-// Sets an answer chosen by a player
-function set(value){
-    yourAnswer = value;
-
-    show();
-    
-    if(value == ca){
-        points += 1;
-        console.log("Correct! Points: " + points);
-    } else {
-        console.log("Incorrect!");
-    };
-}
-
 // Generates the question and the available choices
 function gen(){
     q_num += 1;
@@ -168,6 +154,19 @@ function timer(){
     }, 1000);
 };
 
+// Sets an answer chosen by a player
+function set(value){
+    yourAnswer = value;
+
+    show();
+    
+    if(value == ca){
+        points += 1;
+        console.log("Correct! Points: " + points);
+    } else {
+        console.log("Incorrect!");
+    };
+}
 
 
 // Shows which choice is correct by changing the lightning color
