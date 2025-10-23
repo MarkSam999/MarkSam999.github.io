@@ -158,7 +158,9 @@ function timer(){
         if(seconds == 0){
             clearInterval(time);
             for(let ch = 0; ch < 4; ch++){
-                if($("div_" + ch).text() == )
+                if($("div_" + ch).text() == ca){
+                    t
+                }
             }
             setTimeout(() => {
                 alert("The time is over!");
