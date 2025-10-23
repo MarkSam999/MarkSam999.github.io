@@ -65,7 +65,7 @@ function next(){
     
     for(let div = 0; div < 4; div++){
         $("#div_" + div).text(choices[div]);
-        $("#div_" + div).onclick = function(){set(choices[div])};
+        $("#div_" + div).click(function(){set(choices[div])});
     }
 }
 
