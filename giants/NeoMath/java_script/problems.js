@@ -172,6 +172,7 @@ function timer(){
 function show(){
     $(".choices").click(function(){
         points--;
+        console.log(points);
     });
     $(".choices").css("cursor", "not-allowed");
 
