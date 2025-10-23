@@ -167,7 +167,7 @@ function set(value){
     if(value == ca){
         if(availability == true){
             points += 1;
-            av
+            availability = false;
         }
         
         console.log("Correct! Points: " + points);
