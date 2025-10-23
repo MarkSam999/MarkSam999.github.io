@@ -170,6 +170,7 @@ function timer(){
 
 // Shows which choice is correct by changing the lightning color
 function show(){
+    
     $(".choices").css("cursor", "not-allowed");
 
     for(let ch = 0; ch < 4; ch++){
