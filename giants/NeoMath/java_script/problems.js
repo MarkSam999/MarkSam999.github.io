@@ -74,6 +74,7 @@ function set(value){
     yourAnswer = value;
 
     $(".choices").click(function(){});
+    $
     
     if(value == ca){
         points += 1;
