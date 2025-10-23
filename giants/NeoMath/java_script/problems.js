@@ -160,7 +160,7 @@ function set(value){
 
     $(".choices").css("cursor", "not-allowed");
     var choiceClass = $(".choices");
-    choiceClass.onclick = ""
+    choiceClass.onclick = "";
 
     show();
     
