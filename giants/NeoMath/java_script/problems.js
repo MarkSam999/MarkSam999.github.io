@@ -165,10 +165,10 @@ function set(value){
     if(value == ca){
         points += 1;
         console.log("Correct! Points: " + points);
-    } else if(){
-        console.log("Incorrect!");
+    } else if(seconds == 0){
+        
     } else {
-
+        console.log("Incorrect!");
     };
 }
 
