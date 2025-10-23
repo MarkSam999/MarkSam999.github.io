@@ -157,7 +157,7 @@ function timer(){
         if(seconds == 0){
             clearInterval(time);
             setTimeout(() => {
-                alert.log("The time is over!");
+                alert("The time is over!");
             }, 1000);
             
         };
