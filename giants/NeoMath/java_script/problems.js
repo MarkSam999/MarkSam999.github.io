@@ -158,9 +158,6 @@ function timer(){
 function set(value){
     yourAnswer = value;
 
-    $(".choices").click(function(){
-        points--;
-    });
     $(".choices").css("cursor", "not-allowed");
 
     show();
