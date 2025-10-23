@@ -19,7 +19,7 @@
 }
 
 #seconds {
-    position: relative; left: 105%;
+    position: relative; left: 105%; bottom: 
     width: 20px; height: 20px;
     border-radius: 50%; border: solid 2px white;
 }
