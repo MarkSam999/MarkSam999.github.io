@@ -170,9 +170,6 @@ function timer(){
 
 // Shows which choice is correct by changing the lightning color
 function show(){
-    $(".choices").click(function(){
-        console.log("Error 228: the time is up or the answer is already chosen!")
-    });
     $(".choices").css("cursor", "not-allowed");
 
     for(let ch = 0; ch < 4; ch++){
