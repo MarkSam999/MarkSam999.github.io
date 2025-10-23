@@ -85,7 +85,7 @@ function set(value){
 function gen(){
     q_num += 1;
     seconds = 30;
-    $("#time").css("width", (100 * seconds / 30) + "%");
+    $("#time").css("width", "100%");
 
     n1 = 1 + Math.round(Math.random() * 9);
     n2 = 1 + Math.round(Math.random() * 9);
