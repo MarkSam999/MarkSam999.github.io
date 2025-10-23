@@ -159,7 +159,7 @@ function set(value){
     yourAnswer = value;
 
     $(".choices").css("cursor", "not-allowed");
-    var choices = 
+    var choicesD = 
 
     show();
     
