@@ -85,6 +85,7 @@ function set(value){
 function gen(){
     q_num += 1;
     seconds = 30;
+    
     console.log(seconds);
     n1 = 1 + Math.round(Math.random() * 9);
     n2 = 1 + Math.round(Math.random() * 9);
