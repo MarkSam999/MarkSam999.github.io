@@ -165,7 +165,7 @@ function timer(){
                 }
             }
             setTimeout(() => {
-                alert("The time is over!");
+                
             }, 1000);
             
         };
