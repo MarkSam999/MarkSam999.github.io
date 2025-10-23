@@ -158,7 +158,7 @@ function timer(){
 
         if(seconds < 0){
             clearInterval(time);
-            seconds
+            seconds++;
             
             show();
         };
