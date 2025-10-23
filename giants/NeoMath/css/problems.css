@@ -18,6 +18,10 @@
     transition: 0.4s; border-radius: 10px;
 }
 
+#timeNumber {
+    
+}
+
 .choices {
     border: 2px solid white; transition: 0.5s;
     border-radius: 10px; cursor: pointer; 
