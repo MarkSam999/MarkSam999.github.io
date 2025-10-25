@@ -2,4 +2,4 @@ Here, you will find the projects that are literally giants - large codes and wid
 
 The projects:
 
-[--NeoMath--](/NeoMath/html/home.html)
+[--NeoMath--](MarkSam999.github.io/giants/NeoMath/html/home.html)
